@@ -1,0 +1,13 @@
+# secrets: never commit
+.env
+.env.*
+!.env.example
+
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# local ledger (live runs); committed evidence goes in runs/evidence/
+data/ledger.jsonl

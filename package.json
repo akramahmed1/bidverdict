@@ -1,0 +1,31 @@
+{
+  "name": "bidverdict",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Bid / no-bid research agent for small federal contractors. Deterministic eligibility gate, USAspending award history, live Tavily research, Nemotron on Nebius Token Factory, human approval, replayable cost ledger.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "models": "tsx scripts/models.ts",
+    "smoke": "tsx scripts/smoke.ts",
+    "history": "tsx scripts/history.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "15.0.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.9.0",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "dotenv": "16.4.5",
+    "tsx": "4.19.2",
+    "typescript": "5.6.3",
+    "vitest": "2.1.5"
+  }
+}
