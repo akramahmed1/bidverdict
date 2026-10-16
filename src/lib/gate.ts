@@ -24,6 +24,8 @@ export interface Opportunity {
   id: string;
   title: string;
   agency: string;
+  subAgency?: string; // awarding sub-tier, used to narrow award history
+  noticeType?: string;
   naics: string;
   setAside: SetAside;
   responseDeadline: string; // ISO 8601 WITH offset, e.g. 2026-10-30T14:00:00-04:00
@@ -112,11 +114,14 @@ export function runGate(opp: Opportunity, profile: CompanyProfile, now: Date = n
   // 4. Place of performance
   const pops = profile.placesOfPerformance.map((p) => p.toUpperCase());
   const pop = opp.placeOfPerformance.toUpperCase();
-  const popOk = pops.includes("ANY") || pops.includes(pop) || pop === "REMOTE";
+  const unspecified = pop === "UNSPECIFIED";
+  const popOk = pops.includes("ANY") || pops.includes(pop) || pop === "REMOTE" || unspecified;
   checks.push({
     rule: "place_of_performance",
     pass: popOk,
-    reason: popOk
+    reason: unspecified
+      ? "Place of performance is not stated in the notice; verify before bidding."
+      : popOk
       ? `Place of performance ${pop} is within the company's coverage.`
       : `Place of performance ${pop} is outside the company's coverage (${pops.join(", ")}).`,
   });

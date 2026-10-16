@@ -1,0 +1,21 @@
+{
+  "_note": "FICTIONAL DEMO COMPANY used to show the full pipeline on real opportunities. Not a real firm.",
+  "name": "Prairie Digital Systems LLC (demo company)",
+  "naics": [
+    "541512",
+    "541511",
+    "541519"
+  ],
+  "certifications": [
+    "SBA"
+  ],
+  "placesOfPerformance": [
+    "IL",
+    "REMOTE",
+    "VA",
+    "NY"
+  ],
+  "pastPerformance": "Three web and data platform projects for state and local agencies, each under $500K. No prior VA, DoD or HHS prime contracts.",
+  "capacityNotes": "Team of six engineers. No facility clearance. No SOC 2 report yet.",
+  "id": "demo"
+}

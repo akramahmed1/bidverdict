@@ -1,0 +1,14 @@
+{
+  "id": "36C24227Q0060",
+  "title": "DA01--FY 27 NYH ISCV DATA RECOVERY SERVICES - 1 YEAR ONLY",
+  "agency": "Department of Veterans Affairs",
+  "subAgency": "Department of Veterans Affairs",
+  "naics": "541512",
+  "setAside": "NONE",
+  "responseDeadline": "2026-10-23T10:00:00-04:00",
+  "placeOfPerformance": "NY",
+  "noticeType": "Sources Sought",
+  "description": "Sources Sought for Philips ISCV Radiographic DICOM data recovery for the VA New York Harbor Healthcare System, Manhattan Campus. Two NetGear ReadyNAS 3220 systems failed with loss of both RAID6 volumes (24 SATA disks). Vendor must forensically image disks, restore DICOM studies from 2007 to 2020, deliver recovered data migratable into AGFA Radiology PACS, and securely destroy all VA data with a Certificate of Destruction. Respondents must confirm a Class-10 (ISO 4) clean room, SSAE 18 SOC 1 Type II, SOC 2 Type I and SOC 3 audit compliance, and IACRB Certified Data Recovery Professional credentials. FAR Part 12 commercial procurement, size standard $34 million, period of performance about Dec 1 2026 to Jan 31 2027. The notice states responses will be used to decide whether to set the procurement aside.",
+  "sourceUrl": "https://sam.gov/workspace/contract/opp/721c4aaa8ee34a9ba5f7a0ace045ce8c/view",
+  "retrievedFrom": "SAM.gov public notice page, 2026-10-16"
+}

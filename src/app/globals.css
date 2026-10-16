@@ -1,0 +1,22 @@
+:root { --bg:#fafaf7; --fg:#1a1a1a; --mut:#5b5b57; --line:#dcdcd4; --card:#fff; --ok:#14683a; --okbg:#d9f2e3; --bad:#9b1c1c; --badbg:#fbdede; --warn:#7a5200; --warnbg:#fdf0c8; --acc:#1d4ed8; }
+@media (prefers-color-scheme: dark) { :root { --bg:#14140f; --fg:#ecece6; --mut:#a3a39b; --line:#33332b; --card:#1d1d17; --ok:#7ee0a5; --okbg:#133a24; --bad:#ff9a9a; --badbg:#4a1818; --warn:#f3cd6b; --warnbg:#43340a; --acc:#8fb0ff; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.5 system-ui,-apple-system,Segoe UI,sans-serif; }
+main { max-width: 980px; margin: 0 auto; padding: 24px 16px 64px; }
+a { color: var(--acc); }
+h1 { margin: 0 0 4px; font-size: 28px; } h2 { margin: 28px 0 8px; font-size: 19px; } h3 { margin: 0 0 4px; font-size: 16px; }
+.mut { color: var(--mut); } .small { font-size: 13px; }
+.nav { display:flex; gap:16px; align-items:baseline; margin-bottom: 20px; flex-wrap: wrap; }
+.nav .brand { font-weight: 700; font-size: 18px; text-decoration: none; color: var(--fg); }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; margin: 10px 0; }
+.grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+.pill { display:inline-block; padding: 1px 9px; border-radius: 999px; font-size: 12px; font-weight: 600; margin-right: 6px; }
+.ok { background: var(--okbg); color: var(--ok); } .bad { background: var(--badbg); color: var(--bad); } .warn { background: var(--warnbg); color: var(--warn); } .neutral { background: var(--line); color: var(--fg); }
+.verdict { font-size: 22px; font-weight: 700; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; } th { text-align:left; border-bottom:1px solid var(--line); padding:6px; } td { padding:6px; border-bottom:1px solid var(--line); vertical-align: top; }
+.scroll { overflow-x: auto; }
+button, .btn { font: inherit; padding: 8px 14px; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--fg); cursor: pointer; text-decoration: none; display:inline-block; }
+button.primary, .btn.primary { background: var(--acc); color: #fff; border-color: var(--acc); }
+button:disabled { opacity: .5; cursor: not-allowed; }
+textarea { width: 100%; font: inherit; padding: 8px; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--fg); }
+.src { word-break: break-all; }

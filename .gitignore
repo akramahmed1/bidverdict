@@ -15,3 +15,5 @@ checks-output.txt
 run-checks.cmd
 step2-output.txt
 run-step2.cmd
+step3-output.txt
+run-step3.cmd

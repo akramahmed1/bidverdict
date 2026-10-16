@@ -11,7 +11,7 @@ function fakeDeps(replies: Record<string, string>, log: string[]): Deps {
     now,
     callTier: async (_s, tier, purpose) => {
       log.push(tier);
-      return { text: replies[tier], model: "fake", inputTokens: 100, outputTokens: 50, costUsd: 0.001, latencyMs: 1, mock: false };
+      return { text: tier === "nano" && purpose.startsWith("relevance") ? (replies.relevance ?? '{"checks":[]}') : replies[tier], model: "fake", inputTokens: 100, outputTokens: 50, costUsd: 0.001, latencyMs: 1, mock: false };
     },
     search: async (_r, q, o) => [{ id: `S${o?.startIndex ?? 1}`, title: "T", url: "https://example.gov/a", snippet: "s", query: q }],
     history: async () => ({ agency: "a", naics: "n", years: 5, total: 10, awards: [], smallBizAwards: 4, medianAmount: 1000, topRecipients: [] }),
@@ -50,7 +50,28 @@ describe("pipeline", () => {
     expect(prompts[prompts.length - 1]).not.toContain("invented");
     expect(memo.verdict?.decision).toBe("CONDITIONAL");
     expect(memo.verdict?.rationale[0].claimIds).toEqual([1]);
-    expect(log).toEqual(["nano", "super", "ultra"]);
+    expect(log).toEqual(["nano", "super", "nano", "ultra"]);
+  });
+
+  it("drops claims the relevance check marks irrelevant or unsupported", async () => {
+    const log: string[] = [];
+    const memo = await runPipeline(opp, profile, fakeDeps({
+      nano: '{"summary":"s","queries":["q"]}',
+      super: JSON.stringify({ claims: [
+        { text: "keep", kind: "fact", sourceUrls: ["https://example.gov/a"] },
+        { text: "irrelevant", kind: "fact", sourceUrls: ["https://example.gov/a"] },
+        { text: "unsupported", kind: "fact", sourceUrls: ["https://example.gov/a"] },
+      ] }),
+      relevance: JSON.stringify({ checks: [
+        { n: 1, supported: "yes", relevant: "yes", reason: "" },
+        { n: 2, supported: "yes", relevant: "no", reason: "other site" },
+        { n: 3, supported: "no", relevant: "yes", reason: "not in text" },
+      ] }),
+      ultra: '{"decision":"BID","confidence":"low","rationale":[{"point":"p","claimIds":[1]}],"risks":[],"nextSteps":[]}',
+    }, log), "t4");
+    expect(memo.supportedClaims.map((c) => c.text)).toEqual(["keep"]);
+    expect(memo.droppedClaims.map((c) => c.text).sort()).toEqual(["irrelevant", "unsupported"]);
+    expect(memo.droppedClaims.every((c) => c.reason.startsWith("relevance check"))).toBe(true);
   });
 
   it("produces no verdict when every claim fails validation", async () => {

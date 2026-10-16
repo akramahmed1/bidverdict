@@ -1,4 +1,6 @@
 import type { ReactNode } from "react";
+import Link from "next/link";
+import "./globals.css";
 
 export const metadata = {
   title: "BidVerdict",
@@ -8,8 +10,16 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body style={{ fontFamily: "system-ui, sans-serif", margin: 0, background: "#fafaf7", color: "#1a1a1a" }}>
-        {children}
+      <body>
+        <main>
+          <nav className="nav">
+            <Link href="/" className="brand">BidVerdict</Link>
+            <Link href="/">Opportunities</Link>
+            <Link href="/ledger">Ledger</Link>
+            <a href="https://github.com/akramahmed1/bidverdict">Source</a>
+          </nav>
+          {children}
+        </main>
       </body>
     </html>
   );

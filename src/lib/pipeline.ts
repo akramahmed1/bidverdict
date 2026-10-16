@@ -8,7 +8,7 @@ import { runGate, type CompanyProfile, type GateResult, type Opportunity } from 
 import { awardHistory as realAwardHistory, type AwardHistory } from "./usaspending";
 import { tavilySearch as realSearch, type Source } from "./tavily";
 import { callTier as realCall, type CallResult, type ChatMessage } from "./tokenFactory";
-import { validateClaims, type Claim, type DroppedClaim, type ValidatedClaim } from "./validator";
+import { normalizeUrl, validateClaims, type Claim, type DroppedClaim, type ValidatedClaim } from "./validator";
 import { extractJson } from "./json";
 import { appendLedger } from "./ledger";
 import { spentUsd, readLedger } from "./ledger";
@@ -17,7 +17,7 @@ import type { Tier } from "./config";
 export interface Deps {
   callTier: (state: { runId: string; loops: number }, tier: Tier, purpose: string, messages: ChatMessage[], opts?: { json?: boolean }) => Promise<CallResult>;
   search: (runId: string, query: string, opts?: { maxResults?: number; startIndex?: number }) => Promise<Source[]>;
-  history: (runId: string, agency: string, naics: string) => Promise<AwardHistory>;
+  history: (runId: string, agency: string, naics: string, opts?: { subtier?: string }) => Promise<AwardHistory>;
   now?: () => Date;
 }
 
@@ -122,7 +122,11 @@ export async function runPipeline(
 
   try {
     // 2. Award history
-    const hist = await deps.history(runId, opp.agency, opp.naics);
+    let hist = await deps.history(runId, opp.agency, opp.naics, opp.subAgency ? { subtier: opp.subAgency } : undefined);
+    if (opp.subAgency && hist.total === 0) {
+      errors.push(`No USAspending awards for sub-tier "${opp.subAgency}"; fell back to agency-level history.`);
+      hist = await deps.history(runId, opp.agency, opp.naics);
+    }
     memo.history = { total: hist.total, smallBizAwards: hist.smallBizAwards, medianAmount: hist.medianAmount, topRecipients: hist.topRecipients };
     const awardSources: Source[] = hist.awards.slice(0, 5).filter((a) => a.url).map((a, i) => ({
       id: `A${i + 1}`,
@@ -167,7 +171,7 @@ export async function runPipeline(
       },
       {
         role: "user",
-        content: `Company: ${j(profile)}\nOpportunity: ${opp.title} (${opp.agency}, NAICS ${opp.naics}, set-aside ${opp.setAside})\nRequirement summary: ${memo.classification.summary}\n${histText}\n\nEVIDENCE:\n${evidenceText}\n\nReturn JSON: {"claims":[{"text":"one specific, checkable statement relevant to bid/no-bid","kind":"fit|risk|fact","sourceUrls":["exact URL from evidence"]}]} with 5 to 8 claims.`,
+        content: `Company: ${j(profile)}\nOpportunity: ${opp.title} (${opp.agency}, NAICS ${opp.naics}, set-aside ${opp.setAside}, notice type ${opp.noticeType ?? "unspecified"}, place ${opp.placeOfPerformance})\nRequirement summary: ${memo.classification.summary}\n${histText}\n\nEVIDENCE:\n${evidenceText}\n\nReturn JSON: {"claims":[{"text":"one specific, checkable statement relevant to bid/no-bid","kind":"fit|risk|fact","sourceUrls":["exact URL from evidence"]}]} with 5 to 8 claims.`,
       },
     ]);
     const claims = (syn?.claims ?? []).filter((c) => c && typeof c.text === "string");
@@ -176,12 +180,49 @@ export async function runPipeline(
     // 6. Source validator (code)
     const evidenceUrls = memo.sources.map((s) => s.url);
     const { supported, dropped } = validateClaims(runId, claims, evidenceUrls);
-    memo.supportedClaims = supported;
     memo.droppedClaims = dropped;
-    if (!supported.length) throw new Error("Every claim failed source validation; no verdict produced.");
+
+    // 6b. Relevance check (Nano): does the cited source text actually support the claim,
+    // and does the claim matter for THIS opportunity? One batched call.
+    let kept = supported;
+    if (supported.length) {
+      const byUrl = new Map(memo.sources.map((s) => [normalizeUrl(s.url), s]));
+      const items = supported.map((c, i) => ({
+        n: i + 1,
+        claim: c.text,
+        sourceText: c.sourceUrls.map((u) => byUrl.get(normalizeUrl(u))?.snippet ?? "").join(" | ").slice(0, 1200),
+      }));
+      const rel = await modelJson<{ checks: { n: number; supported: "yes" | "partial" | "no"; relevant: "yes" | "no"; reason: string }[] }>(
+        "nano",
+        "relevance and support check",
+        [
+          { role: "system", content: "You audit claims. Judge only from the source text given. Reply with ONLY a JSON object." },
+          {
+            role: "user",
+            content: `Opportunity: ${opp.title} (${opp.agency}, NAICS ${opp.naics}, place of performance ${opp.placeOfPerformance}). Requirement: ${memo.classification.summary}\n\nFor each item say whether the source text supports the claim (yes/partial/no) and whether the claim is relevant to a bid/no-bid decision on THIS opportunity (yes/no; a true fact about an unrelated place, program or time is "no").\n\n${JSON.stringify(items)}\n\nReturn JSON: {"checks":[{"n":1,"supported":"yes|partial|no","relevant":"yes|no","reason":"short"}]}`,
+          },
+        ],
+      );
+      if (!rel?.checks) {
+        errors.push("Relevance check returned no usable result; claims kept but marked unchecked.");
+      } else {
+        const verdictByN = new Map(rel.checks.map((c) => [c.n, c]));
+        kept = [];
+        supported.forEach((c, i) => {
+          const r = verdictByN.get(i + 1);
+          if (r && (r.supported === "no" || r.relevant === "no")) {
+            const reason = `relevance check: ${r.supported === "no" ? "source does not support claim" : "not relevant to this opportunity"}${r.reason ? " (" + r.reason + ")" : ""}`;
+            memo.droppedClaims.push({ ...c, status: "dropped", reason });
+            appendLedger({ runId, kind: "validator_drop", detail: { claim: c.text, reason } });
+          } else kept.push(c);
+        });
+      }
+    }
+    memo.supportedClaims = kept;
+    if (!kept.length) throw new Error("Every claim failed validation; no verdict produced.");
 
     // 7. Ultra: final verdict from validated claims only
-    const claimList = supported.map((c, i) => `#${i + 1} [${c.kind}] ${c.text}`).join("\n");
+    const claimList = kept.map((c, i) => `#${i + 1} [${c.kind}] ${c.text}`).join("\n");
     const ver = await modelJson<{ decision: Verdict; confidence: "low" | "medium" | "high"; rationale: { point: string; claimIds: number[] }[]; risks: string[]; nextSteps: string[] }>(
       "ultra",
       "final bid/no-bid verdict",
@@ -199,7 +240,7 @@ export async function runPipeline(
     );
     if (!ver || !["BID", "NO_BID", "CONDITIONAL"].includes(ver.decision)) throw new Error("Ultra did not return a valid verdict.");
     // Code check: rationale may only cite claim numbers that exist.
-    const max = supported.length;
+    const max = kept.length;
     ver.rationale = (ver.rationale ?? []).map((r) => ({ point: String(r.point), claimIds: (r.claimIds ?? []).filter((n) => Number.isInteger(n) && n >= 1 && n <= max) }));
     memo.verdict = { decision: ver.decision, confidence: ver.confidence ?? "low", rationale: ver.rationale, risks: (ver.risks ?? []).map(String), nextSteps: (ver.nextSteps ?? []).map(String) };
   } catch (e) {

@@ -36,9 +36,13 @@ export const LEDGER_PATH = join(process.cwd(), "data", "ledger.jsonl");
 
 export function appendLedger(e: Omit<LedgerEntry, "ts">, path = LEDGER_PATH): LedgerEntry {
   const entry: LedgerEntry = { ts: new Date().toISOString(), ...e };
-  const dir = dirname(path);
-  if (!existsSync(dir)) mkdirSync(dir, { recursive: true });
-  appendFileSync(path, JSON.stringify(entry) + "\n", "utf8");
+  try {
+    const dir = dirname(path);
+    if (!existsSync(dir)) mkdirSync(dir, { recursive: true });
+    appendFileSync(path, JSON.stringify(entry) + "\n", "utf8");
+  } catch {
+    // Read-only filesystem (hosted serverless demo): the entry is not persisted.
+  }
   return entry;
 }
 

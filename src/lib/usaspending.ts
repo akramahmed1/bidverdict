@@ -94,7 +94,7 @@ export async function awardHistory(
   runId: string,
   agency: string,
   naics: string,
-  opts: { years?: number; limit?: number; now?: Date } = {},
+  opts: { years?: number; limit?: number; now?: Date; subtier?: string } = {},
 ): Promise<AwardHistory> {
   const years = opts.years ?? 5;
   const now = opts.now ?? new Date();
@@ -103,7 +103,10 @@ export async function awardHistory(
   const baseFilters = {
     award_type_codes: CONTRACT_CODES,
     time_period: [{ start_date: start, end_date: end }],
-    agencies: [{ type: "awarding", tier: "toptier", name: agency }],
+    agencies: [
+      { type: "awarding", tier: "toptier", name: agency },
+      ...(opts.subtier ? [{ type: "awarding", tier: "subtier", name: opts.subtier }] : []),
+    ],
     naics_codes: [naics],
   };
   const query = (filters: Record<string, unknown>) => ({

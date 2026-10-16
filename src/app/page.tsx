@@ -1,88 +1,67 @@
-// Day-1 placeholder screen: shows mode (LIVE / REPLAY-ONLY / MOCK), configured tiers,
-// and the latest ledger entries. The full judge flow lands on Oct 21.
-import { CAPS, TIERS, hasLiveKeys, isMockMode } from "@/lib/config";
-import { readLedger, spentUsd } from "@/lib/ledger";
+import Link from "next/link";
+import { hasLiveKeys, isMockMode } from "@/lib/config";
+import { getHostedMode } from "@/lib/mode";
+import { listOpportunities, listProfiles, loadMemo, loadProfile } from "@/lib/cases";
+import { runGate } from "@/lib/gate";
 
 export const dynamic = "force-dynamic";
 
-export default function Home() {
-  const mock = isMockMode();
-  const live = hasLiveKeys();
-  const entries = readLedger().slice(-25).reverse();
-  const spent = spentUsd(readLedger());
-
-  const mode = mock ? "MOCK (developer fixtures)" : live ? "LIVE" : "REPLAY ONLY (no API key: live runs disabled)";
-
+export default async function Home({ searchParams }: { searchParams: Promise<{ profile?: string }> }) {
+  const sp = await searchParams;
+  const opps = listOpportunities();
+  const profiles = listProfiles();
+  const pid = profiles.some((p) => p.id === sp.profile) ? (sp.profile as string) : "demo";
+  const profile = loadProfile(pid);
+  const mode = isMockMode() ? "MOCK" : getHostedMode() ? "REPLAY" : hasLiveKeys() ? "LIVE" : "REPLAY";
   return (
-    <main style={{ maxWidth: 960, margin: "0 auto", padding: "32px 16px" }}>
-      <h1 style={{ marginBottom: 4 }}>BidVerdict</h1>
-      <p style={{ marginTop: 0, color: "#555" }}>
-        Should a small contractor bid on this? A sourced answer, checked by rules first, decided by a human.
+    <>
+      <h1>Should we bid on this?</h1>
+      <p className="mut">
+        Rules are checked in code first. Award history comes from government records. Live research comes from Tavily.
+        NVIDIA Nemotron on Nebius Token Factory writes the reasoning. Every claim must cite a source from this run, and
+        nothing is final until a person approves it.
       </p>
-
       <p>
-        <strong>Mode:</strong>{" "}
-        <span style={{ padding: "2px 8px", borderRadius: 4, background: mock ? "#fde68a" : live ? "#bbf7d0" : "#e5e7eb" }}>
-          {mode}
+        <span className={`pill ${mode === "LIVE" ? "ok" : mode === "MOCK" ? "warn" : "neutral"}`}>{mode}</span>
+        <span className="small mut">
+          {mode === "LIVE" ? "Live runs enabled (spends model credits)." : mode === "MOCK" ? "Developer fixtures, not real model output." : "Showing saved real runs. Replays cost $0."}
         </span>
       </p>
 
-      <h2>Model tiers (NVIDIA Nemotron on Nebius Token Factory)</h2>
-      <table style={{ borderCollapse: "collapse", width: "100%" }}>
-        <thead>
-          <tr>
-            {["Tier", "Model", "Job", "$ / 1M in", "$ / 1M out", "max_tokens"].map((h) => (
-              <th key={h} style={{ textAlign: "left", borderBottom: "1px solid #ccc", padding: 6 }}>{h}</th>
-            ))}
-          </tr>
-        </thead>
-        <tbody>
-          {Object.values(TIERS).map((t) => (
-            <tr key={t.tier}>
-              <td style={{ padding: 6 }}>{t.tier}</td>
-              <td style={{ padding: 6, fontFamily: "monospace", fontSize: 13 }}>{t.model}</td>
-              <td style={{ padding: 6 }}>{t.job}</td>
-              <td style={{ padding: 6 }}>{t.priceInPerM}</td>
-              <td style={{ padding: 6 }}>{t.priceOutPerM}</td>
-              <td style={{ padding: 6 }}>{t.maxTokens}</td>
-            </tr>
+      <div className="card">
+        <h3>Company profile</h3>
+        <div style={{ margin: "4px 0 8px" }}>
+          {profiles.map((p) => (
+            <Link key={p.id} href={`/?profile=${p.id}`} className={`btn ${p.id === pid ? "primary" : ""}`} style={{ marginRight: 8 }}>
+              {p.profile.name}
+            </Link>
           ))}
-        </tbody>
-      </table>
+        </div>
+        <div className="small">
+          {profile.name} · NAICS {profile.naics.join(", ") || "none registered"} · Set-asides: {profile.certifications.join(", ") || "none"} · Works in{" "}
+          {profile.placesOfPerformance.join(", ")}
+        </div>
+      </div>
 
-      <h2>Budget guard</h2>
-      <p>
-        Per run ${CAPS.perRunUsd} · Daily live ${CAPS.dailyLiveUsd} · Global ${CAPS.globalUsd} · Max loops {CAPS.maxLoops} · Spent so
-        far ${spent.toFixed(4)}
-      </p>
-
-      <h2>Ledger (latest 25)</h2>
-      {entries.length === 0 ? (
-        <p style={{ color: "#666" }}>No entries yet. Run <code>npm run smoke</code> to make the first live call.</p>
-      ) : (
-        <table style={{ borderCollapse: "collapse", width: "100%", fontSize: 13 }}>
-          <thead>
-            <tr>
-              {["Time", "Run", "Kind", "Model / tool", "Tokens in/out", "Cost", "ms"].map((h) => (
-                <th key={h} style={{ textAlign: "left", borderBottom: "1px solid #ccc", padding: 4 }}>{h}</th>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            {entries.map((e, i) => (
-              <tr key={i}>
-                <td style={{ padding: 4 }}>{e.ts.slice(11, 19)}</td>
-                <td style={{ padding: 4 }}>{e.runId}</td>
-                <td style={{ padding: 4 }}>{e.kind}</td>
-                <td style={{ padding: 4, fontFamily: "monospace" }}>{e.model ?? String(e.detail?.tool ?? "")}</td>
-                <td style={{ padding: 4 }}>{e.inputTokens != null ? `${e.inputTokens}/${e.outputTokens}` : ""}</td>
-                <td style={{ padding: 4 }}>{e.costUsd != null ? `$${e.costUsd.toFixed(6)}` : ""}</td>
-                <td style={{ padding: 4 }}>{e.latencyMs ?? ""}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      )}
-    </main>
+      <h2>Real open opportunities from SAM.gov</h2>
+      <div className="grid">
+        {opps.map((o) => {
+          const memo = pid === "demo" ? loadMemo(o.id) : null;
+          // A saved run keeps the gate result as of the day it was made, so replays stay stable after deadlines pass.
+          const gate = memo ? memo.gate : runGate(o, profile, new Date());
+          return (
+            <Link key={o.id} href={`/case/${encodeURIComponent(o.id)}?profile=${pid}`} className="card" style={{ textDecoration: "none", color: "inherit" }}>
+              <h3>{o.title}</h3>
+              <div className="small mut">{o.subAgency ?? o.agency} · NAICS {o.naics} · due {o.responseDeadline.slice(0, 10)}</div>
+              <div style={{ marginTop: 8 }}>
+                <span className={`pill ${gate.pass ? "ok" : "bad"}`}>{gate.pass ? "Eligible" : "Blocked by rules"}</span>
+                {memo?.verdict && <span className="pill neutral">{memo.verdict.decision.replace("_", "-")}</span>}
+                {!memo && gate.pass && <span className="pill warn">no run yet</span>}
+              </div>
+            </Link>
+          );
+        })}
+      </div>
+    </>
   );
 }
