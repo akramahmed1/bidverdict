@@ -93,7 +93,7 @@ export async function runPipeline(
   };
 
   const model = async (tier: Tier, purpose: string, messages: ChatMessage[]) => {
-    state.loops++;
+    // loop counting happens in checkBudget (one increment per live model call)
     const r = await deps.callTier(state, tier, purpose, messages, { json: false });
     calls.push({ tier, purpose, model: r.model, inputTokens: r.inputTokens, outputTokens: r.outputTokens, usd: r.costUsd, latencyMs: r.latencyMs });
     return r;
@@ -171,7 +171,7 @@ export async function runPipeline(
       },
       {
         role: "user",
-        content: `Company: ${j(profile)}\nOpportunity: ${opp.title} (${opp.agency}, NAICS ${opp.naics}, set-aside ${opp.setAside}, notice type ${opp.noticeType ?? "unspecified"}, place ${opp.placeOfPerformance})\nRequirement summary: ${memo.classification.summary}\n${histText}\n\nEVIDENCE:\n${evidenceText}\n\nReturn JSON: {"claims":[{"text":"one specific, checkable statement relevant to bid/no-bid","kind":"fit|risk|fact","sourceUrls":["exact URL from evidence"]}]} with 5 to 8 claims.`,
+        content: `Company: ${j(profile)}\nOpportunity: ${opp.title} (${opp.agency}, NAICS ${opp.naics}, set-aside ${opp.setAside}, notice type ${opp.noticeType ?? "unspecified"}, place ${opp.placeOfPerformance})\nRequirement summary: ${memo.classification.summary}\n${histText}\n\nEVIDENCE:\n${evidenceText}\n\nReturn JSON: {"claims":[{"text":"one specific, checkable statement relevant to bid/no-bid","kind":"fit|risk|fact","sourceUrls":["exact URL from evidence"]}]} with 4 to 6 claims, each ONE short sentence. Keep your reasoning brief.`,
       },
     ]);
     const claims = (syn?.claims ?? []).filter((c) => c && typeof c.text === "string");
