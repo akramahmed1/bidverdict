@@ -13,3 +13,5 @@ next-env.d.ts
 data/ledger.jsonl
 checks-output.txt
 run-checks.cmd
+step2-output.txt
+run-step2.cmd
