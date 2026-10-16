@@ -1,0 +1,21 @@
+{
+  "_note": "PIPELINE TEST INPUT, not a real solicitation. Agency/NAICS are real; the opportunity text is written for testing. Real SAM.gov opportunities replace this by Oct 19.",
+  "opportunity": {
+    "id": "TEST-001",
+    "title": "Cloud-hosted case management modernization support",
+    "agency": "Department of Veterans Affairs",
+    "naics": "541512",
+    "setAside": "SBA",
+    "responseDeadline": "2026-12-15T14:00:00-05:00",
+    "placeOfPerformance": "REMOTE",
+    "description": "The VA seeks a small business to provide software development, cloud migration and sustainment support for an internal case management system, including Section 508 accessibility testing and FedRAMP-aligned hosting. Period of performance 12 months plus options."
+  },
+  "profile": {
+    "name": "Example Federal IT LLC (test profile)",
+    "naics": ["541512", "541511"],
+    "certifications": ["SBA"],
+    "placesOfPerformance": ["IL", "REMOTE"],
+    "pastPerformance": "Three prior federal and state web application projects under $500K; no VA past performance.",
+    "capacityNotes": "Team of 6 engineers; no facility clearance."
+  }
+}

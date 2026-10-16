@@ -12,6 +12,8 @@
     "models": "tsx scripts/models.ts",
     "smoke": "tsx scripts/smoke.ts",
     "history": "tsx scripts/history.ts",
+    "tavily": "tsx scripts/tavily-check.ts",
+    "run": "tsx scripts/run-case.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

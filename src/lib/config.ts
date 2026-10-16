@@ -23,7 +23,7 @@ export const TIERS: Record<Tier, TierConfig> = {
     job: "fast classification and field extraction",
     priceInPerM: 0.06,
     priceOutPerM: 0.24,
-    maxTokens: 800,
+    maxTokens: 1200,
   },
   super: {
     tier: "super",
@@ -31,7 +31,7 @@ export const TIERS: Record<Tier, TierConfig> = {
     job: "research synthesis over sourced evidence",
     priceInPerM: 0.3,
     priceOutPerM: 0.9,
-    maxTokens: 2000,
+    maxTokens: 3000,
   },
   ultra: {
     tier: "ultra",
@@ -39,7 +39,7 @@ export const TIERS: Record<Tier, TierConfig> = {
     job: "final bid / no-bid verdict reasoning only",
     priceInPerM: 1.0,
     priceOutPerM: 3.0,
-    maxTokens: 2500,
+    maxTokens: 3000,
   },
 };
 
