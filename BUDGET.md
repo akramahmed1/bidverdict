@@ -14,23 +14,25 @@ Nebius has no documented spending cap and charges the card on a negative balance
 
 ## Measured cost of one full memo
 
-**Not yet measured.** It will be filled in on Oct 17 from the first full live run, broken down by tier, and reconciled against the console Usage tab.
+Measured 2026-10-16 on live Nebius Token Factory (run log: `runs/run-2026-10-16T23-30-09-013Z.json`, test input, 17 sources, 6 validated claims).
 
 | Step | Tier | Input tokens | Output tokens | Cost |
 |---|---|---|---|---|
-| classify | nano | | | |
-| synthesize | super | | | |
-| verdict | ultra | | | |
-| **Total** | | | | |
+| classify | nano | 153 | 151 | $0.000045 |
+| synthesize | super | 3,259 | 2,713 | $0.003419 |
+| verdict | ultra | 601 | 1,812 | $0.006037 |
+| **Total** | | 4,013 | 4,676 | **$0.009501** |
 
-## Caps (placeholders until measured)
+About one cent per memo, plus one Tavily credit per search (3 per memo). Reconcile against the console Usage tab before Oct 20.
 
-| Cap | Value | Rule once measured |
+## Caps (set from the measured memo)
+
+| Cap | Value | Rule |
 |---|---|---|
-| Per run | $0.50 | about 1.5 x measured memo cost |
-| Daily live (public demo) | $2.00 | sized so the demo reserve lasts to Dec 15 |
+| Per run | $0.05 | about 5x the measured memo; the worst-case pre-call check needs headroom for max_tokens |
+| Daily live (public demo) | $2.00 | about 200 live memos a day |
 | Global | $40.00 | below the $50 balance |
-| Max loops per run | 8 | |
+| Max loops per run | 8 | a run uses 3 calls, 5 with retries |
 
 ## Plan for the $50
 

@@ -1,0 +1,385 @@
+{
+  "runId": "run-2026-10-16T23-30-09-013Z",
+  "createdAt": "2026-10-16T23:30:09.015Z",
+  "opportunity": {
+    "id": "TEST-001",
+    "title": "Cloud-hosted case management modernization support",
+    "agency": "Department of Veterans Affairs",
+    "naics": "541512",
+    "setAside": "SBA",
+    "responseDeadline": "2026-12-15T14:00:00-05:00",
+    "placeOfPerformance": "REMOTE",
+    "description": "The VA seeks a small business to provide software development, cloud migration and sustainment support for an internal case management system, including Section 508 accessibility testing and FedRAMP-aligned hosting. Period of performance 12 months plus options."
+  },
+  "profile": {
+    "name": "Example Federal IT LLC (test profile)",
+    "naics": [
+      "541512",
+      "541511"
+    ],
+    "certifications": [
+      "SBA"
+    ],
+    "placesOfPerformance": [
+      "IL",
+      "REMOTE"
+    ],
+    "pastPerformance": "Three prior federal and state web application projects under $500K; no VA past performance.",
+    "capacityNotes": "Team of 6 engineers; no facility clearance."
+  },
+  "gate": {
+    "pass": true,
+    "checks": [
+      {
+        "rule": "deadline",
+        "pass": true,
+        "reason": "Responses due 2026-12-15T14:00:00-05:00; still open."
+      },
+      {
+        "rule": "set_aside",
+        "pass": true,
+        "reason": "Set-aside SBA matches the company's certifications."
+      },
+      {
+        "rule": "naics",
+        "pass": true,
+        "reason": "NAICS 541512 is in the company's codes."
+      },
+      {
+        "rule": "place_of_performance",
+        "pass": true,
+        "reason": "Place of performance REMOTE is within the company's coverage."
+      }
+    ]
+  },
+  "stoppedAtGate": false,
+  "sources": [
+    {
+      "id": "A1",
+      "title": "USAspending award 36C10B22N0051EHRM: ORACLE HEALTH GOVERNMENT SERVICES, INC., $2,120,623,738",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B22N0051EHRM_3600_36C10B18D5000_3600",
+      "snippet": "2022-09-28 | Department of Veterans Affairs / Department of Veterans Affairs | EHRM WAVES K, L, M (VISN 23) AND N, O (VISN 15) DEPLOYMENTS",
+      "query": "usaspending"
+    },
+    {
+      "id": "A2",
+      "title": "USAspending award 36C10B18N0003: ORACLE HEALTH GOVERNMENT SERVICES, INC., $1,511,268,663",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B18N0003_3600_36C10B18D5000_3600",
+      "snippet": "2018-05-17 | Department of Veterans Affairs / Department of Veterans Affairs | IGF::OT::IGF TASK ORDER 36C10B18N0003 UNDER IDIQ CONTRACT 36C10B18D5000 FOR OPERATIONAL MANAGEMENT SERVICES, TO INCLUDE HOSTING, FOR THE EHRM APPLICATIONS, APPLICATION SERVICES, AND ALL SUPPORTING EHRM DATA.",
+      "query": "usaspending"
+    },
+    {
+      "id": "A3",
+      "title": "USAspending award 36C10B21N10070021: BOOZ ALLEN HAMILTON INC, $1,365,285,600",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B21N10070021_3600_VA11816D1007_3600",
+      "snippet": "2021-05-18 | Department of Veterans Affairs / Department of Veterans Affairs | TRANSFORMATION TWENTY-ONE TOTAL TECHNOLOGY NEXT GENERATION (T4NG) TASK ORDER - BENEFITS INTEGRATED DELIVERY",
+      "query": "usaspending"
+    },
+    {
+      "id": "A4",
+      "title": "USAspending award 36C10B21N10150056: BOOZ ALLEN HAMILTON INC, $1,139,008,033",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B21N10150056_3600_VA11816D1015_3600",
+      "snippet": "2021-01-07 | Department of Veterans Affairs / Department of Veterans Affairs | PRODUCT AND TECHNOLOGY ECOSYSTEM MANAGEMENT SERVICES (PTEMS)WHICH INCLUDES PRODUCT DELIVERY AND LIFECYCLE MANAGEMENT TO TRANSFORM VA BY TAPPING INTO EMERGING TECHNOLOGIES, CONNECTING DEVELOPERS WITH VA DATA, AND MAKING HUMAN CENTERED DESIGN (HCD).",
+      "query": "usaspending"
+    },
+    {
+      "id": "A5",
+      "title": "USAspending award 36C10B22N10070023: BOOZ ALLEN HAMILTON INC, $859,669,886",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B22N10070023_3600_VA11816D1007_3600",
+      "snippet": "2022-09-26 | Department of Veterans Affairs / Department of Veterans Affairs | NEW TO - EHRM PMO IO SUPPORT",
+      "query": "usaspending"
+    },
+    {
+      "id": "S1",
+      "title": "701b-5-Year-IT-Benefits-Delivery-Modernization-Plan- ...",
+      "url": "https://digital.va.gov/wp-content/uploads/2024/12/701b-5-Year-IT-Benefits-Delivery-Modernization-Plan-2024-Addendum.pdf",
+      "snippet": "Page 23 of 121 2024 ADDENDUM Section Five: Modernization Roadmap Page 24 of 121 Section 5: Modernization Roadmap The modernization efforts outlined throughout this section will continue to improve claims processing efficiency and speed, system resiliency, accessibility and compliance to section 508, and the management and use of data to empower VA employees and create a singular, proactive benefits experience for Veterans. [...] In the last few years VA has made significant strides in modernizin",
+      "query": "VA case management system modernization RFP 2024"
+    },
+    {
+      "id": "S2",
+      "title": "Electronic Health Record Modernization: VA is Making Incremental Improvements, but Much More Remains to Be Done | U.S. GAO",
+      "url": "https://www.gao.gov/products/gao-25-108091",
+      "snippet": "After three unsuccessful attempts since 2001, VA initiated its fourth effort—the EHRM program—to replace its legacy system. In April 2023, after deploying the new system to five of its medical centers, VA paused deployments due to user concerns. On December 20, 2024, VA announced that it was resuming planned deployments in mid-2026 to four Michigan facilities. . [...] VA's 2024 user surveys continue to reflect general dissatisfaction with the new system. (See figure.)\n\nDepartment of Veterans Aff",
+      "query": "VA case management system modernization RFP 2024"
+    },
+    {
+      "id": "S3",
+      "title": "$5 Billion VA Supply Chain Modernization: Phase 1 Deadline Approaching Fast! | OST Global Solutions, Inc.",
+      "url": "https://www.ostglobalsolutions.com/5-billion-va-supply-chain-modernization-phase-1-deadline-approaching-fast",
+      "snippet": "The Department of Veterans Affairs (VA) has released the final Request for Proposals (RFP) for its Supply Chain Modernization (SCM) effort, a significant opportunity for federal contractors. This initiative aims to overhaul and modernize the VA’s supply chain, impacting the flow of goods, services, and information between all stakeholders, providers, and veterans. [...] The VA seeks an “out of the box” state-of-the-art solution that is both compliant with various privacy regulations and integrat",
+      "query": "VA case management system modernization RFP 2024"
+    },
+    {
+      "id": "S4",
+      "title": "EHR Deployment Schedule - VA EHR Modernization",
+      "url": "https://digital.va.gov/ehr-modernization/ehr-deployment-schedule",
+      "snippet": "| Site | Location | VISN | Go-Live Date |\n ---  --- |\n| Captain James A. Lovell Federal Health Care Center | North Chicago, Illinois | 3 | March 9, 2024 |\n\n## 2026 Deployment Schedule (11 VA Medical Centers) [...] Looking for U.S. government information and services?  Visit USA.gov\n\nAll VA Social Media\n\nU.S. Department of Veterans Affairs  \n 810 Vermont Ave., NW  \n Washington, DC 20420  \n 1-800-698-2411\n\nOPR: EHR Modernization Integration Office (EHRM-IO)\n\nDate last updated September 15, 2026\n\nC",
+      "query": "VA case management system modernization RFP 2024"
+    },
+    {
+      "id": "S5",
+      "title": "VPAT and Section 508: Federal Contractor Guide | Vispero",
+      "url": "https://vispero.com/resources/vpat-101-a-guide-for-federal-contractors-and-subcontractors",
+      "snippet": "An independent evaluation can also provide a more objective view of product accessibility and help identify issues that internal teams may have overlooked.\n\nVispero provides expert-led accessibility testing and VPAT support to help federal contractors evaluate products against applicable accessibility requirements and develop ACRs supported by thorough testing and clear documentation. Speak with an expert today to find out more.\n\nPublished On: August 4, 2023\n\nLast Updated: August 11, 2026 [...] ",
+      "query": "VA Section 508 accessibility testing contractors"
+    },
+    {
+      "id": "S6",
+      "title": "Section 508 for Contractors: What is it and Who Has to Comply?",
+      "url": "https://info.winvale.com/blog/section-508-contractors-what-is-it-who-has-comply",
+      "snippet": "### Step 4 - Request Accessibility Information from Vendors\n\nThis step in the pre-award process is where contractors will have the opportunity to provide direct input. Step 4 in ICT accessibility is when the government will seek input from manufacturers and contractors to develop a 508 Technical Evaluation. Agencies will use a VPAT for commercial or government off the shelf items (COT/GOTS). For ICT development service contracts, agencies will ask you to provide: [...] A plan for accessibility t",
+      "query": "VA Section 508 accessibility testing contractors"
+    },
+    {
+      "id": "S7",
+      "title": "Accessibility At VA | Veterans Affairs",
+      "url": "https://www.va.gov/accessibility-at-va",
+      "snippet": "Section 508 is a federal law under the Rehabilitation Act of 1973 that requires all U.S. government agencies to make their electronic and information technology and data accessible to everyone. By law, agencies must provide people with disabilities the same level of access as those without disabilities. For example, a person who uses a screen reader to read a government website must get the same information as a person who reads the site visually. [...] Our Section 508 program manager is Chet Fr",
+      "query": "VA Section 508 accessibility testing contractors"
+    },
+    {
+      "id": "S8",
+      "title": "Accessibility and Section 508",
+      "url": "https://digital.va.gov/section-508",
+      "snippet": "For further information, questions or comments related to procurement, web accessibility, training and awareness, contact the Section 508 Office via email. In the subject line, please indicate the reason for the email or the person you would like to contact.\n\nDigitalVA | Section 508\n\nAn official website of the U.S. Department of Veterans Affairs\n\nU.S. Department of Veterans Affairs  \n810 Vermont Ave., NW  \nWashington, DC 20420  \n1-800-698-2411 [...] Section 508 requires that any Information and ",
+      "query": "VA Section 508 accessibility testing contractors"
+    },
+    {
+      "id": "S9",
+      "title": "VA’s cloud security memo more mythbuster than new policy - Federal News Network",
+      "url": "https://federalnewsnetwork.com/cybersecurity/2026/08/vas-cloud-security-memo-more-mythbuster-than-new-policy",
+      "snippet": "“The issue is agencies expect companies to spend millions of dollars to get FedRAMP certification prior to being eligible for award and therefore you are limiting the companies that may not have that cash to find sponsor. Agencies are then only selecting from a smaller group of companies, and it puts them in a tight spot,” said a government official familiar with the memo, who requested anonymity in order to talk to the press. “This allows VA to not just have test the latest and greatest [...] “",
+      "query": "Recent VA FedRAMP cloud hosting awards small business"
+    },
+    {
+      "id": "S10",
+      "title": "Q&A: What VA's FedRAMP Shift Means for Federal Cloud Innovation",
+      "url": "https://www.dssinc.com/fedhealth-forward/qa-what-vas-fedramp-shift-means-for-federal-cloud-innovation",
+      "snippet": "For companies like DSS and SBG, it also shifts the risk profile. The FedRAMP process now happens on the government's clock, post-award, rather than on the vendor's clock before an award or solicitation.\n\nProgram offices will need partners that can move quickly and get the security documentation right the first time because that work now takes place within the contract period of performance. [...] The Department of Veterans Affairs (VA) recently clarified its approach to FedRAMP requirements for ",
+      "query": "Recent VA FedRAMP cloud hosting awards small business"
+    },
+    {
+      "id": "S11",
+      "title": "VA won’t require existing FedRAMP certification for cloud contracts, memo reveals | FedScoop",
+      "url": "https://fedscoop.com/veterans-affairs-no-fedramp-certification-cloud-contractors-memo",
+      "snippet": "The memo said post-contract award cloud service providers should be prepared to provide security and privacy-related documentation to receive a determination for operating within VA’s environment, which could include vulnerability scans and any possible implementation status of FedRAMP 20x key security indicators.\n\nAdvertisement [...] ### Tech\n\n NNSA, counter-drone task force create framework for data sharing\n IRS launches new mobile app for individual tax services\n ICE awards contested, controv",
+      "query": "Recent VA FedRAMP cloud hosting awards small business"
+    },
+    {
+      "id": "S12",
+      "title": "VA Clarifies Cloud Procurement Requirements, Drops FedRAMP Authorization | Sammy Chowdhury posted on the topic | LinkedIn",
+      "url": "https://www.linkedin.com/posts/sammyconnects_va-fedramp-memo-activity-7488458283394162688-Lzp7",
+      "snippet": "VA states that security requirements will be satisfied through compliance with: \\ NIST SP 800-53 Rev. 5 \\ VA Directive 6500 \\ VA Handbook 6500.6 \\ VA’s Authorization to Operate (ATO) process Important caveat This does NOT eliminate security requirements after award. Before a cloud service can operate in the VA environment, it MUST still obtain VA authorization and comply with all applicable security and privacy requirements, regardless of whether it held FedRAMP authorization during [...] 🚨 BRE",
+      "query": "Recent VA FedRAMP cloud hosting awards small business"
+    }
+  ],
+  "supportedClaims": [
+    {
+      "text": "VA's modernization roadmap includes improving claims processing efficiency, system resiliency, accessibility, and Section 508 compliance.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://digital.va.gov/wp-content/uploads/2024/12/701b-5-Year-IT-Benefits-Delivery-Modernization-Plan-2024-Addendum.pdf"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "VA requires contractors providing ICT development services to supply accessibility plans and VPATs to meet Section 508 obligations.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://info.winvale.com/blog/section-508-contractors-what-is-it-who-has-comply",
+        "https://www.va.gov/accessibility-at-va",
+        "https://digital.va.gov/section-508"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "VA has stated it will not require existing FedRAMP certification for cloud contracts, allowing post‑award security documentation instead.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://fedscoop.com/veterans-affairs-no-fedramp-certification-cloud-contractors-memo",
+        "https://www.linkedin.com/posts/sammyconnects_va-fedramp-memo-activity-7488458283394162688-Lzp7"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "VA's EHR deployment schedule shows a go‑live date at Captain James A. Lovell Federal Health Care Center in North Chicago, Illinois (VISN 3) on March 9, 2024.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://digital.va.gov/ehr-modernization/ehr-deployment-schedule"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "Historical VA awards in NAICS 541512 have been dominated by large contractors (e.g., Oracle awards >$1.5 B, Booz Allen awards >$850 M), indicating strong competition for small businesses.",
+      "kind": "risk",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_36C10B22N0051EHRM_3600_36C10B18D5000_3600",
+        "https://www.usaspending.gov/award/CONT_AWD_36C10B18N0003_3600_36C10B18D5000_3600",
+        "https://www.usaspending.gov/award/CONT_AWD_36C10B21N10070021_3600_VA11816D1007_3600",
+        "https://www.usaspending.gov/award/CONT_AWD_36C10B21N10150056_3600_VA11816D1015_3600",
+        "https://www.usaspending.gov/award/CONT_AWD_36C10B22N10070023_3600_VA11816D1007_3600"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "VA has deployment locations in Illinois, matching one of the offered places of performance (IL) for the opportunity.",
+      "kind": "fit",
+      "sourceUrls": [
+        "https://digital.va.gov/ehr-modernization/ehr-deployment-schedule"
+      ],
+      "status": "supported"
+    }
+  ],
+  "droppedClaims": [],
+  "verdict": {
+    "decision": "CONDITIONAL",
+    "confidence": "medium",
+    "rationale": [
+      {
+        "point": "Set-aside SBA matches company certification and eligibility gate passed",
+        "claimIds": [
+          6
+        ]
+      },
+      {
+        "point": "VA deployment location in Illinois aligns with company's place of performance (IL)",
+        "claimIds": [
+          6
+        ]
+      },
+      {
+        "point": "No pre-award FedRAMP certification required; post-award security documentation allowed, reducing barrier for company with no facility clearance",
+        "claimIds": [
+          3
+        ]
+      },
+      {
+        "point": "VA modernization roadmap includes claims processing efficiency and accessibility, aligning with company's web application experience",
+        "claimIds": [
+          1
+        ]
+      },
+      {
+        "point": "Historical VA awards in NAICS 541512 dominated by large contractors, indicating competitive landscape even for small-business set-asides",
+        "claimIds": [
+          5
+        ]
+      },
+      {
+        "point": "VA requires accessibility plans and VPATs for Section 508 compliance; company must demonstrate this capability",
+        "claimIds": [
+          2
+        ]
+      }
+    ],
+    "risks": [
+      "No VA past performance (company profile)",
+      "Team of 6 engineers may be insufficient for large modernization effort; opportunity size unknown",
+      "Strong competition from other small businesses for VA set-aside work (claim 5)",
+      "Need to produce accessibility plans and VPATs per Section 508 (claim 2) without demonstrated experience",
+      "No facility clearance may complicate post-award security documentation despite FedRAMP flexibility (claim 3)"
+    ],
+    "nextSteps": [
+      "Review full solicitation for scope, estimated value, and evaluation criteria to assess fit with team capacity",
+      "Evaluate team's Section 508/accessibility experience; prepare sample VPATs and accessibility plan outlines",
+      "Assess readiness for post-award cloud security documentation (FedRAMP or equivalent)",
+      "Consider teaming with a VA-experienced partner to strengthen past performance and capacity",
+      "Confirm Illinois-based staff availability for potential on-site requirements at VISN 3 location (claim 4)"
+    ]
+  },
+  "approval": "pending",
+  "cost": {
+    "totalUsd": 0.00950182,
+    "byTier": {
+      "nano": {
+        "calls": 1,
+        "inputTokens": 153,
+        "outputTokens": 151,
+        "usd": 0.00004542
+      },
+      "super": {
+        "calls": 1,
+        "inputTokens": 3259,
+        "outputTokens": 2713,
+        "usd": 0.0034194
+      },
+      "ultra": {
+        "calls": 1,
+        "inputTokens": 601,
+        "outputTokens": 1812,
+        "usd": 0.006037
+      }
+    }
+  },
+  "calls": [
+    {
+      "tier": "nano",
+      "purpose": "classify requirement",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 153,
+      "outputTokens": 151,
+      "usd": 0.00004542,
+      "latencyMs": 1186
+    },
+    {
+      "tier": "super",
+      "purpose": "synthesize sourced claims",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "inputTokens": 3259,
+      "outputTokens": 2713,
+      "usd": 0.0034194,
+      "latencyMs": 11260
+    },
+    {
+      "tier": "ultra",
+      "purpose": "final bid/no-bid verdict",
+      "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "inputTokens": 601,
+      "outputTokens": 1812,
+      "usd": 0.006037,
+      "latencyMs": 5519
+    }
+  ],
+  "errors": [],
+  "history": {
+    "total": 1030,
+    "smallBizAwards": 312,
+    "medianAmount": 348959728.74,
+    "topRecipients": [
+      {
+        "name": "ORACLE HEALTH GOVERNMENT SERVICES, INC.",
+        "count": 15,
+        "amount": 7687070923.439998
+      },
+      {
+        "name": "BOOZ ALLEN HAMILTON INC",
+        "count": 9,
+        "amount": 6493384924.150002
+      },
+      {
+        "name": "ACCENTURE FEDERAL SERVICES LLC",
+        "count": 3,
+        "amount": 1218950540.74
+      },
+      {
+        "name": "CGI FEDERAL INC.",
+        "count": 1,
+        "amount": 783318157.08
+      },
+      {
+        "name": "GOVCIO, LLC",
+        "count": 3,
+        "amount": 764087928.03
+      }
+    ]
+  },
+  "classification": {
+    "summary": "The VA needs a small business to modernize its case management system via software development, cloud migration, sustainment, Section 508 accessibility testing, and FedRAMP‑aligned hosting for a 12‑month period with potential extensions.",
+    "queries": [
+      "VA case management system modernization RFP 2024",
+      "VA Section 508 accessibility testing contractors",
+      "Recent VA FedRAMP cloud hosting awards small business"
+    ]
+  }
+}

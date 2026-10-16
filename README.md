@@ -37,7 +37,7 @@ Every model call goes through one client, `src/lib/tokenFactory.ts`, using the O
 Nebius Token Factory has no documented spending cap and charges the card automatically once the balance goes negative, so BidVerdict enforces caps in code (`src/lib/budget.ts`):
 
 - **Per run, daily live, global caps and max loops.** Every call is checked against the worst case (estimated input plus the tier's full `max_tokens`) before it is sent.
-- Caps are placeholders until the first measured memo. See `BUDGET.md`.
+- Caps are set from a measured memo (about $0.0095 each). See `BUDGET.md`.
 
 ## Run it locally
 

@@ -53,9 +53,9 @@ const num = (k: string, d: number) => {
   return Number.isFinite(n) ? n : d;
 };
 
-// Placeholders until the Oct 17 measured memo. BUDGET.md records the real numbers.
+// Set from the measured memo (BUDGET.md, 2026-10-16). BUDGET.md records the real numbers.
 export const CAPS = {
-  perRunUsd: num("CAP_PER_RUN_USD", 0.5),
+  perRunUsd: num("CAP_PER_RUN_USD", 0.05),
   dailyLiveUsd: num("CAP_DAILY_LIVE_USD", 2.0),
   globalUsd: num("CAP_GLOBAL_USD", 40.0), // below the $50 credit balance
   maxLoops: num("MAX_LOOPS", 8),
