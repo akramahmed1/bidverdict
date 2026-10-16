@@ -11,3 +11,5 @@ next-env.d.ts
 
 # local ledger (live runs); committed evidence goes in runs/evidence/
 data/ledger.jsonl
+checks-output.txt
+run-checks.cmd

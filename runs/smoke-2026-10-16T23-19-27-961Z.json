@@ -1,0 +1,36 @@
+{
+  "runId": "smoke-2026-10-16T23-19-27-961Z",
+  "at": "2026-10-16T23:19:30.123Z",
+  "results": [
+    {
+      "tier": "nano",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "text": "OK",
+      "inputTokens": 21,
+      "outputTokens": 49,
+      "costUsd": 0.000013019999999999999,
+      "latencyMs": 870,
+      "mock": false
+    },
+    {
+      "tier": "super",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "text": "OK",
+      "inputTokens": 21,
+      "outputTokens": 16,
+      "costUsd": 0.0000207,
+      "latencyMs": 649,
+      "mock": false
+    },
+    {
+      "tier": "ultra",
+      "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "text": "OK",
+      "inputTokens": 21,
+      "outputTokens": 27,
+      "costUsd": 0.000102,
+      "latencyMs": 570,
+      "mock": false
+    }
+  ]
+}

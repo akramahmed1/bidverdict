@@ -19,7 +19,7 @@ const env = (k: string) => (typeof process !== "undefined" ? process.env[k] : un
 export const TIERS: Record<Tier, TierConfig> = {
   nano: {
     tier: "nano",
-    model: env("MODEL_NANO") || "nvidia/Nemotron-3-Nano-30B-A3B",
+    model: env("MODEL_NANO") || "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
     job: "fast classification and field extraction",
     priceInPerM: 0.06,
     priceOutPerM: 0.24,
@@ -27,7 +27,7 @@ export const TIERS: Record<Tier, TierConfig> = {
   },
   super: {
     tier: "super",
-    model: env("MODEL_SUPER") || "nvidia/Nemotron-3-Super-120b-a12b",
+    model: env("MODEL_SUPER") || "nvidia/nemotron-3-super-120b-a12b",
     job: "research synthesis over sourced evidence",
     priceInPerM: 0.3,
     priceOutPerM: 0.9,
