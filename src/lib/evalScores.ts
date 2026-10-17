@@ -30,14 +30,17 @@ export function loadLabels(): LabelFile {
 }
 
 export function agreement(labels: LabelFile, memos: Record<string, Memo | null>) {
+  let abstained = 0;
   const rows: { id: string; agent: Label; human: Label; exact: boolean; flip: boolean }[] = [];
   for (const [id, l] of Object.entries(labels.labels)) {
     const v = memos[id]?.verdict?.decision;
     if (!v) continue;
+    if (v === "INSUFFICIENT_EVIDENCE") { abstained++; continue; }
     rows.push({ id, agent: v, human: l.label, exact: v === l.label, flip: (v === "BID" && l.label === "NO_BID") || (v === "NO_BID" && l.label === "BID") });
   }
   return {
     n: rows.length,
+    abstained,
     exact: rows.filter((r) => r.exact).length,
     flips: rows.filter((r) => r.flip).length,
     rows,

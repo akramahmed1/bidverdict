@@ -27,7 +27,7 @@ export default function EvalPage() {
         <h3>2. Agent vs a human label: {a.n === 0 ? "not measured yet" : `${a.exact} of ${a.n} exact matches, ${a.flips} direct reversals`}</h3>
         <p className="small mut">
           On real SAM.gov opportunities that pass the gate, a person labels BID, CONDITIONAL or NO-BID without seeing the agent&apos;s answer. A reversal means one said BID and the other NO-BID.
-          Labeled so far: {labeled} of {withVerdict} opportunities with an agent verdict{labels.labeler ? `, by ${labels.labeler}` : ""}.
+          Labeled so far: {labeled} of {withVerdict} opportunities with an agent verdict{labels.labeler ? `, by ${labels.labeler}` : ""}. {a.abstained > 0 && `The agent declined to answer ${a.abstained} (insufficient verified evidence); those are not counted as matches or misses.`}
         </p>
         {a.rows.length > 0 && (
           <div className="scroll">

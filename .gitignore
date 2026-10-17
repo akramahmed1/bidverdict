@@ -25,3 +25,6 @@ step6-output.txt
 run-step6.cmd
 step7-output.txt
 run-step7.cmd
+step8-output.txt
+run-step8.cmd
+start-app.cmd

@@ -74,15 +74,14 @@ describe("pipeline", () => {
     expect(memo.droppedClaims.every((c) => c.reason.startsWith("relevance check"))).toBe(true);
   });
 
-  it("produces no verdict when every claim fails validation", async () => {
+  it("returns INSUFFICIENT_EVIDENCE without calling Ultra when no claim survives", async () => {
     const log: string[] = [];
     const memo = await runPipeline(opp, profile, fakeDeps({
       nano: '{"summary":"s","queries":["q"]}',
       super: JSON.stringify({ claims: [{ text: "x", kind: "fact", sourceUrls: ["https://nope.example"] }] }),
       ultra: "{}",
     }, log), "t3");
-    expect(memo.verdict).toBeNull();
+    expect(memo.verdict?.decision).toBe("INSUFFICIENT_EVIDENCE");
     expect(log).not.toContain("ultra");
-    expect(memo.errors.length).toBeGreaterThan(0);
   });
 });

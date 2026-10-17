@@ -23,7 +23,7 @@ export interface Deps {
 
 export const liveDeps: Deps = { callTier: realCall, search: realSearch, history: realAwardHistory };
 
-export type Verdict = "BID" | "NO_BID" | "CONDITIONAL";
+export type Verdict = "BID" | "NO_BID" | "CONDITIONAL" | "INSUFFICIENT_EVIDENCE";
 
 export interface Memo {
   runId: string;
@@ -222,7 +222,18 @@ export async function runPipeline(
       }
     }
     memo.supportedClaims = kept;
-    if (!kept.length) throw new Error("Every claim failed validation; no verdict produced.");
+    if (!kept.length) {
+      // Refuse to guess: no verified, relevant claim survived, so Ultra is never called ($0 for the verdict step).
+      memo.verdict = {
+        decision: "INSUFFICIENT_EVIDENCE",
+        confidence: "low",
+        rationale: [{ point: "Every claim the research produced was unsourced, unsupported by its source, or not relevant to this opportunity, so no recommendation is made.", claimIds: [] }],
+        risks: ["A bid decision made without verified evidence would be a guess."],
+        nextSteps: ["Read the full solicitation and its attachments on SAM.gov.", "Ask the contracting officer the open questions in the notice.", "Run again after the buyer publishes more detail."],
+      };
+      appendLedger({ runId, kind: "approval", detail: { status: "pending", verdict: "INSUFFICIENT_EVIDENCE", errors } });
+      return finish();
+    }
 
     // 7. Ultra: final verdict from validated claims only
     const claimList = kept.map((c, i) => `#${i + 1} [${c.kind}] ${c.text}`).join("\n");
