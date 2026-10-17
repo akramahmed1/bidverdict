@@ -1,6 +1,10 @@
 {
-  "_note": "FICTIONAL DEMO COMPANY used to show the full pipeline on real opportunities. Not a real firm.",
-  "name": "Prairie Digital Systems LLC (demo company)",
+  "_note": "FICTIONAL SAMPLE COMPANY for scenario testing. Not a real firm. Past performance and staffing are invented; only the NAICS codes, set-aside definitions and every opportunity and award figure used against it are real public data.",
+  "id": "demo",
+  "name": "Prairie Digital Systems LLC (sample)",
+  "hqState": "IL",
+  "size": "small",
+  "fictional": true,
   "naics": [
     "541512",
     "541511",
@@ -17,5 +21,8 @@
   ],
   "pastPerformance": "Three web and data platform projects for state and local agencies, each under $500K. No prior VA, DoD or HHS prime contracts.",
   "capacityNotes": "Team of six engineers. No facility clearance. No SOC 2 report yet.",
-  "id": "demo"
+  "verification": [
+    "NAICS codes confirmed against USAspending reference (api.usaspending.gov/api/v2/references/naics) on 2026-10-16.",
+    "Set-asides follow SBA definitions: SBA = small business, 8A = 8(a) Business Development, HUBZONE, WOSB/EDWOSB, SDVOSB."
+  ]
 }

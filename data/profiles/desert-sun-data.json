@@ -1,0 +1,23 @@
+{
+  "_note": "FICTIONAL SAMPLE COMPANY for scenario testing. Not a real firm. Past performance and staffing are invented; only the NAICS codes, set-aside definitions and every opportunity and award figure used against it are real public data.",
+  "id": "desert-sun-data",
+  "name": "Desert Sun Data Services LLC (sample)",
+  "hqState": "AZ",
+  "size": "small",
+  "fictional": true,
+  "naics": [
+    "541519"
+  ],
+  "certifications": [
+    "SBA"
+  ],
+  "placesOfPerformance": [
+    "AZ"
+  ],
+  "pastPerformance": "Two Arizona state-agency data-entry and migration projects (about $250K and $180K). First federal bid would be new.",
+  "capacityNotes": "Four staff, no clearance, no SOC 2. Can only staff work in Arizona.",
+  "verification": [
+    "NAICS codes confirmed against USAspending reference (api.usaspending.gov/api/v2/references/naics) on 2026-10-16.",
+    "Set-asides follow SBA definitions: SBA = small business, 8A = 8(a) Business Development, HUBZONE, WOSB/EDWOSB, SDVOSB."
+  ]
+}

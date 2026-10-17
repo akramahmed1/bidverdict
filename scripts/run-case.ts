@@ -1,7 +1,8 @@
 // Run the pipeline on real opportunities and save memos for replay.
 //   npx tsx scripts/run-case.ts <opportunity-id>      one case
-//   npx tsx scripts/run-case.ts --all                 every case that passes the gate for the demo profile
-// Memos are written to data/memos/<id>.json (committed, replayed at $0 by the app) and runs/<runId>.json.
+//   npx tsx scripts/run-case.ts --all                 every case that passes the gate for the profile
+//   add  --profile <id>  to use data/profiles/<id>.json (default: demo);  --profile all  runs every sample company
+// Memos are written to data/memos/<profile>/<id>.json (committed, replayed at $0 by the app) and runs/<runId>.json.
 import "dotenv/config";
 import { readdirSync, readFileSync, mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
@@ -11,7 +12,15 @@ import { runGate, type CompanyProfile, type Opportunity } from "../src/lib/gate"
 const opps: Opportunity[] = readdirSync("data/opportunities")
   .filter((f) => f.endsWith(".json"))
   .map((f) => JSON.parse(readFileSync(join("data/opportunities", f), "utf8")));
-const profile: CompanyProfile = JSON.parse(readFileSync("data/profiles/demo.json", "utf8"));
+const argv = process.argv.slice(2);
+const pi = argv.indexOf("--profile");
+const profileArg = pi >= 0 ? argv[pi + 1] : "demo";
+const loadP = (id: string): CompanyProfile => ({ ...JSON.parse(readFileSync(`data/profiles/${id}.json`, "utf8")), id });
+const profileIds = profileArg === "all"
+  ? readdirSync("data/profiles").filter((f) => f.endsWith(".json") && !f.startsWith("sq-") && f !== "demo.json").map((f) => f.replace(/\.json$/, ""))
+  : [profileArg];
+let profile: CompanyProfile = loadP(profileIds[0]);
+let profileId = profileIds[0];
 
 function show(memo: Memo) {
   console.log(`\n=== ${memo.opportunity.id}: ${memo.opportunity.title.slice(0, 60)}`);
@@ -32,18 +41,24 @@ async function runOne(opp: Opportunity) {
   mkdirSync("runs", { recursive: true });
   mkdirSync("data/memos", { recursive: true });
   writeFileSync(`runs/${memo.runId}.json`, JSON.stringify(memo, null, 2));
-  writeFileSync(`data/memos/${opp.id}.json`, JSON.stringify(memo, null, 2));
+  mkdirSync(`data/memos/${profileId}`, { recursive: true });
+  writeFileSync(`data/memos/${profileId}/${opp.id}.json`, JSON.stringify(memo, null, 2));
   show(memo);
   return memo;
 }
 
 async function main() {
-  const arg = process.argv[2];
-  if (!arg) throw new Error("usage: tsx scripts/run-case.ts <opportunity-id> | --all");
-  const targets = arg === "--all" ? opps.filter((o) => runGate(o, profile).pass) : opps.filter((o) => o.id === arg);
-  if (!targets.length) throw new Error(`No matching case for "${arg}"`);
+  const arg = argv[0];
+  if (!arg || arg.startsWith("--profile")) throw new Error("usage: tsx scripts/run-case.ts <opportunity-id> | --all [--profile <id>|all]");
   let total = 0;
-  for (const o of targets) total += (await runOne(o)).cost.totalUsd;
+  for (const pid of profileIds) {
+    profileId = pid;
+    profile = loadP(pid);
+    console.log(`\n######## ${profile.name}`);
+    const targets = arg === "--all" ? opps.filter((o) => runGate(o, profile).pass) : opps.filter((o) => o.id === arg);
+    if (!targets.length) { console.log(`No matching case for "${arg}"`); continue; }
+    for (const o of targets) total += (await runOne(o)).cost.totalUsd;
+  }
   console.log(`\nALL DONE. Total cost: $${total.toFixed(6)}`);
 }
 main().catch((e) => { console.error(e.message); process.exit(1); });

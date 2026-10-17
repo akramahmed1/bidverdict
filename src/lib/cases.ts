@@ -36,9 +36,10 @@ export function getOpportunity(id: string): Opportunity | null {
   return listOpportunities().find((o) => o.id === id) ?? null;
 }
 
-export const memoPath = (id: string) => join(root(), "data", "memos", `${id}.json`);
+export const memoPath = (id: string, pid: string = DEFAULT_PROFILE) =>
+  join(root(), "data", "memos", pid.replace(/[^a-z0-9-]/gi, ""), `${id}.json`);
 
-export function loadMemo(id: string): Memo | null {
-  const p = memoPath(id);
+export function loadMemo(id: string, pid: string = DEFAULT_PROFILE): Memo | null {
+  const p = memoPath(id, pid);
   return existsSync(p) ? readJson<Memo>(p) : null;
 }

@@ -1,0 +1,26 @@
+{
+  "_note": "FICTIONAL SAMPLE COMPANY for scenario testing. Not a real firm. Past performance and staffing are invented; only the NAICS codes, set-aside definitions and every opportunity and award figure used against it are real public data.",
+  "id": "heartland-facilities",
+  "name": "Heartland Facilities and Logistics Corp. (sample)",
+  "hqState": "OH",
+  "size": "small",
+  "fictional": true,
+  "naics": [
+    "561210",
+    "238220"
+  ],
+  "certifications": [
+    "SBA"
+  ],
+  "placesOfPerformance": [
+    "OH",
+    "IN",
+    "MI"
+  ],
+  "pastPerformance": "Eight facilities-support and HVAC contracts for DLA and GSA in the Midwest, between $300K and $2.8M. No software work.",
+  "capacityNotes": "Sixty staff. Strong bonding capacity. No IT staff and no software past performance.",
+  "verification": [
+    "NAICS codes confirmed against USAspending reference (api.usaspending.gov/api/v2/references/naics) on 2026-10-16.",
+    "Set-asides follow SBA definitions: SBA = small business, 8A = 8(a) Business Development, HUBZONE, WOSB/EDWOSB, SDVOSB."
+  ]
+}

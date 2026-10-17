@@ -1,0 +1,27 @@
+{
+  "_note": "FICTIONAL SAMPLE COMPANY for scenario testing. Not a real firm. Past performance and staffing are invented; only the NAICS codes, set-aside definitions and every opportunity and award figure used against it are real public data.",
+  "id": "blue-ridge-veterans",
+  "name": "Blue Ridge Veterans Technology Inc. (sample)",
+  "hqState": "VA",
+  "size": "small",
+  "fictional": true,
+  "naics": [
+    "541511",
+    "541512"
+  ],
+  "certifications": [
+    "SBA",
+    "SDVOSB"
+  ],
+  "placesOfPerformance": [
+    "VA",
+    "DC",
+    "MD"
+  ],
+  "pastPerformance": "Service-disabled veteran-owned. Prime on two VA software maintenance contracts (about $2.1M and $3.4M) and one Army National Guard web portal ($650K).",
+  "capacityNotes": "Twenty-two staff. Active facility clearance (Secret). SOC 2 Type II report current. Strong VA customer references.",
+  "verification": [
+    "NAICS codes confirmed against USAspending reference (api.usaspending.gov/api/v2/references/naics) on 2026-10-16.",
+    "Set-asides follow SBA definitions: SBA = small business, 8A = 8(a) Business Development, HUBZONE, WOSB/EDWOSB, SDVOSB."
+  ]
+}

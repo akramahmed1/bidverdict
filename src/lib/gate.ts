@@ -18,6 +18,11 @@ export interface CompanyProfile {
   placesOfPerformance: string[]; // 2-letter state codes, or "REMOTE" / "ANY"
   pastPerformance: string;
   capacityNotes: string;
+  // Optional descriptive fields for sample companies; the gate never reads them.
+  hqState?: string;
+  size?: "small" | "large";
+  fictional?: boolean;
+  verification?: string[];
 }
 
 export interface Opportunity {

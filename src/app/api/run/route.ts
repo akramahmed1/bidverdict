@@ -13,11 +13,12 @@ export const maxDuration = 60;
 export async function POST(req: Request) {
   if (getHostedMode()) return NextResponse.json({ error: "Live runs are disabled on the hosted demo. Saved runs replay at $0." }, { status: 403 });
   if (!hasLiveKeys()) return NextResponse.json({ error: "NEBIUS_API_KEY is not set; live runs are disabled." }, { status: 403 });
-  const { caseId } = (await req.json()) as { caseId?: string };
+  const { caseId, profile } = (await req.json()) as { caseId?: string; profile?: string };
   const opp = caseId ? getOpportunity(caseId) : null;
   if (!opp) return NextResponse.json({ error: "Unknown case" }, { status: 404 });
-  const memo = await runPipeline(opp, loadProfile());
-  const p = memoPath(opp.id);
+  const pid = typeof profile === "string" && profile ? profile : "demo";
+  const memo = await runPipeline(opp, loadProfile(pid));
+  const p = memoPath(opp.id, pid);
   mkdirSync(dirname(p), { recursive: true });
   writeFileSync(p, JSON.stringify(memo, null, 2));
   return NextResponse.json({ ok: true, runId: memo.runId });

@@ -1,0 +1,30 @@
+{
+  "_note": "FICTIONAL SAMPLE COMPANY for scenario testing. Not a real firm. Past performance and staffing are invented; only the NAICS codes, set-aside definitions and every opportunity and award figure used against it are real public data.",
+  "id": "magnolia-analytics",
+  "name": "Magnolia Women's Analytics LLC (sample)",
+  "hqState": "GA",
+  "size": "small",
+  "fictional": true,
+  "naics": [
+    "541512",
+    "541611",
+    "541511"
+  ],
+  "certifications": [
+    "SBA",
+    "WOSB",
+    "EDWOSB"
+  ],
+  "placesOfPerformance": [
+    "GA",
+    "VA",
+    "DC",
+    "REMOTE"
+  ],
+  "pastPerformance": "Women-owned, economically disadvantaged. One Marine Corps training-data contract (about $1.5M) and two civilian-agency analytics task orders under $800K.",
+  "capacityNotes": "Eleven staff. No facility clearance. Past performance is strongest in training and education data systems.",
+  "verification": [
+    "NAICS codes confirmed against USAspending reference (api.usaspending.gov/api/v2/references/naics) on 2026-10-16.",
+    "Set-asides follow SBA definitions: SBA = small business, 8A = 8(a) Business Development, HUBZONE, WOSB/EDWOSB, SDVOSB."
+  ]
+}

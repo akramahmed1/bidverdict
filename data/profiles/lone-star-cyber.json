@@ -1,0 +1,28 @@
+{
+  "_note": "FICTIONAL SAMPLE COMPANY for scenario testing. Not a real firm. Past performance and staffing are invented; only the NAICS codes, set-aside definitions and every opportunity and award figure used against it are real public data.",
+  "id": "lone-star-cyber",
+  "name": "Lone Star Cyber Group LLC (sample)",
+  "hqState": "TX",
+  "size": "small",
+  "fictional": true,
+  "naics": [
+    "541512",
+    "541519",
+    "541513"
+  ],
+  "certifications": [
+    "SBA",
+    "8A"
+  ],
+  "placesOfPerformance": [
+    "TX",
+    "OH",
+    "REMOTE"
+  ],
+  "pastPerformance": "Four years in the SBA 8(a) program. Two DoD sub-contracts for network monitoring (about $1.2M each) and one Air Force base-level help desk prime task order (about $900K).",
+  "capacityNotes": "Fourteen staff, eight with active Secret clearances. Facility clearance in progress, not yet granted. FedRAMP not started.",
+  "verification": [
+    "NAICS codes confirmed against USAspending reference (api.usaspending.gov/api/v2/references/naics) on 2026-10-16.",
+    "Set-asides follow SBA definitions: SBA = small business, 8A = 8(a) Business Development, HUBZONE, WOSB/EDWOSB, SDVOSB."
+  ]
+}

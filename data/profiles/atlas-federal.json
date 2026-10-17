@@ -1,0 +1,24 @@
+{
+  "_note": "FICTIONAL SAMPLE COMPANY for scenario testing. Not a real firm. Past performance and staffing are invented; only the NAICS codes, set-aside definitions and every opportunity and award figure used against it are real public data.",
+  "id": "atlas-federal",
+  "name": "Atlas Federal Systems Inc. (sample)",
+  "hqState": "VA",
+  "size": "large",
+  "fictional": true,
+  "naics": [
+    "541511",
+    "541512",
+    "541519",
+    "541330"
+  ],
+  "certifications": [],
+  "placesOfPerformance": [
+    "ANY"
+  ],
+  "pastPerformance": "Large business. Eleven DoD and civilian IT prime contracts between $5M and $60M, including a Defense Health Agency data program.",
+  "capacityNotes": "About 400 staff, 150 cleared. Facility clearance (Top Secret). FedRAMP Moderate. Not eligible for any set-aside.",
+  "verification": [
+    "NAICS codes confirmed against USAspending reference (api.usaspending.gov/api/v2/references/naics) on 2026-10-16.",
+    "Set-asides follow SBA definitions: SBA = small business, 8A = 8(a) Business Development, HUBZONE, WOSB/EDWOSB, SDVOSB."
+  ]
+}

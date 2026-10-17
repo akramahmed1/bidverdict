@@ -1,0 +1,853 @@
+{
+  "asOf": "2026-10-16T12:00:00-05:00",
+  "rows": [
+    {
+      "profile": "desert-sun-data",
+      "name": "Desert Sun Data Services LLC (sample)",
+      "results": [
+        {
+          "opp": "FNA-OCPO-64962",
+          "pass": false,
+          "failed": [
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "36C25927Q0020",
+          "pass": false,
+          "failed": [
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "HQDA-G-4_26_01",
+          "pass": false,
+          "failed": [
+            "naics"
+          ]
+        },
+        {
+          "opp": "RFI-FY27-SI-Powered_Communications_Video_Intelligence",
+          "pass": false,
+          "failed": [
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "36C24227Q0060",
+          "pass": false,
+          "failed": [
+            "naics",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "36C26027Q0080",
+          "pass": false,
+          "failed": [
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "W50NH927RA006",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "CORHQ-26-Q-0388",
+          "pass": false,
+          "failed": [
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "FA8770-26-R-B008-SS",
+          "pass": false,
+          "failed": [
+            "set_aside",
+            "naics",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "USCA27R0009",
+          "pass": false,
+          "failed": [
+            "naics",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "FS2_Bridge_NOI",
+          "pass": false,
+          "failed": [
+            "naics",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "M0026427R0001",
+          "pass": false,
+          "failed": [
+            "set_aside",
+            "naics",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "HT003826SC005-AOI0002",
+          "pass": false,
+          "failed": [
+            "naics",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "70FA3126I00000008",
+          "pass": false,
+          "failed": [
+            "naics",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "36C10B27Q0046",
+          "pass": true,
+          "failed": []
+        }
+      ]
+    },
+    {
+      "profile": "magnolia-analytics",
+      "name": "Magnolia Women's Analytics LLC (sample)",
+      "results": [
+        {
+          "opp": "FNA-OCPO-64962",
+          "pass": false,
+          "failed": [
+            "naics"
+          ]
+        },
+        {
+          "opp": "36C25927Q0020",
+          "pass": false,
+          "failed": [
+            "naics",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "HQDA-G-4_26_01",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "RFI-FY27-SI-Powered_Communications_Video_Intelligence",
+          "pass": false,
+          "failed": [
+            "naics"
+          ]
+        },
+        {
+          "opp": "36C24227Q0060",
+          "pass": false,
+          "failed": [
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "36C26027Q0080",
+          "pass": false,
+          "failed": [
+            "naics",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "W50NH927RA006",
+          "pass": false,
+          "failed": [
+            "naics"
+          ]
+        },
+        {
+          "opp": "CORHQ-26-Q-0388",
+          "pass": false,
+          "failed": [
+            "naics"
+          ]
+        },
+        {
+          "opp": "FA8770-26-R-B008-SS",
+          "pass": false,
+          "failed": [
+            "set_aside",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "USCA27R0009",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "FS2_Bridge_NOI",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "M0026427R0001",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "HT003826SC005-AOI0002",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "70FA3126I00000008",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "36C10B27Q0046",
+          "pass": false,
+          "failed": [
+            "naics"
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "heartland-facilities",
+      "name": "Heartland Facilities and Logistics Corp. (sample)",
+      "results": [
+        {
+          "opp": "FNA-OCPO-64962",
+          "pass": false,
+          "failed": [
+            "naics",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "36C25927Q0020",
+          "pass": false,
+          "failed": [
+            "naics",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "HQDA-G-4_26_01",
+          "pass": false,
+          "failed": [
+            "naics"
+          ]
+        },
+        {
+          "opp": "RFI-FY27-SI-Powered_Communications_Video_Intelligence",
+          "pass": false,
+          "failed": [
+            "naics",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "36C24227Q0060",
+          "pass": false,
+          "failed": [
+            "naics",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "36C26027Q0080",
+          "pass": false,
+          "failed": [
+            "naics",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "W50NH927RA006",
+          "pass": false,
+          "failed": [
+            "naics"
+          ]
+        },
+        {
+          "opp": "CORHQ-26-Q-0388",
+          "pass": false,
+          "failed": [
+            "naics",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "FA8770-26-R-B008-SS",
+          "pass": false,
+          "failed": [
+            "set_aside",
+            "naics"
+          ]
+        },
+        {
+          "opp": "USCA27R0009",
+          "pass": false,
+          "failed": [
+            "naics",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "FS2_Bridge_NOI",
+          "pass": false,
+          "failed": [
+            "naics",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "M0026427R0001",
+          "pass": false,
+          "failed": [
+            "set_aside",
+            "naics",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "HT003826SC005-AOI0002",
+          "pass": false,
+          "failed": [
+            "naics",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "70FA3126I00000008",
+          "pass": false,
+          "failed": [
+            "naics",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "36C10B27Q0046",
+          "pass": false,
+          "failed": [
+            "naics"
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "lone-star-cyber",
+      "name": "Lone Star Cyber Group LLC (sample)",
+      "results": [
+        {
+          "opp": "FNA-OCPO-64962",
+          "pass": false,
+          "failed": [
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "36C25927Q0020",
+          "pass": false,
+          "failed": [
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "HQDA-G-4_26_01",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "RFI-FY27-SI-Powered_Communications_Video_Intelligence",
+          "pass": false,
+          "failed": [
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "36C24227Q0060",
+          "pass": false,
+          "failed": [
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "36C26027Q0080",
+          "pass": false,
+          "failed": [
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "W50NH927RA006",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "CORHQ-26-Q-0388",
+          "pass": false,
+          "failed": [
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "FA8770-26-R-B008-SS",
+          "pass": false,
+          "failed": [
+            "naics"
+          ]
+        },
+        {
+          "opp": "USCA27R0009",
+          "pass": false,
+          "failed": [
+            "naics",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "FS2_Bridge_NOI",
+          "pass": false,
+          "failed": [
+            "naics",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "M0026427R0001",
+          "pass": false,
+          "failed": [
+            "set_aside",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "HT003826SC005-AOI0002",
+          "pass": false,
+          "failed": [
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "70FA3126I00000008",
+          "pass": false,
+          "failed": [
+            "naics",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "36C10B27Q0046",
+          "pass": true,
+          "failed": []
+        }
+      ]
+    },
+    {
+      "profile": "demo",
+      "name": "Prairie Digital Systems LLC (sample)",
+      "results": [
+        {
+          "opp": "FNA-OCPO-64962",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "36C25927Q0020",
+          "pass": false,
+          "failed": [
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "HQDA-G-4_26_01",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "RFI-FY27-SI-Powered_Communications_Video_Intelligence",
+          "pass": false,
+          "failed": [
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "36C24227Q0060",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "36C26027Q0080",
+          "pass": false,
+          "failed": [
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "W50NH927RA006",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "CORHQ-26-Q-0388",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "FA8770-26-R-B008-SS",
+          "pass": false,
+          "failed": [
+            "set_aside",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "USCA27R0009",
+          "pass": false,
+          "failed": [
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "FS2_Bridge_NOI",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "M0026427R0001",
+          "pass": false,
+          "failed": [
+            "set_aside"
+          ]
+        },
+        {
+          "opp": "HT003826SC005-AOI0002",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "70FA3126I00000008",
+          "pass": false,
+          "failed": [
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "36C10B27Q0046",
+          "pass": true,
+          "failed": []
+        }
+      ]
+    },
+    {
+      "profile": "blue-ridge-veterans",
+      "name": "Blue Ridge Veterans Technology Inc. (sample)",
+      "results": [
+        {
+          "opp": "FNA-OCPO-64962",
+          "pass": false,
+          "failed": [
+            "naics"
+          ]
+        },
+        {
+          "opp": "36C25927Q0020",
+          "pass": false,
+          "failed": [
+            "naics",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "HQDA-G-4_26_01",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "RFI-FY27-SI-Powered_Communications_Video_Intelligence",
+          "pass": false,
+          "failed": [
+            "naics"
+          ]
+        },
+        {
+          "opp": "36C24227Q0060",
+          "pass": false,
+          "failed": [
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "36C26027Q0080",
+          "pass": false,
+          "failed": [
+            "naics",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "W50NH927RA006",
+          "pass": false,
+          "failed": [
+            "naics"
+          ]
+        },
+        {
+          "opp": "CORHQ-26-Q-0388",
+          "pass": false,
+          "failed": [
+            "naics"
+          ]
+        },
+        {
+          "opp": "FA8770-26-R-B008-SS",
+          "pass": false,
+          "failed": [
+            "set_aside",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "USCA27R0009",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "FS2_Bridge_NOI",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "M0026427R0001",
+          "pass": false,
+          "failed": [
+            "set_aside"
+          ]
+        },
+        {
+          "opp": "HT003826SC005-AOI0002",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "70FA3126I00000008",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "36C10B27Q0046",
+          "pass": false,
+          "failed": [
+            "naics"
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "cascade-hubzone",
+      "name": "Cascade HUBZone Software Co. (sample)",
+      "results": [
+        {
+          "opp": "FNA-OCPO-64962",
+          "pass": false,
+          "failed": [
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "36C25927Q0020",
+          "pass": false,
+          "failed": [
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "HQDA-G-4_26_01",
+          "pass": false,
+          "failed": [
+            "naics"
+          ]
+        },
+        {
+          "opp": "RFI-FY27-SI-Powered_Communications_Video_Intelligence",
+          "pass": false,
+          "failed": [
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "36C24227Q0060",
+          "pass": false,
+          "failed": [
+            "naics",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "36C26027Q0080",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "W50NH927RA006",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "CORHQ-26-Q-0388",
+          "pass": false,
+          "failed": [
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "FA8770-26-R-B008-SS",
+          "pass": false,
+          "failed": [
+            "set_aside",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "USCA27R0009",
+          "pass": false,
+          "failed": [
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "FS2_Bridge_NOI",
+          "pass": false,
+          "failed": [
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "M0026427R0001",
+          "pass": false,
+          "failed": [
+            "set_aside",
+            "naics",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "HT003826SC005-AOI0002",
+          "pass": false,
+          "failed": [
+            "naics",
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "70FA3126I00000008",
+          "pass": false,
+          "failed": [
+            "place_of_performance"
+          ]
+        },
+        {
+          "opp": "36C10B27Q0046",
+          "pass": true,
+          "failed": []
+        }
+      ]
+    },
+    {
+      "profile": "atlas-federal",
+      "name": "Atlas Federal Systems Inc. (sample)",
+      "results": [
+        {
+          "opp": "FNA-OCPO-64962",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "36C25927Q0020",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "HQDA-G-4_26_01",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "RFI-FY27-SI-Powered_Communications_Video_Intelligence",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "36C24227Q0060",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "36C26027Q0080",
+          "pass": false,
+          "failed": [
+            "set_aside"
+          ]
+        },
+        {
+          "opp": "W50NH927RA006",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "CORHQ-26-Q-0388",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "FA8770-26-R-B008-SS",
+          "pass": false,
+          "failed": [
+            "set_aside"
+          ]
+        },
+        {
+          "opp": "USCA27R0009",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "FS2_Bridge_NOI",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "M0026427R0001",
+          "pass": false,
+          "failed": [
+            "set_aside"
+          ]
+        },
+        {
+          "opp": "HT003826SC005-AOI0002",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "70FA3126I00000008",
+          "pass": true,
+          "failed": []
+        },
+        {
+          "opp": "36C10B27Q0046",
+          "pass": true,
+          "failed": []
+        }
+      ]
+    }
+  ]
+}

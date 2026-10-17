@@ -1,0 +1,27 @@
+{
+  "_note": "FICTIONAL SAMPLE COMPANY for scenario testing. Not a real firm. Past performance and staffing are invented; only the NAICS codes, set-aside definitions and every opportunity and award figure used against it are real public data.",
+  "id": "cascade-hubzone",
+  "name": "Cascade HUBZone Software Co. (sample)",
+  "hqState": "OR",
+  "size": "small",
+  "fictional": true,
+  "naics": [
+    "541519",
+    "541511"
+  ],
+  "certifications": [
+    "SBA",
+    "HUBZONE"
+  ],
+  "placesOfPerformance": [
+    "OR",
+    "WA",
+    "REMOTE"
+  ],
+  "pastPerformance": "HUBZone-certified in rural Oregon. One VA medical-center scheduling tool (about $400K), one county health records integration ($300K).",
+  "capacityNotes": "Nine staff, all in the HUBZone. No clearance. Small, focused on clinical scheduling software.",
+  "verification": [
+    "NAICS codes confirmed against USAspending reference (api.usaspending.gov/api/v2/references/naics) on 2026-10-16.",
+    "Set-asides follow SBA definitions: SBA = small business, 8A = 8(a) Business Development, HUBZONE, WOSB/EDWOSB, SDVOSB."
+  ]
+}
