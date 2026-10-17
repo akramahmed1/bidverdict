@@ -1,0 +1,378 @@
+{
+  "runId": "run-2026-10-17T02-01-15-178Z",
+  "createdAt": "2026-10-17T02:01:15.179Z",
+  "opportunity": {
+    "id": "N3220527R0003",
+    "title": "Material Management",
+    "agency": "Department of Defense",
+    "subAgency": "Dept of the Navy (Military Sealift Command)",
+    "noticeType": "Sources Sought",
+    "naics": "493110",
+    "setAside": "NONE",
+    "responseDeadline": "2026-10-23T13:00:00-04:00",
+    "placeOfPerformance": "UNSPECIFIED",
+    "description": "Military Sealift Command sources sought for non-personal logistics services at MSC ashore locations worldwide: material receipt, stowage, special-material stowage, transportation, disposal, centrally managed stock, inventory audits, and warehouse equipment. Requires a SECRET facility clearance, 98% inventory accuracy, handling of hazardous material and small arms, ship decommissioning support, and 24/7 surge capability. One base year plus four option years starting 19 September 2027. No set-aside used.",
+    "sourceUrl": "https://sam.gov/workspace/contract/opp/89d07f505b064354b1f0bb949c93140e/view",
+    "retrievedFrom": "SAM.gov public notice data, 2026-10-16"
+  },
+  "profile": {
+    "_note": "REAL company (the founder's), read from the founder's own SAM.gov entity record on 2026-10-16. The registration is a work-in-progress draft, not active: no CAGE code yet, no socio-economic certifications. Only NAICS codes, state and size are used here; no identifiers, banking or contact details are stored.",
+    "id": "sq-trading",
+    "name": "SQ Trading INC",
+    "hqState": "IL",
+    "size": "small",
+    "naics": [
+      "493110",
+      "238290",
+      "238390",
+      "238910",
+      "311811",
+      "311812",
+      "311813",
+      "323111",
+      "323113",
+      "335210",
+      "492110",
+      "493190",
+      "518210",
+      "611420"
+    ],
+    "certifications": [],
+    "placesOfPerformance": [
+      "ANY"
+    ],
+    "pastPerformance": "None on record. Entity started April 2026; no federal awards.",
+    "capacityNotes": "Based in Illinois; can work in Illinois or across the USA. SAM registration still in draft (CAGE verification pending), so it cannot be awarded a contract today.",
+    "verification": [
+      "NAICS codes read from the founder's SAM.gov Assertions page (work-in-progress registration) on 2026-10-16.",
+      "No certifications, so every set-aside notice is blocked by the rules gate; only open (unrestricted) notices can pass."
+    ]
+  },
+  "gate": {
+    "pass": true,
+    "checks": [
+      {
+        "rule": "deadline",
+        "pass": true,
+        "reason": "Responses due 2026-10-23T13:00:00-04:00; still open."
+      },
+      {
+        "rule": "set_aside",
+        "pass": true,
+        "reason": "Full and open competition; no set-aside required."
+      },
+      {
+        "rule": "naics",
+        "pass": true,
+        "reason": "NAICS 493110 is in the company's codes."
+      },
+      {
+        "rule": "place_of_performance",
+        "pass": true,
+        "reason": "Place of performance is not stated in the notice; verify before bidding."
+      }
+    ]
+  },
+  "stoppedAtGate": false,
+  "sources": [
+    {
+      "id": "A1",
+      "title": "USAspending award 0001: AL RAHA GROUP FOR TECHNICAL S ERVICES, $185,128,691",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_0001_9700_FA850514D0004_9700",
+      "snippet": "2014-06-05 | Department of Defense / Defense Contract Management Agency | IGF::OT::IGF DEPOT PRIME VENDOR SUPPORT CONTRACT",
+      "query": "usaspending"
+    },
+    {
+      "id": "A2",
+      "title": "USAspending award SP330020C5002: VALIANT TECHNICAL SERVICES INC., $150,557,579",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_SP330020C5002_9700_-NONE-_-NONE-",
+      "snippet": "2020-03-31 | Department of Defense / Defense Logistics Agency | CHEMICAL MANAGEMENT SERVICES (CMS) AND THIRD PARTY LOGISTICS (3PL) SERVICES IN SUPPORT OF DLA AVIATION AT WARNER ROBINS AIR LOGISTICS COMPLEX (WR-ALC).",
+      "query": "usaspending"
+    },
+    {
+      "id": "A3",
+      "title": "USAspending award SP330017C5003: SERCO INC, $126,508,094",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_SP330017C5003_9700_-NONE-_-NONE-",
+      "snippet": "2017-05-15 | Department of Defense / Defense Logistics Agency | IGF::OT::IGF! CONTRACTOR PROVIDES CMS SUPPORT THAT INCLUDES 3PL END TO END SUPPLY CHAIN AND INVENTORY MANAGEMENT IN SUPPORT OF DLA AND THE FRCS",
+      "query": "usaspending"
+    },
+    {
+      "id": "A4",
+      "title": "USAspending award SP330011C0012: AMENTUM SERVICES, INC., $108,843,774",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_SP330011C0012_9700_-NONE-_-NONE-",
+      "snippet": "2011-07-26 | Department of Defense / Defense Logistics Agency | HAZARDOUS MATERIALS MANAGEMENT SERVICES",
+      "query": "usaspending"
+    },
+    {
+      "id": "A5",
+      "title": "USAspending award SP310008C0001: AMENTUM SERVICES, INC., $73,751,908",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_SP310008C0001_9700_-NONE-_-NONE-",
+      "snippet": "2007-10-24 | Department of Defense / Defense Logistics Agency | DISTRIBUTION SUPPORT SERVICES AT DEFENSE DISTRIBUTION CENTER HILL, UTAH (DDHU)",
+      "query": "usaspending"
+    },
+    {
+      "id": "S1",
+      "title": "Contracts for Aug. 12, 2026 > U.S. Department of War > Contract | U.S. Department of War",
+      "url": "https://www.war.gov/News/Contracts/Contract/Article/4572212/contracts-for-aug-12-2026",
+      "snippet": "Cayuse Native Hawaiian Veterans LLC,\\ Pendleton, Oregon, is awarded a $249,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract (N4044626D0002) for general ship repair of Military Sealift Command vessels. This action represents a rolling admission to a previously awarded multiple-award contract. Work will be performed in Guam and is expected to be completed by November 2027. This contract includes a five-year ordering period. Fiscal 2026 operations and maintenance (Navy) [.",
+      "query": "Military Sealift Command logistics contracts 2027"
+    },
+    {
+      "id": "S2",
+      "title": "MSC - Departments: Logistics",
+      "url": "https://sealiftcommand.com/departments/logistics",
+      "snippet": "Military Sealift Command’s Logistics department, along with the Culinary department is part of the larger Supply department. Members of the Logistics department are responsible for performing inventory, and for storekeeping duties such as cargo handling, record keeping, receipt and stowage and issuance of all stores. This department also cleans and maintains the staterooms and passageways, and is responsible for the ship’s laundry. The following are positions we recruit for from external [...] [",
+      "query": "Military Sealift Command logistics contracts 2027"
+    },
+    {
+      "id": "S3",
+      "title": "MSC - Contracting",
+      "url": "https://sealiftcommand.com/work-ashore/contracting",
+      "snippet": "Contract Specialists at Military Sealift Command manage, supervise, perform, or develop policies and procedures for professional work involving the procurement of supplies, services, construction, or research and development using formal advertising or negotiation procedures; the evaluation of contract price proposals; and the administration or termination and close out of contracts. The work requires knowledge of the legislation, regulations, and methods used in contracting; and knowledge of [.",
+      "query": "Military Sealift Command logistics contracts 2027"
+    },
+    {
+      "id": "S4",
+      "title": "MSC - About MSC",
+      "url": "https://sealiftcommand.com/about-msc",
+      "snippet": "### Our Mission\n\nThe U.S. Navy's Military Sealift Command is the premier provider of ocean transportation to the Department of Defense. The Command operates approximately 125 civilian-crewed ships that replenish U.S. Navy ships, conduct specialized missions, strategically preposition combat cargo at sea around the world and move military cargo and supplies used by deployed U.S. forces and coalition partners.",
+      "query": "Military Sealift Command logistics contracts 2027"
+    },
+    {
+      "id": "S5",
+      "title": "Facility Clearances",
+      "url": "https://www.dcsa.mil/FCL/Maintaining-Personnel-Security-Clearances",
+      "snippet": "The link is provided here. 4. Discrepant information between the sponsorship and DD254. Please ensure the information on the sponsorship and DD254 aligns. The sponsorship should not request a Top Secret facility clearance while the DD254 indicates a Secret requirement as an example. | [...] is required at the pre-award stage. This requirement must be validated by the Government Contracting Activity (GCA) and all the required information is provided, as detailed in DoD Manual 5220.22, Volume 2 Na",
+      "query": "MSC secret facility clearance requirements"
+    },
+    {
+      "id": "S6",
+      "title": "How to Become a Cleared Facility",
+      "url": "https://researchservices.upenn.edu/wp-content/uploads/2022/04/How-to-become-a-cleared-facility-AUECO-Presentation.pdf",
+      "snippet": "sponsorship • Provide helpful resources Session Goals M An eligibility determination for an entity (company, university, etc.) • Government need for entity to have access to classified information (Sponsorship required) • 3 levels: Confidential, Secret and Top Secret • 2 types: Possessing and Non-Possessing • FCL required before individuals with personal clearances (PCLs) can access classified information on the entity’s behalf What is a Facility Clearance? [...] A Facility Clearance (FCL) is an",
+      "query": "MSC secret facility clearance requirements"
+    },
+    {
+      "id": "S7",
+      "title": "A Guide to Obtaining a Facility Security Clearance",
+      "url": "https://isidefense.com/blog/a-guide-to-facility-security-clearances",
+      "snippet": "There are three different classification levels of FCLs, corresponding to the levels of classified information an organization needs to access: Confidential, Secret, and Top Secret. The specific requirements for each FCL level are outlined in the National Industrial Security Program Operating Manual (NISPOM), but, in short, the difference between these levels is determined by the sensitivity of the information and the stringency of the facility requirements necessary in order to protect it. An [",
+      "query": "MSC secret facility clearance requirements"
+    },
+    {
+      "id": "S8",
+      "title": "Facility Security Clearance | Practices | Holland & Knight",
+      "url": "https://www.hklaw.com/en/services/practices/international-business-and-trade/facility-security-clearance",
+      "snippet": "When companies doing government business are bought or sold, the resulting change in ownership must be reported and actions taken to keep the facility clearance. We know how to structure M&A transactions, joint ventures and similar deals so that the facility clearance is protected and maintained. For example, in a deal worth more than $400 million, lawyers on our Industrial Security Team represented a company acquiring the assets of a manufacturer of classified military equipment. Within 45 [...",
+      "query": "MSC secret facility clearance requirements"
+    },
+    {
+      "id": "S9",
+      "title": "MSC Awards Time Charter Contract to American Roll-On Roll-Off Carrier - American Roll-On Roll-Off Carrier",
+      "url": "https://www.arcshipping.com/news/msc-awards-time-charter-contract-to-american-roll-on-roll-off-carrier",
+      "snippet": "# News\n\n# MSC Awards Time Charter Contract to American Roll-On Roll-Off Carrier\n\nDownload Article\n\nPARSIPPANY, NEW JERSEY – The U.S. Navy’s Military Sealift Command (MSC) has awarded a 38-day time charter contract to American Roll-on Roll-off Carrier (ARC), for the charter of the M/V Resolve.\n\nApproximately 65,000 square feet of military cargo was loaded on to the M/V Resolve today by the 841st Transportation Battalion in Charleston, South Carolina for onward delivery to Ash Shuaiba, Kuwait. [..",
+      "query": "Recent MSC awarded logistics services contracts"
+    },
+    {
+      "id": "S10",
+      "title": "Small Business Opportunities",
+      "url": "https://www.msc.usff.navy.mil/Business-Opportunities/Small-Business-Opportunities",
+      "snippet": "At MSC, we actively seek small business opportunities to leverage the innovation, agility, responsiveness and competition that small businesses bring to empower our global warfighting effectiveness. Each year MSC awards approximately $1 Billion in contracts to companies that are registered as small businesses. We look to the private sector to charter and operate ships; procure logistics support; recruit, process and retain more than 5,000 civil service mariners; and provide overhaul and repair",
+      "query": "Recent MSC awarded logistics services contracts"
+    },
+    {
+      "id": "S11",
+      "title": "Navy awards 59 seats on $249M logistics IT contract - Washington Technology",
+      "url": "https://www.washingtontechnology.com/contracts/2026/06/navy-awards-59-seats-249m-logistics-it-contract/414155",
+      "snippet": "Solicitation documents issued in February 2025 describe the contract’s five core functional areas as follows:\n\n Maintenance, repair and overhaul\n Supply chain management\n Product lifecycle management\n The logistics integrated data environment\n Integration and infrastructure capabilities within the Navy’s integrated platform and development, security and operations pipeline. [...] Navy\n Contracts\n Top 100\n Accenture\n Deloitte\n Guidehouse\n IBM\n Leidos\n Lockheed Martin\n SAIC\n\nThe Navy has awarded 5",
+      "query": "Recent MSC awarded logistics services contracts"
+    }
+  ],
+  "supportedClaims": [
+    {
+      "text": "The Military Sealift Command’s Logistics department handles inventory, storekeeping, cargo handling, receipt and stowage, matching the requirement for material receipt, stowage, hazardous material handling, and inventory audits.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://sealiftcommand.com/departments/logistics"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "The requirement calls for a SECRET clearance, and facility clearances are issued at Confidential, Secret, and Top Secret levels.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.dcsa.mil/FCL/Maintaining-Personnel-Security-Clearances"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "Obtaining a Secret facility clearance requires sponsorship and can be a lengthy process, posing a risk for timely award.",
+      "kind": "risk",
+      "sourceUrls": [
+        "https://researchservices.upenn.edu/wp-content/uploads/2022/04/How-to-become-a-cleared-facility-AUECO-Presentation.pdf"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "MSC’s mission is to provide ocean transportation and logistics support worldwide, aligning with the requirement for worldwide MSC ashore locations.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://sealiftcommand.com/about-msc"
+      ],
+      "status": "supported"
+    }
+  ],
+  "droppedClaims": [
+    {
+      "text": "Recent DoD logistics contracts have been awarded to large contractors such as AL RAHA GROUP ($185M), VALIANT TECHNICAL SERVICES ($150M), SERCO ($126M), and AMENTUM ($108M and $73M), indicating strong incumbent competition.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_0001_9700_FA850514D0004_9700",
+        "https://www.usaspending.gov/award/CONT_AWD_SP330020C5002_9700_-NONE-_-NONE-",
+        "https://www.usaspending.gov/award/CONT_AWD_SP330017C5003_9700_-NONE-_-NONE-",
+        "https://www.usaspending.gov/award/CONT_AWD_SP330011C0012_9700_-NONE-_-NONE-",
+        "https://www.usaspending.gov/award/CONT_AWD_SP310008C0001_9700_-NONE-_-NONE-"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (References other contracts, unrelated to this opportunity.)"
+    }
+  ],
+  "verdict": {
+    "decision": "NO_BID",
+    "confidence": "high",
+    "rationale": [
+      {
+        "point": "Opportunity requires SECRET clearance; obtaining facility clearance is lengthy and requires sponsorship, posing significant risk for timely award.",
+        "claimIds": [
+          2,
+          3
+        ]
+      },
+      {
+        "point": "MSC Logistics handles inventory, storekeeping, cargo handling, receipt and stowage, but company has no past performance in similar DoD logistics.",
+        "claimIds": [
+          1
+        ]
+      },
+      {
+        "point": "MSC mission is worldwide ocean transportation and logistics support, but company lacks relevant experience and certifications.",
+        "claimIds": [
+          4
+        ]
+      }
+    ],
+    "risks": [
+      "SAM registration is in draft (CAGE verification pending), so company cannot be awarded a contract today.",
+      "No facility clearance at SECRET level; obtaining one is time-consuming and uncertain.",
+      "No past performance or certifications to demonstrate capability for DoD material management."
+    ],
+    "nextSteps": [
+      "Complete SAM.gov registration and obtain CAGE code to become eligible for award.",
+      "Pursue facility clearance sponsorship if targeting DoD opportunities requiring SECRET clearance.",
+      "Build past performance through subcontracting or commercial work relevant to NAICS 493110."
+    ]
+  },
+  "approval": "pending",
+  "cost": {
+    "totalUsd": 0.008268300000000001,
+    "byTier": {
+      "nano": {
+        "calls": 2,
+        "inputTokens": 1563,
+        "outputTokens": 1343,
+        "usd": 0.00041610000000000003
+      },
+      "super": {
+        "calls": 1,
+        "inputTokens": 2982,
+        "outputTokens": 2204,
+        "usd": 0.0028782000000000005
+      },
+      "ultra": {
+        "calls": 1,
+        "inputTokens": 762,
+        "outputTokens": 1404,
+        "usd": 0.004974
+      }
+    }
+  },
+  "calls": [
+    {
+      "tier": "nano",
+      "purpose": "classify requirement",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 206,
+      "outputTokens": 157,
+      "usd": 0.00005004,
+      "latencyMs": 1245
+    },
+    {
+      "tier": "super",
+      "purpose": "synthesize sourced claims",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "inputTokens": 2982,
+      "outputTokens": 2204,
+      "usd": 0.0028782000000000005,
+      "latencyMs": 9859
+    },
+    {
+      "tier": "nano",
+      "purpose": "relevance and support check",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 1357,
+      "outputTokens": 1186,
+      "usd": 0.00036606000000000003,
+      "latencyMs": 5151
+    },
+    {
+      "tier": "ultra",
+      "purpose": "final bid/no-bid verdict",
+      "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "inputTokens": 762,
+      "outputTokens": 1404,
+      "usd": 0.004974,
+      "latencyMs": 5006
+    }
+  ],
+  "errors": [],
+  "history": {
+    "total": 3846,
+    "smallBizAwards": 102,
+    "medianAmount": 27338096.12,
+    "topRecipients": [
+      {
+        "name": "AMENTUM SERVICES, INC.",
+        "count": 15,
+        "amount": 573745424.71
+      },
+      {
+        "name": "VALIANT TECHNICAL SERVICES INC.",
+        "count": 4,
+        "amount": 257843536.51999998
+      },
+      {
+        "name": "AL RAHA GROUP FOR TECHNICAL S ERVICES",
+        "count": 1,
+        "amount": 185128691
+      },
+      {
+        "name": "ACCENT CONTROLS, INC.",
+        "count": 5,
+        "amount": 164262797.59
+      },
+      {
+        "name": "SERCO INC",
+        "count": 1,
+        "amount": 126508094.13
+      }
+    ]
+  },
+  "classification": {
+    "summary": "The Department of Defense's Military Sealift Command seeks a contractor to provide non‑personal logistics services, including material receipt, stowage, hazardous material handling, inventory audits, and 24/7 surge capability at worldwide MSC ashore locations, requiring a SECRET clearance and 98% inventory accuracy.",
+    "queries": [
+      "Military Sealift Command logistics contracts 2027",
+      "MSC secret facility clearance requirements",
+      "Recent MSC awarded logistics services contracts"
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 {
-  "runId": "run-2026-10-17T00-56-56-664Z",
-  "createdAt": "2026-10-17T00:56:56.664Z",
+  "runId": "run-2026-10-17T02-02-16-160Z",
+  "createdAt": "2026-10-17T02:02:16.162Z",
   "opportunity": {
     "id": "USCA27R0009",
     "title": "Jury Management Solution (JMS) System (Presolicitation)",
@@ -79,7 +79,7 @@
       "id": "S2",
       "title": "Web-based Jury Management System (JMS)",
       "url": "https://sam.gov/opp/e9171d94a1404915a7adc64dc24172fc/view",
-      "snippet": "## Description\n\nThe Administrative Office of the U.S. Courts (AO) is conducting market research in anticipation of a future solicitation for a modernized Jury Management System (JMS). The purpose of this Request for Information (RFI) is to obtain industry feedback, capability details, and technical insights that will assist the AO in refining its requirements, acquisition strategy, and Statement of Objectives (SOO) for the forthcoming procurement. [...] The AO is preparing to replace its existin",
+      "snippet": "## Description\n\nThe Administrative Office of the U.S. Courts (AO) is conducting market research in anticipation of a future solicitation for a modernized Jury Management System (JMS). The purpose of this Request for Information (RFI) is to obtain industry feedback, capability details, and technical insights that will assist the AO in refining its requirements, acquisition strategy, and Statement of Objectives (SOO) for the forthcoming procurement.",
       "query": "Administrative Office of the U.S. Courts jury management system procurement"
     },
     {
@@ -91,64 +91,71 @@
     },
     {
       "id": "S4",
-      "title": "Web-based Jury Management System (JMS)",
-      "url": "https://sam.gov/opp/b0d59fad122e4078b2207144df2e4511/view",
-      "snippet": "Responsible sources shall follow the instructions in the attached RFP in order to be considered. Responses to this solicitation are due no later than 12:00 P.M. ET on Friday, May 31, 2024, late submissions shall not be accepted.Offers must be emailed to Contracting Officers: david_kelley@ao.uscourts.gov and arnold_casterline@ao.uscourts.gov. Any other type of submission of responses shall not be accepted. All emails shall reference \"RFP USCA24R0030 – Web-Based JMS\" in the email subject line of [",
+      "title": "Cloud-Based Jury Management System for U.S. District Courts - USCA26R0000 | G2X",
+      "url": "https://g2x.com/app/fedciv/posts/cloud-based-jury-management-system-for-us-district-courts---usca26r0000",
+      "snippet": "This RFI aims to gather industry feedback on technical capabilities, security compliance, data migration strategies, and implementation timelines to refine the AO’s acquisition strategy and Statement of Objectives (SOO). The anticipated procurement will likely be structured as an Indefinite Delivery/Indefinite Quantity (IDIQ) contract with a seven-year ordering period and an estimated ceiling of $38,000,000.00. Prospective vendors are encouraged to provide detailed responses to specific [...] Th",
       "query": "Administrative Office of the U.S. Courts jury management system procurement"
     },
     {
       "id": "S5",
-      "title": "Jury Management | Courts & Justice | Tyler Technologies",
-      "url": "https://www.tylertech.com/solutions/courts-public-safety/courts-justice/jury-management",
-      "snippet": "Powerful Features for Your Court’s Jury Process\n\n## Tyler Knows Jury Management\n\nComprehensive Vision\n\nOur full-featured, web-based jury management system is designed to handle every aspect of your jury process, all in one user-friendly platform.\n\nDeep Expertise\n\nBuilt on a foundation of more than 50 years of jury solution experience, our jury management solution is currently used in courts across 30 U.S. states and in Canada to provide a more efficient jury experience. [...] Enterprise Jury Man",
-      "query": "Current jury management system vendor for U.S. federal courts"
+      "title": "Federal Circuit Resolves Court Split Over IDIQ Awardee Standing | Government Contracts Legal Forum",
+      "url": "https://www.governmentcontractslegalforum.com/2026/09/articles/government-contracts/federal-circuit-resolves-court-split-over-idiq-awardee-standing",
+      "snippet": "But a series of more recent court decisions have declined to follow National Air Cargo. In Aero Spray, Inc. v. United States, 156 Fed. Cl. 548 (2021) (as we discussed in more detail here), the court held that the “veritable tsunami of Federal Circuit decisions” all support the holding that an awardee is not an “interested party” to challenge awards of fellow IDIQ awardees, reasoning that a protester filing a post-award protest must establish a “substantial chance of award,” which is something [.",
+      "query": "AO US Courts recent IDIQ awards"
     },
     {
       "id": "S6",
-      "title": "Modern Jury Management Software: Streamlining Court Operations",
-      "url": "https://catalisgov.com/jury-management/modernizing-jury-management",
-      "snippet": "The Catalis Jury solution supports this evolution with secure, intuitive tools designed specifically for U.S. courts. Through optimized workflows, real-time dashboards, and integrated communication capabilities, Catalis helps courts streamline jury operations while delivering a more organized, transparent experience for both staff and citizens.\n\nContact Us Today!\n\nPrevPrevious Post\n\nNext PostNext\n\n Courts, Jury Management\n\nContact Us Today!\n\n### Top Posts [...] Skip to content\n\n[](\n\nCustomer Sup",
-      "query": "Current jury management system vendor for U.S. federal courts"
+      "title": "Administrative Office of the United States Courts Archives | FedScoop",
+      "url": "https://fedscoop.com/tag/administrative-office-of-the-united-states-courts",
+      "snippet": "### Administrative Office of US Courts awards $298M app development contract to GDIT\n\n### Watchdog calls on US Courts to establish IT workforce recruiting strategy\n\n### Free PACER advocates say $2 billion estimate is out of touch\n\n### U.S. Courts aims to make records more accessible with PACER redesign\n\n### Federal courts eye move to hybrid cloud\n\nScoop News Group\nFedScoop [...] FedScoop\n\n## Administrative Office of the United States Courts\n\n### Interim AI guidance for US courts aims for experim",
+      "query": "AO US Courts recent IDIQ awards"
     },
     {
       "id": "S7",
-      "title": "Web-based Jury Management System (JMS)",
-      "url": "https://www.highergov.com/contract-opportunity/web-based-jury-management-system-jms-usca26r0000-r-172fc",
-      "snippet": "Background  \n The Administrative Office of the U.S. Courts (AO) is conducting market research for a modernized Jury Management System (JMS). The goal is to replace the existing legacy JMS with a secure, scalable, cloud-based solution that supports the full lifecycle of federal jury operations. This includes juror summonsing, qualification, check-in, management of juror information, and integration with court proceedings. [...] The AO is preparing to replace its existing legacy JMS with a secure,",
-      "query": "Current jury management system vendor for U.S. federal courts"
+      "title": "Administrative Office of the United States Courts - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Administrative_Office_of_the_United_States_Courts",
+      "snippet": "The Administrative Office of the United States Courts (AO or AOUSC for short) is the administrative \"Administration (government)\") agency of the United States federal court system, established in 1939. The AO is the central support entity for the federal judicial branch, and it provides the federal court with a wide range of legislative (legislative assistance), administrative, legal, financial, management, program (program evaluation), and information technology support services. [...] [edit]\n\n",
+      "query": "AO US Courts recent IDIQ awards"
     },
     {
       "id": "S8",
-      "title": "Contracts For Dec. 18, 2025 > U.S. Department of War > Contract | U.S. Department of War",
-      "url": "https://www.war.gov/News/Contracts/Contract/Article/4364107/contracts-for-dec-18-2025",
-      "snippet": "Following the initial tranche of 1,014 awards announced December 2, 2025, the Missile Defense Agency (MDA) has made an additional 1,086 awards under the Scalable Homeland Innovative Enterprise Layered Defense (SHIELD) Multiple Award Indefinite-Delivery, Indefinite-Quantity (IDIQ) Contract, with a ceiling of $151B.  In accordance with the solicitation, the Government continues with staggered awards and will work with remaining offerors accordingly. In order to utilize this critical contract [...]",
-      "query": "Recent IDIQ awards for court management systems"
+      "title": "Administrative Office of the U.S. Courts (AOUSC)",
+      "url": "https://www.highergov.com/agency/administrative-office-of-the-u-s-courts-aousc-125",
+      "snippet": "HigherGov Logo\n\nSign In\n\nTools to Win.\n\nPowerful Market Intelligence\n\nLeading Business Development Tools\n\nSubscribers awarded $225 Billion Last 12 Months\n\n  \n\n##### You've used all of your free views.\n\nStart Free Trial  Schedule Demo\n\nStart Free Trial Schedule Demo\n\n##### Description\n\n##### Search\n\nHigherGov\n\n New Contract Opportunities\n New Grant Opportunities\n New Contract Awards\n New Grant Awards\n\n CSV\n Excel\n\n Copy URL\n Email\n Tweet\n\n Search Agencies [...] ###### All Records\n CSV\n Excel\n\n## ",
+      "query": "AO US Courts recent IDIQ awards"
     },
     {
       "id": "S9",
-      "title": "Missile Defense Agency SHIELD IDIQ Award   | Systems Plus, Inc.",
-      "url": "https://www.sysplus.com/missile-defense-agency-shield-idiq-award",
-      "snippet": "## Contact\n\nOne Research Court, Suite 360  \nRockville, MD 20850\n\nTel: 301-948-4232  \nEmail: (/cdn-cgi/l/email-protection#741d1a121b34070d07041801075a171b19)\n\n##### Follow Us [...] Systems Plus, Inc. is pleased to announce it was awarded a contract for the Missile Defense Agency (MDA) Scalable Homeland Innovative Enterprise Layered Defense (SHIELD) indefinite-delivery/indefinite-quantity (IDIQ) contract with a ceiling of $151 billion. This contract encompasses a broad range of work areas that all",
-      "query": "Recent IDIQ awards for court management systems"
+      "title": "RFP 25-15 Jury Management System",
+      "url": "https://sanbernardino.courts.ca.gov/system/files/general/rfp25-15questionsandanswers.pdf",
+      "snippet": "Juror Payments and Financial Controls (4 Points) 1. How will this criteria be scored? Ability to integrate with finance system? Ability to cut checks directly out of the system? Criteria will be scored against but not limited to the ability to integrate with the state system and produce paper checks. 2. What payment methods are required (check, ACH, debit cards)? Required payment methods are not specified in the SOW but the diversity of options will be incorporated into the evaluation Q101. [...",
+      "query": "Momentum financial system integration jury management solution"
     },
     {
       "id": "S10",
-      "title": "Federal Contracts Awarded IDIQ - ITG Federal",
-      "url": "https://gov.itgonline.com/federal-contracts-awarded",
-      "snippet": "ITG was one of the nine (9) companies that were awarded the 10-year indefinite delivery, indefinite quantity ADMC-2 contract for a total value of up to $5 billion back in 2006 and will continue for up to two additional years through April 23, 2020. [...] option periods through June 30, 2022.  The maximum ordering amount for our contract is $13,000,000.00 over the life of the contract. [...] Contract Number: 47QTCA21A001H (November 2, 2018 through November 1, 2023)\n\n## National Institutes of Heal",
-      "query": "Recent IDIQ awards for court management systems"
+      "title": "CGI Momentum Reviews & Ratings 2026 | Gartner Peer Insights",
+      "url": "https://www.gartner.com/reviews/product/cgi-momentum",
+      "snippet": "CGI Momentum is an enterprise resource planning software designed to support financial management, acquisition, and budget execution needs for government agencies. The software provides integrated features for general ledger management, accounts payable, accounts receivable, procurement, asset management, and grant management. By automating and streamlining business processes, CGI Momentum assists organizations in adhering to financial reporting requirements and regulatory standards. The [...] L",
+      "query": "Momentum financial system integration jury management solution"
     },
     {
       "id": "S11",
-      "title": "Request for Information: New Modern Software Delivery Multiple Award IDIQ",
-      "url": "https://sam.gov/opp/f5d50d8fc7fa486eb0a972ed81c0bda5/view",
-      "snippet": "In case you missed it, on 10 July 2024, Army Leaders Mr. Leonel Garciga, Ms. Jennifer Swanson, and Ms. Danielle Moyer participated in the ACC-APG Quarterly Digital APBI event and discussed the Modern Software Development IDIQ contract. The slides from this event are now published on this posting as well. [...] How to Reply: To reply, email the mailbox below with the subject line MSD MA IDIQ RFI,< Written Responses>, <Company Name> , by 10 June 2024.\n\nResponses to the follow up questions are due ",
-      "query": "Recent IDIQ awards for court management systems"
+      "title": "Modern Jury Management Software: Streamlining Court Operations",
+      "url": "https://catalisgov.com/jury-management/modernizing-jury-management",
+      "snippet": "When these capabilities are unified through jury management integration with case management systems, courts operate from a single, real-time source of truth. Judges, clerks, and administrators stay aligned, resulting in smoother operations and more consistent outcomes.\n\n### Empowering Courts with Smarter Workflows [...] Modern jury management software is reshaping jury administration by reducing clerical strain, strengthening judicial coordination, and modernizing workflows for today’s court en",
+      "query": "Momentum financial system integration jury management solution"
+    },
+    {
+      "id": "S12",
+      "title": "Jury Management | Courts & Justice | Tyler Technologies",
+      "url": "https://www.tylertech.com/solutions/courts-public-safety/courts-justice/jury-management",
+      "snippet": "Jury duty should be painless for jurors and for anyone on the court staff who is a part of the process. That’s why we’ve built a jury management solution with capabilities that make the entire process as streamlined and efficient as possible, providing an easy experience for everyone involved. Our carefully designed jury management solution takes the pain out of being a part of the jury process for court staff and prospective jurors.\n\n### Powerful Features for Your Court’s Jury Process [...] Pow",
+      "query": "Momentum financial system integration jury management solution"
     }
   ],
   "supportedClaims": [
     {
-      "text": "The Administrative Office of the U.S. Courts issued a presolicitation notice for a Jury Management Solution (JMS) System seeking a single-award IDIQ contract for a COTS web-based solution.",
+      "text": "The buyer is the Administrative Office of the U.S. Courts (AO) issuing a presolicitation for a Jury Management Solution (JMS) System.",
       "kind": "fact",
       "sourceUrls": [
         "https://discover.govdash.com/solicitations/01a1222f-d839-720e-b101-95746d1978e7--jury-management-solution-jms-system"
@@ -156,69 +163,106 @@
       "status": "supported"
     },
     {
-      "text": "The AO is conducting market research via an RFI to gather industry feedback for a modernized Jury Management System.",
+      "text": "The requirement calls for a single‑award IDIQ contract for a commercial off‑the‑shelf web‑based jury management system that integrates with the Judiciary’s Momentum financial system.",
       "kind": "fact",
       "sourceUrls": [
-        "https://sam.gov/opp/e9171d94a1404915a7adc64dc24172fc/view"
-      ],
-      "status": "supported"
-    },
-    {
-      "text": "The AO plans to award a single IDIQ contract for a COTS, web-based JMS that will perform juror selection, management, tracking, financial/statistical calculations and integrate with the Momentum financial system.",
-      "kind": "fact",
-      "sourceUrls": [
+        "https://discover.govdash.com/solicitations/01a1222f-d839-720e-b101-95746d1978e7--jury-management-solution-jms-system",
         "https://www.highergov.com/contract-opportunity/jury-management-solution-jms-system-usca27r0009-p-d54e7"
       ],
       "status": "supported"
     },
     {
-      "text": "Responses to the RFP USCA24R0030 – Web-Based JMS are due by 12:00 PM ET on Friday, May 31, 2024, and must be emailed to the specified contracting officers.",
+      "text": "The anticipated IDIQ is expected to have a seven‑year ordering period and an estimated ceiling of $38,000,000.",
       "kind": "fact",
       "sourceUrls": [
-        "https://sam.gov/opp/b0d59fad122e4078b2207144df2e4511/view"
+        "https://g2x.com/app/fedciv/posts/cloud-based-jury-management-system-for-us-district-courts---usca26r0000"
       ],
       "status": "supported"
     },
     {
-      "text": "Tyler Technologies offers a comprehensive web-based jury management system used in courts across 30 U.S. states and Canada, representing a potential competitor.",
-      "kind": "risk",
+      "text": "The system must perform financial and statistical calculations and integrate with the Judiciary’s Momentum financial system.",
+      "kind": "fact",
       "sourceUrls": [
-        "https://www.tylertech.com/solutions/courts-public-safety/courts-justice/jury-management"
-      ],
-      "status": "supported"
-    },
-    {
-      "text": "Catalis provides a modern jury management solution with secure, intuitive tools for U.S. courts, another possible competitor.",
-      "kind": "risk",
-      "sourceUrls": [
-        "https://catalisgov.com/jury-management/modernizing-jury-management"
+        "https://discover.govdash.com/solicitations/01a1222f-d839-720e-b101-95746d1978e7--jury-management-solution-jms-system"
       ],
       "status": "supported"
     }
   ],
-  "droppedClaims": [],
-  "verdict": null,
+  "droppedClaims": [
+    {
+      "text": "The procurement has no set‑aside (NONE), making it an unrestricted opportunity open to all businesses.",
+      "kind": "risk",
+      "sourceUrls": [
+        "https://discover.govdash.com/solicitations/01a1222f-d839-720e-b101-95746d1978e7--jury-management-solution-jms-system"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: source does not support claim (Source does not discuss set‑aside status.)"
+    }
+  ],
+  "verdict": {
+    "decision": "CONDITIONAL",
+    "confidence": "medium",
+    "rationale": [
+      {
+        "point": "NAICS 541511 matches company primary NAICS and place of performance (DC/MD/VA) aligns with AO location",
+        "claimIds": [
+          1
+        ]
+      },
+      {
+        "point": "Set-aside is NONE (full and open) so SDVOSB certification provides no competitive advantage",
+        "claimIds": [
+          1
+        ]
+      },
+      {
+        "point": "Requirement calls for commercial off-the-shelf jury management system with Momentum financial system integration; company past performance is VA software maintenance and Army Guard web portal, not jury management or Momentum integration",
+        "claimIds": [
+          2,
+          4
+        ]
+      },
+      {
+        "point": "$38M ceiling over 7-year IDIQ represents significant scale jump from largest past contract ($3.4M) with 22-person team",
+        "claimIds": [
+          3
+        ]
+      }
+    ],
+    "risks": [
+      "No prior relationship with Administrative Office of the U.S. Courts",
+      "Full and open competition likely attracts large incumbents with existing jury management COTS products",
+      "COTS requirement implies need for existing product license/partnership not currently verified",
+      "Momentum integration specificity creates technical risk without demonstrated experience"
+    ],
+    "nextSteps": [
+      "Identify COTS jury management vendors with Momentum integration for potential teaming",
+      "Assess whether 22-person team can support IDIQ task order volume at this scale",
+      "Request solicitation details to evaluate evaluation criteria and past performance requirements",
+      "Determine if Secret clearance and SOC 2 Type II provide differentiation in full and open competition"
+    ]
+  },
   "approval": "pending",
   "cost": {
-    "totalUsd": 0.012445379999999999,
+    "totalUsd": 0.0077246599999999995,
     "byTier": {
       "nano": {
         "calls": 2,
-        "inputTokens": 1498,
-        "outputTokens": 2015,
-        "usd": 0.00057348
+        "inputTokens": 1445,
+        "outputTokens": 1964,
+        "usd": 0.00055806
       },
       "super": {
         "calls": 1,
-        "inputTokens": 2546,
-        "outputTokens": 1429,
-        "usd": 0.0020499
+        "inputTokens": 2502,
+        "outputTokens": 1710,
+        "usd": 0.0022895999999999997
       },
       "ultra": {
         "calls": 1,
-        "inputTokens": 822,
-        "outputTokens": 3000,
-        "usd": 0.009822
+        "inputTokens": 719,
+        "outputTokens": 1386,
+        "usd": 0.004877
       }
     }
   },
@@ -230,39 +274,37 @@
       "inputTokens": 242,
       "outputTokens": 262,
       "usd": 0.0000774,
-      "latencyMs": 1195
+      "latencyMs": 1451
     },
     {
       "tier": "super",
       "purpose": "synthesize sourced claims",
       "model": "nvidia/nemotron-3-super-120b-a12b",
-      "inputTokens": 2546,
-      "outputTokens": 1429,
-      "usd": 0.0020499,
-      "latencyMs": 7220
+      "inputTokens": 2502,
+      "outputTokens": 1710,
+      "usd": 0.0022895999999999997,
+      "latencyMs": 7639
     },
     {
       "tier": "nano",
       "purpose": "relevance and support check",
       "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-      "inputTokens": 1256,
-      "outputTokens": 1753,
-      "usd": 0.00049608,
-      "latencyMs": 6202
+      "inputTokens": 1203,
+      "outputTokens": 1702,
+      "usd": 0.00048065999999999994,
+      "latencyMs": 6930
     },
     {
       "tier": "ultra",
       "purpose": "final bid/no-bid verdict",
       "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
-      "inputTokens": 822,
-      "outputTokens": 3000,
-      "usd": 0.009822,
-      "latencyMs": 9155
+      "inputTokens": 719,
+      "outputTokens": 1386,
+      "usd": 0.004877,
+      "latencyMs": 5116
     }
   ],
-  "errors": [
-    "Ultra did not return a valid verdict."
-  ],
+  "errors": [],
   "history": {
     "total": 0,
     "smallBizAwards": 0,
@@ -270,11 +312,11 @@
     "topRecipients": []
   },
   "classification": {
-    "summary": "The buyer seeks a single‑award IDIQ for a commercial off‑the‑shelf web‑based jury management system that selects, manages, tracks jurors, performs financial and statistical calculations, and integrates with the Judiciary's Momentum financial system.",
+    "summary": "The buyer seeks a single-award IDIQ for a commercial off‑the‑shelf web‑based jury management system that selects, manages, tracks jurors, performs financial and statistical calculations, and integrates with the Judiciary’s Momentum financial system.",
     "queries": [
       "Administrative Office of the U.S. Courts jury management system procurement",
-      "Current jury management system vendor for U.S. federal courts",
-      "Recent IDIQ awards for court management systems"
+      "AO US Courts recent IDIQ awards",
+      "Momentum financial system integration jury management solution"
     ]
   }
 }

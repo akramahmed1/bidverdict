@@ -1,0 +1,395 @@
+{
+  "runId": "run-2026-10-17T02-01-45-425Z",
+  "createdAt": "2026-10-17T02:01:45.428Z",
+  "opportunity": {
+    "id": "SPE7MX27R9999",
+    "title": "Long-Term Storage and Vendor-Managed Inventory (VMI) Services for Government-Owned Microelectronics",
+    "agency": "Department of Defense",
+    "subAgency": "Defense Logistics Agency",
+    "noticeType": "Sources Sought",
+    "naics": "493190",
+    "setAside": "NONE",
+    "responseDeadline": "2026-11-30T16:00:00-05:00",
+    "placeOfPerformance": "UNSPECIFIED",
+    "description": "DLA Weapons Support market research for vendor-managed inventory storage, management, packaging and distribution of Government-owned serialized microcircuits: EDI ANSI X.12 transactions, Government property module and IUID registry, long-term storage to GEIA-STD-0003A, monthly reconciliation, annual wall-to-wall inventories, and disposal per CNSSI 3006. Logistics and warehousing only. Contemplated firm fixed price with one base year and up to eight option years. The notice asks for business size under NAICS 493190 (the NAICS field itself is blank on SAM.gov). No set-aside used.",
+    "sourceUrl": "https://sam.gov/workspace/contract/opp/82b94ae9624b4a6b88b94e9a2d1a510f/view",
+    "retrievedFrom": "SAM.gov public notice data, 2026-10-16"
+  },
+  "profile": {
+    "_note": "REAL company (the founder's), read from the founder's own SAM.gov entity record on 2026-10-16. The registration is a work-in-progress draft, not active: no CAGE code yet, no socio-economic certifications. Only NAICS codes, state and size are used here; no identifiers, banking or contact details are stored.",
+    "id": "sq-trading",
+    "name": "SQ Trading INC",
+    "hqState": "IL",
+    "size": "small",
+    "naics": [
+      "493110",
+      "238290",
+      "238390",
+      "238910",
+      "311811",
+      "311812",
+      "311813",
+      "323111",
+      "323113",
+      "335210",
+      "492110",
+      "493190",
+      "518210",
+      "611420"
+    ],
+    "certifications": [],
+    "placesOfPerformance": [
+      "ANY"
+    ],
+    "pastPerformance": "None on record. Entity started April 2026; no federal awards.",
+    "capacityNotes": "Based in Illinois; can work in Illinois or across the USA. SAM registration still in draft (CAGE verification pending), so it cannot be awarded a contract today.",
+    "verification": [
+      "NAICS codes read from the founder's SAM.gov Assertions page (work-in-progress registration) on 2026-10-16.",
+      "No certifications, so every set-aside notice is blocked by the rules gate; only open (unrestricted) notices can pass."
+    ]
+  },
+  "gate": {
+    "pass": true,
+    "checks": [
+      {
+        "rule": "deadline",
+        "pass": true,
+        "reason": "Responses due 2026-11-30T16:00:00-05:00; still open."
+      },
+      {
+        "rule": "set_aside",
+        "pass": true,
+        "reason": "Full and open competition; no set-aside required."
+      },
+      {
+        "rule": "naics",
+        "pass": true,
+        "reason": "NAICS 493190 is in the company's codes."
+      },
+      {
+        "rule": "place_of_performance",
+        "pass": true,
+        "reason": "Place of performance is not stated in the notice; verify before bidding."
+      }
+    ]
+  },
+  "stoppedAtGate": false,
+  "sources": [
+    {
+      "id": "A1",
+      "title": "USAspending award SPE60325C5002: DGCI CORPORATION, $397,716,480",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_SPE60325C5002_9700_-NONE-_-NONE-",
+      "snippet": "2025-02-13 | Department of Defense / Defense Logistics Agency | 8511123276!COCO STORAGE SERVICES",
+      "query": "usaspending"
+    },
+    {
+      "id": "A2",
+      "title": "USAspending award SPE60319C5006: SHORE TERMINALS LLC, $214,148,748",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_SPE60319C5006_9700_-NONE-_-NONE-",
+      "snippet": "2019-05-06 | Department of Defense / Defense Logistics Agency | 8506424668!CONUS COCO STORAGE SERVICES",
+      "query": "usaspending"
+    },
+    {
+      "id": "A3",
+      "title": "USAspending award SP060013C5324: MINA PETROLEUM FZE, $209,906,825",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_SP060013C5324_9700_-NONE-_-NONE-",
+      "snippet": "2013-03-25 | Department of Defense / Defense Logistics Agency | TO ESTABLISH THE BASIC CONTRACT AWARD FOR A CONTRACTOR-OWNED, CONTRACTOR-OPERATED STORAGE FACILITY IN PORT OF SALALAH, OMAN TO RECEIVE, STORE, PROTECT AND SHIP TWO GRADES 670,836 BBLS (FILL CAPACITY) OF JP5 AND 789,206 BBLS (FILL CAPACITY) OF F76 OF U.S. GOVERNMENT OWNED PRODUCT.",
+      "query": "usaspending"
+    },
+    {
+      "id": "A4",
+      "title": "USAspending award SP060010C5031: MOTOR OIL (HELLAS) CORINTH REFINERIES S.A., $190,394,911",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_SP060010C5031_9700_-NONE-_-NONE-",
+      "snippet": "2009-12-22 | Department of Defense / Defense Logistics Agency | FUEL STORAGE SERVICES",
+      "query": "usaspending"
+    },
+    {
+      "id": "A5",
+      "title": "USAspending award SPE60323C5000: IES DOWNSTREAM LLC, $172,206,114",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_SPE60323C5000_9700_-NONE-_-NONE-",
+      "snippet": "2022-10-26 | Department of Defense / Defense Logistics Agency | 8509452729!OCONUS COCO STORAGE SERVICES",
+      "query": "usaspending"
+    },
+    {
+      "id": "S1",
+      "title": "The Evolution Of Vendor Managed Inventory In Aerospace",
+      "url": "https://www.valencesurfacetech.com/services/custom-and-other-services/vendor-managed-inventory",
+      "snippet": "Vendor Managed Inventory, or VMI, is a streamlined approach to inventory management and order fulfillment, where the supplier takes on the responsibility of maintaining their client’s inventory levels. By actively monitoring the client’s stock, the supplier ensures that the right products are available at the right time, mitigating shortages and overstock situations.\n\n## Key Components Of Vendor Managed Inventory [...] Vendor Managed Inventory (VMI) Services offer a multitude of benefits that ar",
+      "query": "DoD vendor managed inventory services microelectronics"
+    },
+    {
+      "id": "S2",
+      "title": "What is Vendor Managed Inventory (VMI) and How Does it Work?",
+      "url": "https://www.afcind.com/afc-learning-center/what-is-vendor-managed-inventory-vmi-and-how-does-it-work",
+      "snippet": "Solutions\n  + Inventory Management\n    - Vendor Managed Inventory (VMI)\n    - Vending Solutions\n  + Value-Added Services\n    - Kitting & Light Assembly\n    - Custom Packaging & Private Labeling\n    - Panel Building & Sub-Assembly\n  + Products\n    - Standard & Special Fasteners\n    - Custom Engineered Components\n    - Aerospace & Military Hardware\n    - Electrical & Electronic Components\n    - Pneumatic & Hydraulic Fittings\n    - Strut Fittings & Hangers\n    - Panel Integrations & Assembly [...] ",
+      "query": "DoD vendor managed inventory services microelectronics"
+    },
+    {
+      "id": "S3",
+      "title": "What is Vendor Managed Inventory (VMI)? | SAP",
+      "url": "https://www.sap.com/resources/what-is-vendor-managed-inventory-vmi",
+      "snippet": "VMI, also known as supplier-managed inventory from a customer’s point of view, is a data-driven initiative where suppliers manage the inventory levels of their own products, components, or materials at the on-site location of the vendor or distributor. This helps to reduce both shortages and surpluses. By shifting inventory management responsibilities in this way, supply chains can run leaner and more efficiently – reducing overheads and improving supply chain responsiveness and agility. [...] #",
+      "query": "DoD vendor managed inventory services microelectronics"
+    },
+    {
+      "id": "S4",
+      "title": "Vendor Managed Inventory (VMI) Programs | Würth Industry USA",
+      "url": "https://www.wurthindustry.com/en/wina/solutions/inventory_management/Inventory_management.php",
+      "snippet": "We provide you with a customized vendor-managed inventory (VMI) program that automatically manages your industrial inventory and closely tracks your material flow, ensuring that you always receive the right products, at the right time, to the right place. [...] 1 (877) 999-8784\n\nEnglish\n\nWürth Logo\n\n1. Home\n2. Solutions\n3. Inventory Management\n\n Inventory Management\n  + Transition & Implementation\n Engineering Assistance\n Quality Control\n System Solutions\n Kanban\n Vending Solutions\n Kitting & As",
+      "query": "DoD vendor managed inventory services microelectronics"
+    },
+    {
+      "id": "S5",
+      "title": "DLA Weapons Support (WS)",
+      "url": "https://www.highergov.com/agency/dla-weapons-support-ws-3181",
+      "snippet": "HigherGov Logo\n\nSign In\n\nTools to Win.\n\nPowerful Market Intelligence\n\nLeading Business Development Tools\n\nSubscribers awarded $225 Billion Last 12 Months\n\n  \n\n##### You've used all of your free views.\n\nStart Free Trial  Schedule Demo\n\nStart Free Trial Schedule Demo\n\n New Contract Opportunities\n New Grant Opportunities\n New Contract Awards\n New Grant Awards\n\n CSV\n Excel\n\n Copy URL\n Email\n Tweet\n\n Search Agencies\n\n# DLA Weapons Support Logo DLA Weapons Support (WS) [DoD - DLA]\n\n## Overview\n\nType [",
+      "query": "DLA Weapons Support VMI contract award"
+    },
+    {
+      "id": "S6",
+      "title": "Solutions - SupplyCore - DLA Prime Vendor & TLS Contract Holder",
+      "url": "https://www.supplycore.com/solutions",
+      "snippet": "SupplyCore’s Weapon Systems Support (WSS) program provides industry-leading supply chain management solutions for spare parts and end item support for commercial automotive, aviation and military weapon systems. We also provide parts to water purification systems under DLA’s Water Purification Initiative. Our Weapon Systems Support contracts support both the United States and our allies, providing them with: [...] ## Weapon Systems Support\n\n## Tailored Logistics Support [...] Reliability of part",
+      "query": "DLA Weapons Support VMI contract award"
+    },
+    {
+      "id": "S7",
+      "title": "DLA Weapons Support News",
+      "url": "https://www.dla.mil/About-DLA/News/Weapons-Support",
+      "snippet": "COLUMBUS, Ohio —\nAri Daring is a current member of the Defense Logistics Agency Weapons Support Pathways to Career Excellence program. He started his PaCE journey in February 2025 and will graduate February 2027 as a post award contract administrator.\n\nFront shot of man wearing hat and blue shirt throwing paper airplane.\n\nSept. 21, 2026\n\nFrom supply line to flight Line: DLA Weapons Support honors 79 years of Air Force excellence [...] Aug. 27, 2026\n\nDLA Weapons Support operations directors award",
+      "query": "DLA Weapons Support VMI contract award"
+    },
+    {
+      "id": "S8",
+      "title": "Selling to DLA Land and Maritime",
+      "url": "https://www.dla.mil/Land-and-Maritime/Business/Selling",
+      "snippet": "Per the Federal Acquisition Regulation (FAR) 15.201(e), “ RFIs may be used when the Government does not presently intend to award a contract, but wants to obtain price, delivery, other market information or capabilities for planning purposes. Responses to these notices are not offers and cannot be accepted by the Government to form a binding contract. There is no required format for RFIs.”\n\n### DLA Weapons Support (Columbus) RFIs",
+      "query": "DLA Weapons Support VMI contract award"
+    },
+    {
+      "id": "S9",
+      "title": "Federal Logistics Contracts 101: Types, Codes, and Tips",
+      "url": "https://blogs.usfcr.com/federal-logistics-contracts",
+      "snippet": "Supply Chain Management (NAICS 541614): This involves overseeing and managing the entire supply chain, from procurement to production to distribution.\n Inventory Control (NAICS 493190): These contracts focus on managing stock levels, tracking goods, and optimizing storage solutions.\n Disposal Services (NAICS 562111): Responsible for removing and properly disposing of waste or unused materials.",
+      "query": "NAICS 493190 recent DoD contracts"
+    },
+    {
+      "id": "S10",
+      "title": "NAICS codes by domain | GSA",
+      "url": "https://www.gsa.gov/buy-through-us/products-and-services/professional-services/buy-services/oasis-plus/about-oasis-plus/domains-scope-and-labor-categories/naics-codes-by-domain",
+      "snippet": "| X0807 | 488999 All Other Support Activities for Transportation | $25.0 Million |\n| X0808 | 492110 Couriers and Express Delivery Services | 1,500 employees |\n| X0809 | 493110 General Warehousing and Storage | $34.0 Million |\n| X0810 | 493120 Refrigerated Warehousing and Storage | $36.5 Million |\n| X0811 | 493190 Other Warehousing and Storage | $36.5 Million |\n| X0812 | 541330 Engineering Services | $25.5 Million | [...] Services in this Domain include any and all services required to maintain a",
+      "query": "NAICS 493190 recent DoD contracts"
+    },
+    {
+      "id": "S11",
+      "title": "NAICS Code Description",
+      "url": "https://www.naics.com/naics-code-description?code=493190",
+      "snippet": "| 2007 NAICS | 2012 NAICS | 2017 NAICS | Index Entries for 493190 |\n ---  --- |\n| 493190 | 493190 | 493190 | Automobile dead storage |\n| 493190 | 493190 | 493190 | Bonded warehousing (except farm products, general merchandise, refrigerated) |\n| 493190 | 493190 | 493190 | Bulk petroleum storage |\n| 493190 | 493190 | 493190 | Document storage and warehousing |\n| 493190 | 493190 | 493190 | Lumber storage terminals | [...] | 493190 | 493190 | 493190 | Private warehousing and storage (except farm pro",
+      "query": "NAICS 493190 recent DoD contracts"
+    },
+    {
+      "id": "S12",
+      "title": "NAICS Code 493190 - Other Warehousing and Storage | IBISWorld",
+      "url": "https://www.ibisworld.com/classifications/naics/493190/other-warehousing-and-storage",
+      "snippet": "Storing hazardous materials for treatment and disposal--are classified in U.S. Industry 562211, Hazardous Waste Treatment and Disposal;\n\n  ### IBISWorld industry research report\n\n  Waste Treatment & Disposal Services in the US\n\n## NAICS Hierarchy 493190 - Other Warehousing and Storage [...] NAICS Code 493190 - Other Warehousing and Storage sits in the 2-digit Other Warehousing and Storage sector. NAICS codes can be 2- to 6-digits and the further along the hierarchy, the more detailed and specifi",
+      "query": "NAICS 493190 recent DoD contracts"
+    }
+  ],
+  "supportedClaims": [
+    {
+      "text": "Inventory control contracts under NAICS 493190 focus on managing stock levels, tracking goods, and optimizing storage solutions.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://blogs.usfcr.com/federal-logistics-contracts"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "The size standard for NAICS 493190 is $36.5 million in average annual receipts.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.gsa.gov/buy-through-us/products-and-services/professional-services/buy-services/oasis-plus/about-oasis-plus/domains-scope-and-labor-categories/naics-codes-by-domain"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "Vendor Managed Inventory (VMI) involves suppliers managing inventory levels at the customer's location to reduce shortages and overstock.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.valencesurfacetech.com/services/custom-and-other-services/vendor-managed-inventory"
+      ],
+      "status": "supported"
+    }
+  ],
+  "droppedClaims": [
+    {
+      "text": "DGCI Corporation was awarded $397,716,480 for storage services by the DoD.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_SPE60325C5002_9700_-NONE-_-NONE-"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (Award unrelated to this specific VMI opportunity.)"
+    },
+    {
+      "text": "Shore Terminals LLC received $214,148,748 for storage services from the DoD.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_SPE60319C5006_9700_-NONE-_-NONE-"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (Award unrelated to this specific VMI opportunity.)"
+    }
+  ],
+  "verdict": {
+    "decision": "CONDITIONAL",
+    "confidence": "medium",
+    "rationale": [
+      {
+        "point": "The opportunity's NAICS 493190 matches the company's registered NAICS code, and the work focus (inventory control, stock management, storage optimization) aligns with the company's listed capability.",
+        "claimIds": [
+          1
+        ]
+      },
+      {
+        "point": "The size standard for NAICS 493190 is $36.5M average annual receipts; the company is registered as small, indicating it meets this threshold.",
+        "claimIds": [
+          2
+        ]
+      },
+      {
+        "point": "The requirement for Vendor-Managed Inventory (VMI) services directly corresponds to the VMI definition of suppliers managing inventory levels at the customer's location.",
+        "claimIds": [
+          3
+        ]
+      },
+      {
+        "point": "The set-aside is NONE (unrestricted), so the company's lack of socio-economic certifications does not block eligibility per the profile's verification note.",
+        "claimIds": []
+      },
+      {
+        "point": "The SAM.gov registration is still a draft with CAGE verification pending, meaning the company cannot be awarded a contract today; however, the bid due date (2026-11-30) allows time to complete registration.",
+        "claimIds": []
+      },
+      {
+        "point": "The company has no past federal awards (entity started April 2026), which may weaken competitiveness given the high median top award value ($49M) in this NAICS for DoD.",
+        "claimIds": []
+      }
+    ],
+    "risks": [
+      "SAM registration and CAGE code may not be finalized before contract award.",
+      "Zero past performance record reduces evaluation credibility.",
+      "Median top award value ($49M) exceeds the NAICS size standard ($36.5M), suggesting the contract could be larger than typical small business capacity.",
+      "Company is newly formed (April 2026) with unproven operational capacity for long-term storage and VMI of microelectronics."
+    ],
+    "nextSteps": [
+      "Complete SAM.gov registration and obtain CAGE code well before the award date.",
+      "Evaluate teaming with a firm that has relevant VMI/storage past performance to strengthen the proposal.",
+      "Assess the solicitation's estimated value and scope to confirm it fits within the company's capacity and the NAICS size standard.",
+      "Prepare a bid response emphasizing NAICS 493190 alignment, VMI capability per claim #3, and any relevant commercial experience."
+    ]
+  },
+  "approval": "pending",
+  "cost": {
+    "totalUsd": 0.00942776,
+    "byTier": {
+      "nano": {
+        "calls": 2,
+        "inputTokens": 1239,
+        "outputTokens": 1433,
+        "usd": 0.00041825999999999994
+      },
+      "super": {
+        "calls": 1,
+        "inputTokens": 3427,
+        "outputTokens": 1876,
+        "usd": 0.0027165
+      },
+      "ultra": {
+        "calls": 1,
+        "inputTokens": 743,
+        "outputTokens": 1850,
+        "usd": 0.006293
+      }
+    }
+  },
+  "calls": [
+    {
+      "tier": "nano",
+      "purpose": "classify requirement",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 260,
+      "outputTokens": 387,
+      "usd": 0.00010847999999999999,
+      "latencyMs": 1886
+    },
+    {
+      "tier": "super",
+      "purpose": "synthesize sourced claims",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "inputTokens": 3427,
+      "outputTokens": 1876,
+      "usd": 0.0027165,
+      "latencyMs": 8308
+    },
+    {
+      "tier": "nano",
+      "purpose": "relevance and support check",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 979,
+      "outputTokens": 1046,
+      "usd": 0.00030977999999999995,
+      "latencyMs": 4718
+    },
+    {
+      "tier": "ultra",
+      "purpose": "final bid/no-bid verdict",
+      "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "inputTokens": 743,
+      "outputTokens": 1850,
+      "usd": 0.006293,
+      "latencyMs": 5965
+    }
+  ],
+  "errors": [],
+  "history": {
+    "total": 147036,
+    "smallBizAwards": 89,
+    "medianAmount": 49192071.51,
+    "topRecipients": [
+      {
+        "name": "DGCI CORPORATION",
+        "count": 1,
+        "amount": 397716480
+      },
+      {
+        "name": "SHORE TERMINALS LLC",
+        "count": 2,
+        "amount": 261532508.13
+      },
+      {
+        "name": "MOTOR OIL (HELLAS) CORINTH REFINERIES S.A.",
+        "count": 2,
+        "amount": 240565803.12
+      },
+      {
+        "name": "MINA PETROLEUM FZE",
+        "count": 1,
+        "amount": 209906825.05
+      },
+      {
+        "name": "PHILIPPINE COASTAL STORAGE & PIPELINE CORPORATION",
+        "count": 2,
+        "amount": 178047083.24
+      }
+    ]
+  },
+  "classification": {
+    "summary": "The DoD is seeking a vendor to provide long‑term storage, management, packaging, and distribution of government‑owned serialized microelectronics under a VMI model, including EDI transactions, inventory reconciliation, and disposal in compliance with specific standards.",
+    "queries": [
+      "DoD vendor managed inventory services microelectronics",
+      "DLA Weapons Support VMI contract award",
+      "NAICS 493190 recent DoD contracts"
+    ]
+  }
+}
