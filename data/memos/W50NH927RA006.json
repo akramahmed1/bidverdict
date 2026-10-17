@@ -1,0 +1,367 @@
+{
+  "runId": "run-2026-10-17T00-28-13-466Z",
+  "createdAt": "2026-10-17T00:28:13.466Z",
+  "opportunity": {
+    "id": "W50NH927RA006",
+    "title": "Scalable GEOINT Architecture IT Contractor Manpower Equivalent (CME) Support",
+    "agency": "Department of Defense",
+    "naics": "541519",
+    "setAside": "NONE",
+    "responseDeadline": "2026-11-13T12:00:00-05:00",
+    "placeOfPerformance": "UNSPECIFIED",
+    "noticeType": "Solicitation",
+    "description": "Request for Proposal W50NH9-27-R-A006 for Scalable Geospatial Intelligence (GEOINT) Architecture IT Contractor Manpower Equivalent support for U.S. Army Intelligence and Security Command (INSCOM). Proposals due Nov 13, 2026 with a proposal validity of at least 240 days. Period of performance: one 30-day transition-in, a 12-month base, four 12-month options and one six-month option. Estimated award date Jan 11, 2027. Primarily time and materials, evaluated on a best value trade-off basis.",
+    "sourceUrl": "https://sam.gov/workspace/contract/opp/9062cba08c704f95ad579bb986068703/view",
+    "retrievedFrom": "SAM.gov public notice data, 2026-10-16",
+    "subAgency": "Department of the Army"
+  },
+  "profile": {
+    "_note": "FICTIONAL DEMO COMPANY used to show the full pipeline on real opportunities. Not a real firm.",
+    "name": "Prairie Digital Systems LLC (demo company)",
+    "naics": [
+      "541512",
+      "541511",
+      "541519"
+    ],
+    "certifications": [
+      "SBA"
+    ],
+    "placesOfPerformance": [
+      "IL",
+      "REMOTE",
+      "VA",
+      "NY"
+    ],
+    "pastPerformance": "Three web and data platform projects for state and local agencies, each under $500K. No prior VA, DoD or HHS prime contracts.",
+    "capacityNotes": "Team of six engineers. No facility clearance. No SOC 2 report yet.",
+    "id": "demo"
+  },
+  "gate": {
+    "pass": true,
+    "checks": [
+      {
+        "rule": "deadline",
+        "pass": true,
+        "reason": "Responses due 2026-11-13T12:00:00-05:00; still open."
+      },
+      {
+        "rule": "set_aside",
+        "pass": true,
+        "reason": "Full and open competition; no set-aside required."
+      },
+      {
+        "rule": "naics",
+        "pass": true,
+        "reason": "NAICS 541519 is in the company's codes."
+      },
+      {
+        "rule": "place_of_performance",
+        "pass": true,
+        "reason": "Place of performance is not stated in the notice; verify before bidding."
+      }
+    ]
+  },
+  "stoppedAtGate": false,
+  "sources": [
+    {
+      "id": "A1",
+      "title": "USAspending award HC108421F0175: WORLD WIDE TECHNOLOGY LLC, $627,456,698",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_HC108421F0175_9700_NNG15SC55B_8000",
+      "snippet": "2021-06-29 | Department of Defense / Defense Information Systems Agency | EA BUNDLE",
+      "query": "usaspending"
+    },
+    {
+      "id": "A2",
+      "title": "USAspending award W911S011C0014: NORTHROP GRUMMAN TECHNICAL SERVICES, INC., $522,176,400",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_W911S011C0014_9700_-NONE-_-NONE-",
+      "snippet": "2011-08-03 | Department of Defense / Department of the Army | BATTLE COMMAND TRAINING PROGRAM SERVICES",
+      "query": "usaspending"
+    },
+    {
+      "id": "A3",
+      "title": "USAspending award W911S018C0004: SERCO INC, $512,784,249",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_W911S018C0004_9700_-NONE-_-NONE-",
+      "snippet": "2018-09-28 | Department of Defense / Department of the Army | MISSION COMMAND TRAINING PROGRAM (MCTP)",
+      "query": "usaspending"
+    },
+    {
+      "id": "A4",
+      "title": "USAspending award FA877122F0022: EMERGENT, LLC, $419,737,159",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_FA877122F0022_9700_NNG15SC33B_8000",
+      "snippet": "2022-02-25 | Department of Defense / Department of the Air Force | PROVIDES AN UNLIMITED LICENSE AGREEMENT FOR A CORE SET OF ORACLE TECHNOLOGY PRODUCTS, DATABASE PRODUCTS AND COMMERCIAL SOFTWARE MAINTENANCE SUPPORT",
+      "query": "usaspending"
+    },
+    {
+      "id": "A5",
+      "title": "USAspending award HC102819F0141: GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC., $372,673,130",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_HC102819F0141_9700_HC102819A0001_9700",
+      "snippet": "2019-01-24 | Department of Defense / Defense Information Systems Agency | ENTERPRISE TRANSPORT MANAGEMENT (ETM) - NEXT GENERATION - CORE SUPPORT",
+      "query": "usaspending"
+    },
+    {
+      "id": "S1",
+      "title": "CACI awarded $32.7 Million Army INSCOM contract - Intelligence Community News",
+      "url": "https://intelligencecommunitynews.com/caci-awarded-32-7-million-army-inscom-contract",
+      "snippet": "FIRES is a classified INSCOM intelligence production program that provides the Department of Defense and Intelligence Community with information on worldwide facilities and infrastructure. For FIRES, CACI supports a wide range of all-source and geospatial intelligence production. This includes fused, tailorable, and scalable all-source and geospatial intelligence products. [...] Tags:\n\nArmy FIRES programArmy INSCOMCACICACI InternationalJohn MengucciKen Asburymetered\n\nDon't Miss It\n\n##### CERDEC ",
+      "query": "Department of Defense INSCOM GEOINT contract award history"
+    },
+    {
+      "id": "S2",
+      "title": "US Army Intelligence & Security Command - Federal Acquisition Strategies, LLC",
+      "url": "https://federalacquisitionstrategies.com/clients/us-army-intelligence-security-command",
+      "snippet": "FAS successfully supported INSCOM to award multiple multi-billion dollar MACs, IDIQ contracts, and task orders.\n Helped INSCOM transition from individual contract strategy to strategically sourced enterprise wide contracts for all major performance areas: linguist, intelligence, analyst support, and information technology.",
+      "query": "Department of Defense INSCOM GEOINT contract award history"
+    },
+    {
+      "id": "S3",
+      "title": "Contract Announcements | National Geospatial-Intelligence Agency",
+      "url": "https://www.nga.mil/news/Contract_Announcements.html",
+      "snippet": "March 19, 2021\n\nSPRINGFIELD, Va.— NGA awarded a contract for Geospatial-Intelligence Access and Information Sharing System Next to Leidos, Inc. of Reston, Virginia. This contract will provide identity, credential and access management services for NGA, the intelligence community and the Department of Defense. The contract has a total period of performance of 10 years with a total value of $187,476,531, including the base period and all unexercised options.\n\nJanuary 14, 2021 [...] contract award ",
+      "query": "Department of Defense INSCOM GEOINT contract award history"
+    },
+    {
+      "id": "S4",
+      "title": "R--U.S. Army Intelligence and Security Command Information Technology Helpdesk Service Support Requirement",
+      "url": "https://sam.gov/opp/7e98ea437183665b62d921892b53ed70/view",
+      "snippet": "security clearance requirements. Contractor will be required to adhere to HQ INSCOM's contractor in/out processing requirements. Full contractor performance begins upon completion of all transition activities with incumbent or within 45 calendar days of contract award, whichever comes first. The contractor shall complete the transition of its workforce within 45 calendar days of contract award ensuring all security clearances have been submitted in the Army Contractor Automated Verification [...",
+      "query": "Department of Defense INSCOM GEOINT contract award history"
+    },
+    {
+      "id": "S5",
+      "title": "The Commercial GEOINT Acquisition Gap — Project Geospatial",
+      "url": "https://projectgeospatial.org/geospatial-frontiers/the-commercial-geoint-acquisition-gap",
+      "snippet": "Interviews with established EOCL contractors, emerging radar and hyperspectral providers, acquisition professionals, and operational GEOINT users could help establish whether current contracting mechanisms offer appropriate levels of flexibility, predictability, and competition. [...] In 2017, NRO assumed the role of primary acquirer of commercial satellite imagery for the intelligence community and Department of Defense. NGA retained significant responsibilities for developing GEOINT requiremen",
+      "query": "Current GEOINT contractor manpower equivalent services providers"
+    },
+    {
+      "id": "S6",
+      "title": "Your Career | National Geospatial-Intelligence Agency",
+      "url": "https://www.nga.mil/careers/Your_Career.html",
+      "snippet": "Connect with Us\n\n# Current Job Openings\n\n ## Contract Specialist [...] Geodetic Surveyors perform geodetic, geophysical, and handheld GEOINT surveys. They use, maintain, and troubleshoot survey equipment, and compute, adjust, and evaluate geodetic survey data. They provide technical expertise on geodetic and geophysical issues to customers and represent NGA in external community forums.\n\n### NGA's Hiring Process\n\nEligibility requirements, instructions on how to apply and information on the secur",
+      "query": "Current GEOINT contractor manpower equivalent services providers"
+    },
+    {
+      "id": "S7",
+      "title": "GEOINT",
+      "url": "https://dodcertpmo.defense.gov/GEOINT",
+      "snippet": "The GEOINT Professional Certification (GPC) program is part of a broader Under Secretary of Defense for Intelligence and Security (USD[I&S]) initiative to further professionalize the Department of Defense Intelligence Enterprise (DIE) workforce.  The program applies to all cleared Department of Defense civilian, military, and contractor practitioners in GEOINT-related work roles throughout the National System for Geospatial Intelligence (NSG).  GPC may also extend to non-DoD members of the NSG [",
+      "query": "Current GEOINT contractor manpower equivalent services providers"
+    },
+    {
+      "id": "S8",
+      "title": "NGA picks 13 companies to compete through $900M intelligence support contracting vehicle | DefenseScoop",
+      "url": "https://defensescoop.com/2023/05/02/nga-picks-13-companies-to-compete-through-900m-intelligence-support-contracting-vehicle",
+      "snippet": "Advertisement\n\n“This suite of IDIQ contracts provide NGA’s core contracted intelligence and foundational analysis encompassing the tasking, collection, processing, exploitation, and dissemination (TCPED) functions that underpin GEOINT work,” according to the agency’s spokesperson.\n\nThe 13 approved contractors include: [...] The National Geospatial-Intelligence Agency officially tapped 13 companies to now vie to supply a range of technologies and mission support services via its major multiple aw",
+      "query": "Current GEOINT contractor manpower equivalent services providers"
+    },
+    {
+      "id": "S9",
+      "title": "Time and Materials Contracts at the Defense Information ...",
+      "url": "https://media.defense.gov/1995/Dec/01/2001715043/-1/-1/1/96-032.pdf",
+      "snippet": "at $2.5 million. In addition, DISA awarded two sole-source Section 8(a) T&M contracts to TRESP Associates, Incorporated, and User Technology Associates, Incorporated, for similar requirements. The TRESP Associates, Incorporated, contract value was $2.7 million and the User Technology Associates, Incorporated, contract value was $1.8 million. Each contract was under the competitive threshold; however, the total value of the contracts amounted to $4.5 million. When questioned why two contracts [..",
+      "query": "Recent DoD best value time and materials GEOINT architecture contracts"
+    },
+    {
+      "id": "S11",
+      "title": "U.S. Department of Defense Contract Spending and the ...",
+      "url": "https://ciaotest.cc.columbia.edu/wps/csis/0025788/f_0025788_21081.pdf",
+      "snippet": "funding mechanisms. Dollars spent on time and materials decreased from $6 billion (6.5 percent of total service contract actions) in 2000 to $8.9 (4.5 percent of total service contract actions) in 2011. The percentage of DoD services contract dollars funded through fixed price contracts increased from $42 billion in 2000 (45.6 percent) to $100 billion in 2011 (50.2 percent). The value of reimbursement contract actions remained constant at 43 percent of total DoD services contract dollars. [...] ",
+      "query": "Recent DoD best value time and materials GEOINT architecture contracts"
+    },
+    {
+      "id": "S12",
+      "title": "USA001270-16-DPAP.pdf",
+      "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA001270-16-DPAP.pdf",
+      "snippet": "In the past, DoD has experienced a significant variation in proposed/negotiated costs based on conservative contractor estimates compared to actual cost outcomes. The estimates factor in known risks, limiting contractor risk in the sole-source, fixed-price environment. Until such time as DoD is confident actual cost outcomes will approximate estimated costs, defined as actual outcomes within two to four percent of estimates, use of an FPI(F) contract is preferred over a FFP arrangement. [...] Ti",
+      "query": "Recent DoD best value time and materials GEOINT architecture contracts"
+    }
+  ],
+  "supportedClaims": [
+    {
+      "text": "INSCOM requires IT contractor support for GEOINT-related work, as shown by its FIRES program and enterprise-wide IT contracts.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://intelligencecommunitynews.com/caci-awarded-32-7-million-army-inscom-contract",
+        "https://federalacquisitionstrategies.com/clients/us-army-intelligence-security-command"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "The contract is structured as a time-and-materials agreement, which can lead to cost overruns if not tightly managed.",
+      "kind": "risk",
+      "sourceUrls": [
+        "https://media.defense.gov/1995/Dec/01/2001715043/-1/-1/1/96-032.pdf"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "CACI was awarded a $32.7 million Army INSCOM contract for the FIRES geospatial intelligence program.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://intelligencecommunitynews.com/caci-awarded-32-7-million-army-inscom-contract"
+      ],
+      "status": "supported"
+    }
+  ],
+  "droppedClaims": [
+    {
+      "text": "World Wide Technology LLC received a $627,456,698 DoD award for EA BUNDLE under NAICS 541519.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_HC108421F0175_9700_NNG15SC55B_8000"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (award mentioned but NAICS code not in source and unrelated program)"
+    },
+    {
+      "text": "Northrop Grumman Technical Services, Inc. was awarded $522,176,400 by the DoD for BATTLE COMMAND TRAINING PROGRAM SERVICES.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_W911S011C0014_9700_-NONE-_-NONE-"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (award for battle command training, not GEOINT architecture)"
+    }
+  ],
+  "verdict": {
+    "decision": "NO_BID",
+    "confidence": "high",
+    "rationale": [
+      {
+        "point": "Company has no prior DoD prime contracts and past performance limited to state/local projects under $500K each, while the opportunity involves DoD GEOINT work at a scale indicated by a $32.7M comparable contract (claim #3).",
+        "claimIds": [
+          1,
+          3
+        ]
+      },
+      {
+        "point": "Contract is time-and-materials (claim #2), posing cost overrun risk; company lacks experience managing T&M contracts and has no SOC 2 report or facility clearance to mitigate oversight.",
+        "claimIds": [
+          2
+        ]
+      },
+      {
+        "point": "No small-business set-aside for this opportunity (set-aside NONE) means full-and-open competition against large incumbents like CACI (claim #3), while company has only six engineers and no facility clearance.",
+        "claimIds": [
+          3
+        ]
+      }
+    ],
+    "risks": [
+      "Cost overruns on T&M contract without strong management experience (claim #2)",
+      "Insufficient past performance for DoD GEOINT scope (claims #1, #3)",
+      "Lack of facility clearance likely required for GEOINT work",
+      "Team of six engineers inadequate for probable scale (claim #3 indicates multi-million dollar effort)",
+      "Full-and-open competition against large, experienced contractors"
+    ],
+    "nextSteps": [
+      "Target DoD opportunities with small-business set-asides matching NAICS 541519",
+      "Build past performance via subcontracting on GEOINT-related efforts",
+      "Pursue facility clearance and SOC 2 certification to meet DoD requirements",
+      "Consider teaming with a prime contractor as a subcontractor for similar work"
+    ]
+  },
+  "approval": "pending",
+  "cost": {
+    "totalUsd": 0.00857898,
+    "byTier": {
+      "nano": {
+        "calls": 2,
+        "inputTokens": 1283,
+        "outputTokens": 1950,
+        "usd": 0.00054498
+      },
+      "super": {
+        "calls": 1,
+        "inputTokens": 2817,
+        "outputTokens": 2421,
+        "usd": 0.003024
+      },
+      "ultra": {
+        "calls": 1,
+        "inputTokens": 543,
+        "outputTokens": 1489,
+        "usd": 0.00501
+      }
+    }
+  },
+  "calls": [
+    {
+      "tier": "nano",
+      "purpose": "classify requirement",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 255,
+      "outputTokens": 147,
+      "usd": 0.00005058,
+      "latencyMs": 716
+    },
+    {
+      "tier": "super",
+      "purpose": "synthesize sourced claims",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "inputTokens": 2817,
+      "outputTokens": 2421,
+      "usd": 0.003024,
+      "latencyMs": 13004
+    },
+    {
+      "tier": "nano",
+      "purpose": "relevance and support check",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 1028,
+      "outputTokens": 1803,
+      "usd": 0.0004944,
+      "latencyMs": 21041
+    },
+    {
+      "tier": "ultra",
+      "purpose": "final bid/no-bid verdict",
+      "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "inputTokens": 543,
+      "outputTokens": 1489,
+      "usd": 0.00501,
+      "latencyMs": 4472
+    }
+  ],
+  "errors": [],
+  "history": {
+    "total": 56751,
+    "smallBizAwards": 16071,
+    "medianAmount": 151992005.49,
+    "topRecipients": [
+      {
+        "name": "WORLD WIDE TECHNOLOGY LLC",
+        "count": 2,
+        "amount": 820340031.1800001
+      },
+      {
+        "name": "IRON BOW TECHNOLOGIES, LLC",
+        "count": 3,
+        "amount": 810316536.2400001
+      },
+      {
+        "name": "DELL FEDERAL SYSTEMS L.P",
+        "count": 3,
+        "amount": 639645617.7
+      },
+      {
+        "name": "EMERGENT, LLC",
+        "count": 2,
+        "amount": 525839800.09000003
+      },
+      {
+        "name": "NORTHROP GRUMMAN TECHNICAL SERVICES, INC.",
+        "count": 1,
+        "amount": 522176399.72
+      }
+    ]
+  },
+  "classification": {
+    "summary": "The DoD seeks a scalable GEOINT architecture IT contractor to provide manpower equivalent support for INSCOM under a time-and-materials, best-value contract.",
+    "queries": [
+      "Department of Defense INSCOM GEOINT contract award history",
+      "Current GEOINT contractor manpower equivalent services providers",
+      "Recent DoD best value time and materials GEOINT architecture contracts"
+    ]
+  }
+}

@@ -1,0 +1,386 @@
+{
+  "runId": "run-2026-10-17T00-25-20-555Z",
+  "createdAt": "2026-10-17T00:25:20.555Z",
+  "opportunity": {
+    "id": "36C24227Q0060",
+    "title": "DA01--FY 27 NYH ISCV DATA RECOVERY SERVICES - 1 YEAR ONLY",
+    "agency": "Department of Veterans Affairs",
+    "subAgency": "Department of Veterans Affairs",
+    "naics": "541512",
+    "setAside": "NONE",
+    "responseDeadline": "2026-10-23T10:00:00-04:00",
+    "placeOfPerformance": "NY",
+    "noticeType": "Sources Sought",
+    "description": "Sources Sought for Philips ISCV Radiographic DICOM data recovery for the VA New York Harbor Healthcare System, Manhattan Campus. Two NetGear ReadyNAS 3220 systems failed with loss of both RAID6 volumes (24 SATA disks). Vendor must forensically image disks, restore DICOM studies from 2007 to 2020, deliver recovered data migratable into AGFA Radiology PACS, and securely destroy all VA data with a Certificate of Destruction. Respondents must confirm a Class-10 (ISO 4) clean room, SSAE 18 SOC 1 Type II, SOC 2 Type I and SOC 3 audit compliance, and IACRB Certified Data Recovery Professional credentials. FAR Part 12 commercial procurement, size standard $34 million, period of performance about Dec 1 2026 to Jan 31 2027. The notice states responses will be used to decide whether to set the procurement aside.",
+    "sourceUrl": "https://sam.gov/workspace/contract/opp/721c4aaa8ee34a9ba5f7a0ace045ce8c/view",
+    "retrievedFrom": "SAM.gov public notice page, 2026-10-16"
+  },
+  "profile": {
+    "_note": "FICTIONAL DEMO COMPANY used to show the full pipeline on real opportunities. Not a real firm.",
+    "name": "Prairie Digital Systems LLC (demo company)",
+    "naics": [
+      "541512",
+      "541511",
+      "541519"
+    ],
+    "certifications": [
+      "SBA"
+    ],
+    "placesOfPerformance": [
+      "IL",
+      "REMOTE",
+      "VA",
+      "NY"
+    ],
+    "pastPerformance": "Three web and data platform projects for state and local agencies, each under $500K. No prior VA, DoD or HHS prime contracts.",
+    "capacityNotes": "Team of six engineers. No facility clearance. No SOC 2 report yet.",
+    "id": "demo"
+  },
+  "gate": {
+    "pass": true,
+    "checks": [
+      {
+        "rule": "deadline",
+        "pass": true,
+        "reason": "Responses due 2026-10-23T10:00:00-04:00; still open."
+      },
+      {
+        "rule": "set_aside",
+        "pass": true,
+        "reason": "Full and open competition; no set-aside required."
+      },
+      {
+        "rule": "naics",
+        "pass": true,
+        "reason": "NAICS 541512 is in the company's codes."
+      },
+      {
+        "rule": "place_of_performance",
+        "pass": true,
+        "reason": "Place of performance NY is within the company's coverage."
+      }
+    ]
+  },
+  "stoppedAtGate": false,
+  "sources": [
+    {
+      "id": "A1",
+      "title": "USAspending award 36C10B22N0051EHRM: ORACLE HEALTH GOVERNMENT SERVICES, INC., $2,120,623,738",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B22N0051EHRM_3600_36C10B18D5000_3600",
+      "snippet": "2022-09-28 | Department of Veterans Affairs / Department of Veterans Affairs | EHRM WAVES K, L, M (VISN 23) AND N, O (VISN 15) DEPLOYMENTS",
+      "query": "usaspending"
+    },
+    {
+      "id": "A2",
+      "title": "USAspending award 36C10B18N0003: ORACLE HEALTH GOVERNMENT SERVICES, INC., $1,511,268,663",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B18N0003_3600_36C10B18D5000_3600",
+      "snippet": "2018-05-17 | Department of Veterans Affairs / Department of Veterans Affairs | IGF::OT::IGF TASK ORDER 36C10B18N0003 UNDER IDIQ CONTRACT 36C10B18D5000 FOR OPERATIONAL MANAGEMENT SERVICES, TO INCLUDE HOSTING, FOR THE EHRM APPLICATIONS, APPLICATION SERVICES, AND ALL SUPPORTING EHRM DATA.",
+      "query": "usaspending"
+    },
+    {
+      "id": "A3",
+      "title": "USAspending award 36C10B21N10070021: BOOZ ALLEN HAMILTON INC, $1,365,285,600",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B21N10070021_3600_VA11816D1007_3600",
+      "snippet": "2021-05-18 | Department of Veterans Affairs / Department of Veterans Affairs | TRANSFORMATION TWENTY-ONE TOTAL TECHNOLOGY NEXT GENERATION (T4NG) TASK ORDER - BENEFITS INTEGRATED DELIVERY",
+      "query": "usaspending"
+    },
+    {
+      "id": "A4",
+      "title": "USAspending award 36C10B21N10150056: BOOZ ALLEN HAMILTON INC, $1,139,008,033",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B21N10150056_3600_VA11816D1015_3600",
+      "snippet": "2021-01-07 | Department of Veterans Affairs / Department of Veterans Affairs | PRODUCT AND TECHNOLOGY ECOSYSTEM MANAGEMENT SERVICES (PTEMS)WHICH INCLUDES PRODUCT DELIVERY AND LIFECYCLE MANAGEMENT TO TRANSFORM VA BY TAPPING INTO EMERGING TECHNOLOGIES, CONNECTING DEVELOPERS WITH VA DATA, AND MAKING HUMAN CENTERED DESIGN (HCD).",
+      "query": "usaspending"
+    },
+    {
+      "id": "A5",
+      "title": "USAspending award 36C10B22N10070023: BOOZ ALLEN HAMILTON INC, $859,669,886",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B22N10070023_3600_VA11816D1007_3600",
+      "snippet": "2022-09-26 | Department of Veterans Affairs / Department of Veterans Affairs | NEW TO - EHRM PMO IO SUPPORT",
+      "query": "usaspending"
+    },
+    {
+      "id": "S1",
+      "title": "VA New York Harbor Healthcare System - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/VA_New_York_Harbor_Healthcare_System",
+      "snippet": "The VA New York Harbor Healthcare System is a set of hospitals run by the United States Department of Veterans Affairs in the New York City area. It comprises three medical centers, two community outpatient clinics, and three veterans centers. The system is a component of the much larger VA Health Care Network. [...] [edit]\n\nThe New York Harbor Healthcare System has five major locations across four of the five boroughs \"Borough (New York City)\") of New York: [...] | New York/New Jersey VA Health",
+      "query": "VA New York Harbor Healthcare System procurement office"
+    },
+    {
+      "id": "S2",
+      "title": "Contact Us | VA New York Harbor Health Care | Veterans Affairs",
+      "url": "https://www.va.gov/new-york-harbor-health-care/contact-us",
+      "snippet": "Find phone numbers for many of the administrative and program offices at VA New York Harbor health care.\n\n### Mailing address\n\nBrooklyn VA Medical Center  \n800 Poly Place  \nBrooklyn, NY 11209\n\nManhattan VA Medical Center  \n423 East 23 Street  \nNew York, NY 10010\n\nSt. Albans Community Living Center  \n179-00 Linden Boulevard  \nJamaica, NY 11425\n\n### Toll-free:800-877-6976\n\nTo use TeleType for the Deaf (TTY) services: 711\n\n## Media and press [...] ## Media and press\n\nThe Office of Public Affairs ca",
+      "query": "VA New York Harbor Healthcare System procurement office"
+    },
+    {
+      "id": "S3",
+      "title": "Company Profile - Va New York Harbor Healthcare System",
+      "url": "https://chemdmart.com/company-profile/va-new-york-harbor-healthcare-system",
+      "snippet": "## \n\n|  |  |\n --- |\n| Company Name | Va New York Harbor Healthcare System |\n| Country | United States United States |\n| Address | N/A |\n| Telephone | N/A |\n| Email | N/A |\n\n##### Choose your Delivery Location\n\nEnter your address and we will specify the offer for your area.\n\n###### Select a Location\n\n ###### Alabama\n\n  Min: $130)\n ###### Arizona\n\n  Min: $150)\n ###### California\n\n  Min: $110)\n ###### Colorado\n\n  Min: $140)\n ###### Florida\n\n  Min: $160)\n ###### Georgia [...] The U Sdepartment Of Ve",
+      "query": "VA New York Harbor Healthcare System procurement office"
+    },
+    {
+      "id": "S4",
+      "title": "VA New York Harbor Health Care | Veterans Affairs",
+      "url": "https://www.va.gov/new-york-harbor-health-care",
+      "snippet": "At VA New York Harbor Healthcare System, our health care teams are deeply experienced and guided by the needs of Veterans, their families, and caregivers. Find a health facility near you, and manage your health online. Sign up for community events and updates.\n\n## Locations\n\n### \n\n423 East 23rd Street  \nNew York, NY 10010-5011\n\nMain phone: ,\n\nVA health connect:\n\nMental health care:\n\nMargaret Cochran Corbin VA Campus, formerly Manhattan VA Medical Center\n\n### [...] ### \n\n800 Poly Place  \nBrooklyn",
+      "query": "VA New York Harbor Healthcare System procurement office"
+    },
+    {
+      "id": "S5",
+      "title": "DICOM in digital pathology - Philips - Philips",
+      "url": "https://www.usa.philips.com/healthcare/article/dicom-in-digital-pathology",
+      "snippet": "The DICOM standard is intended to realize interoperability among scanners, viewers and other pathology systems. Regulators (FDA) require a closed end-to-end system, consisting of a scanner, image viewer and monitor, to be tested as one entity. This is why it remains a challenge for vendors to introduce an open ecosystem that allows interoperability while at the same time remaining compliant with regulatory requirements. [...] The DICOM standard will allow seamless integration of digital patholog",
+      "query": "Philips ISCV Radiographic DICOM data recovery vendor requirements"
+    },
+    {
+      "id": "S6",
+      "title": "IntelliSpace Radiology 4.7 Enterprise User Guide",
+      "url": "https://www.documents.philips.com/assets/Instruction%20for%20Use/20250515/726778386be74fbf9cbbb2de00883eda.pdf?feed=ifu_docs_feed",
+      "snippet": "In the Main tab, enter the Source Name and Description for the DICOM source.\n• Philips recommends that the Source Name matches the ID field in the DICOM metadata.\n• Philips recommends that the Description summarizes the function of the DICOM source (such as “Slice Thickness Series Splitting”).\n7. [...] Setting System Preferences Setting DICOM Sources Preferences 416 IntelliSpace Radiology 4 Enterprise User Guide with iSyntax Philips 4522 170 57751/730  2025-03-13 NOTE IntelliSpace Radiology does",
+      "query": "Philips ISCV Radiographic DICOM data recovery vendor requirements"
+    },
+    {
+      "id": "S7",
+      "title": "Philips Healthcare Informatics, Inc. December 6, 2018 Mark ...",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf18/K182926.pdf",
+      "snippet": "Interoperability with other image management systems 8. Supports DICOM studies received from different modalities types Yes - CT, MR, NM, US, XA, PET, CR, DX, DR, RF, RT, MG, SC, VL, and OP Yes- CT, MR, NM, US, XA, PET, DX, DR, RF, RT, MG, SC, VL 9. Support for IHE Profiles for Key Image Notes (KIN) and Digital Breast Tomosynthesis (DBT) Yes No Operating Platform requirements 10. Client-server technology Yes Yes 11. Thin client installer Yes Yes 12. Multiple concurrent user support Yes Yes [...]",
+      "query": "Philips ISCV Radiographic DICOM data recovery vendor requirements"
+    },
+    {
+      "id": "S8",
+      "title": "Philips warns on some IntelliSpace Cardiovascular devices",
+      "url": "https://www.massdevice.com/philips-warns-some-intellispace-cardiovascular-devices",
+      "snippet": "When the field “Reason for Study” in the application is populated (via HL7 or manually) into ISCV with more than 64 characters, the study data cannot be archived, exported, or copied from ISCV via DICOM or to a CD. However, the images remain available on the ISCV data base, accessible to every authorized user within the application. [...] The Dutch medtech giant intends to install a software solution to resolve the issue.\n\nPhilips ISCV is an integrated multimodality image and information system.",
+      "query": "Philips ISCV Radiographic DICOM data recovery vendor requirements"
+    },
+    {
+      "id": "S9",
+      "title": "VA Makes Awards Totaling up to $22.3 Billion to Make Information Technology Upgrades - VA News",
+      "url": "https://news.va.gov/press-room/va-makes-awards-totaling-up-to-22-3-billion-to-make-information-technology-upgrades",
+      "snippet": "The awards are part of VA’s Transformation Twenty-One Total Technology Next Generation acquisition program, also known as T4NG. Specifically, T4NG will deliver contractor-provided information technology service solutions, including technical support; program management; strategy planning; systems/software engineering; enterprise network engineering; cyber security; among other IT- and health-related IT requirements. The T4NG contract awards support the Department’s MyVA transformation effort, [.",
+      "query": "Recent VA data recovery contract awards 2023"
+    },
+    {
+      "id": "S10",
+      "title": "Veterans Affairs awards $725M EIS contract to AT&T | FedScoop",
+      "url": "https://fedscoop.com/va-att-eis-task-order",
+      "snippet": "FedScoop\n\n Subscribe\n\nAdvertisement\n\nSubscribe to our daily newsletter.\n\nSubscribe\n\n Acquisition\n\n# Veterans Affairs awards $725M EIS contract to AT&T\n\nVA needs a high-speed urban and rural data network to provide care and benefits to about 18 million veterans and their families.\n\nBy Dave Nyczepir\n\n \n\n(Getty Images)\n\nThe Department of Veterans Affairs has awarded a $725 million task order to AT&T to modernize the agency’s data communications platform. [...] VA needs a high-speed urban and rural ",
+      "query": "Recent VA data recovery contract awards 2023"
+    },
+    {
+      "id": "S11",
+      "title": "CONTRACT to GOVCIO, LLC | USAspending",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B22N10030034_3600_VA11816D1003_3600",
+      "snippet": "## U\n\n  \n\n   URI\n   Ultimate Parent Legal Entity Name\n   Unique Entity Identifier (UEI)\n   Unlinked Award\n   Unobligated Balance\n   Unreported Data\n\n# Contract Summary\n\n   Copy link\n   Email\n   X (Twitter)\n   Facebook\n   LinkedIn\n   Reddit\n\nShare\n\n  \n\nDownload\n\n   Copy link\n   Email\n   X (Twitter)\n   Facebook\n   LinkedIn\n   Reddit\n\nShare\n\n## Delivery Order (DO)\n\n\n\nIncludes COVID-19 Spending\n\n  \n\n###### Awarding Agency\n\n##### Department of Veterans Affairs (VA)\n\n###### Recipient [...] Department ",
+      "query": "Recent VA data recovery contract awards 2023"
+    },
+    {
+      "id": "S12",
+      "title": "Top 10 Biggest Contract Awards",
+      "url": "https://govbrew.co/p/top-10-dollar-value-contracts-2023",
+      "snippet": "Winner: VGate, LLC\n Potential Value: $932,824,158\n Contract Number: NNG15SD27B-36C10B23F0172\n Set Aside: SDVOSB\n Funding Agency: VA Technology Acquisition Center (VA)\n Contract Vehicle: SEWP V\n Potential Completion Date: 2026-06-25\n Number of Offers Received: 2\n Place of Performance: Colorado Springs, CO 80921\n\n9. Provide Efficient and Effective Grant, Financial, and Contract Management Services, IT Solutions, and Support to the Grant Solutions and Its Partners. [...] 8. Bold Venture\n\n Winner: P",
+      "query": "Recent VA data recovery contract awards 2023"
+    }
+  ],
+  "supportedClaims": [
+    {
+      "text": "Booz Allen Hamilton Inc. received a VA contract worth $1,365,285,600 under award 36C10B21N10070021.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_36C10B21N10070021_3600_VA11816D1007_3600"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "The VA New York Harbor Healthcare System operates medical centers in Brooklyn, Manhattan, and St. Albans, New York.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.va.gov/new-york-harbor-health-care/contact-us"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "The VA New York Harbor Healthcare System is a component of the VA Health Care Network.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/VA_New_York_Harbor_Healthcare_System"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "Handling DICOM data requires a closed end‑to‑end system to meet FDA regulatory requirements.",
+      "kind": "risk",
+      "sourceUrls": [
+        "https://www.usa.philips.com/healthcare/article/dicom-in-digital-pathology"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "The opportunity supports VA’s T4NG initiative, which seeks to deliver IT services such as technical support and cyber security.",
+      "kind": "fit",
+      "sourceUrls": [
+        "https://news.va.gov/press-room/va-makes-awards-totaling-up-to-22-3-billion-to-make-information-technology-upgrades"
+      ],
+      "status": "supported"
+    }
+  ],
+  "droppedClaims": [
+    {
+      "text": "Oracle Health Government Services Inc. was awarded a VA contract valued at $2,120,623,738 under award 36C10B22N0051EHRM.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_36C10B22N0051EHRM_3600_36C10B18D5000_3600"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (unrelated contract award)"
+    }
+  ],
+  "verdict": {
+    "decision": "NO_BID",
+    "confidence": "high",
+    "rationale": [
+      {
+        "point": "Company has no prior VA, DoD, or HHS prime contracts and only state/local projects under $500K, while a large incumbent (Booz Allen Hamilton) holds a $1.36B VA contract (claim 1), indicating intense competition from established primes.",
+        "claimIds": [
+          1
+        ]
+      },
+      {
+        "point": "The requirement to handle DICOM data in a closed end-to-end system for FDA regulatory compliance (claim 4) exceeds the company's current capabilities: no facility clearance, no SOC 2 report, and a six-engineer team without demonstrated medical-data infrastructure.",
+        "claimIds": [
+          4
+        ]
+      },
+      {
+        "point": "Although the opportunity supports VA's T4NG initiative for IT services like technical support and cyber security (claim 5), the company's past performance is limited to web and data platforms, not medical data recovery or cyber security in a regulated healthcare environment.",
+        "claimIds": [
+          5
+        ]
+      }
+    ],
+    "risks": [
+      "Regulatory compliance gap: FDA requirements for DICOM data demand validated, closed-loop systems the company cannot currently provide.",
+      "No VA past performance: zero prime contracts with VA, DoD, or HHS reduces credibility for a healthcare data recovery award.",
+      "Small team and no facility clearance: six engineers without cleared facilities or SOC 2 cannot meet likely security and infrastructure mandates.",
+      "Open competition (no set-aside): the opportunity has no small-business set-aside, favoring large incumbents with proven VA healthcare IT track records."
+    ],
+    "nextSteps": [
+      "Pursue teaming arrangements with a prime that holds FDA-compliant DICOM infrastructure and VA healthcare past performance.",
+      "Invest in SOC 2 Type II attestation and facility clearance to qualify for future VA medical-data opportunities.",
+      "Target smaller VA subcontracting roles or state-level healthcare IT projects to build relevant past performance."
+    ]
+  },
+  "approval": "pending",
+  "cost": {
+    "totalUsd": 0.01174972,
+    "byTier": {
+      "nano": {
+        "calls": 3,
+        "inputTokens": 2808,
+        "outputTokens": 3931,
+        "usd": 0.00111192
+      },
+      "super": {
+        "calls": 1,
+        "inputTokens": 3534,
+        "outputTokens": 3614,
+        "usd": 0.0043128
+      },
+      "ultra": {
+        "calls": 1,
+        "inputTokens": 613,
+        "outputTokens": 1904,
+        "usd": 0.006325
+      }
+    }
+  },
+  "calls": [
+    {
+      "tier": "nano",
+      "purpose": "classify requirement",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 338,
+      "outputTokens": 411,
+      "usd": 0.00011892,
+      "latencyMs": 1753
+    },
+    {
+      "tier": "super",
+      "purpose": "synthesize sourced claims",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "inputTokens": 3534,
+      "outputTokens": 3614,
+      "usd": 0.0043128,
+      "latencyMs": 18722
+    },
+    {
+      "tier": "nano",
+      "purpose": "relevance and support check",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 1223,
+      "outputTokens": 2000,
+      "usd": 0.00055338,
+      "latencyMs": 6517
+    },
+    {
+      "tier": "nano",
+      "purpose": "relevance and support check (retry: reply was not valid JSON)",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 1247,
+      "outputTokens": 1520,
+      "usd": 0.00043962,
+      "latencyMs": 4755
+    },
+    {
+      "tier": "ultra",
+      "purpose": "final bid/no-bid verdict",
+      "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "inputTokens": 613,
+      "outputTokens": 1904,
+      "usd": 0.006325,
+      "latencyMs": 7072
+    }
+  ],
+  "errors": [],
+  "history": {
+    "total": 1030,
+    "smallBizAwards": 312,
+    "medianAmount": 348959728.74,
+    "topRecipients": [
+      {
+        "name": "ORACLE HEALTH GOVERNMENT SERVICES, INC.",
+        "count": 15,
+        "amount": 7687070923.439998
+      },
+      {
+        "name": "BOOZ ALLEN HAMILTON INC",
+        "count": 9,
+        "amount": 6493384924.150002
+      },
+      {
+        "name": "ACCENTURE FEDERAL SERVICES LLC",
+        "count": 3,
+        "amount": 1218950540.74
+      },
+      {
+        "name": "CGI FEDERAL INC.",
+        "count": 1,
+        "amount": 783318157.08
+      },
+      {
+        "name": "GOVCIO, LLC",
+        "count": 3,
+        "amount": 764087928.03
+      }
+    ]
+  },
+  "classification": {
+    "summary": "The VA New York Harbor Healthcare System needs a vendor to recover and securely destroy DICOM data from failed NetGear ReadyNAS systems and migrate it to AGFA Radiology PACS, with strict clean‑room and certification requirements.",
+    "queries": [
+      "VA New York Harbor Healthcare System procurement office",
+      "Philips ISCV Radiographic DICOM data recovery vendor requirements",
+      "Recent VA data recovery contract awards 2023"
+    ]
+  }
+}

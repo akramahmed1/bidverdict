@@ -1,0 +1,367 @@
+{
+  "runId": "run-2026-10-17T00-58-20-101Z",
+  "createdAt": "2026-10-17T00:58:20.101Z",
+  "opportunity": {
+    "id": "W50NH927RA006",
+    "title": "Scalable GEOINT Architecture IT Contractor Manpower Equivalent (CME) Support",
+    "agency": "Department of Defense",
+    "naics": "541519",
+    "setAside": "NONE",
+    "responseDeadline": "2026-11-13T12:00:00-05:00",
+    "placeOfPerformance": "UNSPECIFIED",
+    "noticeType": "Solicitation",
+    "description": "Request for Proposal W50NH9-27-R-A006 for Scalable Geospatial Intelligence (GEOINT) Architecture IT Contractor Manpower Equivalent support for U.S. Army Intelligence and Security Command (INSCOM). Proposals due Nov 13, 2026 with a proposal validity of at least 240 days. Period of performance: one 30-day transition-in, a 12-month base, four 12-month options and one six-month option. Estimated award date Jan 11, 2027. Primarily time and materials, evaluated on a best value trade-off basis.",
+    "sourceUrl": "https://sam.gov/workspace/contract/opp/9062cba08c704f95ad579bb986068703/view",
+    "retrievedFrom": "SAM.gov public notice data, 2026-10-16",
+    "subAgency": "Department of the Army"
+  },
+  "profile": {
+    "_note": "FICTIONAL SAMPLE COMPANY for scenario testing. Not a real firm. Past performance and staffing are invented; only the NAICS codes, set-aside definitions and every opportunity and award figure used against it are real public data.",
+    "id": "cascade-hubzone",
+    "name": "Cascade HUBZone Software Co. (sample)",
+    "hqState": "OR",
+    "size": "small",
+    "fictional": true,
+    "naics": [
+      "541519",
+      "541511"
+    ],
+    "certifications": [
+      "SBA",
+      "HUBZONE"
+    ],
+    "placesOfPerformance": [
+      "OR",
+      "WA",
+      "REMOTE"
+    ],
+    "pastPerformance": "HUBZone-certified in rural Oregon. One VA medical-center scheduling tool (about $400K), one county health records integration ($300K).",
+    "capacityNotes": "Nine staff, all in the HUBZone. No clearance. Small, focused on clinical scheduling software.",
+    "verification": [
+      "NAICS codes confirmed against USAspending reference (api.usaspending.gov/api/v2/references/naics) on 2026-10-16.",
+      "Set-asides follow SBA definitions: SBA = small business, 8A = 8(a) Business Development, HUBZONE, WOSB/EDWOSB, SDVOSB."
+    ]
+  },
+  "gate": {
+    "pass": true,
+    "checks": [
+      {
+        "rule": "deadline",
+        "pass": true,
+        "reason": "Responses due 2026-11-13T12:00:00-05:00; still open."
+      },
+      {
+        "rule": "set_aside",
+        "pass": true,
+        "reason": "Full and open competition; no set-aside required."
+      },
+      {
+        "rule": "naics",
+        "pass": true,
+        "reason": "NAICS 541519 is in the company's codes."
+      },
+      {
+        "rule": "place_of_performance",
+        "pass": true,
+        "reason": "Place of performance is not stated in the notice; verify before bidding."
+      }
+    ]
+  },
+  "stoppedAtGate": false,
+  "sources": [
+    {
+      "id": "A1",
+      "title": "USAspending award HC108421F0175: WORLD WIDE TECHNOLOGY LLC, $627,456,698",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_HC108421F0175_9700_NNG15SC55B_8000",
+      "snippet": "2021-06-29 | Department of Defense / Defense Information Systems Agency | EA BUNDLE",
+      "query": "usaspending"
+    },
+    {
+      "id": "A2",
+      "title": "USAspending award W911S011C0014: NORTHROP GRUMMAN TECHNICAL SERVICES, INC., $522,176,400",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_W911S011C0014_9700_-NONE-_-NONE-",
+      "snippet": "2011-08-03 | Department of Defense / Department of the Army | BATTLE COMMAND TRAINING PROGRAM SERVICES",
+      "query": "usaspending"
+    },
+    {
+      "id": "A3",
+      "title": "USAspending award W911S018C0004: SERCO INC, $512,784,249",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_W911S018C0004_9700_-NONE-_-NONE-",
+      "snippet": "2018-09-28 | Department of Defense / Department of the Army | MISSION COMMAND TRAINING PROGRAM (MCTP)",
+      "query": "usaspending"
+    },
+    {
+      "id": "A4",
+      "title": "USAspending award FA877122F0022: EMERGENT, LLC, $419,737,159",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_FA877122F0022_9700_NNG15SC33B_8000",
+      "snippet": "2022-02-25 | Department of Defense / Department of the Air Force | PROVIDES AN UNLIMITED LICENSE AGREEMENT FOR A CORE SET OF ORACLE TECHNOLOGY PRODUCTS, DATABASE PRODUCTS AND COMMERCIAL SOFTWARE MAINTENANCE SUPPORT",
+      "query": "usaspending"
+    },
+    {
+      "id": "A5",
+      "title": "USAspending award HC102819F0141: GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC., $372,673,130",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_HC102819F0141_9700_HC102819A0001_9700",
+      "snippet": "2019-01-24 | Department of Defense / Defense Information Systems Agency | ENTERPRISE TRANSPORT MANAGEMENT (ETM) - NEXT GENERATION - CORE SUPPORT",
+      "query": "usaspending"
+    },
+    {
+      "id": "S1",
+      "title": "BAE Systems awarded $75 million U.S. Army contract to develop next-generation geospatial intelligence capabilities",
+      "url": "https://www.baesystems.com/en-us/article/bae-systems-awarded--75-million-u-s--army-contract-to-develop-next-generation-geospatial-intelligence-capabilities",
+      "snippet": "The U.S. Army Intelligence and Security Command (INSCOM) has awarded BAE Systems a five-year contract worth as much as $75 million to provide enhanced geospatial intelligence technical and analytical support.\n\nImage 2: BAE Systems was selected to assist the U.S. Army in developing next-generation geospatial intelligence capabilities to enhance soldier situational awareness\n\nThe award was issued under the INSCOM Global Intelligence indefinite delivery, indefinite quantity contract. [...] BAE Syst",
+      "query": "INSCOM GEOINT contract award details"
+    },
+    {
+      "id": "S2",
+      "title": "EIS wins US Army INSCOM GEOINT contract - Intelligence Community News",
+      "url": "https://intelligencecommunitynews.com/eis-wins-us-army-inscom-geoint-contract",
+      "snippet": "Enterprise Information Services, LLC (EIS), a wholly owned subsidiary of Falls Church, VA-based Cognosante, LLC, announced on October 26 it was awarded a contract to support US Army Intelligence and Security Command (INSCOM) Integrated Geospatial Intelligence (GEOINT) Enterprise Architecture operations. Cognosante is a mission-driven technology company providing innovative solutions to federal and state governments as they deliver programs that improve the health and safety of Americans. The [..",
+      "query": "INSCOM GEOINT contract award details"
+    },
+    {
+      "id": "S3",
+      "title": "Contract Announcements | National Geospatial-Intelligence Agency",
+      "url": "https://www.nga.mil/news/Contract_Announcements.html",
+      "snippet": "contract award is approximately $74 million. [...] SPRINGFIELD, Va. — NGA awarded an indefinite delivery, indefinite quantity contract entitled GEOINT Search and Retrieval – Yorktown II to General Dynamics Information Technology, Inc. of Falls Church, Virginia. The contract will support NGA’s “Search as a Service” capability, encompassing program management, operations and sustainment, software maintenance, and software development, to include engineering and integration. The total period of per",
+      "query": "INSCOM GEOINT contract award details"
+    },
+    {
+      "id": "S4",
+      "title": "US Army Intelligence & Security Command - Federal Acquisition Strategies, LLC",
+      "url": "https://federalacquisitionstrategies.com/clients/us-army-intelligence-security-command",
+      "snippet": "FAS successfully supported INSCOM to award multiple multi-billion dollar MACs, IDIQ contracts, and task orders.\n Helped INSCOM transition from individual contract strategy to strategically sourced enterprise wide contracts for all major performance areas: linguist, intelligence, analyst support, and information technology. [...] FAS supported contract efforts accounted for an actual savings from previous requirements of over $500 million based on unique acquisition strategies developed for the a",
+      "query": "INSCOM GEOINT contract award details"
+    },
+    {
+      "id": "S6",
+      "title": "Geoint | Parallax Advanced Research",
+      "url": "https://parallaxresearch.org/geoint",
+      "snippet": "On March 13, 2024, Parallax Advanced Research announced significant advancements in their $5 million Geospatial Intelligence (GEOINT) Detection Algorithms project. This initiative is a key component of the broader $97.5 million MATRIX contract awarded by the Air Force Research Laboratory (AFRL), focusing on enhancing battlefield decision-making through advanced AI-driven GEOINT systems.\n\n# Project Timeline\n\n### June, 2022:\n\nInitial announcement of the $97.5 million MATRIX contract. [...] ### Mar",
+      "query": "current GEOINT contractor for U.S. Army intelligence"
+    },
+    {
+      "id": "S7",
+      "title": "Geospatial Intelligence Battalion - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Geospatial_Intelligence_Battalion",
+      "snippet": "The United States Army Geospatial Intelligence Battalion (GEOINT Battalion or AGB), previously known as the 3rd Military Intelligence Center, is a military intelligence battalion specializing in the production and exploitation of geospatial intelligence (GEOINT), and the only operational military command at the National Geospatial-Intelligence Agency (NGA). Co-located within the NGA headquarters (NGA-East) on Fort Belvoir in Springfield, Virginia, the unit produces and analyzes geospatial [...] ",
+      "query": "current GEOINT contractor for U.S. Army intelligence"
+    },
+    {
+      "id": "S8",
+      "title": "Your Career | National Geospatial-Intelligence Agency",
+      "url": "https://www.nga.mil/careers/Your_Career.html",
+      "snippet": "Connect with Us\n\n# Current Job Openings\n\n ## Contract Specialist [...] Military personnel are critical to NGA’s mission to deliver world-class GEOINT that provides a decisive advantage to policymakers, warfighters, intelligence professionals and first responders. You will have access to advanced GEOINT training that will enable you to leverage your military experience and forge new skills, and collaborate with mission partners on a variety of exciting projects.\n\nLearn More...\n\n### About NGA [...",
+      "query": "current GEOINT contractor for U.S. Army intelligence"
+    },
+    {
+      "id": "S8",
+      "title": "W50NH9-27-R-A006 (formally W50NH9-26-R-A019) Scalable Geospatial Intelligence (GEOINT) Architecture...",
+      "url": "https://www.highergov.com/contract-opportunity/w50nh9-27-r-a006-formally-w50nh9-26-r-a019-scala-w50nh927ra006-o-68703",
+      "snippet": "On 10/14/26 Department of the Army issued Solicitation W50NH927RA006 for W50NH9-27-R-A006 (formally W50NH9-26-R-A019) Scalable Geospatial Intelligence (GEOINT) Architecture Information Technology (IT) Contractor Manpower Equivalent (CME) Support (Scalable GEOINT) due 11/13/26. The opportunity was issued full & open with NAICS 541519 and PSC DA01.\n\n##### Primary Contact\n\nName\n\nCassandra E. Spadina   Profile\n\nEmail\n\ncassandra.e.spadina.civ@army.mil\n\nPhone\n\nNone\n\n## Secondary Contact\n\nName [...] ##",
+      "query": "recent DoD GEOINT architecture contracts similar to W50NH9-27-R-A006"
+    },
+    {
+      "id": "S10",
+      "title": "NGA, GSA & Geospatial Intelligence | Federal Schedules, Inc. (FEDSched)",
+      "url": "https://gsa.federalschedules.com/resources/nga-gsa-geospatial-intelligence-geoint",
+      "snippet": "## CIBORG\n\nThe Commercial Initiative to Buy Operationally Responsive GEOINT (CIBORG) Program is a an initiative created by the NGA/GSA partnership to engage industry and provide government with an efficient method of procuring commercially available geospatial intelligence solutions. Part of CIBORG involves utilizing the GSA Multiple Award Schedule Program, and the GSA IT Schedule 70 Contract in particular, to provide flexible and dynamic procurement solutions to demands for GEOINT. [...] The ad",
+      "query": "recent DoD GEOINT architecture contracts similar to W50NH9-27-R-A006"
+    },
+    {
+      "id": "S11",
+      "title": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/ecddc343e9e54573a4addb13db7dec59/view",
+      "snippet": "Skip to main content\n\nImage 1\n\nAn official website of the United States government\n\nHere’s how you know\n\nHere’s how you know\n\nThe .gov means it’s official.  \n Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.\n\nThe site is secure.  \n The  ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.\n\nImage 2: SAM.gov\n\nMenu [...] SAM.gov\n\nA",
+      "query": "recent DoD GEOINT architecture contracts similar to W50NH9-27-R-A006"
+    }
+  ],
+  "supportedClaims": [
+    {
+      "text": "The solicitation W50NH9-27-R-A006 seeks scalable GEOINT architecture IT contractor manpower equivalent support for U.S. Army INSCOM.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.highergov.com/contract-opportunity/w50nh9-27-r-a006-formally-w50nh9-26-r-a019-scala-w50nh927ra006-o-68703"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "The solicitation W50NH9-27-R-A006 is issued full and open with NAICS 541519 and PSC DA01.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.highergov.com/contract-opportunity/w50nh9-27-r-a006-formally-w50nh9-26-r-a019-scala-w50nh927ra006-o-68703"
+      ],
+      "status": "supported"
+    }
+  ],
+  "droppedClaims": [
+    {
+      "text": "BAE Systems was awarded a up‑to‑$75 million INSCOM contract to develop next‑generation GEOINT capabilities.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.baesystems.com/en-us/article/bae-systems-awarded--75-million-u-s--army-contract-to-develop-next-generation-geospatial-intelligence-capabilities"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (Describes a past award to BAE, not the current solicitation.)"
+    },
+    {
+      "text": "World Wide Technology LLC received a $627,456,698 DoD award under NAICS 541519.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_HC108421F0175_9700_NNG15SC55B_8000"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (Mentions a different award to WW Technology, unrelated to this opportunity.)"
+    },
+    {
+      "text": "Northrop Grumman Technical Services, Inc. was awarded $522,176,400 by the DoD under NAICS 541519.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_W911S011C0014_9700_-NONE-_-NONE-"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (Refers to a separate Northrop Grumman award, not this solicitation.)"
+    }
+  ],
+  "verdict": {
+    "decision": "NO_BID",
+    "confidence": "high",
+    "rationale": [
+      {
+        "point": "The solicitation is full and open (no set-aside) for scalable GEOINT architecture IT contractor manpower equivalent support for U.S. Army INSCOM, indicating a large-scale, complex requirement likely demanding significant staffing, clearances, and specialized GEOINT experience.",
+        "claimIds": [
+          1,
+          2
+        ]
+      },
+      {
+        "point": "Cascade HUBZone Software Co. has only 9 staff, no clearances, and past performance limited to clinical scheduling software ($400K VA) and health records integration ($300K county), which does not align with GEOINT architecture or DoD manpower-equivalent support.",
+        "claimIds": [
+          1,
+          2
+        ]
+      },
+      {
+        "point": "The median of top awards for DoD NAICS 541519 is $151.9M, far exceeding the company's capacity and past contract values, making competitive bidding unrealistic.",
+        "claimIds": [
+          1,
+          2
+        ]
+      }
+    ],
+    "risks": [
+      "Inability to meet staffing, clearance, or technical requirements for GEOINT architecture support",
+      "Extremely low probability of award against large, experienced competitors in a full-and-open competition",
+      "Significant proposal preparation cost with near-zero return on investment",
+      "Potential reputational harm from non-responsive or non-compliant submission"
+    ],
+    "nextSteps": [
+      "Target HUBZone set-aside opportunities aligned with clinical scheduling and health IT expertise",
+      "Explore teaming arrangements as a niche subcontractor on larger DoD contracts if clearance and staffing gaps can be mitigated",
+      "Invest in facility clearance sponsorship and staff growth if pursuing DoD work long-term",
+      "Monitor USAspending for small-business set-aside awards in NAICS 541519 with relevant scope"
+    ]
+  },
+  "approval": "pending",
+  "cost": {
+    "totalUsd": 0.008756420000000001,
+    "byTier": {
+      "nano": {
+        "calls": 2,
+        "inputTokens": 1424,
+        "outputTokens": 1707,
+        "usd": 0.0004951199999999999
+      },
+      "super": {
+        "calls": 1,
+        "inputTokens": 2882,
+        "outputTokens": 3213,
+        "usd": 0.0037563
+      },
+      "ultra": {
+        "calls": 1,
+        "inputTokens": 668,
+        "outputTokens": 1279,
+        "usd": 0.004505
+      }
+    }
+  },
+  "calls": [
+    {
+      "tier": "nano",
+      "purpose": "classify requirement",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 255,
+      "outputTokens": 372,
+      "usd": 0.00010458,
+      "latencyMs": 1475
+    },
+    {
+      "tier": "super",
+      "purpose": "synthesize sourced claims",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "inputTokens": 2882,
+      "outputTokens": 3213,
+      "usd": 0.0037563,
+      "latencyMs": 14772
+    },
+    {
+      "tier": "nano",
+      "purpose": "relevance and support check",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 1169,
+      "outputTokens": 1335,
+      "usd": 0.00039054,
+      "latencyMs": 4786
+    },
+    {
+      "tier": "ultra",
+      "purpose": "final bid/no-bid verdict",
+      "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "inputTokens": 668,
+      "outputTokens": 1279,
+      "usd": 0.004505,
+      "latencyMs": 4447
+    }
+  ],
+  "errors": [],
+  "history": {
+    "total": 56751,
+    "smallBizAwards": 16071,
+    "medianAmount": 151992005.49,
+    "topRecipients": [
+      {
+        "name": "WORLD WIDE TECHNOLOGY LLC",
+        "count": 2,
+        "amount": 820340031.1800001
+      },
+      {
+        "name": "IRON BOW TECHNOLOGIES, LLC",
+        "count": 3,
+        "amount": 810316536.2400001
+      },
+      {
+        "name": "DELL FEDERAL SYSTEMS L.P",
+        "count": 3,
+        "amount": 639645617.7
+      },
+      {
+        "name": "EMERGENT, LLC",
+        "count": 2,
+        "amount": 525839800.09000003
+      },
+      {
+        "name": "NORTHROP GRUMMAN TECHNICAL SERVICES, INC.",
+        "count": 1,
+        "amount": 522176399.72
+      }
+    ]
+  },
+  "classification": {
+    "summary": "Provide scalable GEOINT architecture IT contractor manpower equivalent support for U.S. Army INSCOM under a time‑and‑materials, best‑value contract.",
+    "queries": [
+      "INSCOM GEOINT contract award details",
+      "current GEOINT contractor for U.S. Army intelligence",
+      "recent DoD GEOINT architecture contracts similar to W50NH9-27-R-A006"
+    ]
+  }
+}

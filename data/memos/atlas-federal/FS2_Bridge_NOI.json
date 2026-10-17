@@ -1,0 +1,329 @@
+{
+  "runId": "run-2026-10-17T00-52-08-705Z",
+  "createdAt": "2026-10-17T00:52:08.705Z",
+  "opportunity": {
+    "id": "FS2_Bridge_NOI",
+    "title": "Foundation Sustainment Services (FS2) Bridge Notice of Intent to Sole Source",
+    "agency": "Department of Defense",
+    "naics": "541511",
+    "setAside": "NONE",
+    "responseDeadline": "2026-10-25T09:00:00-05:00",
+    "placeOfPerformance": "VA",
+    "noticeType": "Presolicitation / Notice of Intent",
+    "description": "The National Geospatial-Intelligence Agency intends to issue a sole-source bridge IDIQ contract to Leidos for Foundation Sustainment Services (FS2) under RFO 6.103-1(c)(2), supporting the FS2 program through April 2028 until a competitive follow-on IDIQ can be awarded. Scope: continued integration, software maintenance, operations support and limited development for current mission capabilities of the Source Directorate, across Mapping, Charting and Geodesy mission areas: aeronautical, maritime, topographic, geopolitical geography, elevation, geodesy and controlled imagery.",
+    "sourceUrl": "https://sam.gov/workspace/contract/opp/597716ee83634d638f1bbef21076e3c4/view",
+    "retrievedFrom": "SAM.gov public notice data, 2026-10-16",
+    "subAgency": "National Geospatial-Intelligence Agency (NGA)"
+  },
+  "profile": {
+    "_note": "FICTIONAL SAMPLE COMPANY for scenario testing. Not a real firm. Past performance and staffing are invented; only the NAICS codes, set-aside definitions and every opportunity and award figure used against it are real public data.",
+    "id": "atlas-federal",
+    "name": "Atlas Federal Systems Inc. (sample)",
+    "hqState": "VA",
+    "size": "large",
+    "fictional": true,
+    "naics": [
+      "541511",
+      "541512",
+      "541519",
+      "541330"
+    ],
+    "certifications": [],
+    "placesOfPerformance": [
+      "ANY"
+    ],
+    "pastPerformance": "Large business. Eleven DoD and civilian IT prime contracts between $5M and $60M, including a Defense Health Agency data program.",
+    "capacityNotes": "About 400 staff, 150 cleared. Facility clearance (Top Secret). FedRAMP Moderate. Not eligible for any set-aside.",
+    "verification": [
+      "NAICS codes confirmed against USAspending reference (api.usaspending.gov/api/v2/references/naics) on 2026-10-16.",
+      "Set-asides follow SBA definitions: SBA = small business, 8A = 8(a) Business Development, HUBZONE, WOSB/EDWOSB, SDVOSB."
+    ]
+  },
+  "gate": {
+    "pass": true,
+    "checks": [
+      {
+        "rule": "deadline",
+        "pass": true,
+        "reason": "Responses due 2026-10-25T09:00:00-05:00; still open."
+      },
+      {
+        "rule": "set_aside",
+        "pass": true,
+        "reason": "Full and open competition; no set-aside required."
+      },
+      {
+        "rule": "naics",
+        "pass": true,
+        "reason": "NAICS 541511 is in the company's codes."
+      },
+      {
+        "rule": "place_of_performance",
+        "pass": true,
+        "reason": "Place of performance VA is within the company's coverage."
+      }
+    ]
+  },
+  "stoppedAtGate": false,
+  "sources": [
+    {
+      "id": "A1",
+      "title": "USAspending award 0001: NORTHROP GRUMMAN SYSTEMS CORPORATION, $1,270,490,999",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_0001_9700_W91QUZ07D0005_9700",
+      "snippet": "2007-12-06 | Department of Defense / Department of the Army | GCSS-ARMY (F/T)",
+      "query": "usaspending"
+    },
+    {
+      "id": "A2",
+      "title": "USAspending award W15QKN15C0049: CACI-ISS, LLC, $733,720,755",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_W15QKN15C0049_9700_-NONE-_-NONE-",
+      "snippet": "2015-05-15 | Department of Defense / Department of the Army | IGF::CL,CT::IGF SYSTEM INTEGRATOR FOR INCREMENT II OF INTEGRATED PERSONNEL AND PAY SYSTEM -- ARMY (IPPS-A)",
+      "query": "usaspending"
+    },
+    {
+      "id": "A3",
+      "title": "USAspending award HR001121F0006: SECURIGENCE LLC, $664,457,198",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_HR001121F0006_9700_GS35F626GA_4732",
+      "snippet": "2020-10-14 | Department of Defense / Defense Advanced Research Projects Agency | MULTI-NETWORK SUPPORT SERVICES",
+      "query": "usaspending"
+    },
+    {
+      "id": "A4",
+      "title": "USAspending award W9128Z26FA001: PALANTIR USG INC, $637,552,405",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_W9128Z26FA001_9700_W519TC25D0039_9700",
+      "snippet": "2025-11-21 | Department of Defense / Department of the Army | CDAO MSS TASK ORDER OFF OF CONTRACT W519TC25D0039",
+      "query": "usaspending"
+    },
+    {
+      "id": "A5",
+      "title": "USAspending award HQ014719F0038: LOCKHEED MARTIN CORPORATION, $604,095,674",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_HQ014719F0038_9700_HQ014712D0003_9700",
+      "snippet": "2019-03-14 | Department of Defense / Missile Defense Agency | THE PURPOSE OF THIS TO IS TO DEFINE THE REQUIREMENTS FOR THE CONTRACTOR TO DEVELOP AND DEPLOY THE COMMAND AND CONTROL, BATTLE MANAGEMENT AND COMMUNICATIONS (C2BMC) CAPABILITY IN MULTIPLE PHASES THROUGH FY 2022 AND PLANNING FOR FUTURE BMDS INCREMENTS.",
+      "query": "usaspending"
+    },
+    {
+      "id": "S1",
+      "title": "Notice of Intent to Sole Source Chinook Ceiling Increase",
+      "url": "https://sam.gov/opp/2cd829bdb5544479a109f333bd1b1865/view",
+      "snippet": "The National Geospatial-Intelligence Agency (NGA) is providing this special notice of intent to award a contract modification to Leidos, Inc., 1750 Presidents Street, Reston, VA 20190, to increase the Chinook single-award IDIQ Contract maximum ceiling. In accordance with FAR 6.302-1, NGA believes Leidos, Inc. is the only responsible source, and no other type of service will satisfy agency requirements. The contract stated maximum ceiling was established based on current estimates (at time of",
+      "query": "DoD NGA sole source IDIQ contract Leidos"
+    },
+    {
+      "id": "S2",
+      "title": "Contract Vehicles | Leidos",
+      "url": "https://www.leidos.com/company/contract-vehicles",
+      "snippet": "agency-wide network operations and sustainment, cybersecurity activities, computer network defense initiatives among others. Finally, with a 10 year period of performance, the sole source IDIQ offers the opportunity for Mission Partners to transition to GSM-O II and enhance mission performance through modernization and innovation. [...] SITE III is DIA's third consecutive IDIQ contract to address the evolving information technology (IT) requirements vital to the security of the United States. Th",
+      "query": "DoD NGA sole source IDIQ contract Leidos"
+    },
+    {
+      "id": "S3",
+      "title": "Contract Announcements | National Geospatial-Intelligence Agency",
+      "url": "https://www.nga.mil/news/Contract_Announcements.html",
+      "snippet": "March 19, 2021\n\nSPRINGFIELD, Va.— NGA awarded a contract for Geospatial-Intelligence Access and Information Sharing System Next to Leidos, Inc. of Reston, Virginia. This contract will provide identity, credential and access management services for NGA, the intelligence community and the Department of Defense. The contract has a total period of performance of 10 years with a total value of $187,476,531, including the base period and all unexercised options.\n\nJanuary 14, 2021 [...] April 10, 2024\n",
+      "query": "DoD NGA sole source IDIQ contract Leidos"
+    },
+    {
+      "id": "S4",
+      "title": "NGA awards Leidos $107 million geospatial intelligence production contract | Leidos",
+      "url": "https://www.leidos.com/insights/nga-awards-leidos-107-million-geospatial-intelligence-production-contract",
+      "snippet": "RESTON, Va. (Dec. 17, 2024) – Leidos (NYSE:LDOS) today announced a new prime contract to provide geospatial intelligence (GEOINT) products to the National Geospatial-Intelligence Agency’s (NGA) Office of Geography and Source Strategies Office. The contract has a one-year base period of performance, four one-year optional extensions, and a final six-month optional extension. The contract has a total value $107 million if all options are exercised. [...] Under the contract, Leidos will provide hum",
+      "query": "DoD NGA sole source IDIQ contract Leidos"
+    },
+    {
+      "id": "S5",
+      "title": "NGA awards Leidos contract to sustain critical web-based applications | Leidos",
+      "url": "https://www.leidos.com/insights/nga-awards-leidos-contract-sustain-critical-web-based-applications",
+      "snippet": "(Reston, Va.) February 28, 2019 – Leidos (NYSE:LDOS), a FORTUNE® 500 science and technology leader, has been awarded an $85.5 million follow-on contract by the National Geospatial Intelligence Agency to provide sustainment and adaptive maintenance for nine NGA mission applications. The single award, cost-plus-fixed-fee contract has a one-year base followed by four option years. Work will be performed in Gaithersburg, Md., Alexandria, Va., and Tucson, Az. [...] “We have a long history supporting ",
+      "query": "Leidos Foundation Sustainment Services contract history"
+    },
+    {
+      "id": "S7",
+      "title": "Leidos secures $987 million F-16 support contract By Investing.com",
+      "url": "https://www.investing.com/news/company-news/leidos-secures-987-million-f16-support-contract-93CH-3781886",
+      "snippet": "RESTON, Va. - Defense contractor  Leidos Holdings , Inc. (NYSE: NYSE:LDOS), a prominent player in the Professional Services industry with a market capitalization of $19.5 billion, has been awarded a significant contract by the U.S. Air Force Life Cycle Management Center, the company announced today. The contract, valued at a maximum of $987 million, tasks Leidos with providing engineering and sustainment services for the F-16 Fighting Falcon aircraft operated by Foreign Military Sales (FMS) [...",
+      "query": "Leidos Foundation Sustainment Services contract history"
+    },
+    {
+      "id": "S8",
+      "title": "What Are The Top Leidos Government Contracts? - Potomac Officers Club",
+      "url": "https://www.potomacofficersclub.com/articles/what-are-the-top-leidos-government-contracts",
+      "snippet": "In December 2019, Leidos won a $6.5 billion contract award from the Pentagon. Under the Global Solutions Management Operations II (GSMO-II) award, Leidos will provide information technology support services (e.g., cybersecurity and network defense), monitoring, and sustainment to Defense Information Systems Network and the Defense Department’s major information networks. [...] In October 2022, Leidos won a contract award with a ceiling value of $1.5 billion. The sentinel award enables Leidos to ",
+      "query": "Leidos Foundation Sustainment Services contract history"
+    },
+    {
+      "id": "S8",
+      "title": "NGA awards $794M IDIQ for research and development",
+      "url": "https://www.nga.mil/assets/files/24-04_Release_RDC_IDIQ_Final.pdf",
+      "snippet": "FOR IMMEDIATE RELEASE No. 2024-04 January 26, 2024 Contact Media Relations Phone: (571) 557-5450 Email: mediarelations@nga.mil NGA awards $794M IDIQ for research and development SPRINGFIELD, Virginia – The National Geospatial-Intelligence Agency awarded a new $794.1 million Research Development Contract indefinite-delivery, indefinite-quantity contract on Jan. 25. The four companies eligible to compete for task orders are Booz Allen Hamilton, Lockheed Martin Corporation, Reinventing Geospatial, ",
+      "query": "Recent NGA IDIQ awards 2023-2024"
+    },
+    {
+      "id": "S10",
+      "title": "NGA Awards $947M IDIQ for Acquisition, Financial and Strategic Business Support | National Geospatial-Intelligence Agency",
+      "url": "https://www.nga.mil/news/NGA_Awards_$947M_IDIQ_for_Acquisition_Financial_an.html",
+      "snippet": "### May 26, 2023  SPRINGFIELD, Virginia\n\nNGA Media Relations  \n mediarelations@nga.mil  \n (571) 557-5450\n\npress-releases, press-release, news-release, release, contract, contract-award, idiq, clover\n\nSPRINGFIELD, Virginia – The National Geospatial-Intelligence Agency awarded a new $947 million contract designed to provide support to NGA’s total lifecycle acquisition management, strategic financial management and strategic business management activities. [...] The five-year, indefinite delivery i",
+      "query": "Recent NGA IDIQ awards 2023-2024"
+    },
+    {
+      "id": "S11",
+      "title": "13 are Awarded on NGA’s $900M GEO-SPI B Ops Support IDIQ - EZGovOpps",
+      "url": "https://ezgovopps.com/m/geo-spi-b",
+      "snippet": "October 2026\n September 2026\n August 2026\n July 2026\n June 2026\n May 2026\n April 2026\n March 2026\n February 2026\n January 2026\n September 2024\n August 2024\n July 2024\n June 2024\n May 2024\n March 2024\n February 2024\n January 2024\n December 2023\n November 2023\n October 2023\n September 2023\n August 2023\n July 2023\n June 2023\n May 2023\n April 2023\n March 2023\n February 2023\n January 2023\n December 2022\n October 2022\n September 2022\n August 2022\n July 2022\n June 2022\n May 2022\n April 2022 [...] 3GIMB",
+      "query": "Recent NGA IDIQ awards 2023-2024"
+    }
+  ],
+  "supportedClaims": [],
+  "droppedClaims": [
+    {
+      "text": "The National Geospatial-Intelligence Agency issued a notice of intent to sole source a contract modification to Leidos to increase the Chinook IDIQ ceiling.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://sam.gov/opp/2cd829bdb5544479a109f333bd1b1865/view"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (unrelated contract)"
+    },
+    {
+      "text": "NGA awarded Leidos a $107 million geospatial intelligence production contract with options extending to five years.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.leidos.com/insights/nga-awards-leidos-107-million-geospatial-intelligence-production-contract"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (different contract)"
+    },
+    {
+      "text": "NGA awarded Leidos an $85.5 million follow‑on contract to sustain critical web‑based applications.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.leidos.com/insights/nga-awards-leidos-contract-sustain-critical-web-based-applications"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (different contract)"
+    },
+    {
+      "text": "NGA awarded a $794.1 million research and development IDIQ to four companies including Leidos competitors.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.nga.mil/assets/files/24-04_Release_RDC_IDIQ_Final.pdf"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (different procurement)"
+    },
+    {
+      "text": "Historical DoD awards in NAICS 541511 include a $1.27 billion Northrop Grumman contract, indicating large‑value opportunities exist.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_0001_9700_W91QUZ07D0005_9700"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (historical award)"
+    }
+  ],
+  "verdict": {
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "confidence": "low",
+    "rationale": [
+      {
+        "point": "Every claim the research produced was unsourced, unsupported by its source, or not relevant to this opportunity, so no recommendation is made.",
+        "claimIds": []
+      }
+    ],
+    "risks": [
+      "A bid decision made without verified evidence would be a guess."
+    ],
+    "nextSteps": [
+      "Read the full solicitation and its attachments on SAM.gov.",
+      "Ask the contracting officer the open questions in the notice.",
+      "Run again after the buyer publishes more detail."
+    ]
+  },
+  "approval": "pending",
+  "cost": {
+    "totalUsd": 0.0030756,
+    "byTier": {
+      "nano": {
+        "calls": 2,
+        "inputTokens": 1313,
+        "outputTokens": 1328,
+        "usd": 0.00039749999999999996
+      },
+      "super": {
+        "calls": 1,
+        "inputTokens": 3236,
+        "outputTokens": 1897,
+        "usd": 0.0026781
+      }
+    }
+  },
+  "calls": [
+    {
+      "tier": "nano",
+      "purpose": "classify requirement",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 240,
+      "outputTokens": 310,
+      "usd": 0.00008879999999999998,
+      "latencyMs": 1207
+    },
+    {
+      "tier": "super",
+      "purpose": "synthesize sourced claims",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "inputTokens": 3236,
+      "outputTokens": 1897,
+      "usd": 0.0026781,
+      "latencyMs": 9723
+    },
+    {
+      "tier": "nano",
+      "purpose": "relevance and support check",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 1073,
+      "outputTokens": 1018,
+      "usd": 0.00030869999999999997,
+      "latencyMs": 3369
+    }
+  ],
+  "errors": [],
+  "history": {
+    "total": 6216,
+    "smallBizAwards": 1071,
+    "medianAmount": 149972384.83,
+    "topRecipients": [
+      {
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "count": 12,
+        "amount": 3410515704.2400002
+      },
+      {
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "count": 5,
+        "amount": 2220706837.3900003
+      },
+      {
+        "name": "PALANTIR USG INC",
+        "count": 3,
+        "amount": 897364143.99
+      },
+      {
+        "name": "CACI-ISS, LLC",
+        "count": 1,
+        "amount": 733720754.55
+      },
+      {
+        "name": "SECURIGENCE LLC",
+        "count": 1,
+        "amount": 664457198.25
+      }
+    ]
+  },
+  "classification": {
+    "summary": "The buyer needs a sole‑source IDIQ contract to continue foundation sustainment services, integration, software maintenance, operations support, and limited development for the Source Directorate’s mapping, charting, and geospatial missions through April 2028.",
+    "queries": [
+      "DoD NGA sole source IDIQ contract Leidos",
+      "Leidos Foundation Sustainment Services contract history",
+      "Recent NGA IDIQ awards 2023-2024"
+    ]
+  }
+}

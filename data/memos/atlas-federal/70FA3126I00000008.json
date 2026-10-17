@@ -1,0 +1,375 @@
+{
+  "runId": "run-2026-10-17T00-50-47-639Z",
+  "createdAt": "2026-10-17T00:50:47.639Z",
+  "opportunity": {
+    "id": "70FA3126I00000008",
+    "title": "FEMA's Deployment Management Solution (Sources Sought)",
+    "agency": "Department of Homeland Security",
+    "naics": "541511",
+    "setAside": "NONE",
+    "responseDeadline": "2026-10-20T14:00:00-04:00",
+    "placeOfPerformance": "DC",
+    "noticeType": "Sources Sought / Request for Information",
+    "description": "FEMA is conducting market research for commercial off-the-shelf, configurable COTS, custom or hybrid solutions to replace the legacy Deployment Tracking System and improve incident workforce management: readiness, personnel availability, qualifications, certifications, training, deployment tracking, incident and event staffing, force packages, equipment assignment, reporting and analytics, secure cloud hosting, and interoperability with FEMA and DHS systems. Estimated value is $50 million to $100 million over five to ten years. Questions were due Oct 5, 2026.",
+    "sourceUrl": "https://sam.gov/workspace/contract/opp/cd7c8fcc972c448ebc58596c3f9f5775/view",
+    "retrievedFrom": "SAM.gov public notice data, 2026-10-16",
+    "subAgency": "Federal Emergency Management Agency"
+  },
+  "profile": {
+    "_note": "FICTIONAL SAMPLE COMPANY for scenario testing. Not a real firm. Past performance and staffing are invented; only the NAICS codes, set-aside definitions and every opportunity and award figure used against it are real public data.",
+    "id": "atlas-federal",
+    "name": "Atlas Federal Systems Inc. (sample)",
+    "hqState": "VA",
+    "size": "large",
+    "fictional": true,
+    "naics": [
+      "541511",
+      "541512",
+      "541519",
+      "541330"
+    ],
+    "certifications": [],
+    "placesOfPerformance": [
+      "ANY"
+    ],
+    "pastPerformance": "Large business. Eleven DoD and civilian IT prime contracts between $5M and $60M, including a Defense Health Agency data program.",
+    "capacityNotes": "About 400 staff, 150 cleared. Facility clearance (Top Secret). FedRAMP Moderate. Not eligible for any set-aside.",
+    "verification": [
+      "NAICS codes confirmed against USAspending reference (api.usaspending.gov/api/v2/references/naics) on 2026-10-16.",
+      "Set-asides follow SBA definitions: SBA = small business, 8A = 8(a) Business Development, HUBZONE, WOSB/EDWOSB, SDVOSB."
+    ]
+  },
+  "gate": {
+    "pass": true,
+    "checks": [
+      {
+        "rule": "deadline",
+        "pass": true,
+        "reason": "Responses due 2026-10-20T14:00:00-04:00; still open."
+      },
+      {
+        "rule": "set_aside",
+        "pass": true,
+        "reason": "Full and open competition; no set-aside required."
+      },
+      {
+        "rule": "naics",
+        "pass": true,
+        "reason": "NAICS 541511 is in the company's codes."
+      },
+      {
+        "rule": "place_of_performance",
+        "pass": true,
+        "reason": "Place of performance DC is within the company's coverage."
+      }
+    ]
+  },
+  "stoppedAtGate": false,
+  "sources": [
+    {
+      "id": "A1",
+      "title": "USAspending award HSFEHQ08J2009: INTERNATIONAL BUSINESS MACHINES CORPORATION, $580,425,328",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_HSFEHQ08J2009_7022_HSHQDC06D00019_7001",
+      "snippet": "2008-09-12 | Department of Homeland Security / Federal Emergency Management Agency | EADIS SOFTWARE DEVELOPMENT",
+      "query": "usaspending"
+    },
+    {
+      "id": "A2",
+      "title": "USAspending award HSHQDC09J00001: INTERNATIONAL BUSINESS MACHINES CORPORATION, $376,281,939",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_HSHQDC09J00001_7001_HSHQDC06D00019_7001",
+      "snippet": "2008-11-03 | Department of Homeland Security / Office of Procurement Operations | USCIS TRANSFORMATION PROGRAM SOLUTIONS ARCHITECT (SA)",
+      "query": "usaspending"
+    },
+    {
+      "id": "A3",
+      "title": "USAspending award 70FB8021F00000016: GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC., $229,750,988",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_70FB8021F00000016_7022_GS35F393CA_4732",
+      "snippet": "2021-02-15 | Department of Homeland Security / Federal Emergency Management Agency | THE CONTRACTOR WILL PROVIDE A CONTACT CENTER UNDER THE GSA AUTOMATED CONTACT CENTER SOLUTIONS CONTRACTS FOR FUNERAL SERVICES ASSISTANCE TO SURVIVING FAMILY MEMBERS OF THE COVID-19 DISASTERS.",
+      "query": "usaspending"
+    },
+    {
+      "id": "A4",
+      "title": "USAspending award 70SBUR21F00000089: GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC., $184,587,754",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_70SBUR21F00000089_7003_GS35F393CA_4732",
+      "snippet": "2021-05-24 | Department of Homeland Security / U.S. Citizenship and Immigration Services | CONTACT CENTER TIER 1 (CCT1)- THE PURPOSE OF THIS TASK ORDER IS TO PROVIDE TIER 0 AND TIER 1 LEVEL SUPPORT FOR THE USCIS CONTACT CENTER BY ASSISTING THE PUBLIC WITH INFORMATION ON IMMIGRATION RELATED SERVICES AND BENEFITS.",
+      "query": "usaspending"
+    },
+    {
+      "id": "A5",
+      "title": "USAspending award 70B04C25F00000086: DEV TECHNOLOGY GROUP INC, $168,754,561",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_70B04C25F00000086_7014_47QTCA19D00JT_4732",
+      "snippet": "2025-02-03 | Department of Homeland Security / U.S. Customs and Border Protection | INTERIM BRIDGE TASK ORDER AWARD FOR APPLICATION DEVELOPMENT, OPERATION AND MAINTENANCE SUPPORT SERVICES IN SUPPORT OF THE CARGO SERVICES PROGRAM DIRECTORATE FOR ACE AND ATAP PLATFORMS.",
+      "query": "usaspending"
+    },
+    {
+      "id": "S1",
+      "title": "FEMA's Deployment Management Solution",
+      "url": "https://www.highergov.com/contract-opportunity/femas-deployment-management-solution-70fa3126i00000008-r-baa39",
+      "snippet": "This opportunity appears to have a confirmed incumbent based on the prior FEMA Deployment Tracking System (DTS) contract awarded to Intuitive Information Systems Technologies (75N98119D00059-70FA3122F00000073) valued at $58,311,882 for 09/30/22–09/29/27. The prior award description indicates deployment operations management for CBP missions and use of the Databricks Lakehouse platform for processing and measurement, which aligns closely with the current requirement to replace legacy DTS and [...",
+      "query": "FEMA Deployment Management Solution incumbent contractor"
+    },
+    {
+      "id": "S2",
+      "title": "FEMA's Deployment Management Solution | Tendoer",
+      "url": "https://tendoer.com/tender/SAM-b62b925cfbaf40ebbe5e60d0bc77b2b1",
+      "snippet": "### Tender details\n\nIT\n\nInformation Technology Development and Sustainment\n\nUnited States\n\nNotice type\n\nPrior information notice\n\nPublished\n\nOct 1, 2026\n\nDeadline\n\nOct 16, 2026\n\nContract type\n\nServices\n\nMain activity\n\nGeneral public services\n\nSolicitation no.\n\n70FA3126I00000008\n\nNAICS\n\nCustom software (541511)\n\nContracting office\n\nWashington, DC\n\n#### Contact\n\nJillita Bulluckjillita.bulluck@fema.dhs.gov202-880-6413\n\n## Documents\n\nOriginal notice, documents & submission\n\n## More tenders [...] Fed",
+      "query": "FEMA Deployment Management Solution incumbent contractor"
+    },
+    {
+      "id": "S3",
+      "title": "FEMA begins decommissioning defunct data system | FedScoop",
+      "url": "https://fedscoop.com/fema-fact-data-system-shutdown-decommissioned",
+      "snippet": "“The abrupt contract lapse prevented the Government from executing planned decommissioning and data migration,” FEMA said in a justification document. “Only the incumbent can logically and efficiently restore the system and extract essential data, ensuring FEMA’s mission continuity and compliance with federal regulations.” [...] Advertisement\n\nThe work, per the contract, started July 1 and has an expected completion date of Sept. 30. The tight schedule was built with compliance in mind.\n\n“The fo",
+      "query": "FEMA Deployment Management Solution incumbent contractor"
+    },
+    {
+      "id": "S4",
+      "title": "FEMA Seeks Replacement for Deployment Tracking System",
+      "url": "https://www.govconwire.com/articles/fema-deployment-tracking-system-replacement",
+      "snippet": "# FEMA Seeks Industry Input on Potential $100M Deployment Tracking System Replacement\n\n Miles Jamison\n October 2, 2026\n Acquisition & Procurement,DHS,News\n\nAuthor: Miles Jamison || Date Published: October 2, 2026\n\n FEMA is seeking a new deployment management system to replace the legacy DTS\n The agency wants visibility into training, certifications, qualifications and personnel availability\n The new system would support force package management and equipment assignments [...] The MQ-9B SkyGuardi",
+      "query": "FEMA Deployment Management Solution incumbent contractor"
+    },
+    {
+      "id": "S5",
+      "title": "ARC Group Awarded FEMA Contract to Accelerate Disaster-Relief Supply Deliveries - American Roll-On Roll-Off Carrier",
+      "url": "https://www.arcshipping.com/news/arc-group-awarded-fema-contract-to-accelerate-disaster-relief-supply-deliveries",
+      "snippet": "Other services covered under the contract include empty trailer yard management, incident support base operations, transportation, facility and yard support, management services and personnel support.\n\n### About ARC [...] ARC will apply its expertise and disciplined approach to managing these interconnected systems in support of FEMA and state, local, tribal and territorial governments responding to disasters.\n\nThe award covers a one-year base period beginning September 21, 2026, with two additi",
+      "query": "Recent FEMA incident workforce management contract awards"
+    },
+    {
+      "id": "S6",
+      "title": "FEMA Awards $648 Million to More than 1,600 Fire Departments and Other First Responder Organizations Nationwide | FEMA.gov",
+      "url": "https://www.fema.gov/press-release/20260930/fema-awards-648-million-more-1600-fire-departments-and-other-first-responder",
+      "snippet": "FEMA has awarded $324 million to nearly 200 fire departments and volunteer firefighter interest organizations through the FY 2025 Staffing for Adequate Fire and Emergency Response grant program. Recipients will use the money to cover personnel costs for firefighters, as well as recruitment efforts and retention programs. [...] FEMA has awarded $291.6 million to more than 1,400 fire departments and other emergency medical services agencies through the Fiscal Year (FY) 2025 Assistance to Firefight",
+      "query": "Recent FEMA incident workforce management contract awards"
+    },
+    {
+      "id": "S7",
+      "title": "Resource Library: Purchasing Under a FEMA Award | FEMA.gov",
+      "url": "https://www.fema.gov/grants/procurement/resource-library",
+      "snippet": "|  |  |\n --- |\n| Oct. 1, 2024 – Present | 2026 Contract Provisions Guide |\n| Nov. 12, 2020 – Sept. 30, 2024 | 2021 Contract Provisions Guide |\n| Dec. 26, 2014 – Nov. 11, 2020 | 2020 Contract Provisions Template |\n\n## Procurement Resources by Topic\n\n### State Entities [...] When conducting purchases under a FEMA award, recipients and subrecipients must adhere to federal procurement regulations outlined in 2 C.F.R. §§ 200.317 – 200.327.  \n  \nThe Office of Management and Budget (OMB) recently revis",
+      "query": "Recent FEMA incident workforce management contract awards"
+    },
+    {
+      "id": "S8",
+      "title": "FEMA Contracting Explained: How Emergency Response Buying Works | FedBiz Access",
+      "url": "https://fedbizaccess.com/fema-emergency-response-contracting",
+      "snippet": "that I could speak with consistently made a real difference in my experience. During my time working with FedBiz, my company went on to receive several government contract awards. Most recently, we were awarded a four-year government contract providing ongoing maintenance services for a public healthcare facility. I’m extremely grateful for the progress my company has made and for the guidance and resources FedBiz provided along the way. What I appreciate most is that my experience with FedBiz [",
+      "query": "Recent FEMA incident workforce management contract awards"
+    },
+    {
+      "id": "S11",
+      "title": "Commercial Off-The-Shelf (COTS) Solutions",
+      "url": "https://www.cyviz.com/newsroom/cyviz-cots",
+      "snippet": "COTS, or Commercial Off-The-Shelf solutions, are ready-made products that are available for sale, lease, or license to the public. In fields like defense and technology, adopting COTS allows organizations to rapidly deploy systems without the time and expense of custom development. By leveraging mature, widely available technology, COTS products like those offered by Cyviz, can be quickly integrated and scaled for mission-critical operations, providing a balance of security, performance, and [..",
+      "query": "COTS deployment tracking system solutions for federal agencies"
+    },
+    {
+      "id": "S12",
+      "title": "Incident Workforce Management and Training System (IWMTS)",
+      "url": "https://sam.gov/opp/768ce26aad4041908fac9f24d854b1c8/view",
+      "snippet": "BACKGROUND:The Federal Emergency Management Agency (FEMA) provides incident workforce management capabilities through the Deployment Tracking System (DTS), a web-based deployment coordination and management tool maintained by FEMA’s Workforce Management Division of the Field Operations Directorate (FOD). DTS allows FEMA to manage, implement, and improve standardized deployment processes for incident response and provide oversight of deployments including the management of personnel during",
+      "query": "COTS deployment tracking system solutions for federal agencies"
+    }
+  ],
+  "supportedClaims": [
+    {
+      "text": "The FEMA Deployment Management Solution opportunity is a Sources Sought notice with solicitation number 70FA3126I00000008, NAICS 541511, and the contracting office located in Washington, DC.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://tendoer.com/tender/SAM-b62b925cfbaf40ebbe5e60d0bc77b2b1"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "The incumbent provider for FEMA's legacy Deployment Tracking System is Intuitive Information Systems Technologies, which holds a prior contract valued at $58,311,882 for the period 09/30/22–09/29/27.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.highergov.com/contract-opportunity/femas-deployment-management-solution-70fa3126i00000008-r-baa39"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "FEMA is seeking industry input on a potential $100 million replacement for its Deployment Tracking System to improve incident workforce management capabilities.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.govconwire.com/articles/fema-deployment-tracking-system-replacement"
+      ],
+      "status": "supported"
+    }
+  ],
+  "droppedClaims": [
+    {
+      "text": "IBM has been awarded two major DHS/FEMA contracts valued at $580,425,328 (HSFEHQ08J2009) and $376,281,939 (HSHQDC09J00001).",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_HSFEHQ08J2009_7022_HSHQDC06D00019_7001",
+        "https://www.usaspending.gov/award/CONT_AWD_HSHQDC09J00001_7001_HSHQDC06D00019_7001"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (Past award unrelated to this solicitation)"
+    },
+    {
+      "text": "General Dynamics Information Technology has received two recent FEMA/DHS contracts exceeding $180 million each, worth $229,750,988 and $184,587,754.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_70FB8021F00000016_7022_GS35F393CA_4732",
+        "https://www.usaspending.gov/award/CONT_AWD_70SBUR21F00000089_7003_GS35F393CA_4732"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (Past award unrelated to this solicitation)"
+    },
+    {
+      "text": "Dev Technology Group Inc. was awarded a $168,754,561 DHS contract for application development, operation and maintenance support services in February 2025.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_70B04C25F00000086_7014_47QTCA19D00JT_4732"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (Past award unrelated to this solicitation)"
+    }
+  ],
+  "verdict": {
+    "decision": "BID",
+    "confidence": "medium",
+    "rationale": [
+      {
+        "point": "Company is a large business with NAICS 541511 matching the opportunity, and the set-aside is NONE, so eligibility gate passed.",
+        "claimIds": [
+          1
+        ]
+      },
+      {
+        "point": "FEMA seeks a potential $100M replacement for its Deployment Tracking System, which aligns with Atlas Federal's past performance of prime IT contracts up to $60M including a Defense Health Agency data program.",
+        "claimIds": [
+          3
+        ]
+      },
+      {
+        "point": "Incumbent Intuitive Information Systems Technologies holds a $58.3M contract through 2027, but the Sources Sought indicates FEMA is planning a follow-on competition where Atlas can compete as a large business.",
+        "claimIds": [
+          2
+        ]
+      },
+      {
+        "point": "Atlas Federal holds a Top Secret facility clearance, FedRAMP Moderate authorization, and 150 cleared staff, supporting the security and compliance requirements likely needed for FEMA's incident workforce management system.",
+        "claimIds": []
+      }
+    ],
+    "risks": [
+      "Incumbent has an existing contract running until 2027, which may delay or shape the replacement acquisition.",
+      "Sources Sought is only a market research step, not a solicitation; no guarantee of a follow-on RFP or award.",
+      "Potential $100M value exceeds Atlas Federal's typical prime contract ceiling of $60M, possibly requiring teaming or growth.",
+      "Large business competition will be intense for a high-value, unrestricted opportunity."
+    ],
+    "nextSteps": [
+      "Submit a capabilities response to the Sources Sought (solicitation 70FA3126I00000008) highlighting relevant past performance, clearances, FedRAMP status, and staffing.",
+      "Monitor for RFP release and engage in any industry days or draft RFP comment periods.",
+      "Evaluate teaming arrangements to strengthen capacity for a potential $100M+ program.",
+      "Leverage Defense Health Agency data program experience as a direct analog for FEMA's deployment management needs."
+    ]
+  },
+  "approval": "pending",
+  "cost": {
+    "totalUsd": 0.00887424,
+    "byTier": {
+      "nano": {
+        "calls": 2,
+        "inputTokens": 1875,
+        "outputTokens": 1596,
+        "usd": 0.00049554
+      },
+      "super": {
+        "calls": 1,
+        "inputTokens": 3188,
+        "outputTokens": 2387,
+        "usd": 0.0031047
+      },
+      "ultra": {
+        "calls": 1,
+        "inputTokens": 735,
+        "outputTokens": 1513,
+        "usd": 0.005274
+      }
+    }
+  },
+  "calls": [
+    {
+      "tier": "nano",
+      "purpose": "classify requirement",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 221,
+      "outputTokens": 204,
+      "usd": 0.00006222,
+      "latencyMs": 891
+    },
+    {
+      "tier": "super",
+      "purpose": "synthesize sourced claims",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "inputTokens": 3188,
+      "outputTokens": 2387,
+      "usd": 0.0031047,
+      "latencyMs": 12500
+    },
+    {
+      "tier": "nano",
+      "purpose": "relevance and support check",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 1654,
+      "outputTokens": 1392,
+      "usd": 0.00043332,
+      "latencyMs": 4478
+    },
+    {
+      "tier": "ultra",
+      "purpose": "final bid/no-bid verdict",
+      "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "inputTokens": 735,
+      "outputTokens": 1513,
+      "usd": 0.005274,
+      "latencyMs": 5231
+    }
+  ],
+  "errors": [],
+  "history": {
+    "total": 1187,
+    "smallBizAwards": 153,
+    "medianAmount": 47310037.7,
+    "topRecipients": [
+      {
+        "name": "INTERNATIONAL BUSINESS MACHINES CORPORATION",
+        "count": 3,
+        "amount": 1114507489.58
+      },
+      {
+        "name": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
+        "count": 8,
+        "amount": 699800302.38
+      },
+      {
+        "name": "DEV TECHNOLOGY GROUP INC",
+        "count": 2,
+        "amount": 219030210.14
+      },
+      {
+        "name": "ECS FEDERAL, LLC",
+        "count": 6,
+        "amount": 206144619.92999998
+      },
+      {
+        "name": "BOOZ ALLEN HAMILTON INC",
+        "count": 4,
+        "amount": 174128005.82
+      }
+    ]
+  },
+  "classification": {
+    "summary": "The buyer seeks a commercial off-the-shelf or custom solution to replace FEMA's legacy Deployment Tracking System and enhance incident workforce management across readiness, staffing, qualifications, training, deployment tracking, force packages, equipment assignment, reporting, analytics, secure cloud hosting, and interoperability.",
+    "queries": [
+      "FEMA Deployment Management Solution incumbent contractor",
+      "Recent FEMA incident workforce management contract awards",
+      "COTS deployment tracking system solutions for federal agencies"
+    ]
+  }
+}

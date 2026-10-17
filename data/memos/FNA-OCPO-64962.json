@@ -1,0 +1,377 @@
+{
+  "runId": "run-2026-10-17T00-26-28-632Z",
+  "createdAt": "2026-10-17T00:26:28.633Z",
+  "opportunity": {
+    "id": "FNA-OCPO-64962",
+    "title": "Financial Management Software and Support Services (RFI)",
+    "agency": "Department of Commerce",
+    "naics": "541519",
+    "setAside": "NONE",
+    "responseDeadline": "2026-10-26T17:00:00-04:00",
+    "placeOfPerformance": "VA",
+    "noticeType": "Sources Sought / Request for Information",
+    "description": "Request for Information only, for market research, issued by the First Responder Network Authority (FirstNet Authority). The government is seeking responses from entities able to provide financial management software and support services, and will use responses to decide the acquisition method, including whether a set-aside is possible. Amendment 002 extended the response date to October 26, 2026. Amendment 001 clarified the number of users for market research pricing. The contemplated NAICS code is 541519 Other Computer Related Services; Information Technology Value Added Resellers.",
+    "sourceUrl": "https://sam.gov/workspace/contract/opp/da67289dba0644b79675c937d61860e8/view",
+    "retrievedFrom": "SAM.gov public notice data, 2026-10-16"
+  },
+  "profile": {
+    "_note": "FICTIONAL DEMO COMPANY used to show the full pipeline on real opportunities. Not a real firm.",
+    "name": "Prairie Digital Systems LLC (demo company)",
+    "naics": [
+      "541512",
+      "541511",
+      "541519"
+    ],
+    "certifications": [
+      "SBA"
+    ],
+    "placesOfPerformance": [
+      "IL",
+      "REMOTE",
+      "VA",
+      "NY"
+    ],
+    "pastPerformance": "Three web and data platform projects for state and local agencies, each under $500K. No prior VA, DoD or HHS prime contracts.",
+    "capacityNotes": "Team of six engineers. No facility clearance. No SOC 2 report yet.",
+    "id": "demo"
+  },
+  "gate": {
+    "pass": true,
+    "checks": [
+      {
+        "rule": "deadline",
+        "pass": true,
+        "reason": "Responses due 2026-10-26T17:00:00-04:00; still open."
+      },
+      {
+        "rule": "set_aside",
+        "pass": true,
+        "reason": "Full and open competition; no set-aside required."
+      },
+      {
+        "rule": "naics",
+        "pass": true,
+        "reason": "NAICS 541519 is in the company's codes."
+      },
+      {
+        "rule": "place_of_performance",
+        "pass": true,
+        "reason": "Place of performance VA is within the company's coverage."
+      }
+    ]
+  },
+  "stoppedAtGate": false,
+  "sources": [
+    {
+      "id": "A1",
+      "title": "USAspending award DOCYA132317NC0139: CDW GOVERNMENT LLC, $561,166,063",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_DOCYA132317NC0139_1323_HHSN316201500011W_7529",
+      "snippet": "2017-06-28 | Department of Commerce / U.S. Census Bureau | IGF::OT::IGF",
+      "query": "usaspending"
+    },
+    {
+      "id": "A2",
+      "title": "USAspending award 1332KP21FNEEB0011: EARTH RESOURCES TECHNOLOGY, LLC, $188,840,498",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_1332KP21FNEEB0011_1330_1332KP21DNEEB0011_1330",
+      "snippet": "2021-03-29 | Department of Commerce / National Oceanic and Atmospheric Administration | SUSTAINMENT SUPPORT (TASK ORDER 3) UNDER THE OPERATIONS, MAINTENANCE, AND SUSTAINMENT (OMS) IDIQ",
+      "query": "usaspending"
+    },
+    {
+      "id": "A3",
+      "title": "USAspending award DOCYA132317NC0131: IMMIXTECHNOLOGY INC, $148,402,490",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_DOCYA132317NC0131_1323_GS35F0265X_4732",
+      "snippet": "2017-06-19 | Department of Commerce / U.S. Census Bureau | CONTRACTOR SERVICES FOR PEGA SYSTEMS \"IGF::OT::IGF\"",
+      "query": "usaspending"
+    },
+    {
+      "id": "A4",
+      "title": "USAspending award 1332KP22FNEEA0040: GAMA-1 TECHNOLOGIES, LLC, $125,339,738",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_1332KP22FNEEA0040_1330_1305M421ANAAA0038_1330",
+      "snippet": "2022-09-09 | Department of Commerce / National Oceanic and Atmospheric Administration | NCCF SUBJECT MATTER EXPERTISE FOR CLOUD DEVELOPMENT AND INNOVATION INITIATIVES",
+      "query": "usaspending"
+    },
+    {
+      "id": "A5",
+      "title": "USAspending award DOC0001: INDRASOFT INC., $121,471,697",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_DOC0001_1323_DOCYA132315BU0044_1323",
+      "snippet": "2017-11-21 | Department of Commerce / U.S. Census Bureau | FINGERPRINT OPERATIONS.",
+      "query": "usaspending"
+    },
+    {
+      "id": "S1",
+      "title": "Financial Management Software and Support Services - (Request for Information) - Department of Commerce NTIA/First NET Bid & RFP - Due Oct 16, 2026 | Starbridge",
+      "url": "https://starbridge.ai/rfp/financial-management-software-and-support-services",
+      "snippet": "Description: FirstNet Authority is conducting market research for a commercially available, FEDRAMP Moderate compliant unified platform capable of fulfilling the following: Ability to connect to other validated sources (applications or solutions) used by the Federal Government; Governed AI agents tailored to finance processes; Ability to automate with accuracy, auditability, and transparency; Supports the entire finance lifecycle: close, consolidation, planning, forecasting, analytics. See [...]",
+      "query": "FirstNet Authority financial management software RFI 2026"
+    },
+    {
+      "id": "S2",
+      "title": "Financial Management Software and Support Services",
+      "url": "https://www.highergov.com/contract-opportunity/financial-management-software-and-support-services-fna-ocpo-64962-r-b9409",
+      "snippet": "On 10/1/26 National Institute of Standards and Technology issued Sources Sought FNA-OCPO-64962 for Financial Management Software and Support Services due 10/16/26. The opportunity was issued full & open with NAICS 541519 and PSC 7A21.\n\n##### Primary Contact\n\nName\n\nAdam Powell   Profile\n\nEmail\n\nadam.powell@firstnet.gov\n\nPhone\n\n(571) 307-5443\n\n## Documents\n\n### Posted documents for Sources Sought FNA-OCPO-64962\n\n## Opportunity Assistant\n\n  Analyze Opportunity  \n\n---\n\n  Generate a Draft [...] This ",
+      "query": "FirstNet Authority financial management software RFI 2026"
+    },
+    {
+      "id": "S3",
+      "title": "2026 Schedule* - Vision 2026 FirstNet Users Summit",
+      "url": "https://vision.thepsbta.org/2026-schedule",
+      "snippet": "Melissa began her career with the Nevada Division of Forestry in 2004, advancing to the position of Conservation Staff Specialist and administrative officer. She managed the preparation of financial and statistical reports related to budgets, grants, activities, programs, and operations. [...] Melissa began her career with the Nevada Division of Forestry in 2004, advancing to the position of Conservation Staff Specialist and administrative officer. She managed the preparation of financial and st",
+      "query": "FirstNet Authority financial management software RFI 2026"
+    },
+    {
+      "id": "S4",
+      "title": "Emergent Now Available With FirstNet, Converging Connectivity With Telemetry to Increase Situational Awareness",
+      "url": "https://finance.yahoo.com/news/emergent-now-available-firstnet-converging-130000889.html",
+      "snippet": "5. Insurance \n      1. Find car insurance\n      2. Types of car insurance\n      3. Find life insurance\n   6. Taxes \n      1. How to file\n      2. Tax brackets and rates\n      3. Child tax credit\n      4. Tax extension\n      5. Tax refund status\n   7. Student loans \n      1. Federal vs. private\n      2. How to apply\n      3. FAFSA 2026-27\n      4. Student loan assistance\n   8. Personal loans \n      1. Best personal loans\n      2. Improve credit score\n      3. How to get approved",
+      "query": "FirstNet Authority financial management software RFI 2026"
+    },
+    {
+      "id": "S5",
+      "title": "FY-2024-DOC-Agency-Financial-Report.pdf",
+      "url": "https://www.oig.doc.gov/wp-content/OIGPublications/FY-2024-DOC-Agency-Financial-Report.pdf",
+      "snippet": "FY 2024, the Department completed a full review of programs to maintain compliance with both A-25 requirements. \n\n# Financial Management Systems \n\nThe Department maintains an FFMIA-compliant financial management system, Commerce Business Systems (CBS), which \n\nprovides reliable, timely information within a sophisticated security infrastructure. The system is capable of producing both [...] Internal Use Software:  Internal Use Software includes purchased commercial off-the-shelf (COTS) software a",
+      "query": "Incumbents awarded financial management software contracts Department of Commerce 2024"
+    },
+    {
+      "id": "S6",
+      "title": "Commerce FY2024 Budget in Brief",
+      "url": "https://www.commerce.gov/sites/default/files/2023-03/FY2024-BIB-Introduction.pdf",
+      "snippet": "property), enterprise data warehouse, and business intelligence reporting solutions across Commerce. The NEF also provides funding for the Grants Enterprise Management Solution (GEMS), NTIA FACTS, and Spectrum projects. • The Working Capital Fund (WCF) finances, on a reimbursable basis, Department-wide administrative functions that are more efficiently performed on a centralized basis, such as legal, enterprise services, security, human resources, financial management, building management, [...]",
+      "query": "Incumbents awarded financial management software contracts Department of Commerce 2024"
+    },
+    {
+      "id": "S7",
+      "title": "10 key government contracts legal developments in 2024 that…",
+      "url": "https://www.reedsmith.com/articles/10-key-government-contracts-legal-developments-2024-shape-2025",
+      "snippet": "In October 2024, GAO sustained in part a protest filed by IBSS Corporation, a small business, challenging a task order award by the Department of Commerce, National Oceanic and Atmospheric Administration (NOAA). IBSS argued that NOAA improperly evaluated Blue Glacier Management Group, Inc.’s total compensation plan, claiming that the proposed compensation levels for professional employees were unrealistically low compared to those offered by the incumbent contractor. GAO agreed with IBSS, [...] ",
+      "query": "Incumbents awarded financial management software contracts Department of Commerce 2024"
+    },
+    {
+      "id": "S8",
+      "title": "Federal Contract Awards Hit $773.68B in FY24 - GovSpend",
+      "url": "https://govspend.com/blog/federal-contract-awards-hit-773-68b-in-fy24-small-businesses-see-4b-increase",
+      "snippet": "|  |  |  |  |\n ---  --- |\n| Fiscal Year | Total Federal Contract Awards (Including De-obligations) | Increase/Decrease Over Previous Year (Billion $) | Percentage Change Over Previous Year |\n| FY 2019 | $598.32B | $37.78B | 6.74% |\n| FY 2020 | $688.86B | $90.55B | 15.13% |\n| FY 2021 | $661.68B | -$27.18B | -3.95% |\n| FY 2022 | $706.66B | $44.98B | 6.80% |\n| FY 2023 | $777.01B | $70.35B | 9.95% |\n| FY 2024 | $773.68B | -$3.33B | -0.43% | [...] 5% of total federal contracts. In addition to the $33",
+      "query": "Incumbents awarded financial management software contracts Department of Commerce 2024"
+    },
+    {
+      "id": "S9",
+      "title": "FirstNet Authority - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/FirstNet_Authority",
+      "snippet": "The First Responder Network Authority, commonly known as the FirstNet Authority (or simply FirstNet), is an independent U.S. government authority established under the Middle Class Tax Relief and Job Creation Act of 2012 (MCTRJCA). Its mandate is to ensure the building, deployment, and operation of a nationwide interoperable broadband network for public safety (the Nationwide Public Safety Broadband Network, or NPSBN). Congress allotted $7 billion and 20 MHz of radio spectrum (Band 14) to the [.",
+      "query": "Recent set-aside awards NAICS 541519 FirstNet Authority"
+    },
+    {
+      "id": "S10",
+      "title": "FirstNet Authority Awards | First Responder Network Authority",
+      "url": "https://firstnet.gov/about/firstnet-authority-awards",
+      "snippet": "2023\n  + Chief Peter Burke\n 2024\n  + Deputy Commissioner Robert Barbera\n  + State Coordinator Shawn Talmadge\n  + Chief Dan Munsey\n  + Chief Joe Duvall\n  + Deputy Fire Chief Robert Simmons\n 2025\n  + Michele Abbott\n  + Joey DelaCruz\n  + Antony \"Tony\" Niave\n  + District of Columbia Fire and Emergency Medical Services Department\n  + Indianapolis Fire Department (IFD)\n  + Tennessee Highway Patrol and Tennessee Advanced Communications Network (TACN)\n\nReturn to top\n\n#### About [...] ## Patriot Award\n\nE",
+      "query": "Recent set-aside awards NAICS 541519 FirstNet Authority"
+    },
+    {
+      "id": "S11",
+      "title": "History | First Responder Network Authority",
+      "url": "https://firstnet.gov/about/history",
+      "snippet": "The Act that created the FirstNet Authority required it to engage in an open, transparent, and competitive RFP process for the deployment of the network. Informed by years of public safety consultation and data collection, the FirstNet Authority issued its objectives-based RFP in January of 2016. Through a first of its kind public-private partnership, the FirstNet Authority awarded an innovative 25-year contract to AT&T in March 2017. [...] The First Responder Network Authority, or FirstNet Auth",
+      "query": "Recent set-aside awards NAICS 541519 FirstNet Authority"
+    },
+    {
+      "id": "S12",
+      "title": "FirstNet Expands Public Safety First Responder Cell Network",
+      "url": "https://www.firstnet.com/community/news/firstnet-expands-public-safetys-dedicated-connectivity.html",
+      "snippet": "These new sites are part of our 10-year investment initiative with the First Responder Network Authority (FirstNet Authority) to evolve America’s public safety network and expand its dedicated Band 14 spectrum to more public safety-centric locations. The U.S. government set aside this high-quality spectrum specifically for FirstNet because unlike commercial networks, FirstNet is built to public safety’s strict specifications and requirements.",
+      "query": "Recent set-aside awards NAICS 541519 FirstNet Authority"
+    }
+  ],
+  "supportedClaims": [
+    {
+      "text": "The Department of Commerce’s NTIA/FirstNet issued a Sources Sought (RFI) for Financial Management Software and Support Services that is full and open with NAICS 541519 and no set‑aside.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.highergov.com/contract-opportunity/financial-management-software-and-support-services-fna-ocpo-64962-r-b9409"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "The listed point of contact for the opportunity is Adam Powell at FirstNet (adam.powell@firstnet.gov, (571) 307-5443).",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.highergov.com/contract-opportunity/financial-management-software-and-support-services-fna-ocpo-64962-r-b9409"
+      ],
+      "status": "supported"
+    }
+  ],
+  "droppedClaims": [
+    {
+      "text": "The RFI requests a FEDRAMP Moderate compliant unified platform capable of connecting to other validated sources, employing governed AI agents for finance processes, and automating the full finance lifecycle.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://starbridge.ai/rfp/financial-software-and-support-services"
+      ],
+      "status": "dropped",
+      "reason": "cites URL(s) not in this run's evidence: https://starbridge.ai/rfp/financial-software-and-support-services"
+    },
+    {
+      "text": "CDW Government LLC was awarded a $561,166,063 contract by the Department of Commerce/U.S. Census Bureau on June 28, 2017.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_DOCYA132317NC0139_1323_HHSN316201500011W_7529"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (Past award unrelated to current RFI.)"
+    },
+    {
+      "text": "Earth Resources Technology, LLC received a $188,840,498 award from the Department of Commerce/NOAA on March 29, 2021 for sustainment support under an OMS IDIQ.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_1332KP21FNEEB0011_1330_1332KP21DNEEB0011_1330"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (Unrelated past award.)"
+    }
+  ],
+  "verdict": {
+    "decision": "CONDITIONAL",
+    "confidence": "medium",
+    "rationale": [
+      {
+        "point": "The RFI is full and open under NAICS 541519, which matches the company's registered NAICS code, confirming eligibility per the eligibility gate.",
+        "claimIds": [
+          1
+        ]
+      },
+      {
+        "point": "The company's places of performance include remote work, and the eligibility gate confirmed place_of_performance compatibility, supporting ability to perform.",
+        "claimIds": [
+          1
+        ]
+      },
+      {
+        "point": "The company has three relevant web and data platform projects for state/local agencies (under $500K each), but no prior federal prime contracts, which may limit competitiveness for a potential large contract given the award history median of $27M.",
+        "claimIds": [
+          1
+        ]
+      },
+      {
+        "point": "The listed point of contact Adam Powell at FirstNet provides a direct channel to engage and shape requirements, which is valuable for a small business seeking federal visibility.",
+        "claimIds": [
+          2
+        ]
+      }
+    ],
+    "risks": [
+      "Potential eventual contract size (median top award $27M) far exceeds company's past project scale (<$500K).",
+      "No facility clearance or SOC 2 report may be required for a future financial management system contract.",
+      "Full and open competition with no small-business set-aside favors large, established contractors.",
+      "Lack of prior VA, DoD, or HHS prime contracts reduces credibility for federal financial systems work."
+    ],
+    "nextSteps": [
+      "Submit a capability response to the RFI highlighting relevant web/data platform experience and remote performance capacity.",
+      "Contact Adam Powell (adam.powell@firstnet.gov) to express interest and request information on acquisition timeline and potential set-aside decisions.",
+      "Evaluate team capacity and consider teaming with a larger firm for a future proposal if a solicitation is issued.",
+      "Monitor SAM.gov for any follow-on solicitation (RFP/TO) and reassess bid decision at that time."
+    ]
+  },
+  "approval": "pending",
+  "cost": {
+    "totalUsd": 0.01123136,
+    "byTier": {
+      "nano": {
+        "calls": 2,
+        "inputTokens": 1167,
+        "outputTokens": 1531,
+        "usd": 0.0004374599999999999
+      },
+      "super": {
+        "calls": 1,
+        "inputTokens": 3232,
+        "outputTokens": 2467,
+        "usd": 0.0031899000000000003
+      },
+      "ultra": {
+        "calls": 1,
+        "inputTokens": 533,
+        "outputTokens": 2357,
+        "usd": 0.007604
+      }
+    }
+  },
+  "calls": [
+    {
+      "tier": "nano",
+      "purpose": "classify requirement",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 223,
+      "outputTokens": 153,
+      "usd": 0.00005009999999999999,
+      "latencyMs": 825
+    },
+    {
+      "tier": "super",
+      "purpose": "synthesize sourced claims",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "inputTokens": 3232,
+      "outputTokens": 2467,
+      "usd": 0.0031899000000000003,
+      "latencyMs": 10376
+    },
+    {
+      "tier": "nano",
+      "purpose": "relevance and support check",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 944,
+      "outputTokens": 1378,
+      "usd": 0.00038735999999999995,
+      "latencyMs": 4378
+    },
+    {
+      "tier": "ultra",
+      "purpose": "final bid/no-bid verdict",
+      "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "inputTokens": 533,
+      "outputTokens": 2357,
+      "usd": 0.007604,
+      "latencyMs": 8299
+    }
+  ],
+  "errors": [],
+  "history": {
+    "total": 9012,
+    "smallBizAwards": 4092,
+    "medianAmount": 27016343.11,
+    "topRecipients": [
+      {
+        "name": "CDW GOVERNMENT LLC",
+        "count": 1,
+        "amount": 561166063.35
+      },
+      {
+        "name": "EARTH RESOURCES TECHNOLOGY, LLC",
+        "count": 8,
+        "amount": 498832792.54999995
+      },
+      {
+        "name": "GAMA-1 TECHNOLOGIES, LLC",
+        "count": 2,
+        "amount": 172813673.82
+      },
+      {
+        "name": "DELL FEDERAL SYSTEMS L.P",
+        "count": 7,
+        "amount": 169185423.21
+      },
+      {
+        "name": "IMMIXTECHNOLOGY INC",
+        "count": 1,
+        "amount": 148402490.47
+      }
+    ]
+  },
+  "classification": {
+    "summary": "The buyer seeks information on financial management software and support services providers to evaluate market options and determine acquisition strategy, including potential set-asides.",
+    "queries": [
+      "FirstNet Authority financial management software RFI 2026",
+      "Incumbents awarded financial management software contracts Department of Commerce 2024",
+      "Recent set-aside awards NAICS 541519 FirstNet Authority"
+    ]
+  }
+}

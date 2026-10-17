@@ -1,0 +1,389 @@
+{
+  "runId": "run-2026-10-17T01-02-02-699Z",
+  "createdAt": "2026-10-17T01:02:02.699Z",
+  "opportunity": {
+    "id": "HQDA-G-4_26_01",
+    "title": "Sizing Technology Pilot (Army Call for Solutions)",
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "naics": "541512",
+    "setAside": "NONE",
+    "responseDeadline": "2026-10-20T10:00:00-04:00",
+    "placeOfPerformance": "UNSPECIFIED",
+    "noticeType": "Solicitation (Call for Solutions under Army Open Solicitation W9128Z-25-S-A002)",
+    "description": "Army Contracting Command-Aberdeen Proving Ground, on behalf of HQDA G-4, seeks mature commercial technology that captures body and foot measurements by automated non-contact methods and translates them into recommended standard Army uniform and footwear sizes. Current manual tape measurement at accession points causes bottlenecks and high uniform and boot return rates and keeps no record of sizing changes over time. Evaluation phases and required attributes are in Attachment 1. Questions were due Oct 13 2026. No set-aside used.",
+    "sourceUrl": "https://sam.gov/workspace/contract/opp/b691c12b700848deb9876f9b1b5ad0cf/view",
+    "retrievedFrom": "SAM.gov public notice page, 2026-10-16"
+  },
+  "profile": {
+    "_note": "FICTIONAL SAMPLE COMPANY for scenario testing. Not a real firm. Past performance and staffing are invented; only the NAICS codes, set-aside definitions and every opportunity and award figure used against it are real public data.",
+    "id": "magnolia-analytics",
+    "name": "Magnolia Women's Analytics LLC (sample)",
+    "hqState": "GA",
+    "size": "small",
+    "fictional": true,
+    "naics": [
+      "541512",
+      "541611",
+      "541511"
+    ],
+    "certifications": [
+      "SBA",
+      "WOSB",
+      "EDWOSB"
+    ],
+    "placesOfPerformance": [
+      "GA",
+      "VA",
+      "DC",
+      "REMOTE"
+    ],
+    "pastPerformance": "Women-owned, economically disadvantaged. One Marine Corps training-data contract (about $1.5M) and two civilian-agency analytics task orders under $800K.",
+    "capacityNotes": "Eleven staff. No facility clearance. Past performance is strongest in training and education data systems.",
+    "verification": [
+      "NAICS codes confirmed against USAspending reference (api.usaspending.gov/api/v2/references/naics) on 2026-10-16.",
+      "Set-asides follow SBA definitions: SBA = small business, 8A = 8(a) Business Development, HUBZONE, WOSB/EDWOSB, SDVOSB."
+    ]
+  },
+  "gate": {
+    "pass": true,
+    "checks": [
+      {
+        "rule": "deadline",
+        "pass": true,
+        "reason": "Responses due 2026-10-20T10:00:00-04:00; still open."
+      },
+      {
+        "rule": "set_aside",
+        "pass": true,
+        "reason": "Full and open competition; no set-aside required."
+      },
+      {
+        "rule": "naics",
+        "pass": true,
+        "reason": "NAICS 541512 is in the company's codes."
+      },
+      {
+        "rule": "place_of_performance",
+        "pass": true,
+        "reason": "Place of performance is not stated in the notice; verify before bidding."
+      }
+    ]
+  },
+  "stoppedAtGate": false,
+  "sources": [
+    {
+      "id": "A1",
+      "title": "USAspending award N0002407C5431: RAYTHEON COMPANY, $1,076,035,500",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_N0002407C5431_9700_-NONE-_-NONE-",
+      "snippet": "2007-03-01 | Department of Defense / Defense Contract Management Agency | MK 41 S-BAND TACTICAL MISSILE",
+      "query": "usaspending"
+    },
+    {
+      "id": "A2",
+      "title": "USAspending award H9222217F0069: AMENTUM TECHNOLOGY, INC., $979,192,263",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_H9222217F0069_9700_GS00Q09BGD0059_4735",
+      "snippet": "2017-02-24 | Department of Defense / U.S. Special Operations Command | IGF::CT::IGF ENTERPRISE CORE SERVICES (ENDURING)",
+      "query": "usaspending"
+    },
+    {
+      "id": "A3",
+      "title": "USAspending award W52P1J20C0005: ACCENTURE FEDERAL SERVICES LLC, $896,468,884",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_W52P1J20C0005_9700_-NONE-_-NONE-",
+      "snippet": "2019-12-10 | Department of Defense / Department of the Army | AWARD FOR UNIFIED ENTERPRISE RESOURCE PLANNING CAPABILITY SUPPORT SERVICES",
+      "query": "usaspending"
+    },
+    {
+      "id": "A4",
+      "title": "USAspending award FA872619F0096: SCIENCE APPLICATIONS INTERNATIONAL CORPORATION, $684,030,647",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_FA872619F0096_9700_47QTCK18D0001_4732",
+      "snippet": "2019-09-10 | Department of Defense / Department of the Air Force | COMMON COMPUTING ENVIRONMENT (CCE) FOLLOW-ON",
+      "query": "usaspending"
+    },
+    {
+      "id": "A5",
+      "title": "USAspending award HT003823F0011: LEIDOS, INC., $572,997,098",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_HT003823F0011_9700_N0003915D0044_9700",
+      "snippet": "2023-08-03 | Department of Defense / Defense Health Agency | ENTERPRISE ACTIVITIES FOR MHS GENESIS-STAGE 9",
+      "query": "usaspending"
+    },
+    {
+      "id": "S1",
+      "title": "Military Uniform Sizing at Scale | 3D Data & Logistics",
+      "url": "https://pciaw.org/how-to-equip-10000-troops-with-the-right-uniform-size",
+      "snippet": "Digital sizing technology uses wearer data to generate accurate size recommendations quickly and at scale. Instead of relying on self-selection",
+      "query": "Army uniform sizing technology"
+    },
+    {
+      "id": "S2",
+      "title": "Prediction of military combat clothing size using decision trees and 3D body scan data",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S000368702100082X",
+      "snippet": "Several studies have compared the accuracy of traditional versus 3D anthropometry measurements (Glock et al., 2017; Koepke et al., 2017; Kuehnapfel et al., 2016), but few studies have compared the efficiency and accuracy of tailor versus automated body scan-based clothing sizing in military combat uniforms. In 2019, the New Zealand Army (NZ Army) were interested in how 3D body scanning technology could optimise their recruit sizing process (Kolose et al., 2019). Sizing large numbers of recruits ",
+      "query": "Army uniform sizing technology"
+    },
+    {
+      "id": "S3",
+      "title": "Military Uniform Sizing App",
+      "url": "https://www.marlowwhite.com/marlow-white-sizing-app",
+      "snippet": "Our new sizing app helps you order confidently and accurately using just your phone—no guessing, no tailor visits, no measuring tapes, and no sizing charts.",
+      "query": "Army uniform sizing technology"
+    },
+    {
+      "id": "S4",
+      "title": "Proper uniform sizing : r/Militaryfaq",
+      "url": "https://www.reddit.com/r/Militaryfaq/comments/1l7n9z3/proper_uniform_sizing",
+      "snippet": "Sorry for the random question but I’m joining the army and I’m very petite at 5’2 105 lbs slim female and I was wondering if army has uniforms",
+      "query": "Army uniform sizing technology"
+    },
+    {
+      "id": "S5",
+      "title": "3DBodyTech2025 Digitizing Military Footwear Provisioning through Foot Measurement and Shoe Matching",
+      "url": "https://www.youtube.com/watch?v=0jkJ4t5AX84",
+      "snippet": "This approach led to more than 50% reduction in sizing process time, while introducing full traceability and consistency across evaluations. Every sizing session is stored, allowing feedback integration and future learning. Upcoming deployments for different military clients will scale the system to over 60 equipment sites, reaching more than 20,000 soldiers annually. [...] In this work, we present a cost-efficient digitized solution for optimizing shoe size recommendations. Our system enables a",
+      "query": "DoD foot measurement automation"
+    },
+    {
+      "id": "S6",
+      "title": "Automated weight-bearing foot measurements using an ...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38880791",
+      "snippet": "by L Lassalle · 2025 · Cited by 13 — AI demonstrated potential for accurate and automated measurements on weight-bearing forefoot and lateral foot radiographs.",
+      "query": "DoD foot measurement automation"
+    },
+    {
+      "id": "S7",
+      "title": "Development of an automated foot contact area ...",
+      "url": "https://www.e-jyms.org/journal/view.php?number=2875",
+      "snippet": "This study aimed to develop a program using ChatGPT-4 to automate foot contact area measurements using a podoscope, thereby enhancing diagnostic",
+      "query": "DoD foot measurement automation"
+    },
+    {
+      "id": "S8",
+      "title": "DOD takes automation a step further with machine learning | FedScoop",
+      "url": "https://fedscoop.com/dod-takes-automation-a-step-further-with-machine-learning",
+      "snippet": "Advertise\n\nFedScoop\n\n Subscribe\n\nAdvertisement\n\nSubscribe to our daily newsletter.\n\nSubscribe\n\n Defense\n\n# DOD takes automation a step further with machine learning\n\nRPAs are getting a boost from machine learning in the DOD to help link up unmatched financial data.\n\nBy Jackson Barnett\n\nArmy financial management [...] Advertisement\n\nFedScoop [...] “After the machine learning front end creates candidate correction, it is routed to an RPA for the final database update,” Dorsey said in an email to F",
+      "query": "DoD foot measurement automation"
+    },
+    {
+      "id": "S9",
+      "title": "Golden Manufacturing receives $10.8M uniform contract for Army, Navy",
+      "url": "https://finance.yahoo.com/news/golden-manufacturing-receives-10-8m-011800949.html",
+      "snippet": "The new contract has an Oct. 23, 2023, ordering period end date. The Defense Logistics Agency issued the $10.8 million through FY2023-2024 defense working capital appropriations.\n\nGolden Manufacturing received a similar contract last October, a $10.6 million contract also for the U.S. Army and U.S. Navy\n\nTerms  and Privacy Policy\n\nPrivacy Dashboard\n\nMore Info\n\n## Recommended Stories [...] 1. Crypto\n\n   Crypto\n2. AI\n\n   AI\n\n# Golden Manufacturing receives $10.8M uniform contract for Army, Navy\n\nN",
+      "query": "recent Army uniform size reduction contracts"
+    },
+    {
+      "id": "S10",
+      "title": "SPE1C125R0003 - IHWCU-ACU Coat & Trousers",
+      "url": "https://sam.gov/opp/71275b4e82674691ae96dae81c14f042/view",
+      "snippet": "Contract Opportunity Type:Solicitation (Original) \n   Original Published Date:Feb 27, 2025 09:50 am EST\n   Original Date Offers Due:Mar 25, 2025 03:00 pm EDT\n   Inactive Policy:15 days after date offers due \n   Original Inactive Date:Apr 09, 2025\n   Initiative:\n       None \n\n## Classification\n\n   Original Set Aside:Total Small Business Set-Aside (FAR 19.5)\n   Product Service Code: 8405 - OUTERWEAR, MEN'S \n   NAICS Code:\n       315210 - Cut and Sew Apparel Contractors [...] NSNs: 8415-01-670-5110",
+      "query": "recent Army uniform size reduction contracts"
+    },
+    {
+      "id": "S11",
+      "title": "Changes are coming to the Army uniform | Article | The United States Army",
+      "url": "https://www.army.mil/article/246354/changes_are_coming_to_the_army_uniform",
+      "snippet": "2021 at Fort Bragg, Fort Meade and Fort Belvoir, will allow the Defense Logistics Agency to proceed with contracting and distribution in March 2022. [...] Shortly after the Improved Hot Weather Combat Uniform design was developed and proven successful, the Army created specific design features and additional sizes for females and smaller-statured males. The jacket, which comes in 16 sizes, features a reduced neck opening, a rebalanced shoulder design, lengthened side seam and a reduced armhole a",
+      "query": "recent Army uniform size reduction contracts"
+    },
+    {
+      "id": "S12",
+      "title": "DCS loses protest over Army's $237M soldier gear contract redo - Washington Technology",
+      "url": "https://www.washingtontechnology.com/contracts/2026/07/dcs-loses-protest-over-armys-237m-soldier-gear-contract-redo/415134",
+      "snippet": "By Nick Wakeman\n\n|\n\n## The company wanted the Army’s corrective action to go further, but the Government Accountability Office disagrees. That clears the Army to look at revised proposals and make a new award decision.\n\n DCS Corp.\n Amentum\n Army\n\nThe Army agreed for a second time in March to re-evaluate proposals for a $237 million contract to improve the protective equipment worn by soldiers. [...] The winner will provide engineering, quality assurance and test support, acquisition support, bus",
+      "query": "recent Army uniform size reduction contracts"
+    }
+  ],
+  "supportedClaims": [
+    {
+      "text": "Digital sizing technology uses wearer data to generate accurate size recommendations quickly and at scale.",
+      "kind": "fit",
+      "sourceUrls": [
+        "https://pciaw.org/how-to-equip-10000-troops-with-the-right-uniform-size"
+      ],
+      "status": "supported"
+    }
+  ],
+  "droppedClaims": [
+    {
+      "text": "Raytheon Company was awarded a $1,076,035,500 DoD contract (N0002407C5431) under NAICS 541512.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_N0002407C5431_9700_-NONE-_-NONE-"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: source does not support claim (Award is for missile system, not sizing tech.)"
+    },
+    {
+      "text": "Accenture Federal Services LLC received an $896,468,884 Army contract (W52P1J20C0005) for enterprise resource planning support.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_W52P1J20C0005_9700_-NONE-_-NONE-"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: source does not support claim (Contract is for ERP services, unrelated.)"
+    },
+    {
+      "text": "Leidos, Inc. was awarded a $572,997,098 Defense Health Agency contract (HT003823F0011) for enterprise activities.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_HT003823F0011_9700_N0003915D0044_9700"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: source does not support claim (Award is for health agency enterprise activities, unrelated.)"
+    },
+    {
+      "text": "Golden Manufacturing received a $10.8 million uniform contract for the Army and Navy.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://finance.yahoo.com/news/golden-manufacturing-receives-10-8m-011800949.html"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (Company won uniform contract, but not the required sizing technology.)"
+    }
+  ],
+  "verdict": {
+    "decision": "CONDITIONAL",
+    "confidence": "low",
+    "rationale": [
+      {
+        "point": "The opportunity centers on digital sizing technology that uses wearer data to generate accurate size recommendations quickly and at scale (claim #1), which aligns with the company's core data analytics capabilities.",
+        "claimIds": [
+          1
+        ]
+      },
+      {
+        "point": "The company holds NAICS 541512 (Computer Systems Design Services) matching the opportunity's NAICS, and the eligibility gate passed for deadline, NAICS, and place of performance.",
+        "claimIds": [
+          1
+        ]
+      },
+      {
+        "point": "However, the opportunity has no set-aside (full and open competition), exposing a small business with 11 staff and no facility clearance to large competitors; past performance is strongest in training and education data systems, not specifically sizing technology.",
+        "claimIds": [
+          1
+        ]
+      },
+      {
+        "point": "The median award size for top DoD NAICS 541512 awards is ~$237M, indicating typical awards are large; this pilot may be smaller but still carries high competition risk for a firm of this size.",
+        "claimIds": [
+          1
+        ]
+      }
+    ],
+    "risks": [
+      "Full and open competition with no small business set-aside",
+      "Limited past performance directly relevant to digital sizing technology",
+      "Small staff (11) may limit capacity for pilot execution",
+      "No facility clearance could be a barrier if security requirements emerge",
+      "High median award values suggest large-scale expectations"
+    ],
+    "nextSteps": [
+      "Assess teaming options with a larger prime or complementary small business",
+      "Request clarification on pilot scope, budget, and security requirements",
+      "Evaluate whether existing training data analytics experience can be credibly mapped to sizing technology use case",
+      "Prepare a capability statement highlighting data analytics, rapid prototyping, and wearable data experience"
+    ]
+  },
+  "approval": "pending",
+  "cost": {
+    "totalUsd": 0.00906668,
+    "byTier": {
+      "nano": {
+        "calls": 2,
+        "inputTokens": 1076,
+        "outputTokens": 1628,
+        "usd": 0.00045527999999999996
+      },
+      "super": {
+        "calls": 1,
+        "inputTokens": 2937,
+        "outputTokens": 1717,
+        "usd": 0.0024264
+      },
+      "ultra": {
+        "calls": 1,
+        "inputTokens": 605,
+        "outputTokens": 1860,
+        "usd": 0.006185
+      }
+    }
+  },
+  "calls": [
+    {
+      "tier": "nano",
+      "purpose": "classify requirement",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 212,
+      "outputTokens": 204,
+      "usd": 0.00006168,
+      "latencyMs": 880
+    },
+    {
+      "tier": "super",
+      "purpose": "synthesize sourced claims",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "inputTokens": 2937,
+      "outputTokens": 1717,
+      "usd": 0.0024264,
+      "latencyMs": 11391
+    },
+    {
+      "tier": "nano",
+      "purpose": "relevance and support check",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 864,
+      "outputTokens": 1424,
+      "usd": 0.00039359999999999997,
+      "latencyMs": 4646
+    },
+    {
+      "tier": "ultra",
+      "purpose": "final bid/no-bid verdict",
+      "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "inputTokens": 605,
+      "outputTokens": 1860,
+      "usd": 0.006185,
+      "latencyMs": 6328
+    }
+  ],
+  "errors": [],
+  "history": {
+    "total": 23759,
+    "smallBizAwards": 1428,
+    "medianAmount": 237131226.07,
+    "topRecipients": [
+      {
+        "name": "LEIDOS, INC.",
+        "count": 15,
+        "amount": 4184107184.3400006
+      },
+      {
+        "name": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "count": 6,
+        "amount": 2242641487.3199997
+      },
+      {
+        "name": "RAYTHEON COMPANY",
+        "count": 3,
+        "amount": 1847934253.78
+      },
+      {
+        "name": "ACCENTURE FEDERAL SERVICES LLC",
+        "count": 2,
+        "amount": 1214627081.88
+      },
+      {
+        "name": "AMENTUM TECHNOLOGY, INC.",
+        "count": 1,
+        "amount": 979192262.73
+      }
+    ]
+  },
+  "classification": {
+    "summary": "The Army needs a mature commercial technology that automatically captures body and foot measurements without contact to generate recommended uniform and footwear sizes, reducing bottlenecks and returns.",
+    "queries": [
+      "Army uniform sizing technology",
+      "DoD foot measurement automation",
+      "recent Army uniform size reduction contracts"
+    ]
+  }
+}

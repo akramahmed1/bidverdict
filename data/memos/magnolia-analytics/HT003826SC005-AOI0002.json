@@ -1,0 +1,371 @@
+{
+  "runId": "run-2026-10-17T01-02-30-943Z",
+  "createdAt": "2026-10-17T01:02:30.943Z",
+  "opportunity": {
+    "id": "HT003826SC005-AOI0002",
+    "title": "DHA PAE DMS EIDS PMO Data Exchange Services Operations, Modernization, and Development (AOI 02)",
+    "agency": "Department of Defense",
+    "subAgency": "Defense Health Agency (DHA)",
+    "naics": "541512",
+    "setAside": "NONE",
+    "responseDeadline": "2026-10-28T14:00:00-04:00",
+    "placeOfPerformance": "VA",
+    "noticeType": "Solicitation (Commercial Solutions Opening area of interest)",
+    "description": "Defense Health Agency PAE Digital Medical Solutions, EIDS PMO, seeks commercial solutions for Data Exchange Platform (DxP) operations, sustainment, modernization and development. The DxP processes real-time clinical and operational data exchanged with more than 15 external systems and partners and enables secure, standards-based interoperability among DHA, the Department of Veterans Affairs and other federal healthcare partners. The Government wants reliable, secure, continuously available legacy services while modernizing toward scalable, cloud-native, API-driven, standards-based and AI/ML-ready capabilities. Issued under DHA Commercial Solutions Opening HT003826SC005. No set-aside used.",
+    "sourceUrl": "https://sam.gov/workspace/contract/opp/f680b73a6c10415a83f09f448894e5bb/view",
+    "retrievedFrom": "SAM.gov public notice page, 2026-10-16"
+  },
+  "profile": {
+    "_note": "FICTIONAL SAMPLE COMPANY for scenario testing. Not a real firm. Past performance and staffing are invented; only the NAICS codes, set-aside definitions and every opportunity and award figure used against it are real public data.",
+    "id": "magnolia-analytics",
+    "name": "Magnolia Women's Analytics LLC (sample)",
+    "hqState": "GA",
+    "size": "small",
+    "fictional": true,
+    "naics": [
+      "541512",
+      "541611",
+      "541511"
+    ],
+    "certifications": [
+      "SBA",
+      "WOSB",
+      "EDWOSB"
+    ],
+    "placesOfPerformance": [
+      "GA",
+      "VA",
+      "DC",
+      "REMOTE"
+    ],
+    "pastPerformance": "Women-owned, economically disadvantaged. One Marine Corps training-data contract (about $1.5M) and two civilian-agency analytics task orders under $800K.",
+    "capacityNotes": "Eleven staff. No facility clearance. Past performance is strongest in training and education data systems.",
+    "verification": [
+      "NAICS codes confirmed against USAspending reference (api.usaspending.gov/api/v2/references/naics) on 2026-10-16.",
+      "Set-asides follow SBA definitions: SBA = small business, 8A = 8(a) Business Development, HUBZONE, WOSB/EDWOSB, SDVOSB."
+    ]
+  },
+  "gate": {
+    "pass": true,
+    "checks": [
+      {
+        "rule": "deadline",
+        "pass": true,
+        "reason": "Responses due 2026-10-28T14:00:00-04:00; still open."
+      },
+      {
+        "rule": "set_aside",
+        "pass": true,
+        "reason": "Full and open competition; no set-aside required."
+      },
+      {
+        "rule": "naics",
+        "pass": true,
+        "reason": "NAICS 541512 is in the company's codes."
+      },
+      {
+        "rule": "place_of_performance",
+        "pass": true,
+        "reason": "Place of performance VA is within the company's coverage."
+      }
+    ]
+  },
+  "stoppedAtGate": false,
+  "sources": [
+    {
+      "id": "A1",
+      "title": "USAspending award N0002407C5431: RAYTHEON COMPANY, $1,076,035,500",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_N0002407C5431_9700_-NONE-_-NONE-",
+      "snippet": "2007-03-01 | Department of Defense / Defense Contract Management Agency | MK 41 S-BAND TACTICAL MISSILE",
+      "query": "usaspending"
+    },
+    {
+      "id": "A2",
+      "title": "USAspending award H9222217F0069: AMENTUM TECHNOLOGY, INC., $979,192,263",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_H9222217F0069_9700_GS00Q09BGD0059_4735",
+      "snippet": "2017-02-24 | Department of Defense / U.S. Special Operations Command | IGF::CT::IGF ENTERPRISE CORE SERVICES (ENDURING)",
+      "query": "usaspending"
+    },
+    {
+      "id": "A3",
+      "title": "USAspending award W52P1J20C0005: ACCENTURE FEDERAL SERVICES LLC, $896,468,884",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_W52P1J20C0005_9700_-NONE-_-NONE-",
+      "snippet": "2019-12-10 | Department of Defense / Department of the Army | AWARD FOR UNIFIED ENTERPRISE RESOURCE PLANNING CAPABILITY SUPPORT SERVICES",
+      "query": "usaspending"
+    },
+    {
+      "id": "A4",
+      "title": "USAspending award FA872619F0096: SCIENCE APPLICATIONS INTERNATIONAL CORPORATION, $684,030,647",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_FA872619F0096_9700_47QTCK18D0001_4732",
+      "snippet": "2019-09-10 | Department of Defense / Department of the Air Force | COMMON COMPUTING ENVIRONMENT (CCE) FOLLOW-ON",
+      "query": "usaspending"
+    },
+    {
+      "id": "A5",
+      "title": "USAspending award HT003823F0011: LEIDOS, INC., $572,997,098",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_HT003823F0011_9700_N0003915D0044_9700",
+      "snippet": "2023-08-03 | Department of Defense / Defense Health Agency | ENTERPRISE ACTIVITIES FOR MHS GENESIS-STAGE 9",
+      "query": "usaspending"
+    },
+    {
+      "id": "S1",
+      "title": "Defense Health Agency (DHA), Program Acquisition Executive, Digital Medical Solu (VA) | Bid due Oct 28, 2026 | BidRep",
+      "url": "https://getbidrep.com/contract/f680b73a6c10415a83f09f448894e5bb",
+      "snippet": "Consistent with the maturity and nature of the selected commercial solution and applicable law, the Government may use any applicable award authority identified in the CSO. The DHA Portfolio Acquisition Executive for Defense Medical Solutions (PAE DMS), EIDS PMO, seeks commercial solutions to support Data Exchange Platform (DxP) operations, sustainment, modernization, and development. The DxP supports mission-essential MHS Information Platform (MIP) functions by processing real-time clinical [..",
+      "query": "DHA PAE Digital Medical Solutions Data Exchange Platform"
+    },
+    {
+      "id": "S2",
+      "title": "Defense Health Agency (DHA) Program Acquisition Executive Digital Medical Solutions (PAE DMS)...",
+      "url": "https://www.highergov.com/contract-opportunity/defense-health-agency-dha-program-acquisition-e-ht003826sc005-aoi0002-o-4e5bb",
+      "snippet": "The goal is to enhance the Data Exchange Platform (DxP), which supports critical interoperability functions across the Military Health System (MHS) and external partners, including the Department of Veterans Affairs (VA). This initiative aims to ensure military health readiness and improve patient care delivery by processing real-time clinical and operational data.  \n  \nWork Details  \n The contractor will be responsible for both operations and modernization of the DxP. Key tasks include: [...] C",
+      "query": "DHA PAE Digital Medical Solutions Data Exchange Platform"
+    },
+    {
+      "id": "S3",
+      "title": "Defense Health Agency (Dha), Program Acquisition Executive, Digital Medical Solutions (Pae Dms), Enterprise Intelligence & Data Solutions (Eids) Program Management Office (Pmo), Data Exchange Services Operations, Modernization, And Development",
+      "url": "https://www.bidsinfo.com/ref/38019696/defense-health-agency-dha-program-acquisition-executive-digital-medical-solutions-pae-dms-enterprise-intelligence-amp-data-solutions-eids-program-management-office-pmo-data-exchange-services-operations-modernization-and-development",
+      "snippet": "A Procurement notice has been published for Defense Health Agency (Dha), Program Acquisition Executive, Digital Medical Solutions (Pae Dms), Enterprise Intelligence & Data Solutions (Eids) Program Management Office (Pmo), Data Exchange Services Operations, Modernization, And Development in United States of America. The notice will be closed on 28 October 2026. Bidsinfo Reference No. is 38019696.\n\n38019696 [...] World Bank Tenders\n AfDB Tenders\n ADB Tenders\n DFID Tenders\n EBRD Tenders\n EU Tenders",
+      "query": "DHA PAE Digital Medical Solutions Data Exchange Platform"
+    },
+    {
+      "id": "S4",
+      "title": "DHA Seeks Commercial Tools for Data Exchange Platform",
+      "url": "https://www.executivegov.com/articles/dha-data-exchange-platform-commercial-solutions-opening",
+      "snippet": "The platform underpins core functions of the MHS Information Platform, or MIP, by processing live clinical and operational data shared with over 15 outside systems and partners. It supports secure, standards-based data-sharing among DHA, the Department of Veterans Affairs and other federal health organizations to advance military readiness and patient care.\n\nThe EIDS office previously migrated two legacy data warehouses holding more than 1 petabyte of data into MIP under Operation Helios. [...] ",
+      "query": "DHA PAE Digital Medical Solutions Data Exchange Platform"
+    },
+    {
+      "id": "S5",
+      "title": "Enterprise Data Solutions Program Management Office Operations Support (HT003824C0005)",
+      "url": "https://www.highergov.com/contract/HT003824C0005",
+      "snippet": "Spinsys-Dine was awarded Definitive Contract HT003824C0005 (HT0038-24-C-0005) for Enterprise Data Solutions Program Management Office Operations Support worth up to $54,139,898 by Defense Health Agency in July 2024. The contract has a duration of 1 year 6 months and was awarded through solicitation Continuity of Operations full & open with NAICS 518210 and PSC DB01 via sole source acquisition procedures with 1 bid received. As of today, the Definitive Contract has a total reported backlog of [..",
+      "query": "DHA EIDS PMO recent contract awards"
+    },
+    {
+      "id": "S6",
+      "title": "DHA picks 12 for $300M product deployment contract - Washington Technology",
+      "url": "https://www.washingtontechnology.com/contracts/2026/08/dha-picks-12-300m-product-deployment-contract/415175",
+      "snippet": "The Defense Health Agency has awarded 12 companies positions on a potential five-year, $300 million contract for a broad range of professional services to help DHA manage products across the enterprise.\n\nDHA set up the multiple-award contract to support product deployment efforts by the Program Executive Office for Defense Healthcare Management Systems, or PEO DHMS.\n\nDHA received 29 offers for the contract, according to the Pentagon’s Thursday awards digest.\n\nWinners are as follows: [...] DHA aw",
+      "query": "DHA EIDS PMO recent contract awards"
+    },
+    {
+      "id": "S7",
+      "title": "Contracts For May. 1, 2024 > U.S. Department of War > Contract | U.S. Department of War",
+      "url": "https://www.war.gov/News/Contracts/Contract/Article/3762137/contracts-for-may-1-2024",
+      "snippet": "Rockledge, Florida (HT001524D9006); Matrix Providers Inc., Denver, Colorado (HT001524D9007); Optumserve Health Services Inc., La Crosse, Wisconsin (HT001524D9008); Spectrum Healthcare Resources Inc., St. Louis, Missouri (HT001524D9009); and Vesa Health & Technology Inc., San Antonio, Texas (HT001524D9010), will share a multiple award, indefinite-delivery/indefinite-quantity contract with a maximum cumulative ceiling of $43,000,000,000 in support of the Defense Health Agency (DHA) Medical [...] p",
+      "query": "DHA EIDS PMO recent contract awards"
+    },
+    {
+      "id": "S8",
+      "title": "Program Executive Office, Defense Healthcare Management Systems (PEO DHMS), Commercial Solutions Opening (CSO), EIDS AOI 4 - Data Applications",
+      "url": "https://console.sweetspotgov.com/federal-contracts/deb13f9c-58c0-5686-8b1e-6401e1fa941b",
+      "snippet": "### Classification Codes\n\nNAICS Code\n\n541512\n\nComputer Systems Design Services\n\nPSC Code\n\nDB10\n\nIT AND TELECOM - COMPUTE AS A SERVICE: MAINFRAME/SERVERS\n\n### Solicitation Documents\n\n4 Files\n\n## Related Contract Opportunities\n\n### Project Timeline\n\npostedOriginal Solicitation PostedDec 1, 2025\n\namendedLatest AmendmentJan 20, 2026\n\ndeadlineResponse DeadlineDec 12, 2025\n\nexpiryArchive DateJan 21, 2026\n\n### Agency Information\n\nDepartment\n\nDEPT OF DEFENSE\n\nSub-Tier\n\nDEFENSE HEALTH AGENCY (DHA) [...] ",
+      "query": "DHA EIDS PMO recent contract awards"
+    },
+    {
+      "id": "S10",
+      "title": "U.S. Federal Health Data Solutions in the Era of Interoperability",
+      "url": "https://blog.hl7.org/u.s.-federal-health-data-solutions-in-the-era-of-interoperability",
+      "snippet": "Infrastructure: In order to leverage interoperable health data, agencies require platforms that exchange and store data securely. This infrastructure should be flexible enough to be deployed in a variety of environments and support a broad ecosystem of tools.  Agencies can meet these objectives through capabilities such as: [...] Deploying on an open-source platform that enables portability across hybrid and FedRAMP-compliant environments (e.g., Red Hat OpenShift)\n Configuring servers to support",
+      "query": "federal health data exchange platform commercial solutions"
+    },
+    {
+      "id": "S11",
+      "title": "Federal Register\n       :: \n      Data Intermediaries and Approaches To Strengthen Public Health Data Exchange",
+      "url": "https://www.federalregister.gov/documents/2026/09/21/2026-19271/data-intermediaries-and-approaches-to-strengthen-public-health-data-exchange",
+      "snippet": "e.g.,\nschools and pop-up clinics), and federal contributors and platforms. Data intermediaries that already do or potentially could support public health include HIEs, HDUs, TEFCA, Qualified Health Information Networks (QHINs), CMS-Aligned Networks, Health Center Controlled Networks (HCCNs), public health data hubs and exchange platforms, or other entities that provide shared technical, operational, governance, or analytic capabilities for public health purposes. [...] For the purposes of this R",
+      "query": "federal health data exchange platform commercial solutions"
+    },
+    {
+      "id": "S12",
+      "title": "Federal Agencies - eHealth Exchange",
+      "url": "https://ehealthexchange.org/federal-agencies",
+      "snippet": "eHealth Exchange was born out of an effort by the HHS’ Office of the National Coordinator and five other federal agencies – along with private sector healthcare organizations – to establish a nationwide health information exchange.\n\nToday, we are an independent, non-profit dedicated to the public good. We are uniquely positioned to support health data exchange among federal agencies and the private sector.\n\n## Connect with other agencies and providers [...] eHealth Exchange is among the largest ",
+      "query": "federal health data exchange platform commercial solutions"
+    }
+  ],
+  "supportedClaims": [
+    {
+      "text": "The Defense Health Agency’s Program Acquisition Executive for Digital Medical Solutions is seeking commercial solutions to operate, sustain, modernize, and develop a Data Exchange Platform that processes real‑time clinical and operational data with external partners.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://getbidrep.com/contract/f680b73a6c10415a83f09f448894e5bb"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "The solicitation deadline for the DHA Data Exchange Platform opportunity is October 28, 2026.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://getbidrep.com/contract/f680b73a6c10415a83f09f448894e5bb"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "The requirement includes ensuring secure, standards‑based interoperability and transitioning to scalable, cloud‑native, API‑driven, AI/ML‑ready capabilities for the Data Exchange Platform.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.executivegov.com/articles/dha-data-exchange-platform-commercial-solutions-opening"
+      ],
+      "status": "supported"
+    }
+  ],
+  "droppedClaims": [
+    {
+      "text": "DHA previously migrated two legacy data warehouses holding over 1 petabyte of data into the MHS Information Platform under Operation Helios.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.executivegov.com/articles/dha-data-exchange-platform-commercial-solutions-opening"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (Historical migration fact not a bid factor.)"
+    },
+    {
+      "text": "Recent DHA awards for similar work include Leidos receiving $572,997,098 for enterprise activities supporting MHS Genesis‑Stage 9.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_HT003823F0011_9700_N0003915D0044_9700"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (Award detail unrelated to current solicitation.)"
+    }
+  ],
+  "verdict": {
+    "decision": "NO_BID",
+    "confidence": "high",
+    "rationale": [
+      {
+        "point": "The opportunity requires operating, sustaining, modernizing, and developing a Data Exchange Platform processing real-time clinical and operational data with external partners (Claim #1), which is far beyond the company's past performance in training and education data systems.",
+        "claimIds": [
+          1
+        ]
+      },
+      {
+        "point": "The requirement includes secure, standards-based interoperability and transitioning to scalable, cloud-native, API-driven, AI/ML-ready capabilities (Claim #3), but the company has only 11 staff, no facility clearance, and no demonstrated experience in cloud-native, API-driven, or AI/ML health data platforms.",
+        "claimIds": [
+          3
+        ]
+      },
+      {
+        "point": "The award history shows a median of top awards at $237M (context), while the company's largest past contract is ~$1.5M, indicating a massive scale mismatch for a full-and-open competition (set-aside NONE).",
+        "claimIds": []
+      }
+    ],
+    "risks": [
+      "Severe past performance gap: clinical health data exchange vs. training/education analytics",
+      "Technical capability gap: cloud-native, API-driven, AI/ML-ready requirements vs. no evidence of such expertise",
+      "Scale mismatch: 11-person firm vs. likely large-team requirement for DoD health platform",
+      "Full-and-open competition against large established defense health IT contractors",
+      "No facility clearance for potential classified/sensitive health data work"
+    ],
+    "nextSteps": [
+      "Pursue smaller, set-aside opportunities in training/education data analytics matching past performance",
+      "Consider teaming as a subcontractor on health data tasks if a prime seeks WOSB/EDWOSB participation",
+      "Build cloud-native/API/AI-ML capabilities through smaller contracts before targeting large platform efforts"
+    ]
+  },
+  "approval": "pending",
+  "cost": {
+    "totalUsd": 0.00834044,
+    "byTier": {
+      "nano": {
+        "calls": 2,
+        "inputTokens": 1289,
+        "outputTokens": 2010,
+        "usd": 0.00055974
+      },
+      "super": {
+        "calls": 1,
+        "inputTokens": 3366,
+        "outputTokens": 2371,
+        "usd": 0.0031436999999999997
+      },
+      "ultra": {
+        "calls": 1,
+        "inputTokens": 719,
+        "outputTokens": 1306,
+        "usd": 0.004637
+      }
+    }
+  },
+  "calls": [
+    {
+      "tier": "nano",
+      "purpose": "classify requirement",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 261,
+      "outputTokens": 308,
+      "usd": 0.00008957999999999999,
+      "latencyMs": 1171
+    },
+    {
+      "tier": "super",
+      "purpose": "synthesize sourced claims",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "inputTokens": 3366,
+      "outputTokens": 2371,
+      "usd": 0.0031436999999999997,
+      "latencyMs": 8723
+    },
+    {
+      "tier": "nano",
+      "purpose": "relevance and support check",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 1028,
+      "outputTokens": 1702,
+      "usd": 0.00047015999999999996,
+      "latencyMs": 5294
+    },
+    {
+      "tier": "ultra",
+      "purpose": "final bid/no-bid verdict",
+      "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "inputTokens": 719,
+      "outputTokens": 1306,
+      "usd": 0.004637,
+      "latencyMs": 4335
+    }
+  ],
+  "errors": [],
+  "history": {
+    "total": 23759,
+    "smallBizAwards": 1428,
+    "medianAmount": 237131226.07,
+    "topRecipients": [
+      {
+        "name": "LEIDOS, INC.",
+        "count": 15,
+        "amount": 4184107184.3400006
+      },
+      {
+        "name": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "count": 6,
+        "amount": 2242641487.3199997
+      },
+      {
+        "name": "RAYTHEON COMPANY",
+        "count": 3,
+        "amount": 1847934253.78
+      },
+      {
+        "name": "ACCENTURE FEDERAL SERVICES LLC",
+        "count": 2,
+        "amount": 1214627081.88
+      },
+      {
+        "name": "AMENTUM TECHNOLOGY, INC.",
+        "count": 1,
+        "amount": 979192262.73
+      }
+    ]
+  },
+  "classification": {
+    "summary": "The buyer seeks commercial solutions to operate, sustain, modernize, and develop a Data Exchange Platform that processes real-time clinical and operational data with external partners, ensuring secure, standards‑based interoperability and transitioning to scalable, cloud‑native, API‑driven, AI/ML‑ready capabilities.",
+    "queries": [
+      "DHA PAE Digital Medical Solutions Data Exchange Platform",
+      "DHA EIDS PMO recent contract awards",
+      "federal health data exchange platform commercial solutions"
+    ]
+  }
+}

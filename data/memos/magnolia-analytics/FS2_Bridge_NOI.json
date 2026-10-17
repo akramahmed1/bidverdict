@@ -1,0 +1,389 @@
+{
+  "runId": "run-2026-10-17T01-01-34-690Z",
+  "createdAt": "2026-10-17T01:01:34.690Z",
+  "opportunity": {
+    "id": "FS2_Bridge_NOI",
+    "title": "Foundation Sustainment Services (FS2) Bridge Notice of Intent to Sole Source",
+    "agency": "Department of Defense",
+    "naics": "541511",
+    "setAside": "NONE",
+    "responseDeadline": "2026-10-25T09:00:00-05:00",
+    "placeOfPerformance": "VA",
+    "noticeType": "Presolicitation / Notice of Intent",
+    "description": "The National Geospatial-Intelligence Agency intends to issue a sole-source bridge IDIQ contract to Leidos for Foundation Sustainment Services (FS2) under RFO 6.103-1(c)(2), supporting the FS2 program through April 2028 until a competitive follow-on IDIQ can be awarded. Scope: continued integration, software maintenance, operations support and limited development for current mission capabilities of the Source Directorate, across Mapping, Charting and Geodesy mission areas: aeronautical, maritime, topographic, geopolitical geography, elevation, geodesy and controlled imagery.",
+    "sourceUrl": "https://sam.gov/workspace/contract/opp/597716ee83634d638f1bbef21076e3c4/view",
+    "retrievedFrom": "SAM.gov public notice data, 2026-10-16",
+    "subAgency": "National Geospatial-Intelligence Agency (NGA)"
+  },
+  "profile": {
+    "_note": "FICTIONAL SAMPLE COMPANY for scenario testing. Not a real firm. Past performance and staffing are invented; only the NAICS codes, set-aside definitions and every opportunity and award figure used against it are real public data.",
+    "id": "magnolia-analytics",
+    "name": "Magnolia Women's Analytics LLC (sample)",
+    "hqState": "GA",
+    "size": "small",
+    "fictional": true,
+    "naics": [
+      "541512",
+      "541611",
+      "541511"
+    ],
+    "certifications": [
+      "SBA",
+      "WOSB",
+      "EDWOSB"
+    ],
+    "placesOfPerformance": [
+      "GA",
+      "VA",
+      "DC",
+      "REMOTE"
+    ],
+    "pastPerformance": "Women-owned, economically disadvantaged. One Marine Corps training-data contract (about $1.5M) and two civilian-agency analytics task orders under $800K.",
+    "capacityNotes": "Eleven staff. No facility clearance. Past performance is strongest in training and education data systems.",
+    "verification": [
+      "NAICS codes confirmed against USAspending reference (api.usaspending.gov/api/v2/references/naics) on 2026-10-16.",
+      "Set-asides follow SBA definitions: SBA = small business, 8A = 8(a) Business Development, HUBZONE, WOSB/EDWOSB, SDVOSB."
+    ]
+  },
+  "gate": {
+    "pass": true,
+    "checks": [
+      {
+        "rule": "deadline",
+        "pass": true,
+        "reason": "Responses due 2026-10-25T09:00:00-05:00; still open."
+      },
+      {
+        "rule": "set_aside",
+        "pass": true,
+        "reason": "Full and open competition; no set-aside required."
+      },
+      {
+        "rule": "naics",
+        "pass": true,
+        "reason": "NAICS 541511 is in the company's codes."
+      },
+      {
+        "rule": "place_of_performance",
+        "pass": true,
+        "reason": "Place of performance VA is within the company's coverage."
+      }
+    ]
+  },
+  "stoppedAtGate": false,
+  "sources": [
+    {
+      "id": "A1",
+      "title": "USAspending award 0001: NORTHROP GRUMMAN SYSTEMS CORPORATION, $1,270,490,999",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_0001_9700_W91QUZ07D0005_9700",
+      "snippet": "2007-12-06 | Department of Defense / Department of the Army | GCSS-ARMY (F/T)",
+      "query": "usaspending"
+    },
+    {
+      "id": "A2",
+      "title": "USAspending award W15QKN15C0049: CACI-ISS, LLC, $733,720,755",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_W15QKN15C0049_9700_-NONE-_-NONE-",
+      "snippet": "2015-05-15 | Department of Defense / Department of the Army | IGF::CL,CT::IGF SYSTEM INTEGRATOR FOR INCREMENT II OF INTEGRATED PERSONNEL AND PAY SYSTEM -- ARMY (IPPS-A)",
+      "query": "usaspending"
+    },
+    {
+      "id": "A3",
+      "title": "USAspending award HR001121F0006: SECURIGENCE LLC, $664,457,198",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_HR001121F0006_9700_GS35F626GA_4732",
+      "snippet": "2020-10-14 | Department of Defense / Defense Advanced Research Projects Agency | MULTI-NETWORK SUPPORT SERVICES",
+      "query": "usaspending"
+    },
+    {
+      "id": "A4",
+      "title": "USAspending award W9128Z26FA001: PALANTIR USG INC, $637,552,405",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_W9128Z26FA001_9700_W519TC25D0039_9700",
+      "snippet": "2025-11-21 | Department of Defense / Department of the Army | CDAO MSS TASK ORDER OFF OF CONTRACT W519TC25D0039",
+      "query": "usaspending"
+    },
+    {
+      "id": "A5",
+      "title": "USAspending award HQ014719F0038: LOCKHEED MARTIN CORPORATION, $604,095,674",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_HQ014719F0038_9700_HQ014712D0003_9700",
+      "snippet": "2019-03-14 | Department of Defense / Missile Defense Agency | THE PURPOSE OF THIS TO IS TO DEFINE THE REQUIREMENTS FOR THE CONTRACTOR TO DEVELOP AND DEPLOY THE COMMAND AND CONTROL, BATTLE MANAGEMENT AND COMMUNICATIONS (C2BMC) CAPABILITY IN MULTIPLE PHASES THROUGH FY 2022 AND PLANNING FOR FUTURE BMDS INCREMENTS.",
+      "query": "usaspending"
+    },
+    {
+      "id": "S1",
+      "title": "Contract Announcements | National Geospatial-Intelligence Agency",
+      "url": "https://www.nga.mil/news/Contract_Announcements.html",
+      "snippet": "## 2024\n\nDecember 19, 2024\n\nSPRINGFIELD, Va. — NGA awarded the Zeppelin sole source contract to Science Applications International Cooperation of Reston, Virginia. The initial obligation is $3.16 million for twelve months with four option years and a total contract value of $65.4 million.\n\nOctober 16, 2024 [...] July 17, 2026\n\nSPRINGFIELD, Va. — NGA awarded the sole-source GSA Task Order for Enterprise Geographic Information System to Environmental Systems Research Institute, Inc., of Redlands, ",
+      "query": "National Geospatial-Intelligence Agency sole source IDIQ contract"
+    },
+    {
+      "id": "S2",
+      "title": "Office of Small Business Programs | National Geospatial-Intelligence Agency",
+      "url": "https://www.nga.mil/resources/Small_Business.html",
+      "snippet": "NGA utilizes all available procurement vehicles, including 8(a) sole source awards, as appropriate.\n\n## What about Other Transaction Agreements (OTAs) as a procurement option?\n\nNGA has the authority to utilize OTAs in the areas of research, prototyping, and production when appropriate.\n\n## Is a Facility Clearance required for a Vendor to initiate engagement with NGA? Are there any opportunities for unclassified work? [...] The mentor submits the M-P application on the company’s behalf. Intereste",
+      "query": "National Geospatial-Intelligence Agency sole source IDIQ contract"
+    },
+    {
+      "id": "S3",
+      "title": "NGA awards $794M contract for research and development | National Geospatial-Intelligence Agency",
+      "url": "https://www.nga.mil/news/NGA_awards_$794M_contract_for_research_and_develop.html",
+      "snippet": "The RDC IDIQ will provide research and development services and support to NGA’s Research & Development directorate. It is a five-year contract with a two-year optional extension. The first task order for the IDIQ will be competed in February 2024. [...] SPRINGFIELD, Virginia – The National Geospatial-Intelligence Agency awarded a new $794.1 million Research Development Contract indefinite-delivery, indefinite-quantity contract on Jan. 25. The four companies eligible to compete for task orders a",
+      "query": "National Geospatial-Intelligence Agency sole source IDIQ contract"
+    },
+    {
+      "id": "S4",
+      "title": "NGA Awards $947M IDIQ for Acquisition, Financial and Strategic Business Support | National Geospatial-Intelligence Agency",
+      "url": "https://www.nga.mil/news/NGA_Awards_$947M_IDIQ_for_Acquisition_Financial_an.html",
+      "snippet": "U.S. flag\n\nAn official website of the United States government\n\nHere’s how you know\n\nDot gov\n\nOfficial websites use .mil  \n A .mil website belongs to an official U.S. Department of Defense organization.\n\nSecure .mil websites use HTTPS  \n A lock () or  means you’ve safely connected to the .mil website. Share sensitive information only on official, secure websites.\n\n# NGA Awards $947M IDIQ for Acquisition, Financial and Strategic Business Support\n\n Home\n News\n NGA Awards $947M IDIQ for... [...] ##",
+      "query": "National Geospatial-Intelligence Agency sole source IDIQ contract"
+    },
+    {
+      "id": "S5",
+      "title": "CONTRACT to LEIDOS, INC. | USAspending",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_NSFDACS1219442_4900_-NONE-_-NONE-",
+      "snippet": "--\n\nAgency Details\n\nAwarding Agency\n\nNational Science Foundation (NSF)\n\nAwarding Sub-Agency\n\nNational Science Foundation\n\nAwarding Office\n\nDIV OF ACQ AND COOPERATIVE SUPPORT\n\nFunding Agency\n\nNational Science Foundation (NSF)\n\nFunding Sub-Agency\n\nNational Science Foundation\n\nFunding Office\n\nOFFICE OF POLAR PROGRAMS\n\nParent Award Details\n\nParent Award Unique Key\n\n--\n\nParent Award ID (Parent PIID)\n\n--\n\nParent IDV Type\n\n--\n\nParent IDV Agency Name\n\n--\n\nParent IDV Sub-Agency Name\n\n-- [...] ## U\n\n  \n\n ",
+      "query": "Leidos Foundation Sustainment Services contract award"
+    },
+    {
+      "id": "S6",
+      "title": "What Are The Top Leidos Government Contracts? - Potomac Officers Club",
+      "url": "https://www.potomacofficersclub.com/articles/what-are-the-top-leidos-government-contracts",
+      "snippet": "In December 2019, Leidos won a $6.5 billion contract award from the Pentagon. Under the Global Solutions Management Operations II (GSMO-II) award, Leidos will provide information technology support services (e.g., cybersecurity and network defense), monitoring, and sustainment to Defense Information Systems Network and the Defense Department’s major information networks. [...] In July 2015, Leidos became the prime contractor for the Department of Defense’s $4.3 billion contract award.  Leidos te",
+      "query": "Leidos Foundation Sustainment Services contract award"
+    },
+    {
+      "id": "S7",
+      "title": "Leidos awarded $823 million DISA task order to operate and sustain modernized DoDNet - Leidos",
+      "url": "https://investors.leidos.com/news-releases/news-release-details/leidos-awarded-823-million-disa-task-order-operate-and-sustain",
+      "snippet": "RESTON, Va., July 29, 2024 /PRNewswire/ -- Leidos (NYSE:LDOS), a Fortune 500® innovation leader, was recently awarded an $823 million task order from the Defense Information Systems Agency (DISA) to provide operations and sustainment for the Defense Enclave Services (DES) Department of Defense Network (DoDNet) program. DISA is working with Leidos through the single-award, $11.5 billion, 10-year indefinite delivery, indefinite quantity DES contract to optimize network services for Fourth Estate [",
+      "query": "Leidos Foundation Sustainment Services contract award"
+    },
+    {
+      "id": "S8",
+      "title": "Leidos awarded $823 million DISA task order to operate and sustain modernized DoDNet | LDOS Stock News",
+      "url": "https://www.stocktitan.net/news/LDOS/leidos-awarded-823-million-disa-task-order-to-operate-and-sustain-4t91ol5x2umq.html",
+      "snippet": "RESTON, Va., July 29, 2024 /PRNewswire/ -- Leidos (NYSE:LDOS), a Fortune 500® innovation leader, was recently awarded an $823 million task order from the Defense Information Systems Agency (DISA) to provide operations and sustainment for the Defense Enclave Services (DES) Department of Defense Network (DoDNet) program. DISA is working with Leidos through the single-award, $11.5 billion, 10-year indefinite delivery, indefinite quantity DES contract to optimize network services for Fourth Estate [",
+      "query": "Leidos Foundation Sustainment Services contract award"
+    },
+    {
+      "id": "S9",
+      "title": "DoD & DHS IT Contracts for Small Business | OpenBid Radar",
+      "url": "https://openbidradar.com/dod-dhs-it-contracts",
+      "snippet": "Notice of Intent to Sole Source – FS2 Bridge Contract Under the authority of RFO 6.103-1(c)(2), the National Geospatial-Intelligence Agency (NGA) intends to issue a sole source contract to Leidos for the Foundation Sustainment Services (FS2) bridge contract. Purpose: The purpose of this bridge contract is to support the FS2 program through April 2028. The IDIQ will allow for the continuation of services for each Task Order under the current FS2 contract, until a follow-on competitive IDIQ can [.",
+      "query": "DoD FS2 program recent sole source contracts"
+    },
+    {
+      "id": "S10",
+      "title": "DOD Launches Pilot Program for Sole Source Follow-on Awards to ESOPs: Wiley",
+      "url": "https://www.wiley.law/alert-dod-launches-pilot-program-for-sole-sources-follow-on-awards-to-esops",
+      "snippet": "Under the Pilot Program, the Contracting Officer (CO) may award a sole-source follow-on contract to the incumbent contractor if the contractor meets the following conditions: [...] October 18, 2024\n\nOn October 10, 2024, the U.S. Department of Defense (DOD) issued a final rule amending the Defense Federal Acquisition Regulation Supplement (DFARS) to establish a pilot program allowing for sole source follow-on contract awards to S corporations owned by an employee stock ownership plan (ESOP). [...",
+      "query": "DoD FS2 program recent sole source contracts"
+    },
+    {
+      "id": "S11",
+      "title": "Foundation Sustainment Services (FS2) Bridge Notice of Intent — Light RFP Marketplace",
+      "url": "https://www.lightrfp.com/marketplace/bid/597716ee83634d638f1bbef21076e3c4/foundation-sustainment-services-fs2-bridge-notice-of-intent",
+      "snippet": ":   \\\\Notice of Intent to Sole Source – FS2 Bridge Contract\\\\ Under the authority of RFO 6.103-1(c)(2), the National Geospatial-Intelligence Agency (NGA) intends to issue a sole source contract to Leidos for the Foundation Sustainment Services (FS2) bridge contract. Purpose: The purpose of this bridge contract is to support the FS2 program through April 2028. The IDIQ will allow for the continuation of services for each Task Order under the current FS2 contract, until a follow-on competitive [..",
+      "query": "DoD FS2 program recent sole source contracts"
+    },
+    {
+      "id": "S12",
+      "title": "Foundation Sustainment Services (FS2) Bridge",
+      "url": "https://www.highergov.com/contract-opportunity/foundation-sustainment-services-fs2-bridge-notic-fs2-bridge-noi-p-6e3c4",
+      "snippet": "Under the authority of RFO 6.103-1(c)(2), the National Geospatial-Intelligence Agency (NGA) intends to issue a sole source contract to Leidos for the Foundation Sustainment Services (FS2) bridge contract.\n\nPurpose: The purpose of this bridge contract is to support the FS2 program through April 2028. The IDIQ will allow for the continuation of services for each Task Order under the current FS2 contract, until a follow-on competitive IDIQ can be awarded. [...] Add SOWs, attachments, or other files",
+      "query": "DoD FS2 program recent sole source contracts"
+    }
+  ],
+  "supportedClaims": [
+    {
+      "text": "The buyer is the National Geospatial-Intelligence Agency (NGA).",
+      "sourceUrls": [
+        "https://openbidradar.com/dod-dhs-it-contracts"
+      ],
+      "kind": "fact",
+      "status": "supported"
+    },
+    {
+      "text": "The requirement is to continue foundation sustainment services for the FS2 program through April 2028 via a sole‑source IDIQ.",
+      "sourceUrls": [
+        "https://www.lightrfp.com/marketplace/bid/597716ee83634d638f1bbef21076e3c4/foundation-sustainment-services-fs2-bridge-notice-of-intent"
+      ],
+      "kind": "fact",
+      "status": "supported"
+    },
+    {
+      "text": "Leidos is identified as the intended sole‑source awardee for the FS2 bridge contract.",
+      "sourceUrls": [
+        "https://www.highergov.com/contract-opportunity/foundation-sustainment-services-fs2-bridge-notic-fs2-bridge-noi-p-6e3c4"
+      ],
+      "kind": "fact",
+      "status": "supported"
+    }
+  ],
+  "droppedClaims": [
+    {
+      "text": "The National Geospatial-Intelligence Agency is headquartered in Springfield, Virginia.",
+      "sourceUrls": [
+        "https://www.nga.mil/news/Contract_Announcements.html"
+      ],
+      "kind": "fact",
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (The HQ location is mentioned but does not affect the bid/no‑bid decision for this opportunity.)"
+    },
+    {
+      "text": "Northrop Grumman Systems Corporation received a $1,270,490,999 award for GCSS‑ARMY.",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_0001_9700_W91QUZ07D0005_9700"
+      ],
+      "kind": "fact",
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (The award is for a different contract (GCSS‑ARMY) and unrelated program.)"
+    },
+    {
+      "text": "CACI‑ISS, LLC was awarded $733,720,755 for the IGF::CL,CT::IGF SYSTEM INTEGRATOR FOR INCREMENT II OF INTEGRATED PERSONNEL AND PAY SYSTEM.",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_W15QKN15C0049_9700_-NONE-_-NONE-"
+      ],
+      "kind": "fact",
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (The award is for a different contract (IGF system integrator) and unrelated program.)"
+    }
+  ],
+  "verdict": {
+    "decision": "NO_BID",
+    "confidence": "high",
+    "rationale": [
+      {
+        "point": "The notice explicitly states intent to sole-source the FS2 bridge contract to Leidos, eliminating competitive opportunity for other firms.",
+        "claimIds": [
+          3
+        ]
+      },
+      {
+        "point": "The procurement has no small-business set-aside (set-aside NONE), so Magnolia's WOSB/EDWOSB status provides no eligibility advantage.",
+        "claimIds": [
+          2
+        ]
+      },
+      {
+        "point": "The requirement involves large-scale foundation sustainment services for the NGA's FS2 program through 2028, which aligns with the very high median award values ($150M) and exceeds Magnolia's 11-person capacity and past performance ceiling (~$1.5M).",
+        "claimIds": [
+          1,
+          2
+        ]
+      }
+    ],
+    "risks": [
+      "Sole-source award to Leidos is already planned; no competitive pathway exists.",
+      "Contract magnitude far exceeds company's demonstrated capacity and past performance.",
+      "No facility clearance limits ability to perform on-site work at NGA locations.",
+      "Past performance is in training/education data systems, not geospatial-intelligence sustainment."
+    ],
+    "nextSteps": [
+      "Track future competitive solicitations under NAICS 541511 with small-business set-asides.",
+      "Explore subcontracting or teaming opportunities with Leidos or other primes on FS2-related work.",
+      "Pursue smaller task-order vehicles (e.g., GSA schedules, agency-specific IDIQs) that match Magnolia's analytics and training-data strengths."
+    ]
+  },
+  "approval": "pending",
+  "cost": {
+    "totalUsd": 0.007181980000000001,
+    "byTier": {
+      "nano": {
+        "calls": 2,
+        "inputTokens": 1411,
+        "outputTokens": 1228,
+        "usd": 0.00037938
+      },
+      "super": {
+        "calls": 1,
+        "inputTokens": 3483,
+        "outputTokens": 2363,
+        "usd": 0.0031716000000000005
+      },
+      "ultra": {
+        "calls": 1,
+        "inputTokens": 667,
+        "outputTokens": 988,
+        "usd": 0.003631
+      }
+    }
+  },
+  "calls": [
+    {
+      "tier": "nano",
+      "purpose": "classify requirement",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 240,
+      "outputTokens": 250,
+      "usd": 0.0000744,
+      "latencyMs": 1001
+    },
+    {
+      "tier": "super",
+      "purpose": "synthesize sourced claims",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "inputTokens": 3483,
+      "outputTokens": 2363,
+      "usd": 0.0031716000000000005,
+      "latencyMs": 13695
+    },
+    {
+      "tier": "nano",
+      "purpose": "relevance and support check",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 1171,
+      "outputTokens": 978,
+      "usd": 0.00030498,
+      "latencyMs": 3538
+    },
+    {
+      "tier": "ultra",
+      "purpose": "final bid/no-bid verdict",
+      "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "inputTokens": 667,
+      "outputTokens": 988,
+      "usd": 0.003631,
+      "latencyMs": 2985
+    }
+  ],
+  "errors": [],
+  "history": {
+    "total": 6216,
+    "smallBizAwards": 1071,
+    "medianAmount": 149972384.83,
+    "topRecipients": [
+      {
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "count": 12,
+        "amount": 3410515704.2400002
+      },
+      {
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "count": 5,
+        "amount": 2220706837.3900003
+      },
+      {
+        "name": "PALANTIR USG INC",
+        "count": 3,
+        "amount": 897364143.99
+      },
+      {
+        "name": "CACI-ISS, LLC",
+        "count": 1,
+        "amount": 733720754.55
+      },
+      {
+        "name": "SECURIGENCE LLC",
+        "count": 1,
+        "amount": 664457198.25
+      }
+    ]
+  },
+  "classification": {
+    "summary": "The buyer needs a sole‑source IDIQ contract to continue foundation sustainment services for the FS2 program through April 2028.",
+    "queries": [
+      "National Geospatial-Intelligence Agency sole source IDIQ contract",
+      "Leidos Foundation Sustainment Services contract award",
+      "DoD FS2 program recent sole source contracts"
+    ]
+  }
+}

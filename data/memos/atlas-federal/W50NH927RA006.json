@@ -1,0 +1,369 @@
+{
+  "runId": "run-2026-10-17T00-54-09-826Z",
+  "createdAt": "2026-10-17T00:54:09.826Z",
+  "opportunity": {
+    "id": "W50NH927RA006",
+    "title": "Scalable GEOINT Architecture IT Contractor Manpower Equivalent (CME) Support",
+    "agency": "Department of Defense",
+    "naics": "541519",
+    "setAside": "NONE",
+    "responseDeadline": "2026-11-13T12:00:00-05:00",
+    "placeOfPerformance": "UNSPECIFIED",
+    "noticeType": "Solicitation",
+    "description": "Request for Proposal W50NH9-27-R-A006 for Scalable Geospatial Intelligence (GEOINT) Architecture IT Contractor Manpower Equivalent support for U.S. Army Intelligence and Security Command (INSCOM). Proposals due Nov 13, 2026 with a proposal validity of at least 240 days. Period of performance: one 30-day transition-in, a 12-month base, four 12-month options and one six-month option. Estimated award date Jan 11, 2027. Primarily time and materials, evaluated on a best value trade-off basis.",
+    "sourceUrl": "https://sam.gov/workspace/contract/opp/9062cba08c704f95ad579bb986068703/view",
+    "retrievedFrom": "SAM.gov public notice data, 2026-10-16",
+    "subAgency": "Department of the Army"
+  },
+  "profile": {
+    "_note": "FICTIONAL SAMPLE COMPANY for scenario testing. Not a real firm. Past performance and staffing are invented; only the NAICS codes, set-aside definitions and every opportunity and award figure used against it are real public data.",
+    "id": "atlas-federal",
+    "name": "Atlas Federal Systems Inc. (sample)",
+    "hqState": "VA",
+    "size": "large",
+    "fictional": true,
+    "naics": [
+      "541511",
+      "541512",
+      "541519",
+      "541330"
+    ],
+    "certifications": [],
+    "placesOfPerformance": [
+      "ANY"
+    ],
+    "pastPerformance": "Large business. Eleven DoD and civilian IT prime contracts between $5M and $60M, including a Defense Health Agency data program.",
+    "capacityNotes": "About 400 staff, 150 cleared. Facility clearance (Top Secret). FedRAMP Moderate. Not eligible for any set-aside.",
+    "verification": [
+      "NAICS codes confirmed against USAspending reference (api.usaspending.gov/api/v2/references/naics) on 2026-10-16.",
+      "Set-asides follow SBA definitions: SBA = small business, 8A = 8(a) Business Development, HUBZONE, WOSB/EDWOSB, SDVOSB."
+    ]
+  },
+  "gate": {
+    "pass": true,
+    "checks": [
+      {
+        "rule": "deadline",
+        "pass": true,
+        "reason": "Responses due 2026-11-13T12:00:00-05:00; still open."
+      },
+      {
+        "rule": "set_aside",
+        "pass": true,
+        "reason": "Full and open competition; no set-aside required."
+      },
+      {
+        "rule": "naics",
+        "pass": true,
+        "reason": "NAICS 541519 is in the company's codes."
+      },
+      {
+        "rule": "place_of_performance",
+        "pass": true,
+        "reason": "Place of performance is not stated in the notice; verify before bidding."
+      }
+    ]
+  },
+  "stoppedAtGate": false,
+  "sources": [
+    {
+      "id": "A1",
+      "title": "USAspending award HC108421F0175: WORLD WIDE TECHNOLOGY LLC, $627,456,698",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_HC108421F0175_9700_NNG15SC55B_8000",
+      "snippet": "2021-06-29 | Department of Defense / Defense Information Systems Agency | EA BUNDLE",
+      "query": "usaspending"
+    },
+    {
+      "id": "A2",
+      "title": "USAspending award W911S011C0014: NORTHROP GRUMMAN TECHNICAL SERVICES, INC., $522,176,400",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_W911S011C0014_9700_-NONE-_-NONE-",
+      "snippet": "2011-08-03 | Department of Defense / Department of the Army | BATTLE COMMAND TRAINING PROGRAM SERVICES",
+      "query": "usaspending"
+    },
+    {
+      "id": "A3",
+      "title": "USAspending award W911S018C0004: SERCO INC, $512,784,249",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_W911S018C0004_9700_-NONE-_-NONE-",
+      "snippet": "2018-09-28 | Department of Defense / Department of the Army | MISSION COMMAND TRAINING PROGRAM (MCTP)",
+      "query": "usaspending"
+    },
+    {
+      "id": "A4",
+      "title": "USAspending award FA877122F0022: EMERGENT, LLC, $419,737,159",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_FA877122F0022_9700_NNG15SC33B_8000",
+      "snippet": "2022-02-25 | Department of Defense / Department of the Air Force | PROVIDES AN UNLIMITED LICENSE AGREEMENT FOR A CORE SET OF ORACLE TECHNOLOGY PRODUCTS, DATABASE PRODUCTS AND COMMERCIAL SOFTWARE MAINTENANCE SUPPORT",
+      "query": "usaspending"
+    },
+    {
+      "id": "A5",
+      "title": "USAspending award HC102819F0141: GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC., $372,673,130",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_HC102819F0141_9700_HC102819A0001_9700",
+      "snippet": "2019-01-24 | Department of Defense / Defense Information Systems Agency | ENTERPRISE TRANSPORT MANAGEMENT (ETM) - NEXT GENERATION - CORE SUPPORT",
+      "query": "usaspending"
+    },
+    {
+      "id": "S1",
+      "title": "BAE Systems awarded $75 million U.S. Army contract to develop next-generation geospatial intelligence capabilities",
+      "url": "https://www.baesystems.com/en-us/article/bae-systems-awarded--75-million-u-s--army-contract-to-develop-next-generation-geospatial-intelligence-capabilities",
+      "snippet": "The U.S. Army Intelligence and Security Command (INSCOM) has awarded BAE Systems a five-year contract worth as much as $75 million to provide enhanced geospatial intelligence technical and analytical support.\n\nImage 2: BAE Systems was selected to assist the U.S. Army in developing next-generation geospatial intelligence capabilities to enhance soldier situational awareness\n\nThe award was issued under the INSCOM Global Intelligence indefinite delivery, indefinite quantity contract. [...] BAE Syst",
+      "query": "U.S. Army INSCOM GEOINT contract history"
+    },
+    {
+      "id": "S2",
+      "title": "US Army Intelligence & Security Command - Federal Acquisition Strategies, LLC",
+      "url": "https://federalacquisitionstrategies.com/clients/us-army-intelligence-security-command",
+      "snippet": "FAS supported contract efforts accounted for an actual savings from previous requirements of over $500 million based on unique acquisition strategies developed for the agency.\n Contract awards were able to withstand multiple Government Accountability Office (GAO) protests. [...] FAS successfully supported INSCOM to award multiple multi-billion dollar MACs, IDIQ contracts, and task orders.\n Helped INSCOM transition from individual contract strategy to strategically sourced enterprise wide contrac",
+      "query": "U.S. Army INSCOM GEOINT contract history"
+    },
+    {
+      "id": "S3",
+      "title": "Contracting",
+      "url": "https://www.usainscom.army.mil/Contracting",
+      "snippet": "##### The U.S. Army Intelligence and Security Command (INSCOM), conducts intelligence, security and information operations for military commanders and national decision makers. INSCOM’s designated contracting office is the Army Contracting Command - Detroit Arsenal (ACC-DTA) with offices serving INSCOM located at Fort Belvoir and Charlottesville, Virginia, and the ACC-DTA headquarters located in Warren, Michigan. [...] Official websites use .mil\n\nSecure .mil websites use HTTPS\n\nU.S. Army Intelli",
+      "query": "U.S. Army INSCOM GEOINT contract history"
+    },
+    {
+      "id": "S4",
+      "title": "Contract Announcements | National Geospatial-Intelligence Agency",
+      "url": "https://www.nga.mil/news/Contract_Announcements.html",
+      "snippet": "years. The value of the contract is approximately $88.2 million. [...] The base year value of the task order is $2,385,208 and total estimated value of the task order is $19,409,062. [...] SPRINGFIELD, Va. — NGA awarded multiple award indefinite delivery, indefinite quantity contracts to BAE Systems, of Rockville, Maryland; Booz Allen Hamilton, of McLean, Virginia; CACI Inc., of Chantilly, Virginia; Leidos Inc., of Reston, Virginia and ManTech Advanced Systems International Inc., of Herndon Virg",
+      "query": "U.S. Army INSCOM GEOINT contract history"
+    },
+    {
+      "id": "S5",
+      "title": "Contract Opportunity",
+      "url": "https://sam.gov/workspace/contract/opp/9062cba08c704f95ad579bb986068703/view",
+      "snippet": "RFP Number: W50NH9-27-R-A006 Requirement: Scalable Geospatial Intelligence (GEOINT) Architecture Information Technology (IT) Contractor",
+      "query": "Current incumbent for W50NH9-27-R-A006"
+    },
+    {
+      "id": "S6",
+      "title": "W50NH9-27-R-A006 (formally W50NH9-26-R-A019) ...",
+      "url": "https://www.highergov.com/contract-opportunity/w50nh9-27-r-a006-formally-w50nh9-26-r-a019-scala-w50nh927ra006-o-68703",
+      "snippet": "RFP Number: W50NH9-27-R-A006 Requirement: Scalable Geospatial Intelligence (GEOINT) Architecture Information Technology (IT) Contractor",
+      "query": "Current incumbent for W50NH9-27-R-A006"
+    },
+    {
+      "id": "S7",
+      "title": "W50NH9-27-R-A006 (formally W50NH9-26-R- ...",
+      "url": "https://govtribe.com/opportunity/federal-contract-opportunity/w50nh9-27-r-a006-formally-w50nh9-26-r-a019-scalable-geospatial-intelligence-geoint-architecture-information-technology-it-contractor-manpower-equivalent-cme-support-scalable-geoint-w50nh927ra006",
+      "snippet": "Questions and proposals should be directed to Contract Specialists Richard Schmidt (richard.a.schmidt4.civ@army.mil) and Cassandra Spadina (",
+      "query": "Current incumbent for W50NH9-27-R-A006"
+    },
+    {
+      "id": "S8",
+      "title": "Global Content Delivery Service (GCDS) III Akamai Technologies Inc.",
+      "url": "https://www.highergov.com/contract-opportunity/notice-of-intent-to-sole-source-global-content-d-842673947-s-db5a4",
+      "snippet": "The work must ensure uninterrupted content delivery and credential management while aligning with DoD efficiency goals. Transitioning to an alternate provider would necessitate significant system re-architecting, recertification, and re-accreditation, leading to unacceptable delays and increased costs.  \n  \nPeriod of Performance  \n February 9, 2021 – February 8, 2027  \n  \nIncumbent Analysis (see Incumbents section for more detail) [...] Phone\n\n(667) 891-6097\n\n## Documents\n\n### Posted documents f",
+      "query": "Current incumbent for W50NH9-27-R-A006"
+    },
+    {
+      "id": "S11",
+      "title": "CACI at GEOINT 2025 | CACI",
+      "url": "https://www.caci.com/GEOINT",
+      "snippet": "Data is at the heart of every mission. It moves through networks that need speed, bandwidth, and security. Our network modernization experts enhance network infrastructure with automated, scalable solutions and advanced cybersecurity integrations to empower our naval forces to keep pace with evolving threats and mission needs.\n\nLearn More\n\n## Agile Solution Factory [...] ## Zero Trust\n\nCACI addresses zero trust requirements through our Zero Trust Architecture Playbook. This integrates best pract",
+      "query": "Recent DoD scalable GEOINT architecture contracts"
+    },
+    {
+      "id": "S12",
+      "title": "Scaling a Defense Tech Firm for Government Contracts - Attis Global",
+      "url": "https://attisglobal.com/case-study/scaling-a-defense-tech-firm-for-government-contracts",
+      "snippet": "Geospatial Software Engineer: An Air National Guard NCO with a background in military intelligence and full-stack engineering, including four years on active duty as a geospatial analyst and data engineer. He brought hands-on GEOINT experience and engineering skill to ship the firm’s mapping features. [...] ship mapping and location-intelligence features, not just prototype them. [...] #### Our Solution",
+      "query": "Recent DoD scalable GEOINT architecture contracts"
+    }
+  ],
+  "supportedClaims": [
+    {
+      "text": "The opportunity seeks scalable GEOINT architecture IT contractor manpower equivalent support for U.S. Army INSCOM under RFP W50NH9-27-R-A006.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://sam.gov/workspace/contract/opp/9062cba08c704f95ad579bb986068703/view"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "INSCOM’s contracting office is the Army Contracting Command - Detroit Arsenal (ACC-DTA) with offices at Fort Belvoir and Charlottesville, Virginia, and headquarters in Warren, Michigan.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usainscom.army.mil/Contracting"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "BAE Systems was awarded a $75 million U.S. Army INSCOM contract for next‑generation geospatial intelligence capabilities.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.baesystems.com/en-us/article/bae-systems-awarded--75-million-u-s--army-contract-to-develop-next-generation-geospatial-intelligence-capabilities"
+      ],
+      "status": "supported"
+    }
+  ],
+  "droppedClaims": [
+    {
+      "text": "NGA has awarded multiple‑award IDIQ contracts for GEOINT support to BAE Systems, Booz Allen Hamilton, CACI, Leidos, and ManTech.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.nga.mil/news/Contract_Announcements.html"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (References NGA contracts, unrelated to this opportunity)"
+    },
+    {
+      "text": "Recent large DoD NAICS 541519 awards include a $627,456,698 award to World Wide Technology and a $522,176,400 award to Northrop Grumman Technical Services.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_HC108421F0175_9700_NNG15SC55B_8000",
+        "https://www.usaspending.gov/award/CONT_AWD_W911S011C0014_9700_-NONE-_-NONE-"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (Mentions unrelated NAICS awards)"
+    },
+    {
+      "text": "Because the solicitation is set‑aside NONE, only large businesses can compete, increasing competition from large prime contractors.",
+      "kind": "risk",
+      "sourceUrls": [
+        "https://sam.gov/workspace/contract/opp/9062cba08c704f95ad579bb986068703/view"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: source does not support claim (Source does not mention set‑aside or competition)"
+    }
+  ],
+  "verdict": {
+    "decision": "CONDITIONAL",
+    "confidence": "medium",
+    "rationale": [
+      {
+        "point": "The opportunity seeks scalable GEOINT architecture IT CME support for Army INSCOM (claim #1), which aligns with Atlas Federal's DoD IT prime contract experience and Top Secret facility clearance, though the firm lacks explicit GEOINT past performance.",
+        "claimIds": [
+          1
+        ]
+      },
+      {
+        "point": "INSCOM's contracting office (ACC-DTA) has Virginia offices (claim #2), matching Atlas Federal's VA headquarters and place-of-performance flexibility, reducing geographic risk.",
+        "claimIds": [
+          2
+        ]
+      },
+      {
+        "point": "BAE Systems' $75M award for next-gen geospatial intelligence (claim #3) signals strong incumbent competition and a contract scale exceeding Atlas Federal's typical $5M–$60M prime range, suggesting a teaming strategy may be needed.",
+        "claimIds": [
+          3
+        ]
+      }
+    ],
+    "risks": [
+      "No demonstrated GEOINT or geospatial intelligence past performance in company profile",
+      "Median top award value ($152M) far exceeds Atlas Federal's historical prime contract ceiling ($60M)",
+      "Large business status means no set-aside protection; must compete full-and-open against established primes like BAE Systems"
+    ],
+    "nextSteps": [
+      "Review full RFP W50NH9-27-R-A006 for specific GEOINT technical requirements and labor categories",
+      "Identify potential teaming partners with proven GEOINT/geospatial intelligence capabilities",
+      "Assess whether Atlas Federal's 150 cleared staff and FedRAMP Moderate authorization meet INSCOM's security and compliance needs",
+      "Develop pricing model competitive for CME manpower-equivalent structure"
+    ]
+  },
+  "approval": "pending",
+  "cost": {
+    "totalUsd": 0.00970482,
+    "byTier": {
+      "nano": {
+        "calls": 2,
+        "inputTokens": 1376,
+        "outputTokens": 1849,
+        "usd": 0.0005263199999999999
+      },
+      "super": {
+        "calls": 1,
+        "inputTokens": 2721,
+        "outputTokens": 2458,
+        "usd": 0.0030285
+      },
+      "ultra": {
+        "calls": 1,
+        "inputTokens": 711,
+        "outputTokens": 1813,
+        "usd": 0.00615
+      }
+    }
+  },
+  "calls": [
+    {
+      "tier": "nano",
+      "purpose": "classify requirement",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 255,
+      "outputTokens": 152,
+      "usd": 0.000051779999999999996,
+      "latencyMs": 799
+    },
+    {
+      "tier": "super",
+      "purpose": "synthesize sourced claims",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "inputTokens": 2721,
+      "outputTokens": 2458,
+      "usd": 0.0030285,
+      "latencyMs": 10810
+    },
+    {
+      "tier": "nano",
+      "purpose": "relevance and support check",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 1121,
+      "outputTokens": 1697,
+      "usd": 0.00047453999999999997,
+      "latencyMs": 5854
+    },
+    {
+      "tier": "ultra",
+      "purpose": "final bid/no-bid verdict",
+      "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "inputTokens": 711,
+      "outputTokens": 1813,
+      "usd": 0.00615,
+      "latencyMs": 6505
+    }
+  ],
+  "errors": [],
+  "history": {
+    "total": 56751,
+    "smallBizAwards": 16071,
+    "medianAmount": 151992005.49,
+    "topRecipients": [
+      {
+        "name": "WORLD WIDE TECHNOLOGY LLC",
+        "count": 2,
+        "amount": 820340031.1800001
+      },
+      {
+        "name": "IRON BOW TECHNOLOGIES, LLC",
+        "count": 3,
+        "amount": 810316536.2400001
+      },
+      {
+        "name": "DELL FEDERAL SYSTEMS L.P",
+        "count": 3,
+        "amount": 639645617.7
+      },
+      {
+        "name": "EMERGENT, LLC",
+        "count": 2,
+        "amount": 525839800.09000003
+      },
+      {
+        "name": "NORTHROP GRUMMAN TECHNICAL SERVICES, INC.",
+        "count": 1,
+        "amount": 522176399.72
+      }
+    ]
+  },
+  "classification": {
+    "summary": "The buyer seeks scalable GEOINT architecture support services on a time‑and‑materials basis for the U.S. Army INSCOM, with a one‑year base period and multiple option periods.",
+    "queries": [
+      "U.S. Army INSCOM GEOINT contract history",
+      "Current incumbent for W50NH9-27-R-A006",
+      "Recent DoD scalable GEOINT architecture contracts"
+    ]
+  }
+}

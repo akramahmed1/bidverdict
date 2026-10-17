@@ -1,0 +1,294 @@
+{
+  "runId": "run-2026-10-17T00-26-04-167Z",
+  "createdAt": "2026-10-17T00:26:04.167Z",
+  "opportunity": {
+    "id": "CORHQ-26-Q-0388",
+    "title": "IBM Mainframes and Maintenance for the FDIC",
+    "agency": "Federal Deposit Insurance Corporation",
+    "naics": "541519",
+    "setAside": "NONE",
+    "responseDeadline": "2026-10-22T12:00:00-04:00",
+    "placeOfPerformance": "VA",
+    "noticeType": "Solicitation",
+    "description": "The Federal Deposit Insurance Corporation requests quotes under RFQ CORHQ-26-Q-0388 for new IBM mainframes and maintenance. Offerors must complete the price schedule. Terms and conditions, EULA or MSAs must accompany the quote; FDIC prefers government-approved terms. Quotes need a letter of authorization from the manufacturer and, if applicable, a proposed GSA Schedule or NASA SEWP contract. Questions were due Oct 9, 2026; quotes are due Oct 22, 2026. IBM site numbers for FDIC are 5166681 (VASQ) and 4742836 (DFW/BDC).",
+    "sourceUrl": "https://sam.gov/workspace/contract/opp/33fa0bf4576b48459e681ada14dcc819/view",
+    "retrievedFrom": "SAM.gov public notice data, 2026-10-16"
+  },
+  "profile": {
+    "_note": "FICTIONAL DEMO COMPANY used to show the full pipeline on real opportunities. Not a real firm.",
+    "name": "Prairie Digital Systems LLC (demo company)",
+    "naics": [
+      "541512",
+      "541511",
+      "541519"
+    ],
+    "certifications": [
+      "SBA"
+    ],
+    "placesOfPerformance": [
+      "IL",
+      "REMOTE",
+      "VA",
+      "NY"
+    ],
+    "pastPerformance": "Three web and data platform projects for state and local agencies, each under $500K. No prior VA, DoD or HHS prime contracts.",
+    "capacityNotes": "Team of six engineers. No facility clearance. No SOC 2 report yet.",
+    "id": "demo"
+  },
+  "gate": {
+    "pass": true,
+    "checks": [
+      {
+        "rule": "deadline",
+        "pass": true,
+        "reason": "Responses due 2026-10-22T12:00:00-04:00; still open."
+      },
+      {
+        "rule": "set_aside",
+        "pass": true,
+        "reason": "Full and open competition; no set-aside required."
+      },
+      {
+        "rule": "naics",
+        "pass": true,
+        "reason": "NAICS 541519 is in the company's codes."
+      },
+      {
+        "rule": "place_of_performance",
+        "pass": true,
+        "reason": "Place of performance VA is within the company's coverage."
+      }
+    ]
+  },
+  "stoppedAtGate": false,
+  "sources": [
+    {
+      "id": "S1",
+      "title": "IBM Mainframes and Maintenance for the FDIC | Other Computer Related Services",
+      "url": "https://discover.govdash.com/solicitations/01a11285-d450-75ed-95cc-d6751010634e--ibm-mainframes-and-maintenance-for-the-fdic",
+      "snippet": "The Federal Deposit Insurance Corporation (FDIC) has issued a solicitation (RFQ CORHQ-26-Q-0388) seeking qualified vendors to provide new IBM mainframes and associated maintenance services. This procurement is intended to support the FDIC’s ongoing operational requirements at its Arlington, Virginia location, specifically for IBM site numbers VASQ (5166681) and DFW/BDC (4742836). The scope of this contract encompasses the acquisition of IBM mainframe hardware as well as comprehensive [...] this ",
+      "query": "FDIC IBM mainframe procurement RFQ CORHQ-26-Q-0388"
+    },
+    {
+      "id": "S2",
+      "title": "IBM Mainframes and Maintenance the FDIC",
+      "url": "https://www.highergov.com/contract-opportunity/ibm-mainframes-and-maintenance-for-the-fdic-corhq-26-q-0388-o-c5a09",
+      "snippet": "The Federal Deposit Insurance Corporation invites you to submit a quote for RFQ CORHQ-26-Q-0388 for New IBM Mainframes and maintenance. We request offerors to utilize the Price Schedule to fill in your pricing for all line items needed. Terms and Conditions, EULA, or MSAs must be sent with your quote to be incorporated in the subsequent contract award, the FDIC prefers Government approved terms. See section M of the RFQ for Evaluation Criteria. [...] On 10/6/26 Federal Deposit Insurance Corporat",
+      "query": "FDIC IBM mainframe procurement RFQ CORHQ-26-Q-0388"
+    },
+    {
+      "id": "S3",
+      "title": "Doing Business with the FDIC | FDIC.gov",
+      "url": "https://www.fdic.gov/doing-business-fdic",
+      "snippet": "System for Award Management (SAM)\")  \nEvery contractor who is awarded an FDIC contract is required to be registered with System for Award Management (www.SAM.gov\")).\n   Procurement Opportunities  \nFirms seeking to do business with the FDIC are encouraged to review the following notices and lists of awards to contractors supporting the FDIC in work related to information technology application services and failed financial institutions. [...] Acquisition Policy, Procedures & Forms  \nLinks to the ",
+      "query": "FDIC IBM mainframe procurement RFQ CORHQ-26-Q-0388"
+    },
+    {
+      "id": "S4",
+      "title": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/7a2ea05edbc245088085d844de00838b/view",
+      "snippet": "Email\n\n###### ditoles@fdic.gov\n\nPhone Number\n\n###### 5712134018\n\n## Alternative Point of Contact\n\n##### (blank)\n\nEmail\n\n###### (blank)\n\nPhone Number\n\n###### (blank)\n\n## Contracting Office Address\n\n###### (No Street Address 2)\n\n###### ,\n\n## Attachments/Links\n\n  \n\n### Links\n\nNo links have been added to this opportunity.\n\n### Attachments\n\n Download All  Request Access \n\n Download All \n\n Request Access [...] be incorporated in the subsequent contract award, the FDIC prefers Government approved terms",
+      "query": "FDIC IBM mainframe procurement RFQ CORHQ-26-Q-0388"
+    },
+    {
+      "id": "S7",
+      "title": "Impact of IBM’s Settlement for Federal Contractors With DEI Programs",
+      "url": "https://www.dechert.com/knowledge/onpoint/2026/4/after-ibm--the-fca-certification-trap-and-what-the-first-civil-r.html",
+      "snippet": "The IBM settlement is a validated, replicable enforcement template: Title VII obligations contractualized through FAR 52.222-26, FCA materiality established through certification, and a four-category framework of covered conduct that the March 2026 EO has codified and materially expanded. The April 25 deadline converts that template into a contractual mechanism attaching to every new or renewed federal contract.  While the March 2026 EO does not prohibit all DEI activity, organizations must [...",
+      "query": "IBM contract history with Federal Deposit Insurance Corporation"
+    },
+    {
+      "id": "S8",
+      "title": "FDIC Awards Contract for Information Technology Application Services",
+      "url": "https://archive.fdic.gov/view/fdic/2731",
+      "snippet": "Booz Allen Hamilton ;  IBM ;  Lockheed Martin ;  Pragmatics\n Source:\n\n  FDIC\n Language:\n\n  Eng\n Download URL:\n\n  \n File Type:\n\n  Filetype[PDF - 264.27 KB]\n Collection(s):\n\n  Press Releases\n Main Document Checksum:\n\n  urn:sha256:58b586d7a6b908d44b051fcb1a0cce88fb80779db7c7764d1e9366b0ed892e75\n\nPREVIOUS\n\nFile Language:\n\nEng\n\nFederal Deposit Insurance Corporation (FDIC) (2005). FDIC Awards Contract for Information Technology Application Services. Federal Deposit Insurance Corporation (FDIC).",
+      "query": "IBM contract history with Federal Deposit Insurance Corporation"
+    },
+    {
+      "id": "S7",
+      "title": "Nordea Bank awards $540m managed services contract to IBM",
+      "url": "https://www.retailbankerinternational.com/news/nordea-bank-awards-540m-managed-services-contract-to-ibm",
+      "snippet": "RBI\n\n News\n\n# Nordea Bank awards $540m managed services contract to IBM\n\nJanuary 9, 2019\n\nShare\n\n Copy Link\n Share on X\n Share on Linkedin\n Share on Facebook\n\nNordic-based financial services group Nordea Bank has signed a $540m multi-year managed services agreement with IBM Services to outsource its IBM Z operations.\n\nIBM Z is a family name referring all IBM mainframe computers starting from the Z900 model.\n\n### Go deeper with GlobalData\n\n Reports [...] “Our latest agreement will help Nordea acc",
+      "query": "Recent IBM mainframe contracts awarded to financial institutions"
+    },
+    {
+      "id": "S8",
+      "title": "IBM and Finanz Informatik sign agreement to enhance IT modernisation",
+      "url": "https://www.financedirectoreurope.com/news/ibm-and-finanz-informatik-sign-agreement-to-enhance-it-modernisation",
+      "snippet": "Finanz Informatik and IBM expand collaboration to advance digital transformation. (Credit: nitpicker/Shutterstock)\n\nFinanz Informatik, the IT service provider for Sparkassen-Finanzgruppe, has renewed its partnership with IBM by signing a new contract to further develop its IT infrastructure.\n\nThe Sparkassen-Finanzgruppe is a consortium of public banks that constitutes the largest financial services group in Germany and Europe, measured by assets. [...] The agreement enables the use of IBM mainfr",
+      "query": "Recent IBM mainframe contracts awarded to financial institutions"
+    },
+    {
+      "id": "S9",
+      "title": "Banking on mainframe-led digital transformation for financial services | IBM",
+      "url": "https://www.ibm.com/think/topics/mainframe-for-banking",
+      "snippet": "But wait, almost every one of these new features will eventually touch the mainframe. Why not bring the mainframe team forward as first-class participants in the DevOps movement so they can get involved?\n\nDanske Bank decided to bring nearly 1,000 internal mainframe developers into a firm-wide DevOps transformation movement, using the IBM Application Delivery Foundation for z/OS (ADFz) as a platform for feature development, debugging, testing and release management. [...] ANZ, a top-five bank in ",
+      "query": "Recent IBM mainframe contracts awarded to financial institutions"
+    },
+    {
+      "id": "S10",
+      "title": "IBM Newsroom - Latest News",
+      "url": "https://newsroom.ibm.com/campaign?l=100&o=100",
+      "snippet": "Image 51 Atruvia and IBM Sign Long-Term Agreement to Future-Proof IT Platforms for Autonomous and Sustainable Banking Atruvia AG, the digitalization partner of the German Cooperative Financial Group, and IBM (NYSE: IBM) have sealed a long-term collaboration that paves the way for sustainable and state-of-the-art IT platforms for the banking of tomorrow. November 19, 2025 [...] Image 46 IBM Designated as a Critical Third-Party Provider Under EU DORA IBM (NYSE: IBM) was recently designated by the ",
+      "query": "Recent IBM mainframe contracts awarded to financial institutions"
+    }
+  ],
+  "supportedClaims": [
+    {
+      "text": "The FDIC is soliciting quotes for new IBM mainframes and maintenance services at its Arlington, Virginia location.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://discover.govdash.com/solicitations/01a11285-d450-75ed-95cc-d6751010634e--ibm-mainframes-and-maintenance-for-the-fdic"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "Offerors must submit a price schedule and include terms and conditions, EULA, or MSAs with their quote.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.highergov.com/contract-opportunity/ibm-mainframes-and-maintenance-for-the-fdic-corhq-26-q-0388-o-c5a09"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "Every contractor awarded an FDIC contract must be registered in the System for Award Management (SAM).",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.fdic.gov/doing-business-fdic"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "The contracting office contact for this solicitation is ditoles@fdic.gov, phone 5712134018.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://sam.gov/workspace/contract/opp/7a2ea05edbc245088085d844de00838b/view"
+      ],
+      "status": "supported"
+    }
+  ],
+  "droppedClaims": [
+    {
+      "text": "Past FDIC information technology services contracts have been awarded to Booz Allen Hamilton, IBM, Lockheed Martin, and Pragmatics.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://archive.fdic.gov/view/fdic/2731"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (Historical info not tied to current solicitation)"
+    }
+  ],
+  "verdict": {
+    "decision": "NO_BID",
+    "confidence": "high",
+    "rationale": [
+      {
+        "point": "The solicitation is for IBM mainframes and maintenance services at Arlington, VA (claim 1), but the company's past performance consists solely of web and data platform projects for state/local agencies under $500K with no mainframe hardware or maintenance experience.",
+        "claimIds": [
+          1
+        ]
+      },
+      {
+        "point": "The company has no prior VA, DoD, or HHS prime contracts and lacks facility clearance or a SOC 2 report, which are likely necessary for on-site federal mainframe work described in claim 1.",
+        "claimIds": [
+          1
+        ]
+      },
+      {
+        "point": "While administrative requirements such as submitting a price schedule, terms, EULA/MSAs (claim 2) and SAM registration (claim 3) are manageable, they do not mitigate the fundamental technical mismatch.",
+        "claimIds": [
+          2,
+          3
+        ]
+      }
+    ],
+    "risks": [
+      "No relevant past performance for IBM mainframe hardware procurement and maintenance",
+      "No federal prime contract experience, particularly with FDIC or similar financial regulators",
+      "Small team of six engineers unlikely to possess specialized mainframe expertise",
+      "Absence of facility clearance and SOC 2 report for on-site work at a federal facility"
+    ],
+    "nextSteps": [
+      "Verify SAM registration status (claim 3)",
+      "Assess ability to compile required price schedule and legal terms (claim 2)",
+      "Determine if any teaming arrangement could bridge the technical gap (internal assessment only)"
+    ]
+  },
+  "approval": "pending",
+  "cost": {
+    "totalUsd": 0.00976182,
+    "byTier": {
+      "nano": {
+        "calls": 2,
+        "inputTokens": 1354,
+        "outputTokens": 1582,
+        "usd": 0.00046091999999999997
+      },
+      "super": {
+        "calls": 1,
+        "inputTokens": 2135,
+        "outputTokens": 1566,
+        "usd": 0.0020499
+      },
+      "ultra": {
+        "calls": 1,
+        "inputTokens": 540,
+        "outputTokens": 2237,
+        "usd": 0.007251
+      }
+    }
+  },
+  "calls": [
+    {
+      "tier": "nano",
+      "purpose": "classify requirement",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 257,
+      "outputTokens": 320,
+      "usd": 0.00009222,
+      "latencyMs": 1348
+    },
+    {
+      "tier": "super",
+      "purpose": "synthesize sourced claims",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "inputTokens": 2135,
+      "outputTokens": 1566,
+      "usd": 0.0020499,
+      "latencyMs": 6508
+    },
+    {
+      "tier": "nano",
+      "purpose": "relevance and support check",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 1097,
+      "outputTokens": 1262,
+      "usd": 0.00036869999999999996,
+      "latencyMs": 4483
+    },
+    {
+      "tier": "ultra",
+      "purpose": "final bid/no-bid verdict",
+      "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "inputTokens": 540,
+      "outputTokens": 2237,
+      "usd": 0.007251,
+      "latencyMs": 7299
+    }
+  ],
+  "errors": [],
+  "history": {
+    "total": 0,
+    "smallBizAwards": 0,
+    "medianAmount": null,
+    "topRecipients": []
+  },
+  "classification": {
+    "summary": "The FDIC is requesting quotes for new IBM mainframes and maintenance, requiring price schedules, authorized terms, and a manufacturer authorization letter.",
+    "queries": [
+      "FDIC IBM mainframe procurement RFQ CORHQ-26-Q-0388",
+      "IBM contract history with Federal Deposit Insurance Corporation",
+      "Recent IBM mainframe contracts awarded to financial institutions"
+    ]
+  }
+}

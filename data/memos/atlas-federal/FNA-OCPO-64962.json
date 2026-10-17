@@ -1,0 +1,357 @@
+{
+  "runId": "run-2026-10-17T00-51-44-360Z",
+  "createdAt": "2026-10-17T00:51:44.360Z",
+  "opportunity": {
+    "id": "FNA-OCPO-64962",
+    "title": "Financial Management Software and Support Services (RFI)",
+    "agency": "Department of Commerce",
+    "naics": "541519",
+    "setAside": "NONE",
+    "responseDeadline": "2026-10-26T17:00:00-04:00",
+    "placeOfPerformance": "VA",
+    "noticeType": "Sources Sought / Request for Information",
+    "description": "Request for Information only, for market research, issued by the First Responder Network Authority (FirstNet Authority). The government is seeking responses from entities able to provide financial management software and support services, and will use responses to decide the acquisition method, including whether a set-aside is possible. Amendment 002 extended the response date to October 26, 2026. Amendment 001 clarified the number of users for market research pricing. The contemplated NAICS code is 541519 Other Computer Related Services; Information Technology Value Added Resellers.",
+    "sourceUrl": "https://sam.gov/workspace/contract/opp/da67289dba0644b79675c937d61860e8/view",
+    "retrievedFrom": "SAM.gov public notice data, 2026-10-16"
+  },
+  "profile": {
+    "_note": "FICTIONAL SAMPLE COMPANY for scenario testing. Not a real firm. Past performance and staffing are invented; only the NAICS codes, set-aside definitions and every opportunity and award figure used against it are real public data.",
+    "id": "atlas-federal",
+    "name": "Atlas Federal Systems Inc. (sample)",
+    "hqState": "VA",
+    "size": "large",
+    "fictional": true,
+    "naics": [
+      "541511",
+      "541512",
+      "541519",
+      "541330"
+    ],
+    "certifications": [],
+    "placesOfPerformance": [
+      "ANY"
+    ],
+    "pastPerformance": "Large business. Eleven DoD and civilian IT prime contracts between $5M and $60M, including a Defense Health Agency data program.",
+    "capacityNotes": "About 400 staff, 150 cleared. Facility clearance (Top Secret). FedRAMP Moderate. Not eligible for any set-aside.",
+    "verification": [
+      "NAICS codes confirmed against USAspending reference (api.usaspending.gov/api/v2/references/naics) on 2026-10-16.",
+      "Set-asides follow SBA definitions: SBA = small business, 8A = 8(a) Business Development, HUBZONE, WOSB/EDWOSB, SDVOSB."
+    ]
+  },
+  "gate": {
+    "pass": true,
+    "checks": [
+      {
+        "rule": "deadline",
+        "pass": true,
+        "reason": "Responses due 2026-10-26T17:00:00-04:00; still open."
+      },
+      {
+        "rule": "set_aside",
+        "pass": true,
+        "reason": "Full and open competition; no set-aside required."
+      },
+      {
+        "rule": "naics",
+        "pass": true,
+        "reason": "NAICS 541519 is in the company's codes."
+      },
+      {
+        "rule": "place_of_performance",
+        "pass": true,
+        "reason": "Place of performance VA is within the company's coverage."
+      }
+    ]
+  },
+  "stoppedAtGate": false,
+  "sources": [
+    {
+      "id": "A1",
+      "title": "USAspending award DOCYA132317NC0139: CDW GOVERNMENT LLC, $561,166,063",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_DOCYA132317NC0139_1323_HHSN316201500011W_7529",
+      "snippet": "2017-06-28 | Department of Commerce / U.S. Census Bureau | IGF::OT::IGF",
+      "query": "usaspending"
+    },
+    {
+      "id": "A2",
+      "title": "USAspending award 1332KP21FNEEB0011: EARTH RESOURCES TECHNOLOGY, LLC, $188,840,498",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_1332KP21FNEEB0011_1330_1332KP21DNEEB0011_1330",
+      "snippet": "2021-03-29 | Department of Commerce / National Oceanic and Atmospheric Administration | SUSTAINMENT SUPPORT (TASK ORDER 3) UNDER THE OPERATIONS, MAINTENANCE, AND SUSTAINMENT (OMS) IDIQ",
+      "query": "usaspending"
+    },
+    {
+      "id": "A3",
+      "title": "USAspending award DOCYA132317NC0131: IMMIXTECHNOLOGY INC, $148,402,490",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_DOCYA132317NC0131_1323_GS35F0265X_4732",
+      "snippet": "2017-06-19 | Department of Commerce / U.S. Census Bureau | CONTRACTOR SERVICES FOR PEGA SYSTEMS \"IGF::OT::IGF\"",
+      "query": "usaspending"
+    },
+    {
+      "id": "A4",
+      "title": "USAspending award 1332KP22FNEEA0040: GAMA-1 TECHNOLOGIES, LLC, $125,339,738",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_1332KP22FNEEA0040_1330_1305M421ANAAA0038_1330",
+      "snippet": "2022-09-09 | Department of Commerce / National Oceanic and Atmospheric Administration | NCCF SUBJECT MATTER EXPERTISE FOR CLOUD DEVELOPMENT AND INNOVATION INITIATIVES",
+      "query": "usaspending"
+    },
+    {
+      "id": "A5",
+      "title": "USAspending award DOC0001: INDRASOFT INC., $121,471,697",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_DOC0001_1323_DOCYA132315BU0044_1323",
+      "snippet": "2017-11-21 | Department of Commerce / U.S. Census Bureau | FINGERPRINT OPERATIONS.",
+      "query": "usaspending"
+    },
+    {
+      "id": "S1",
+      "title": "Financial Management Software and Support Services | Other Computer Related Services",
+      "url": "https://discover.govdash.com/solicitations/01a0f8c6-0903-763a-bdd3-0efda68660cd--financial-management-software-and-support-services",
+      "snippet": "The First Responder Network Authority (FirstNet Authority), an independent entity within the U.S. Department of Commerce’s National Telecommunications and Information Administration (NTIA), has issued a Sources Sought notice for Financial Management Software and Support Services. This Request for Information (RFI), identified by procurement number FNA-OCPO-64962, is strictly for market research purposes and does not constitute a solicitation or a commitment to contract. The notice is active and ",
+      "query": "FirstNet Authority financial management software RFI"
+    },
+    {
+      "id": "S2",
+      "title": "Financial Management Software and Support Services - (Request for Information) - Department of Commerce NTIA/First NET Bid & RFP - Due Oct 16, 2026 | Starbridge",
+      "url": "https://starbridge.ai/rfp/financial-management-software-and-support-services",
+      "snippet": "Description: FirstNet Authority is conducting market research for a commercially available, FEDRAMP Moderate compliant unified platform capable of fulfilling the following: Ability to connect to other validated sources (applications or solutions) used by the Federal Government; Governed AI agents tailored to finance processes; Ability to automate with accuracy, auditability, and transparency; Supports the entire finance lifecycle: close, consolidation, planning, forecasting, analytics. See [...]",
+      "query": "FirstNet Authority financial management software RFI"
+    },
+    {
+      "id": "S3",
+      "title": "Financial Management Software and Support Services",
+      "url": "https://www.highergov.com/contract-opportunity/financial-management-software-and-support-services-fna-ocpo-64962-r-b9409",
+      "snippet": "The First Responder Network Authority (hereafter referred to as the FirstNet Authority) is seeking responses from all responsible entities capable of fulfilling the requirement described herein. The contemplated NAICS code for this effort is 541519 Other Computer Related Services; Information Technology Value Added Resellers. [...] This notice is for planning purposes only and is not a Request for Proposal (RFP)/Request for Quotation (RFQ) or an obligation on the part of the FirstNet Authority f",
+      "query": "FirstNet Authority financial management software RFI"
+    },
+    {
+      "id": "S4",
+      "title": "FirstNet Authority - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/FirstNet_Authority",
+      "snippet": "The First Responder Network Authority, commonly known as the FirstNet Authority (or simply FirstNet), is an independent U.S. government authority established under the Middle Class Tax Relief and Job Creation Act of 2012 (MCTRJCA). Its mandate is to ensure the building, deployment, and operation of a nationwide interoperable broadband network for public safety (the Nationwide Public Safety Broadband Network, or NPSBN). Congress allotted $7 billion and 20 MHz of radio spectrum (Band 14) to the",
+      "query": "FirstNet Authority financial management software RFI"
+    },
+    {
+      "id": "S6",
+      "title": "History | First Responder Network Authority",
+      "url": "https://firstnet.gov/about/history",
+      "snippet": "The First Responder Network Authority, or FirstNet Authority, is the federal entity charged with overseeing the building, deployment, and operation of the FirstNet network. Established as an independent authority within the U.S. Department of Commerce, National Telecommunications and Information Administration (NTIA), the agency’s role is to establish a network that equips public safety with broadband communications services, now and into the future, and ensure AT&T delivers on the terms of its ",
+      "query": "FirstNet Authority incumbent contractor financial systems"
+    },
+    {
+      "id": "S7",
+      "title": "What is FirstNet? - Public Safety Broadband Technology Association",
+      "url": "https://thepsbta.org/what-is-firstnet",
+      "snippet": "The First Responder Network Authority, or the FirstNet Authority, is housed within the U.S. Department of Commerce’s National Telecommunications and Information Administration (NTIA). The FirstNet Authority is charged with oversight of FirstNet (network), ensuring the needs of public safety are heard by factoring their input into network planning and investments. [...] After one of the largest and most rigorous federal procurement processes, the FirstNet Authority awarded a 25-year contract to A",
+      "query": "FirstNet Authority incumbent contractor financial systems"
+    },
+    {
+      "id": "S8",
+      "title": "FirstNet Authority, AT&T Announce 10-Year Investment to Transform America’s Public Safety Broadband Network | First Responder Network Authority",
+      "url": "https://firstnet.gov/newsroom/press-releases/firstnet-authority-att-announce-10-year-investment-transform-americas",
+      "snippet": "The First Responder Network Authority (FirstNet Authority) is an independent authority within the U.S. Department of Commerce. Created in 2012, its mission is to ensure the building, deployment, and operation of the nationwide broadband network that equips first responders to save lives and protect U.S. communities. Learn more at FirstNet.gov and follow the FirstNet Authority (@FirstNetGov) on LinkedIn, Facebook, Instagram, and Twitter for updates.\n\n\\About AT&T [...] The First Responder Network ",
+      "query": "FirstNet Authority incumbent contractor financial systems"
+    },
+    {
+      "id": "S9",
+      "title": "Financial Management Systems Maintenance and Support",
+      "url": "https://sam.gov/opp/2fd33e419cf04b1fa62d8f1fd6fbb36b/view",
+      "snippet": "of Federal Acquisition Regulation (FAR) Parts 12 and 13. This will be a Small Business Set-Aside. The NAICS code is 541519 Other Computer Related Service. The size standard is $15 Million. The OCC intends to award a firm fixed-priced contract. The contract will include a base year and four option years. All responsible small business sources may submit a quote, in accordance with the solicitation, which shall be considered by the OCC. [...] ## Classification\n\n   Original Set Aside:Total Small Bu",
+      "query": "Recent awards similar to 541519 financial management services"
+    },
+    {
+      "id": "S10",
+      "title": "Top NAICS Codes",
+      "url": "https://home.treasury.gov/system/files/271/NAICS-Code.pdf",
+      "snippet": "541519 Other Computer Related Services 541611 Administrative Management and General Management Consulting Services 541620 Environmental Consulting Services 541820 Public Relations Agencies 561320 Temporary Help Services 561450 Credit Bureaus 611430 Professional and Management Development Training Top NAICS\u0003 Codes A Guide for Small, Minority-owned and Women-owned Businesses 18 Financial Crimes Enforcement Network (FinCEN) The Financial Crimes Enforcement Network (FinCEN) supports law enforcement ",
+      "query": "Recent awards similar to 541519 financial management services"
+    },
+    {
+      "id": "S11",
+      "title": "Native American Technology Corporation",
+      "url": "https://www.highergov.com/awardee/native-american-technology-corporation-10100482",
+      "snippet": "- 541330 - Engineering Services     [Small]\n- 541519 - Other Computer Related Services     [Small]\n- 488111 - Air Traffic Control\n- 488190 - Other Support Activities for Air Transportation\n- 488999 - All Other Support Activities for Transportation\n- 541511 - Custom Computer Programming Services\n- 541512 - Computer Systems Design Services\n- 541513 - Computer Facilities Management Services\n- 541611 - Administrative Management and General Management Consulting Services [...] - 541618 - Other Manage",
+      "query": "Recent awards similar to 541519 financial management services"
+    }
+  ],
+  "supportedClaims": [
+    {
+      "text": "The FirstNet Authority, an independent entity within the U.S. Department of Commerce’s NTIA, issued the Sources Sought notice.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://discover.govdash.com/solicitations/01a0f8c6-0903-763a-bdd3-0efda68660cd--financial-management-software-and-support-services"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "The notice seeks information on financial management software and support services under NAICS 541519 with no set‑aside.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://starbridge.ai/rfp/financial-management-software-and-support-services"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "The FirstNet Authority states the RFI is for market research only and does not constitute a solicitation or commitment to contract.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.highergov.com/contract-opportunity/financial-management-software-and-support-services-fna-ocpo-64962-r-b9409"
+      ],
+      "status": "supported"
+    }
+  ],
+  "droppedClaims": [
+    {
+      "text": "CDW Government LLC received a $561,166,063 contract from the Department of Commerce for related work.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_DOCYA132317NC0139_1323_HHSN316201500011W_7529"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (Award unrelated to this RFI.)"
+    },
+    {
+      "text": "Earth Resources Technology, LLC was awarded $188,840,498 for sustainment support services.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_1332KP21FNEEB0011_1330_1332KP21DNEEB0011_1330"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (Award unrelated to this RFI.)"
+    }
+  ],
+  "verdict": {
+    "decision": "CONDITIONAL",
+    "confidence": "medium",
+    "rationale": [
+      {
+        "point": "The RFI has no set-aside and aligns with the company's NAICS 541519, making the large business eligible to respond.",
+        "claimIds": [
+          2
+        ]
+      },
+      {
+        "point": "The notice is explicitly for market research only and does not constitute a solicitation or commitment to contract, so responding is low-risk but offers no guarantee of future work.",
+        "claimIds": [
+          3
+        ]
+      },
+      {
+        "point": "The FirstNet Authority (within the Department of Commerce) issued the Sources Sought, confirming a genuine government requirement for financial management software and support services.",
+        "claimIds": [
+          1
+        ]
+      }
+    ],
+    "risks": [
+      "RFI may not lead to a follow-on RFP or contract award.",
+      "Competition from other large businesses with similar IT and financial management capabilities.",
+      "Specific requirements and evaluation criteria are unknown at this stage."
+    ],
+    "nextSteps": [
+      "Assess internal financial management software and support service capabilities against the RFI description.",
+      "Prepare a response highlighting relevant past performance (e.g., DoD/civilian IT prime contracts $5M-$60M, data programs).",
+      "Monitor for any subsequent solicitation from the FirstNet Authority or Department of Commerce."
+    ]
+  },
+  "approval": "pending",
+  "cost": {
+    "totalUsd": 0.008206119999999999,
+    "byTier": {
+      "nano": {
+        "calls": 2,
+        "inputTokens": 1120,
+        "outputTokens": 1778,
+        "usd": 0.0004939199999999999
+      },
+      "super": {
+        "calls": 1,
+        "inputTokens": 2860,
+        "outputTokens": 1678,
+        "usd": 0.0023682
+      },
+      "ultra": {
+        "calls": 1,
+        "inputTokens": 670,
+        "outputTokens": 1558,
+        "usd": 0.005344
+      }
+    }
+  },
+  "calls": [
+    {
+      "tier": "nano",
+      "purpose": "classify requirement",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 223,
+      "outputTokens": 245,
+      "usd": 0.00007217999999999999,
+      "latencyMs": 1092
+    },
+    {
+      "tier": "super",
+      "purpose": "synthesize sourced claims",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "inputTokens": 2860,
+      "outputTokens": 1678,
+      "usd": 0.0023682,
+      "latencyMs": 7497
+    },
+    {
+      "tier": "nano",
+      "purpose": "relevance and support check",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 897,
+      "outputTokens": 1533,
+      "usd": 0.00042173999999999993,
+      "latencyMs": 5721
+    },
+    {
+      "tier": "ultra",
+      "purpose": "final bid/no-bid verdict",
+      "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "inputTokens": 670,
+      "outputTokens": 1558,
+      "usd": 0.005344,
+      "latencyMs": 5385
+    }
+  ],
+  "errors": [],
+  "history": {
+    "total": 9012,
+    "smallBizAwards": 4092,
+    "medianAmount": 27016343.11,
+    "topRecipients": [
+      {
+        "name": "CDW GOVERNMENT LLC",
+        "count": 1,
+        "amount": 561166063.35
+      },
+      {
+        "name": "EARTH RESOURCES TECHNOLOGY, LLC",
+        "count": 8,
+        "amount": 498832792.54999995
+      },
+      {
+        "name": "GAMA-1 TECHNOLOGIES, LLC",
+        "count": 2,
+        "amount": 172813673.82
+      },
+      {
+        "name": "DELL FEDERAL SYSTEMS L.P",
+        "count": 7,
+        "amount": 169185423.21
+      },
+      {
+        "name": "IMMIXTECHNOLOGY INC",
+        "count": 1,
+        "amount": 148402490.47
+      }
+    ]
+  },
+  "classification": {
+    "summary": "The FirstNet Authority seeks information on financial management software and support services to evaluate acquisition options, including potential set‑aside.",
+    "queries": [
+      "FirstNet Authority financial management software RFI",
+      "FirstNet Authority incumbent contractor financial systems",
+      "Recent awards similar to 541519 financial management services"
+    ]
+  }
+}

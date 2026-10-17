@@ -1,0 +1,382 @@
+{
+  "runId": "run-2026-10-17T00-52-27-385Z",
+  "createdAt": "2026-10-17T00:52:27.385Z",
+  "opportunity": {
+    "id": "HQDA-G-4_26_01",
+    "title": "Sizing Technology Pilot (Army Call for Solutions)",
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "naics": "541512",
+    "setAside": "NONE",
+    "responseDeadline": "2026-10-20T10:00:00-04:00",
+    "placeOfPerformance": "UNSPECIFIED",
+    "noticeType": "Solicitation (Call for Solutions under Army Open Solicitation W9128Z-25-S-A002)",
+    "description": "Army Contracting Command-Aberdeen Proving Ground, on behalf of HQDA G-4, seeks mature commercial technology that captures body and foot measurements by automated non-contact methods and translates them into recommended standard Army uniform and footwear sizes. Current manual tape measurement at accession points causes bottlenecks and high uniform and boot return rates and keeps no record of sizing changes over time. Evaluation phases and required attributes are in Attachment 1. Questions were due Oct 13 2026. No set-aside used.",
+    "sourceUrl": "https://sam.gov/workspace/contract/opp/b691c12b700848deb9876f9b1b5ad0cf/view",
+    "retrievedFrom": "SAM.gov public notice page, 2026-10-16"
+  },
+  "profile": {
+    "_note": "FICTIONAL SAMPLE COMPANY for scenario testing. Not a real firm. Past performance and staffing are invented; only the NAICS codes, set-aside definitions and every opportunity and award figure used against it are real public data.",
+    "id": "atlas-federal",
+    "name": "Atlas Federal Systems Inc. (sample)",
+    "hqState": "VA",
+    "size": "large",
+    "fictional": true,
+    "naics": [
+      "541511",
+      "541512",
+      "541519",
+      "541330"
+    ],
+    "certifications": [],
+    "placesOfPerformance": [
+      "ANY"
+    ],
+    "pastPerformance": "Large business. Eleven DoD and civilian IT prime contracts between $5M and $60M, including a Defense Health Agency data program.",
+    "capacityNotes": "About 400 staff, 150 cleared. Facility clearance (Top Secret). FedRAMP Moderate. Not eligible for any set-aside.",
+    "verification": [
+      "NAICS codes confirmed against USAspending reference (api.usaspending.gov/api/v2/references/naics) on 2026-10-16.",
+      "Set-asides follow SBA definitions: SBA = small business, 8A = 8(a) Business Development, HUBZONE, WOSB/EDWOSB, SDVOSB."
+    ]
+  },
+  "gate": {
+    "pass": true,
+    "checks": [
+      {
+        "rule": "deadline",
+        "pass": true,
+        "reason": "Responses due 2026-10-20T10:00:00-04:00; still open."
+      },
+      {
+        "rule": "set_aside",
+        "pass": true,
+        "reason": "Full and open competition; no set-aside required."
+      },
+      {
+        "rule": "naics",
+        "pass": true,
+        "reason": "NAICS 541512 is in the company's codes."
+      },
+      {
+        "rule": "place_of_performance",
+        "pass": true,
+        "reason": "Place of performance is not stated in the notice; verify before bidding."
+      }
+    ]
+  },
+  "stoppedAtGate": false,
+  "sources": [
+    {
+      "id": "A1",
+      "title": "USAspending award N0002407C5431: RAYTHEON COMPANY, $1,076,035,500",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_N0002407C5431_9700_-NONE-_-NONE-",
+      "snippet": "2007-03-01 | Department of Defense / Defense Contract Management Agency | MK 41 S-BAND TACTICAL MISSILE",
+      "query": "usaspending"
+    },
+    {
+      "id": "A2",
+      "title": "USAspending award H9222217F0069: AMENTUM TECHNOLOGY, INC., $979,192,263",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_H9222217F0069_9700_GS00Q09BGD0059_4735",
+      "snippet": "2017-02-24 | Department of Defense / U.S. Special Operations Command | IGF::CT::IGF ENTERPRISE CORE SERVICES (ENDURING)",
+      "query": "usaspending"
+    },
+    {
+      "id": "A3",
+      "title": "USAspending award W52P1J20C0005: ACCENTURE FEDERAL SERVICES LLC, $896,468,884",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_W52P1J20C0005_9700_-NONE-_-NONE-",
+      "snippet": "2019-12-10 | Department of Defense / Department of the Army | AWARD FOR UNIFIED ENTERPRISE RESOURCE PLANNING CAPABILITY SUPPORT SERVICES",
+      "query": "usaspending"
+    },
+    {
+      "id": "A4",
+      "title": "USAspending award FA872619F0096: SCIENCE APPLICATIONS INTERNATIONAL CORPORATION, $684,030,647",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_FA872619F0096_9700_47QTCK18D0001_4732",
+      "snippet": "2019-09-10 | Department of Defense / Department of the Air Force | COMMON COMPUTING ENVIRONMENT (CCE) FOLLOW-ON",
+      "query": "usaspending"
+    },
+    {
+      "id": "A5",
+      "title": "USAspending award HT003823F0011: LEIDOS, INC., $572,997,098",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_HT003823F0011_9700_N0003915D0044_9700",
+      "snippet": "2023-08-03 | Department of Defense / Defense Health Agency | ENTERPRISE ACTIVITIES FOR MHS GENESIS-STAGE 9",
+      "query": "usaspending"
+    },
+    {
+      "id": "S1",
+      "title": "Sizing Technology Pilot | TechBids",
+      "url": "https://techbids.com/bids/321191",
+      "snippet": "Other IT   Maryland   Reviewed\n\n# Sizing Technology Pilot\n\nSAM.gov\n\nUS Army\n\nABERDEEN PROVING GROU, Maryland\n\nPosted Oct 6, 2026\n\nDue Oct 20, 2026\n\nautomated measurement non-contact measurement  $100K – $500K\n\nThis is an estimate based on available data at the time of collection. Actual value may differ.\n\n## About This Opportunity [...] The US Army is seeking mature commercial technology for a sizing pilot that uses automated, non-contact methods to capture body and foot measurements and recomme",
+      "query": "Army uniform sizing technology pilot 2026"
+    },
+    {
+      "id": "S2",
+      "title": "Sizing Technology Pilot HQDA-G-4_26_01",
+      "url": "https://www.highergov.com/contract-opportunity/sizing-technology-pilot-hqda-g-4-26-01-o-ad0cf",
+      "snippet": "The deadline to submit questions for this CFS is 13 October 2026 at 10:00 AM ET. All questions must be submitted via email to the POCs listed in this notice with the following subject line: \"CFS HQDA-G-4\\_26\\_01 Sizing Technology Pilot\"\n\nThe Army Open Solicitation (AOS) that this Call for Solutions is associated with can be found at the following link: [...] On 10/6/26 ACC Aberdeen Proving Ground issued Solicitation HQDA-G-4\\_26\\_01 for Sizing Technology Pilot due 10/20/26. The opportunity was i",
+      "query": "Army uniform sizing technology pilot 2026"
+    },
+    {
+      "id": "S3",
+      "title": "Sizing Technology Pilot | Computer Systems Design Services",
+      "url": "https://discover.govdash.com/solicitations/01a11157-bba4-7078-9d6e-742c8677ce44--sizing-technology-pilot",
+      "snippet": "must be submitted via email to the designated points of contact, Mallory Harris ((/cdn-cgi/l/email-protection)) and Heather Caughorn ((/cdn-cgi/l/email-protection)), with the subject line \"CFS HQDA-G-4\\_26\\_01 Sizing Technology Pilot.\" The deadline for submitting questions is October 13, 2026, at 10:00 AM ET, and the final response deadline is October 20, 2026, at 2:10 PM ET. This solicitation represents a significant opportunity for technology providers specializing in automated measurement [..",
+      "query": "Army uniform sizing technology pilot 2026"
+    },
+    {
+      "id": "S4",
+      "title": "Army Seeks High-Tech Uniforms",
+      "url": "https://www.fedweek.com/armed-forces-news/army-seeks-high-tech-uniforms",
+      "snippet": "Newsletters\n FW Handbooks\n Publish With Us\n Issue Briefs\n Search\n\nFriday, October 16th, 2026\n\nFederal Employee Handbooks\n\n## Armed Forces News\n\n# Army Seeks High-Tech Uniforms\n\nPublished:   \nMore in: Armed Forces News\n\nBy: FEDweek Staff",
+      "query": "Army uniform sizing technology pilot 2026"
+    },
+    {
+      "id": "S5",
+      "title": "Contracts For May. 29, 2024 > U.S. Department of War > Contract | U.S. Department of War",
+      "url": "https://www.war.gov/News/Contracts/Contract/Article/3790490",
+      "snippet": "ARMY\n\nPalantir USG Inc., Palo Alto, California, was awarded a $480,000,000 firm-fixed-price contract for the Maven Smart System prototype. One bid was solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of May 28, 2029. U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity (W911QX24-D-0012). [...] activity (W91238-24-C-0014). [...] at time of award, $162,326,229, non",
+      "query": "DoD automated body measurement solutions recent contracts"
+    },
+    {
+      "id": "S6",
+      "title": "DOD Vendors with Contracts over $25,000.00",
+      "url": "https://dodsoco.ogc.osd.mil/Portals/102/Documents/Conflicts/2024%2025K%20FY2023.pdf",
+      "snippet": "OMNI MEASUREMENT SYSTEMS INC \n\nOMNI MEDICAL SYSTEMS INC \n\nOMNI TECHNOLOGIES LLC \n\nOMNI2MAX INC \n\nOMNIBUSBETRIEB VICARI GMBH \n\nOMNICELL INC \n\nOMNICOM GROUP INC \n\nOMNIFICS INC DOD Vendors with Contracts over $25,000.00 \n\nRevised January 2024 Page 339 \n\nOMNISYNC INC \n\nOMNITEK PARTNERS LLC \n\nOMOTAYO JOSHUA KETIKU \n\nOMV MEDICAL INC \n\nON 2 TRAINING LLC \n\nON ADDITIVE LLC \n\nON ASSIGNMENT INC \n\nON COMPUTER SERVICES LLC \n\nON SITE GAS SYSTEMS INC \n\nON SITE SYSTEMS INC \n\nON SMOOTH INC [...] DYNAMIC ENERGY S",
+      "query": "DoD automated body measurement solutions recent contracts"
+    },
+    {
+      "id": "S7",
+      "title": "U.S. Army unveils new AI/ML and wearables contracts for innovative small businesses – Army SBIR|STTR Program",
+      "url": "https://armysbir.army.mil/announcement/aiml-wearables-contracts-innovative-sb",
+      "snippet": "The pre-release period for the new solicitations is from December 15, 2022, to January 9, 2023. During this time, businesses can submit questions through email, or on the Defense SBIR|STTR Innovation Portal. Qualified companies can submit proposals starting January 10, 2023, through January 31, 2023, at noon Eastern Standard Time. Full proposal packages must be submitted through the DSIP Portal. [...] This fuels increased interest from several stakeholders while providing awarded companies the o",
+      "query": "DoD automated body measurement solutions recent contracts"
+    },
+    {
+      "id": "S8",
+      "title": "Contract Research: Government & Industry – Compass Technology Group",
+      "url": "https://compasstech.com/services/contract-research",
+      "snippet": "Skip to content\n\n (678) 279-5825\n (/cdn-cgi/l/email-protection#c6afa8a0a986a5a9abb6a7b5b5b2a3a5aee8a5a9ab)\n\nCOMPASS TECHNOLOGY GROUP LOGO\n\nHome » Services » Contract Research\n\n# Contract Research\n\nOver the years, Compass Technology Group created new RF measurement technologies with the help of government-funded SBIR grants. As a result, this research led to deployed measurement systems benefiting the Department of Defense (DoD) and companies in the defense industrial base.",
+      "query": "DoD automated body measurement solutions recent contracts"
+    },
+    {
+      "id": "S9",
+      "title": "Military Shoes Market Size, Share & Forecast Report 2025 to 2034 | Dataintelo",
+      "url": "https://dataintelo.com/report/global-military-shoes-market",
+      "snippet": "Military footwear must comply with rigorous government standards including U.S. Department of Defense MIL-B-43664D specifications for combat boots, NATO STANAG 5000 series standards for allied nation procurement, and ISO 20345 protective footwear standards. These specifications mandate slip resistance on wet surfaces, waterproofing for minimum 4 hours submersion, compression resistance supporting loads exceeding 45 kilograms, and thermal protection across temperature ranges from -40 to +50 [...]",
+      "query": "Footwear size recommendation system for military procurement"
+    },
+    {
+      "id": "S10",
+      "title": "Military Boots Market Size & Growth Analysis, 2033",
+      "url": "https://www.persistencemarketresearch.com/market-research/military-boots-market.asp",
+      "snippet": "One of the primary structural constraints in the military boots market is the complexity and duration of the defense procurement qualification process. Military footwear must meet rigorous national and international performance standards, including Berry Amendment compliance requirements in the United States, which mandate that textile and footwear items procured by the U.S. Department of Defense be manufactured domestically from American-sourced materials. Qualification cycles for new military ",
+      "query": "Footwear size recommendation system for military procurement"
+    },
+    {
+      "id": "S11",
+      "title": "USFMA - Government Research and Procurement",
+      "url": "https://usfma.org/government-research-procurement",
+      "snippet": "As the voice of the Berry Amendment footwear industry, USFMA opposes any effort to reduce or limit Berry Amendment requirements on footwear. Consequently, USFMA actively promotes and supports the development of new programs and requirements tailored to ensuring all footwear worn by U.S. military personnel on duty is Berry Amendment compliant.\n\n# Military Footwear Research [...] The Berry Amendment requires the Department of Defense to purchase footwear and other items that are 100% sourced and p",
+      "query": "Footwear size recommendation system for military procurement"
+    },
+    {
+      "id": "S12",
+      "title": "Military Boots Market Size is Expected to Reach USD 8.41 Billion by 2033, Growing at a CAGR of 4.97%: Market Strides",
+      "url": "https://finance.yahoo.com/news/military-boots-market-size-expected-140500699.html",
+      "snippet": "The global military boots market size was valued at USD 5.43 billion in 2024 and is estimated to reach USD 8.41 billion by 2033, growing at a CAGR of 4.97% during the forecast period (2025–2033).\n Based on the type of footwear, combat boots dominate the market, owing to their widespread use in military operations.\n In terms of material, leather remains the preferred choice due to its durability and protective qualities. [...] Military Boots Market Size, Share and Growth By Type of Footwear (Comb",
+      "query": "Footwear size recommendation system for military procurement"
+    }
+  ],
+  "supportedClaims": [
+    {
+      "text": "The Sizing Technology Pilot solicitation was posted on TechBids with an estimated value of $100K–$500K and a response deadline of October 20, 2026.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://techbids.com/bids/321191"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "The solicitation is identified as Call for Solutions HQDA-G-4_26_01 under Army Open Solicitation W9128Z-25-S-A002, with questions due October 13, 2026.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.highergov.com/contract-opportunity/sizing-technology-pilot-hqda-g-4-26-01-o-ad0cf"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "The Army seeks mature commercial technology for automated, non-contact measurement of body and foot dimensions to generate recommended uniform and footwear sizes.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://techbids.com/bids/321191"
+      ],
+      "status": "supported"
+    }
+  ],
+  "droppedClaims": [
+    {
+      "text": "Raytheon Company was awarded a $1,076,035,500 DoD contract for the MK 41 S-BAND Tactical Missile system.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_N0002407C5431_9700_-NONE-_-NONE-"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (unrelated contract)"
+    },
+    {
+      "text": "Accenture Federal Services LLC received an $896,468,884 DoD award for Unified Enterprise Resource Planning Capability Support Services.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_W52P1J20C0005_9700_-NONE-_-NONE-"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (unrelated contract)"
+    },
+    {
+      "text": "Leidos, Inc. was awarded $572,997,098 for Enterprise Activities for MHS Genesis-Stage 9 by the Defense Health Agency.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_HT003823F0011_9700_N0003915D0044_9700"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (unrelated contract)"
+    }
+  ],
+  "verdict": {
+    "decision": "CONDITIONAL",
+    "confidence": "medium",
+    "rationale": [
+      {
+        "point": "The opportunity is open to large businesses (set-aside NONE) and matches the company's NAICS 541512, with place of performance ANY and deadline passed per eligibility gate.",
+        "claimIds": [
+          1,
+          2
+        ]
+      },
+      {
+        "point": "The solicitation seeks mature commercial technology for automated body/foot measurement, which may not align with the company's core IT services portfolio (541511, 541512, 541519, 541330) unless they have or can acquire such a product.",
+        "claimIds": [
+          3
+        ]
+      },
+      {
+        "point": "Estimated value ($100K–$500K) is well below the company's typical prime contract range ($5M–$60M), raising questions about return on bid investment.",
+        "claimIds": [
+          1
+        ]
+      }
+    ],
+    "risks": [
+      "Low contract value relative to company size and overhead",
+      "Potential technology gap: solicitation calls for a specific commercial product, not general IT services",
+      "Tight timeline: questions due Oct 13, 2026; response due Oct 20, 2026"
+    ],
+    "nextSteps": [
+      "Assess whether the company has or can partner with a vendor offering mature automated body/foot measurement technology",
+      "Evaluate strategic value of entering Army uniform/footwear sizing domain for potential follow-on work",
+      "Calculate bid cost vs. expected value and probability of win"
+    ]
+  },
+  "approval": "pending",
+  "cost": {
+    "totalUsd": 0.00799008,
+    "byTier": {
+      "nano": {
+        "calls": 2,
+        "inputTokens": 1421,
+        "outputTokens": 1533,
+        "usd": 0.00045318
+      },
+      "super": {
+        "calls": 1,
+        "inputTokens": 3472,
+        "outputTokens": 2227,
+        "usd": 0.0030459
+      },
+      "ultra": {
+        "calls": 1,
+        "inputTokens": 720,
+        "outputTokens": 1257,
+        "usd": 0.004491
+      }
+    }
+  },
+  "calls": [
+    {
+      "tier": "nano",
+      "purpose": "classify requirement",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 212,
+      "outputTokens": 138,
+      "usd": 0.000045839999999999995,
+      "latencyMs": 676
+    },
+    {
+      "tier": "super",
+      "purpose": "synthesize sourced claims",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "inputTokens": 3472,
+      "outputTokens": 2227,
+      "usd": 0.0030459,
+      "latencyMs": 12848
+    },
+    {
+      "tier": "nano",
+      "purpose": "relevance and support check",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 1209,
+      "outputTokens": 1395,
+      "usd": 0.00040734,
+      "latencyMs": 4883
+    },
+    {
+      "tier": "ultra",
+      "purpose": "final bid/no-bid verdict",
+      "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "inputTokens": 720,
+      "outputTokens": 1257,
+      "usd": 0.004491,
+      "latencyMs": 3991
+    }
+  ],
+  "errors": [],
+  "history": {
+    "total": 23759,
+    "smallBizAwards": 1428,
+    "medianAmount": 237131226.07,
+    "topRecipients": [
+      {
+        "name": "LEIDOS, INC.",
+        "count": 15,
+        "amount": 4184107184.3400006
+      },
+      {
+        "name": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "count": 6,
+        "amount": 2242641487.3199997
+      },
+      {
+        "name": "RAYTHEON COMPANY",
+        "count": 3,
+        "amount": 1847934253.78
+      },
+      {
+        "name": "ACCENTURE FEDERAL SERVICES LLC",
+        "count": 2,
+        "amount": 1214627081.88
+      },
+      {
+        "name": "AMENTUM TECHNOLOGY, INC.",
+        "count": 1,
+        "amount": 979192262.73
+      }
+    ]
+  },
+  "classification": {
+    "summary": "The Army needs a mature commercial technology that automatically measures body and foot dimensions without contact to generate recommended uniform and footwear sizes, eliminating manual tape measurements and reducing bottlenecks and return rates.",
+    "queries": [
+      "Army uniform sizing technology pilot 2026",
+      "DoD automated body measurement solutions recent contracts",
+      "Footwear size recommendation system for military procurement"
+    ]
+  }
+}

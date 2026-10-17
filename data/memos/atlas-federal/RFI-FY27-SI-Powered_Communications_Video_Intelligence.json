@@ -1,0 +1,322 @@
+{
+  "runId": "run-2026-10-17T00-53-22-384Z",
+  "createdAt": "2026-10-17T00:53:22.384Z",
+  "opportunity": {
+    "id": "RFI-FY27-SI-Powered_Communications_Video_Intelligence",
+    "title": "SI-Powered Detention Communications and Video Intelligence Suite (RFI)",
+    "agency": "Department of Homeland Security",
+    "naics": "541519",
+    "setAside": "NONE",
+    "responseDeadline": "2026-10-26T09:00:00-04:00",
+    "placeOfPerformance": "DC",
+    "noticeType": "Sources Sought / Request for Information",
+    "description": "U.S. Immigration and Customs Enforcement requests information on an integrated SI-powered detention communications and video intelligence suite, including software licenses and subscriptions, implementation, integration, configuration, testing, training, cybersecurity support, operations and maintenance, and transition services. RFI questions were due Oct 16, 2026. Responses are due Oct 26, 2026 at 09:00 ET via Microsoft Forms.",
+    "sourceUrl": "https://sam.gov/workspace/contract/opp/7ee36eee5d934ac1bb1900889b7565fe/view",
+    "retrievedFrom": "SAM.gov public notice data, 2026-10-16",
+    "subAgency": "U.S. Immigration and Customs Enforcement"
+  },
+  "profile": {
+    "_note": "FICTIONAL SAMPLE COMPANY for scenario testing. Not a real firm. Past performance and staffing are invented; only the NAICS codes, set-aside definitions and every opportunity and award figure used against it are real public data.",
+    "id": "atlas-federal",
+    "name": "Atlas Federal Systems Inc. (sample)",
+    "hqState": "VA",
+    "size": "large",
+    "fictional": true,
+    "naics": [
+      "541511",
+      "541512",
+      "541519",
+      "541330"
+    ],
+    "certifications": [],
+    "placesOfPerformance": [
+      "ANY"
+    ],
+    "pastPerformance": "Large business. Eleven DoD and civilian IT prime contracts between $5M and $60M, including a Defense Health Agency data program.",
+    "capacityNotes": "About 400 staff, 150 cleared. Facility clearance (Top Secret). FedRAMP Moderate. Not eligible for any set-aside.",
+    "verification": [
+      "NAICS codes confirmed against USAspending reference (api.usaspending.gov/api/v2/references/naics) on 2026-10-16.",
+      "Set-asides follow SBA definitions: SBA = small business, 8A = 8(a) Business Development, HUBZONE, WOSB/EDWOSB, SDVOSB."
+    ]
+  },
+  "gate": {
+    "pass": true,
+    "checks": [
+      {
+        "rule": "deadline",
+        "pass": true,
+        "reason": "Responses due 2026-10-26T09:00:00-04:00; still open."
+      },
+      {
+        "rule": "set_aside",
+        "pass": true,
+        "reason": "Full and open competition; no set-aside required."
+      },
+      {
+        "rule": "naics",
+        "pass": true,
+        "reason": "NAICS 541519 is in the company's codes."
+      },
+      {
+        "rule": "place_of_performance",
+        "pass": true,
+        "reason": "Place of performance DC is within the company's coverage."
+      }
+    ]
+  },
+  "stoppedAtGate": false,
+  "sources": [
+    {
+      "id": "A1",
+      "title": "USAspending award HSBP1017C00137: ACCENTURE FEDERAL SERVICES LLC, $370,125,532",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_HSBP1017C00137_7014_-NONE-_-NONE-",
+      "snippet": "2017-09-30 | Department of Homeland Security / U.S. Customs and Border Protection | DATA CENTER SUPPORT SERVICES FOR THE OFFICE OF INFORMATION&TECHNOLOGY.  IGF::OT::IGF",
+      "query": "usaspending"
+    },
+    {
+      "id": "A2",
+      "title": "USAspending award HSBP1014C00049: NORTHROP GRUMMAN TECHNICAL SERVICES, INC., $336,270,952",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_HSBP1014C00049_7014_-NONE-_-NONE-",
+      "snippet": "2014-09-17 | Department of Homeland Security / U.S. Customs and Border Protection | PASSENGER SYSTEMS PROGRAM DIRECTORATE SOFTWARE APPLICATION DEVELOPMENT, MODERNIZATION, ENHANCEMENT, OPERATIONS AND MAINTENANCE IGF::OT::IGF",
+      "query": "usaspending"
+    },
+    {
+      "id": "A3",
+      "title": "USAspending award 70B04C24F00000739: LEIDOS, INC., $318,445,310",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_70B04C24F00000739_7014_70B04C20A00000008_7014",
+      "snippet": "2024-08-30 | Department of Homeland Security / U.S. Customs and Border Protection | TRAVELERS PROCESSING VETTING SOFTWARE TASK ORDER 7 AWARD",
+      "query": "usaspending"
+    },
+    {
+      "id": "A4",
+      "title": "USAspending award 70B04C24F00000413: FOUR POINTS TECHNOLOGY, L.L.C., $234,906,040",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_70B04C24F00000413_7014_NNG15SD22B_8000",
+      "snippet": "2024-06-27 | Department of Homeland Security / U.S. Customs and Border Protection | AMAZON WEB SERVICES FOR CBP.",
+      "query": "usaspending"
+    },
+    {
+      "id": "A5",
+      "title": "USAspending award 70RTAC21FC0000006: CACI NSS, LLC, $215,344,713",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_70RTAC21FC0000006_7001_70RTAC20A00000003_7001",
+      "snippet": "2021-02-22 | Department of Homeland Security / Office of Procurement Operations | THE PURPOSE OF THIS BPA CALL IS TO PROCURE SERVICES TO PROVIDE CONTINUOUS SUPPORT FOR DHS HEADQUARTERS OPERATIONS DIVISION (HOD) PROJECTS AND IT SERVICE DELIVERY IN ACCORDANCE WITH ATTACHMENT 2 STATEMENT OF WORK (SOW-67 PAGES) AND ATTACHMENT 3 TERMS",
+      "query": "usaspending"
+    },
+    {
+      "id": "S1",
+      "title": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/7ee36eee5d934ac1bb1900889b7565fe/view",
+      "snippet": "RFI Questions are due October 16, 2026 @ 09:00 AM, Eastern Time to Heather.Cauthinn@ice.dhs.gov and Kelli.Brooks@associates.ice.dhs.gov.  \n  \nRFI Responses are due October 26, 2026 @ 09:00 AM, Eastern Time via Microsoft Formsat \n\n## Contact Information\n\n  \n\n## Primary Point of Contact\n\n##### Kelli Brooks\n\nEmail\n\n###### kelli.brooks@associates.ice.dhs.gov\n\nPhone Number\n\n###### (blank)\n\n## Alternative Point of Contact\n\n##### Heather Cauthinn\n\nEmail\n\n###### heather.cauthinn@ice.dhs.gov [...] Opport",
+      "query": "DHS ICE detention communications video intelligence suite RFI 2026"
+    },
+    {
+      "id": "S2",
+      "title": "ICE Uses a Growing Web of AI Services to Power Its Immigration Enforcement and Surveillance - American Immigration Council",
+      "url": "https://www.americanimmigrationcouncil.org/blog/ice-uses-ai-immigration-enforcement-surveillance",
+      "snippet": "Department of Homeland Security\n   Immigration and Customs Enforcement\n   Trump Administration\n\n## Related Resources\n\nImage 7: Post Image\n\n### ICE Begins Electronically 'Disappearing' People in Custody: What You Need to Know\n\n   Detention\n    September 23, 2026 \n\nWhen a person is arrested and detained by the U.S. government, it should be possible…\n\nRead More\n\nImage 8: Post Image\n\n### New Playbook Tracks State and Local Government Responses to Heightened Federal Immigration Enforcement [...] Immi",
+      "query": "DHS ICE detention communications video intelligence suite RFI 2026"
+    },
+    {
+      "id": "S3",
+      "title": "United States Immigration and Customs Enforcement – SI Use Cases | Homeland Security",
+      "url": "https://www.dhs.gov/si/use-case-inventory/ice",
+      "snippet": "For other updates view the Full DHS SI Use Case Inventory on the DHS SI Use Case Inventory publication library.\n\n## Topics\n\n Secretary of Homeland Security\n\n## Keywords\n\n Super Intelligence (SI)\n Immigration and Customs Enforcement (ICE)\n\nLast Updated: 10/09/2026\n\nBack to Top [...] Breadcrumb\n\n1. Home\n2. Topics\n3. Homeland Security Enterprise\n4. Super Intelligence at DHS\n5. SI Use Case Inventory\n6. ICE SI Use Cases\n\n# United States Immigration and Customs Enforcement – SI Use Cases\n\nPlease note ",
+      "query": "DHS ICE detention communications video intelligence suite RFI 2026"
+    },
+    {
+      "id": "S4",
+      "title": "ICE's AI pilots drive growth of use cases within DHS",
+      "url": "https://www.youtube.com/watch?v=sDnsY1sbAUs",
+      "snippet": "### Transcript\n[0:00] Today on the Daily Scoop podcast from the Scoop News Group, ISIS's adoption of AI drives a spike of use cases within\n[0:07] DHS and transportation reopens its drone related RFI amid plans for a new FAA\n[0:15] office. It's Thursday, January 29th, 2026. Welcome to the Daily Scoop podcast, where you'll hear the latest news and trends facing government\n[0:24] leaders. I'm the host of [music] the Daily Scoop podcast, Billy Mitchell. Thanks so much for joining me. [...] [3:53] pu",
+      "query": "DHS ICE detention communications video intelligence suite RFI 2026"
+    },
+    {
+      "id": "S5",
+      "title": "Weekly Ice Video - Making America Safe Again - April 7, 2025 | Homeland Security",
+      "url": "https://www.dhs.gov/medialibrary/assets/video/59439",
+      "snippet": "DHS: Returning to the Core Mission - Video by Office of Public Affairs (OPA)\n \n\n  Angel Families: Thank You - Video by Office of Public Affairs (OPA)\n \n\n  Noem at Home and Abroad - Video by Office of Public Affairs (OPA)\n \n\n  Secretary Noem: The Message is Clear - Video by Office of Public Affairs (OPA)\n \n\n  Harnessing Peace through Strength - Video by DHS\n \n\n  Secretary Noem: Bold, Unapologetic Leadership for America - Video by DHS [...] Inside the Action: Secretary Noem's visit to El Salvador ",
+      "query": "Recent DHS ICE integrated video intelligence awards 2024-2025"
+    },
+    {
+      "id": "S6",
+      "title": "DHS FY 2024 Annual Performance Report",
+      "url": "https://www.dhs.gov/sites/default/files/2025-02/2025_0117_dhs_annual_performance_report_fy2024.pdf",
+      "snippet": "contract was successfully awarded on September 29, 2024. Planned Actions and Key Milestones: DHS will continue to implement the Integrated Strategy and sustain existing progress, in conjunction with broader efforts that contribute to strong and efficient management functions. During FY 2025, DHS will focus on the outcomes that are not “Fully Addressed” and expects to accomplish the following: • Implement and monitor action plans to earn a “Fully Addressed” or “Mostly Addressed” rating on [...] i",
+      "query": "Recent DHS ICE integrated video intelligence awards 2024-2025"
+    },
+    {
+      "id": "S7",
+      "title": "ICE contracts with Clearview AI for facial-recognition technology | Immigration Policy Tracking Project",
+      "url": "https://immpolicytracking.org/policies/reported-ice-contracts-with-clearview-ai-for-facial-recognition-technology",
+      "snippet": "Trump 2.0 [ID #1976]\n\n    2025.09.09 HSI - Clearview AI Contract \n\n   - ## Subsequent Trump and Court Action\n\n     December 18, 2025\n\n     ### 2025.12.18 Reported: ICE Uses a Growing Web of AI Services to Power Its Immigration Enforcement and Surveillance - American Immigration Council [...] The American Immigration Council reports that DHS updated its AI Use Case Inventory in summer 2025 to make some programs \"inactive,\" and added a new pilot, the LIGER GenAI Toolkit. However, rather than reduc",
+      "query": "Recent DHS ICE integrated video intelligence awards 2024-2025"
+    },
+    {
+      "id": "S9",
+      "title": "Proposed AI surveillance system would track what ICE detainees say, who they talk to, and how they behave",
+      "url": "https://www.projectsaltbox.com/p/proposed-ai-surveillance-system-would",
+      "snippet": "SI-Powered Communications and Video Intelligence Suite Performance Work Statement\n\n752KB ∙ PDF file\n\nDownload\n\nDownload\n\nRequests for information are not formal solicitations or requests for proposals. Agencies typically use them as a first step to gauge whether industry can deliver a capability, and they do not commit the government to issuing a solicitation or awarding a contract. The requirements in the work statement could change or never lead to a purchase. [...] # Proposed AI surveillance ",
+      "query": "SI-powered detention communications contractors similar to ICE RFI"
+    },
+    {
+      "id": "S11",
+      "title": "ICE seeks proprietary data and tech to monitor up to a million people  | FedScoop",
+      "url": "https://fedscoop.com/ice-seeks-proprietary-data-and-tech-to-monitor-up-to-a-million-people",
+      "snippet": "“CACI is the incumbent and their contract is coming to its end,” a contracting officer told FedScoop in an email. “The purpose of market research is always for the Government to gather information and decide how best the Government can get the requirements we need. The RFI is not a solicitation.”\n\nAdvertisement\n\nFedScoop emails to ICE’s press office went unanswered. [...] The RFI is described as a recompete, meaning that while a company previously provided the agency support for the work, the ag",
+      "query": "SI-powered detention communications contractors similar to ICE RFI"
+    }
+  ],
+  "supportedClaims": [],
+  "droppedClaims": [
+    {
+      "text": "Accenture Federal Services LLC was awarded a $370,125,532 DHS contract for data center support services.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_HSBP1017C00137_7014_-NONE-_-NONE-"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (unrelated contract type)"
+    },
+    {
+      "text": "Northrop Grumman Technical Services, Inc. received a $336,270,952 DHS award for passenger systems software development and maintenance.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_HSBP1014C00049_7014_-NONE-_-NONE-"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (different program)"
+    },
+    {
+      "text": "Leidos, Inc. was awarded $318,445,310 by DHS for travelers processing vetting software task order.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_70B04C24F00000739_7014_70B04C20A00000008_7014"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (different task order)"
+    },
+    {
+      "text": "Four Points Technology, L.L.C. obtained a $234,906,040 DHS contract for Amazon Web Services support.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_70B04C24F00000413_7014_NNG15SD22B_8000"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (AWS support not related)"
+    },
+    {
+      "text": "CACI NSS, LLC earned a $215,344,713 DHS BPA call for continuous support to headquarters operations and IT service delivery.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_70RTAC21FC0000006_7001_70RTAC20A00000003_7001"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (headquarters support not related)"
+    }
+  ],
+  "verdict": {
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "confidence": "low",
+    "rationale": [
+      {
+        "point": "Every claim the research produced was unsourced, unsupported by its source, or not relevant to this opportunity, so no recommendation is made.",
+        "claimIds": []
+      }
+    ],
+    "risks": [
+      "A bid decision made without verified evidence would be a guess."
+    ],
+    "nextSteps": [
+      "Read the full solicitation and its attachments on SAM.gov.",
+      "Ask the contracting officer the open questions in the notice.",
+      "Run again after the buyer publishes more detail."
+    ]
+  },
+  "approval": "pending",
+  "cost": {
+    "totalUsd": 0.0033483000000000002,
+    "byTier": {
+      "nano": {
+        "calls": 2,
+        "inputTokens": 1186,
+        "outputTokens": 1696,
+        "usd": 0.0004782
+      },
+      "super": {
+        "calls": 1,
+        "inputTokens": 3054,
+        "outputTokens": 2171,
+        "usd": 0.0028701
+      }
+    }
+  },
+  "calls": [
+    {
+      "tier": "nano",
+      "purpose": "classify requirement",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 203,
+      "outputTokens": 153,
+      "usd": 0.000048899999999999996,
+      "latencyMs": 839
+    },
+    {
+      "tier": "super",
+      "purpose": "synthesize sourced claims",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "inputTokens": 3054,
+      "outputTokens": 2171,
+      "usd": 0.0028701,
+      "latencyMs": 10648
+    },
+    {
+      "tier": "nano",
+      "purpose": "relevance and support check",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 983,
+      "outputTokens": 1543,
+      "usd": 0.0004293,
+      "latencyMs": 4832
+    }
+  ],
+  "errors": [],
+  "history": {
+    "total": 12327,
+    "smallBizAwards": 4316,
+    "medianAmount": 69554799.01,
+    "topRecipients": [
+      {
+        "name": "LEIDOS, INC.",
+        "count": 6,
+        "amount": 859372194.42
+      },
+      {
+        "name": "FOUR POINTS TECHNOLOGY, L.L.C.",
+        "count": 5,
+        "amount": 465869994.66999996
+      },
+      {
+        "name": "ACCENTURE FEDERAL SERVICES LLC",
+        "count": 2,
+        "amount": 411566644.22
+      },
+      {
+        "name": "CACI NSS, LLC",
+        "count": 3,
+        "amount": 398834904.04
+      },
+      {
+        "name": "DEV TECHNOLOGY GROUP INC",
+        "count": 2,
+        "amount": 351999850.75
+      }
+    ]
+  },
+  "classification": {
+    "summary": "The buyer seeks an integrated SI-powered detention communications and video intelligence suite covering software licenses, implementation, integration, configuration, testing, training, cybersecurity support, operations and maintenance, and transition services.",
+    "queries": [
+      "DHS ICE detention communications video intelligence suite RFI 2026",
+      "Recent DHS ICE integrated video intelligence awards 2024-2025",
+      "SI-powered detention communications contractors similar to ICE RFI"
+    ]
+  }
+}

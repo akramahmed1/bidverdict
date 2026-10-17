@@ -1,0 +1,375 @@
+{
+  "runId": "run-2026-10-17T00-59-19-133Z",
+  "createdAt": "2026-10-17T00:59:19.133Z",
+  "opportunity": {
+    "id": "W50NH927RA006",
+    "title": "Scalable GEOINT Architecture IT Contractor Manpower Equivalent (CME) Support",
+    "agency": "Department of Defense",
+    "naics": "541519",
+    "setAside": "NONE",
+    "responseDeadline": "2026-11-13T12:00:00-05:00",
+    "placeOfPerformance": "UNSPECIFIED",
+    "noticeType": "Solicitation",
+    "description": "Request for Proposal W50NH9-27-R-A006 for Scalable Geospatial Intelligence (GEOINT) Architecture IT Contractor Manpower Equivalent support for U.S. Army Intelligence and Security Command (INSCOM). Proposals due Nov 13, 2026 with a proposal validity of at least 240 days. Period of performance: one 30-day transition-in, a 12-month base, four 12-month options and one six-month option. Estimated award date Jan 11, 2027. Primarily time and materials, evaluated on a best value trade-off basis.",
+    "sourceUrl": "https://sam.gov/workspace/contract/opp/9062cba08c704f95ad579bb986068703/view",
+    "retrievedFrom": "SAM.gov public notice data, 2026-10-16",
+    "subAgency": "Department of the Army"
+  },
+  "profile": {
+    "_note": "FICTIONAL SAMPLE COMPANY for scenario testing. Not a real firm. Past performance and staffing are invented; only the NAICS codes, set-aside definitions and every opportunity and award figure used against it are real public data.",
+    "id": "desert-sun-data",
+    "name": "Desert Sun Data Services LLC (sample)",
+    "hqState": "AZ",
+    "size": "small",
+    "fictional": true,
+    "naics": [
+      "541519"
+    ],
+    "certifications": [
+      "SBA"
+    ],
+    "placesOfPerformance": [
+      "AZ"
+    ],
+    "pastPerformance": "Two Arizona state-agency data-entry and migration projects (about $250K and $180K). First federal bid would be new.",
+    "capacityNotes": "Four staff, no clearance, no SOC 2. Can only staff work in Arizona.",
+    "verification": [
+      "NAICS codes confirmed against USAspending reference (api.usaspending.gov/api/v2/references/naics) on 2026-10-16.",
+      "Set-asides follow SBA definitions: SBA = small business, 8A = 8(a) Business Development, HUBZONE, WOSB/EDWOSB, SDVOSB."
+    ]
+  },
+  "gate": {
+    "pass": true,
+    "checks": [
+      {
+        "rule": "deadline",
+        "pass": true,
+        "reason": "Responses due 2026-11-13T12:00:00-05:00; still open."
+      },
+      {
+        "rule": "set_aside",
+        "pass": true,
+        "reason": "Full and open competition; no set-aside required."
+      },
+      {
+        "rule": "naics",
+        "pass": true,
+        "reason": "NAICS 541519 is in the company's codes."
+      },
+      {
+        "rule": "place_of_performance",
+        "pass": true,
+        "reason": "Place of performance is not stated in the notice; verify before bidding."
+      }
+    ]
+  },
+  "stoppedAtGate": false,
+  "sources": [
+    {
+      "id": "A1",
+      "title": "USAspending award HC108421F0175: WORLD WIDE TECHNOLOGY LLC, $627,456,698",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_HC108421F0175_9700_NNG15SC55B_8000",
+      "snippet": "2021-06-29 | Department of Defense / Defense Information Systems Agency | EA BUNDLE",
+      "query": "usaspending"
+    },
+    {
+      "id": "A2",
+      "title": "USAspending award W911S011C0014: NORTHROP GRUMMAN TECHNICAL SERVICES, INC., $522,176,400",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_W911S011C0014_9700_-NONE-_-NONE-",
+      "snippet": "2011-08-03 | Department of Defense / Department of the Army | BATTLE COMMAND TRAINING PROGRAM SERVICES",
+      "query": "usaspending"
+    },
+    {
+      "id": "A3",
+      "title": "USAspending award W911S018C0004: SERCO INC, $512,784,249",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_W911S018C0004_9700_-NONE-_-NONE-",
+      "snippet": "2018-09-28 | Department of Defense / Department of the Army | MISSION COMMAND TRAINING PROGRAM (MCTP)",
+      "query": "usaspending"
+    },
+    {
+      "id": "A4",
+      "title": "USAspending award FA877122F0022: EMERGENT, LLC, $419,737,159",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_FA877122F0022_9700_NNG15SC33B_8000",
+      "snippet": "2022-02-25 | Department of Defense / Department of the Air Force | PROVIDES AN UNLIMITED LICENSE AGREEMENT FOR A CORE SET OF ORACLE TECHNOLOGY PRODUCTS, DATABASE PRODUCTS AND COMMERCIAL SOFTWARE MAINTENANCE SUPPORT",
+      "query": "usaspending"
+    },
+    {
+      "id": "A5",
+      "title": "USAspending award HC102819F0141: GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC., $372,673,130",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_HC102819F0141_9700_HC102819A0001_9700",
+      "snippet": "2019-01-24 | Department of Defense / Defense Information Systems Agency | ENTERPRISE TRANSPORT MANAGEMENT (ETM) - NEXT GENERATION - CORE SUPPORT",
+      "query": "usaspending"
+    },
+    {
+      "id": "S1",
+      "title": "Geospatial Intelligence (GEOINT) Architecture Information Technology (IT) | Other Computer Related Services",
+      "url": "https://discover.govdash.com/solicitations/01a0d489-1387-710c-9c00-b03c9bd33ae9--geospatial-intelligence-geoint-architecture-information-technology-it",
+      "snippet": "The U.S. Army Contracting Command – Detroit Arsenal (ACC-DTA), acting on behalf of the U.S. Army Intelligence and Security Command (INSCOM), has issued a pre-solicitation notice for an upcoming procurement titled \"Geospatial Intelligence (GEOINT) Architecture Information Technology (IT) Contractor Manpower Equivalent (CME) Support.\" This initiative, previously referred to as Integrated Geospatial Intelligence Enterprise Architecture (IGEA), is intended to provide comprehensive IT services and [.",
+      "query": "INSCOM current GEOINT contractor manpower equivalent support"
+    },
+    {
+      "id": "S2",
+      "title": "W50NH9-27-R-A006 (formally W50NH9-26-R-A019) Scalable Geospatial Intelligence (GEOINT) Architecture Information Technology (IT) Contractor Manpower Equivalent (CME) Support (Scalable GEOINT) · GovSprint",
+      "url": "https://govsprint.app/app/opportunity/9062cba08c704f95ad579bb986068703",
+      "snippet": "RFP Number: W50NH9-27-R-A006 Requirement: Scalable Geospatial Intelligence (GEOINT) Architecture Information Technology (IT) Contractor Manpower Equivalent (CME) Support (Scalable GEOINT) for United States (U.S.) Army Intelligence and Security Command (INSCOM) (also known as Geospatial Intelligence (GEOINT) Architecture Information Technology (IT)) 1. This solicitation is issued as a Request for Proposal (RFP) via SAM.gov. Interested Offerors are requested to submit a proposal in response to [..",
+      "query": "INSCOM current GEOINT contractor manpower equivalent support"
+    },
+    {
+      "id": "S3",
+      "title": "INSCOM to issue GEOINT architecture IT RFP - Intelligence Community News",
+      "url": "https://intelligencecommunitynews.com/inscom-to-issue-geoint-architecture-it-rfp",
+      "snippet": "On September 24, the United States Army Contracting Command – Detroit Arsenal (ACC-DTA), on behalf of the U.S. Army Intelligence and Security Command (INSCOM), announced that it intends to issue Request for Proposal (RFP) W50NH9-26-R-A019 for Geospatial Intelligence (GEOINT) Architecture Information Technology (IT) Contractor Manpower Equivalent (CME) Support (formerly known as Integrated Geospatial Intelligence Enterprise Architecture – IGEA). The organization intends to post the RFP in two to ",
+      "query": "INSCOM current GEOINT contractor manpower equivalent support"
+    },
+    {
+      "id": "S4",
+      "title": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/ecddc343e9e54573a4addb13db7dec59/view",
+      "snippet": "SAM.gov\n\nAn official website of the U.S. General Services Administration [...] Skip to main content\n\nImage 1\n\nAn official website of the United States government\n\nHere’s how you know\n\nHere’s how you know\n\nThe .gov means it’s official.  \n Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.\n\nThe site is secure.  \n The  ensures that you are connecting to the official website and that any information you provide ",
+      "query": "INSCOM current GEOINT contractor manpower equivalent support"
+    },
+    {
+      "id": "S5",
+      "title": "W50NH9-27-R-A006 (formally W50NH9-26-R-A019) Scalable Geospatial Intelligence (GEOINT) Architecture...",
+      "url": "https://www.highergov.com/contract-opportunity/w50nh9-27-r-a006-formally-w50nh9-26-r-a019-scala-w50nh927ra006-o-68703",
+      "snippet": "On 10/14/26 Department of the Army issued Solicitation W50NH927RA006 for W50NH9-27-R-A006 (formally W50NH9-26-R-A019) Scalable Geospatial Intelligence (GEOINT) Architecture Information Technology (IT) Contractor Manpower Equivalent (CME) Support (Scalable GEOINT) due 11/13/26. The opportunity was issued full & open with NAICS 541519 and PSC DA01.\n\n##### Primary Contact\n\nName\n\nCassandra E. Spadina   Profile\n\nEmail\n\ncassandra.e.spadina.civ@army.mil\n\nPhone\n\nNone\n\n## Secondary Contact\n\nName [...] ##",
+      "query": "Recent DoD GEOINT architecture contracts similar to W50NH9-27-R-A006"
+    },
+    {
+      "id": "S6",
+      "title": "Geospatial Intelligence (GEOINT) Architecture… | CLEATUS",
+      "url": "https://www.cleat.ai/government/contracts/geospatial-intelligence-geoint-architecture-information-technology-it-8086",
+      "snippet": "Product Service Code: DA01 – IT and Telecom – BUSINESS APPLICATION/APPLICATION DEVELOPMENT SUPPORT SERVICES (LABOR)  \n NAICS Code: 541519 – Other Computer Related Services  \n Solicitation Number: W50NH9-27-R-A006  \n Notice Type: Pre-Solicitation  \n Procuring Agency: U.S. Army Contracting Command – Detroit Arsenal (ACC-DTA)  \n Requiring Activity: U.S. Army Intelligence and Security Command (INSCOM)  \n Anticipated Award Type: Time and Materials (T&M), 5-Year Long-Term Contract (LTC) [...] The Unit",
+      "query": "Recent DoD GEOINT architecture contracts similar to W50NH9-27-R-A006"
+    },
+    {
+      "id": "S7",
+      "title": "W50NH9-27-R-A006 (formally... | Federal Contract",
+      "url": "https://govcontractfinder.com/contracts/w50nh9-27-r-a006-formally-w50nh9-26-r-a019-scalable-geospati-w50nh927ra006",
+      "snippet": "Place of performance\n:   Aberdeen Proving Ground, MD\n\nNAICS\n:   541519\n\n### Artificial Intelligence/Machine Learning Analytics\n\nDEPT OF DEFENSE\n\nPosted\n:   Oct 14, 2026\n\nDue\n:   Not specified\n\nPlace of performance\n:   Fort Lee, VA\n\nNAICS\n:   541519\n\n### Area of Interest (AOI) for User Activity Monitoring (UAM) Centralization Prototype Other Transaction (OT)\n\nDEPT OF DEFENSE\n\nPosted\n:   Oct 13, 2026\n\nDue\n:   Oct 22, 2026, 6:00 PM EDT\n\nPlace of performance\n:   Fort George G Meade, MD [...] Skip to",
+      "query": "Recent DoD GEOINT architecture contracts similar to W50NH9-27-R-A006"
+    },
+    {
+      "id": "S8",
+      "title": "US Army Intelligence and Security Command (INSCOM), ...",
+      "url": "https://www.governmentattic.org/18docs/USAINSCOMhistoryFY_1986.pdf",
+      "snippet": "Award; Captain [(b)(S) I Field Station Kunia, with the Colonel Richard F. Judge Military/Civilian Team Improvement Award for military recipient and Mr. l(b)(S) I (b)(6) INSCOM Liaison Detchment NSA, as the civilian recipient; (b)(SJ U.S. Arm Field Station Kunia, was presented the Jackie Keith Award· Ms. (b)(6) DCSLOG, with the Virginia McDill Award; (b)(SJ DCSLOG, with the Equal Employment Opportunity Award; Mr. j(b)(6) jU.S. r,;A~r;,,m;...y---~ Fi~ld Station Kunia, with the Annual Wage Grade [.",
+      "query": "U.S. Army Intelligence and Security Command recent award history"
+    },
+    {
+      "id": "S9",
+      "title": "Past Award Recipients",
+      "url": "https://www.insaonline.org/events/baker-awards/past-recipients",
+      "snippet": "C.A. Dutch Ruppersberger received the 2015 William Oliver Baker Award together with the Honorable Mike Rogers for their outstanding service to the U.S. intelligence and national security communities.\n\n#### 2014 - The Hon. Leon E. Panetta [...] The Honorable Mike Rogers received the 2015 William Oliver Baker Award together with C.A. Dutch Ruppersberger for their outstanding service to the U.S. intelligence and national security communities.\n\n#### 2015 - The Hon. C.A. Dutch Ruppersberger [...] Mr.",
+      "query": "U.S. Army Intelligence and Security Command recent award history"
+    },
+    {
+      "id": "S10",
+      "title": "United States Army Intelligence and Security Command - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/United_States_Army_Intelligence_and_Security_Command",
+      "snippet": "| INSCOM Shoulder Sleeve Insignia |\n| Active | 1977–present |\n| Country | United States |\n| Branch | United States Army |\n| Type | Direct reporting unit[broken anchor] |\n| Role | Military intelligence, Information operations \"Information Operations (United States)\") |\n| Size | 10,000+ |\n| Headquarters | Fort Belvoir, Virginia |\n| Nickname | INSCOM |\n| Decorations | Superior Unit Award with Oak Leaf |\n| Website | Official website |\n| Commanders | [...] 15. 1 2 \"INSCOM - U.S. Army Intelligence & S",
+      "query": "U.S. Army Intelligence and Security Command recent award history"
+    },
+    {
+      "id": "S11",
+      "title": "BAE wins $437M award for Army open-source work - Washington Technology",
+      "url": "https://www.washingtontechnology.com/2019/10/bae-wins-437m-award-for-army-open-source-work/327044",
+      "snippet": "Contracting records in the Federal Procurement Data System indicate the work will take place over one initial base year and up to four option years after that. GSA made the award on Aug. 1 and received five total bids for the order.\n\nWork supports the Army’s Intelligence and Security Command, or INSCOM, in its effort to both stay ahead of evolving threats and get a greater handle on the increases in volume and places where open source data comes from.",
+      "query": "U.S. Army Intelligence and Security Command recent award history"
+    }
+  ],
+  "supportedClaims": [
+    {
+      "text": "The buyer is the U.S. Army Contracting Command – Detroit Arsenal (ACC-DTA) acting on behalf of INSCOM.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://discover.govdash.com/solicitations/01a0d489-1387-710c-9c00-b03c9bd33ae9--geospatial-intelligence-geoint-architecture-information-technology-it"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "The requirement is for scalable GEOINT architecture IT contractor manpower equivalent support under a time-and-materials, best-value contract.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.cleat.ai/government/contracts/geospatial-intelligence-geoint-architecture-information-technology-it-8086"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "The solicitation W50NH9-27-R-A006 lists Aberdeen Proving Ground, MD as a place of performance.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://govcontractfinder.com/contracts/w50nh9-27-r-a006-formally-w50nh9-26-r-a019-scalable-geospati-w50nh927ra006"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "The opportunity was issued full & open, indicating no small‑business set‑aside and likely intense competition from large firms.",
+      "kind": "risk",
+      "sourceUrls": [
+        "https://www.highergov.com/contract-opportunity/w50nh9-27-r-a006-formally-w50nh9-26-r-a019-scala-w50nh927ra006-o-68703"
+      ],
+      "status": "supported"
+    }
+  ],
+  "droppedClaims": [
+    {
+      "text": "A recent award for NAICS 541519 was $627,456,698 to Worldwide Technology LLC.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_HC108421F0175_9700_NNG15SC55B_8000"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (Award amount and recipient given, but NAICS not explicitly stated.)"
+    },
+    {
+      "text": "Another recent award for NAICS 541519 was $522,176,400 to Northrop Grumman Technical Services, Inc.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_W911S011C0014_9700_-NONE-_-NONE-"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (Award amount and recipient given, but NAICS not explicitly stated.)"
+    }
+  ],
+  "verdict": {
+    "decision": "NO_BID",
+    "confidence": "high",
+    "rationale": [
+      {
+        "point": "Company can only staff work in Arizona, but the solicitation lists Aberdeen Proving Ground, MD as a place of performance, creating a fundamental geographic mismatch.",
+        "claimIds": [
+          3
+        ]
+      },
+      {
+        "point": "The opportunity is issued full and open with no small-business set-aside, indicating intense competition from large firms, while the company has only four staff, no clearances, no SOC 2, and this would be its first federal bid.",
+        "claimIds": [
+          4
+        ]
+      },
+      {
+        "point": "The requirement is for scalable GEOINT architecture IT contractor manpower equivalent support under a time-and-materials, best-value contract, which likely demands specialized expertise, clearances, and capacity far beyond the company's two small state-agency data-entry projects ($250K and $180K).",
+        "claimIds": [
+          2
+        ]
+      }
+    ],
+    "risks": [
+      "Cannot meet place-of-performance requirement in Maryland",
+      "No federal past performance or relevant GEOINT architecture experience",
+      "No personnel clearances or SOC 2 certification",
+      "Extreme size and experience mismatch against large-firm competitors in full-and-open competition",
+      "Median top award value ($152M) dwarfs company's largest project ($250K)"
+    ],
+    "nextSteps": [
+      "Target opportunities with Arizona place of performance",
+      "Pursue small-business set-aside contracts to build federal past performance",
+      "Consider subcontracting to gain relevant experience and clearances",
+      "Invest in certifications (e.g., SOC 2) and clearance sponsorship if pursuing federal work"
+    ]
+  },
+  "approval": "pending",
+  "cost": {
+    "totalUsd": 0.00864796,
+    "byTier": {
+      "nano": {
+        "calls": 2,
+        "inputTokens": 1579,
+        "outputTokens": 2013,
+        "usd": 0.0005778599999999999
+      },
+      "super": {
+        "calls": 1,
+        "inputTokens": 3449,
+        "outputTokens": 2416,
+        "usd": 0.0032091000000000003
+      },
+      "ultra": {
+        "calls": 1,
+        "inputTokens": 685,
+        "outputTokens": 1392,
+        "usd": 0.004861
+      }
+    }
+  },
+  "calls": [
+    {
+      "tier": "nano",
+      "purpose": "classify requirement",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 255,
+      "outputTokens": 150,
+      "usd": 0.0000513,
+      "latencyMs": 745
+    },
+    {
+      "tier": "super",
+      "purpose": "synthesize sourced claims",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "inputTokens": 3449,
+      "outputTokens": 2416,
+      "usd": 0.0032091000000000003,
+      "latencyMs": 10892
+    },
+    {
+      "tier": "nano",
+      "purpose": "relevance and support check",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 1324,
+      "outputTokens": 1863,
+      "usd": 0.0005265599999999999,
+      "latencyMs": 6218
+    },
+    {
+      "tier": "ultra",
+      "purpose": "final bid/no-bid verdict",
+      "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "inputTokens": 685,
+      "outputTokens": 1392,
+      "usd": 0.004861,
+      "latencyMs": 4450
+    }
+  ],
+  "errors": [],
+  "history": {
+    "total": 56751,
+    "smallBizAwards": 16071,
+    "medianAmount": 151992005.49,
+    "topRecipients": [
+      {
+        "name": "WORLD WIDE TECHNOLOGY LLC",
+        "count": 2,
+        "amount": 820340031.1800001
+      },
+      {
+        "name": "IRON BOW TECHNOLOGIES, LLC",
+        "count": 3,
+        "amount": 810316536.2400001
+      },
+      {
+        "name": "DELL FEDERAL SYSTEMS L.P",
+        "count": 3,
+        "amount": 639645617.7
+      },
+      {
+        "name": "EMERGENT, LLC",
+        "count": 2,
+        "amount": 525839800.09000003
+      },
+      {
+        "name": "NORTHROP GRUMMAN TECHNICAL SERVICES, INC.",
+        "count": 1,
+        "amount": 522176399.72
+      }
+    ]
+  },
+  "classification": {
+    "summary": "The buyer needs scalable GEOINT architecture IT contractor manpower equivalent support for INSCOM under a time-and-materials, best-value contract.",
+    "queries": [
+      "INSCOM current GEOINT contractor manpower equivalent support",
+      "Recent DoD GEOINT architecture contracts similar to W50NH9-27-R-A006",
+      "U.S. Army Intelligence and Security Command recent award history"
+    ]
+  }
+}

@@ -1,0 +1,379 @@
+{
+  "runId": "run-2026-10-17T01-02-55-220Z",
+  "createdAt": "2026-10-17T01:02:55.220Z",
+  "opportunity": {
+    "id": "M0026427R0001",
+    "title": "Marine Corps Education Command Information Technology Support Services",
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Navy",
+    "naics": "541512",
+    "setAside": "WOSB",
+    "responseDeadline": "2026-11-09T10:00:00-05:00",
+    "placeOfPerformance": "VA",
+    "noticeType": "Solicitation",
+    "description": "Marine Corps Installations Command National Capital Region Regional Contracting Office, Quantico VA, requires IT support services for the USMC Education Command. Single-award IDIQ with firm fixed-price line items for services and cost-reimbursement for travel, five-year ordering period, $45M ceiling. 100% set aside for Women-Owned Small Business under FAR 19.15. Commercial contracting under FAR Part 12 and FAR 15 negotiation, best value trade-off, all-or-none award. Solicitation M00264-27-R-0001 is posted in PIEE. Work is mainly at Marine Corps University, Quantico VA and regional campuses across multiple sites.",
+    "sourceUrl": "https://sam.gov/workspace/contract/opp/cde965fb0fbc4e0bbbd78ec5bc0c1aa9/view",
+    "retrievedFrom": "SAM.gov public notice page, 2026-10-16"
+  },
+  "profile": {
+    "_note": "FICTIONAL SAMPLE COMPANY for scenario testing. Not a real firm. Past performance and staffing are invented; only the NAICS codes, set-aside definitions and every opportunity and award figure used against it are real public data.",
+    "id": "magnolia-analytics",
+    "name": "Magnolia Women's Analytics LLC (sample)",
+    "hqState": "GA",
+    "size": "small",
+    "fictional": true,
+    "naics": [
+      "541512",
+      "541611",
+      "541511"
+    ],
+    "certifications": [
+      "SBA",
+      "WOSB",
+      "EDWOSB"
+    ],
+    "placesOfPerformance": [
+      "GA",
+      "VA",
+      "DC",
+      "REMOTE"
+    ],
+    "pastPerformance": "Women-owned, economically disadvantaged. One Marine Corps training-data contract (about $1.5M) and two civilian-agency analytics task orders under $800K.",
+    "capacityNotes": "Eleven staff. No facility clearance. Past performance is strongest in training and education data systems.",
+    "verification": [
+      "NAICS codes confirmed against USAspending reference (api.usaspending.gov/api/v2/references/naics) on 2026-10-16.",
+      "Set-asides follow SBA definitions: SBA = small business, 8A = 8(a) Business Development, HUBZONE, WOSB/EDWOSB, SDVOSB."
+    ]
+  },
+  "gate": {
+    "pass": true,
+    "checks": [
+      {
+        "rule": "deadline",
+        "pass": true,
+        "reason": "Responses due 2026-11-09T10:00:00-05:00; still open."
+      },
+      {
+        "rule": "set_aside",
+        "pass": true,
+        "reason": "Set-aside WOSB matches the company's certifications."
+      },
+      {
+        "rule": "naics",
+        "pass": true,
+        "reason": "NAICS 541512 is in the company's codes."
+      },
+      {
+        "rule": "place_of_performance",
+        "pass": true,
+        "reason": "Place of performance VA is within the company's coverage."
+      }
+    ]
+  },
+  "stoppedAtGate": false,
+  "sources": [
+    {
+      "id": "A1",
+      "title": "USAspending award N0002407C5431: RAYTHEON COMPANY, $1,076,035,500",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_N0002407C5431_9700_-NONE-_-NONE-",
+      "snippet": "2007-03-01 | Department of Defense / Defense Contract Management Agency | MK 41 S-BAND TACTICAL MISSILE",
+      "query": "usaspending"
+    },
+    {
+      "id": "A2",
+      "title": "USAspending award H9222217F0069: AMENTUM TECHNOLOGY, INC., $979,192,263",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_H9222217F0069_9700_GS00Q09BGD0059_4735",
+      "snippet": "2017-02-24 | Department of Defense / U.S. Special Operations Command | IGF::CT::IGF ENTERPRISE CORE SERVICES (ENDURING)",
+      "query": "usaspending"
+    },
+    {
+      "id": "A3",
+      "title": "USAspending award W52P1J20C0005: ACCENTURE FEDERAL SERVICES LLC, $896,468,884",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_W52P1J20C0005_9700_-NONE-_-NONE-",
+      "snippet": "2019-12-10 | Department of Defense / Department of the Army | AWARD FOR UNIFIED ENTERPRISE RESOURCE PLANNING CAPABILITY SUPPORT SERVICES",
+      "query": "usaspending"
+    },
+    {
+      "id": "A4",
+      "title": "USAspending award FA872619F0096: SCIENCE APPLICATIONS INTERNATIONAL CORPORATION, $684,030,647",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_FA872619F0096_9700_47QTCK18D0001_4732",
+      "snippet": "2019-09-10 | Department of Defense / Department of the Air Force | COMMON COMPUTING ENVIRONMENT (CCE) FOLLOW-ON",
+      "query": "usaspending"
+    },
+    {
+      "id": "A5",
+      "title": "USAspending award HT003823F0011: LEIDOS, INC., $572,997,098",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_HT003823F0011_9700_N0003915D0044_9700",
+      "snippet": "2023-08-03 | Department of Defense / Defense Health Agency | ENTERPRISE ACTIVITIES FOR MHS GENESIS-STAGE 9",
+      "query": "usaspending"
+    },
+    {
+      "id": "S1",
+      "title": "Marine Corps Education Command Information Technology Support Services",
+      "url": "https://www.highergov.com/contract-opportunity/marine-corps-education-command-information-technol-m0026427r0001-o-c1aa9",
+      "snippet": "The Marine Corps Installations Command National Capital Region - Regional Contracting Office (MCINCR-RCO), located in Quantico, VA, is seeking Information Technology Support Services for the United States Marine Corps Education Command (EDCOM). The goal of this contract is to provide comprehensive IT support services that sustain and enhance the professional military education mission of EDCOM. This procurement is a 100% set-aside for Women Owned Small Business (WOSB) and has a total ceiling [..",
+      "query": "Marine Corps Education Command incumbent IT services contractor"
+    },
+    {
+      "id": "S2",
+      "title": "Marine Corps Education Command Information Technology Support Services — Light RFP Marketplace",
+      "url": "https://www.lightrfp.com/marketplace/bid/cde965fb0fbc4e0bbbd78ec5bc0c1aa9/marine-corps-education-command-information-technology-support-services",
+      "snippet": "The Department of Defense, through the Marine Corps Installations Command National Capital Region - Regional Contracting Office (MCINCR-RCO) in Quantico, VA, is issuing a single-award Indefinite Delivery Indefinite Quantity (IDIQ) contract for Information Technology Support Services for the United States Marine Corps Education Command (EDCOM). [...] The Marine Corps Installations Command National Capital Region - Regional Contracting Office (MCINCR-RCO), Quantico, VA, has a requirement for Infor",
+      "query": "Marine Corps Education Command incumbent IT services contractor"
+    },
+    {
+      "id": "S3",
+      "title": "Marine Corps Education Command Information… | CLEATUS",
+      "url": "https://www.cleat.ai/government/contracts/marine-corps-education-command-information-technology-support-services-65zu",
+      "snippet": "The Marine Corps Installations Command National Capital Region is seeking a single award Indefinite Delivery Indefinite Quantity contract to provide Information Technology professional, management, and technical support services for the United States Marine Corps Education Command. This procurement is a 100 percent set aside for SBA certified Women Owned Small Businesses under NAICS code 541512. The contract features a five year ordering period with a ceiling value of 45 million dollars, [...] T",
+      "query": "Marine Corps Education Command incumbent IT services contractor"
+    },
+    {
+      "id": "S4",
+      "title": "USMC Education Command Information Technology Support Services (EDCOM ITSS)",
+      "url": "https://sam.gov/opp/404ce0453b274410ae807ac1e8c21b48/view",
+      "snippet": "Contract Opportunity Type:Sources Sought (Original) \n   Original Published Date:Jun 15, 2026 10:40 pm EDT\n   Original Response Date:Jul 14, 2026 11:00 am EDT\n   Inactive Policy:Manual\n   Original Inactive Date:Aug 30, 2026\n   Initiative:\n       None \n\n## Classification\n\n   Original Set Aside:No Set aside used\n   Product Service Code: DA01 - IT AND TELECOM - BUSINESS APPLICATION/APPLICATION DEVELOPMENT SUPPORT SERVICES (LABOR) \n   NAICS Code:\n       541512 - Computer Systems Design Services [...]",
+      "query": "Marine Corps Education Command incumbent IT services contractor"
+    },
+    {
+      "id": "S5",
+      "title": "USMC Education Command Information Technology Support Services (EDCOM ITSS) | Computer Systems Design Services",
+      "url": "https://discover.govdash.com/solicitations/019ece44-0b0a-732b-89eb-957e81c151ff--usmc-education-command-information-technology-support-services-edcom-itss",
+      "snippet": "The United States Marine Corps (USMC), through the Marine Corps Installation National Capital Region - Regional Contracting Office (MCINCR-RCO), has issued a Sources Sought notice (Procurement Identifier: M00264-26-RFI-0028) to gather information from industry regarding the provision of comprehensive Information Technology Support Services (ITSS) for the Marine Corps Education Command (EDCOM) located in Quantico, Virginia. This notice is intended strictly for market research and acquisition [...",
+      "query": "USMC Education Command recent IT services awards"
+    },
+    {
+      "id": "S6",
+      "title": "AY%2025-26%20Awards%20Program.pdf",
+      "url": "https://www.usmcu.edu/Portals/218/AY%2025-26%20Awards%20Program.pdf",
+      "snippet": "Brigadier General Matthew W. Tracy \n\nCommanding General, Education Command and \n\nPresident, Marine Corps University \n\nDr. Megan J. Hennessey \n\nProvost, Marine Corps University \n\nMarine Corps War College \n\nColonel Andrew Kelley \n\nDirector, Marine Corps War College \n\nDr. Christopher Yung \n\nDean of Academics, Marine Corps War College \n\nSchool of Advanced Warfighting \n\nColonel Cornelius Hickey \n\nDirector, School of Advanced Warfighting \n\nDr. Gordon Rudd [...] Director, College of Enlisted Military E",
+      "query": "USMC Education Command recent IT services awards"
+    },
+    {
+      "id": "S7",
+      "title": "CHIPS Articles: DON CIO Awards Recognize Information Management and Information Technology Excellence",
+      "url": "https://www.doncio.navy.mil/chips/ArticleDetails.aspx?ID=7756",
+      "snippet": "Richard Walter, IA/cybersecurity branch head, G-6 Division, Marine Corps Training and Education Command (TECOM)  for supporting Marine Corps training and education and developing a Command Cybersecurity Program to meet all IA requirements and address evolving cybersecurity threats. [...] have contributed to security efforts that have resulted in significant improvements in cyber hygiene.  Duane Robertson, cyber security manager, PMW 240, PEO EIS, SPAWAR for making a huge impact on the Navy by ke",
+      "query": "USMC Education Command recent IT services awards"
+    },
+    {
+      "id": "S8",
+      "title": "Training and Education Command",
+      "url": "https://www.tecom.marines.mil",
+      "snippet": "The 39th Commandant of the Marine Corps, Gen. Eric M. Smith, congratulates the U.S. Marine Corps GySgt Sebastian Torres, the 2026 Formal Enlisted Instructor of the Year award recipient, during the Annual Training and Education Command (TECOM) Awards Dinner at Marine Corps Base Quantico, Virginia, May 7, 2026. The dinner is an annual award ceremony that recognizes individual U.S. Marines and civilian instructors from across TECOM for their superior performance. (U.S. Marine Corps photo Cpl. [...]",
+      "query": "USMC Education Command recent IT services awards"
+    },
+    {
+      "id": "S9",
+      "title": "The Impact of Women-Owned Small Businesses on Federal Contracting in FY’23 - GovSpend",
+      "url": "https://govspend.com/blog/the-impact-of-women-owned-small-businesses-on-federal-contracting-in-fy23",
+      "snippet": "When analyzing the dollars awarded to Women-Owned Small Businesses (WOSBs), it’s essential to not only focus on the overall amount but also consider the use of set-asides and sole-source awards. As illustrated in the graph, 3% of the awards were designated as WOSB Set-Asides, 0.34% as WOSB sole-source awards, and less than 0.12% as Economically Disadvantaged WOSB set-asides. Contrasting this with over 8% of contracts awarded as 8(a) sole-source and competed, as well as more than 20% that were [.",
+      "query": "Women-owned small business set aside contracts DoD 2023"
+    },
+    {
+      "id": "S10",
+      "title": "Subpart 19.15 - Women-Owned Small Business Program. | Acquisition.GOV",
+      "url": "https://www.acquisition.gov/far/subpart-19.15",
+      "snippet": "(a)The contracting officer shall insert the clause at 52.219-29, Notice of Set-Aside for, or Sole-Source Award to, Economically Disadvantaged Women-owned Small Business Concerns, in solicitations and contracts for acquisitions that are set aside or awarded on a sole-source basis to, EDWOSB concerns under 19.1505(b) or 19.1506(a). This includes multiple-award contracts when orders may be set aside for EDWOSB concerns as described in 8.405-5 and 16.505(b)(2)(i)(F) or when orders may be issued [...",
+      "query": "Women-owned small business set aside contracts DoD 2023"
+    },
+    {
+      "id": "S11",
+      "title": "The Women-Owned Small Business Contract Program: Legislative and Program History",
+      "url": "https://www.congress.gov/crs-product/R46322",
+      "snippet": "As of May 30, 2023, certified WOSB and EDWOSB firms are required to undergo an examination every three years to maintain their certification.64 . Previously, WOSB program participants annually attested to their eligibility to continue participating in the program .\") WOSBs that do not certify their status remain eligible for contract awards outside of the WOSB program (without contracting preferences), and agencies are permitted to count those awards toward their WOSB procurement goal.65(2) .\") ",
+      "query": "Women-owned small business set aside contracts DoD 2023"
+    },
+    {
+      "id": "S12",
+      "title": "5 Steps Toward Success with Federal Contracts for Women-Owned Small Businesses - AWIS",
+      "url": "https://awis.org/resource/5-steps-toward-success-with-federal-contracts-for-women-owned-small-businesses",
+      "snippet": "The primary benefit of the latter program is gaining access to competition for contracts called setasides, which the government reserves for small businesses, as well as access to sole source contracts—those that a single supplier is allowed to fulfill noncompetitively—in industries where WOSBs are underrepresented. Jennifer Reineke Pohlhaus, PhD, COO at Ripple Effect, explains the advantages of participating in the certification process. Dr. Pohlhaus, who won a 2023 AWIS Zenith Award for her",
+      "query": "Women-owned small business set aside contracts DoD 2023"
+    }
+  ],
+  "supportedClaims": [
+    {
+      "text": "The Marine Corps Education Command IT support services opportunity is a 100% WOSB set‑aside IDIQ contract with a $45 million ceiling.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.cleat.ai/government/contracts/marine-corps-education-command-information-technology-support-services-65zu"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "The requirement calls for comprehensive IT support services to sustain and enhance the professional military education mission of EDCOM.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.highergov.com/contract-opportunity/marine-corps-education-command-information-technol-m0026427r0001-o-c1aa9"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "The contracting office is the Marine Corps Installations Command National Capital Region - Regional Contracting Office in Quantico, VA.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.highergov.com/contract-opportunity/marine-corps-education-command-information-technol-m0026427r0001-o-c1aa9"
+      ],
+      "status": "supported"
+    }
+  ],
+  "droppedClaims": [
+    {
+      "text": "Raytheon Company received a $1,076,035,500 DOD award for MK 41 S‑Band Tactical Missile work.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_N0002407C5431_9700_-NONE-_-NONE-"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (unrelated DOD award not part of this opportunity)"
+    },
+    {
+      "text": "Amentum Technology, Inc. was awarded $979,192,263 by DOD for IGF::CT::IGF Enterprise Core Services.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_H9222217F0069_9700_GS00Q09BGD0059_4735"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (unrelated DOD award not part of this opportunity)"
+    }
+  ],
+  "verdict": {
+    "decision": "CONDITIONAL",
+    "confidence": "medium",
+    "rationale": [
+      {
+        "point": "The opportunity is a 100% WOSB set-aside IDIQ, and Magnolia holds WOSB and EDWOSB certifications, satisfying the set-aside eligibility.",
+        "claimIds": [
+          1
+        ]
+      },
+      {
+        "point": "The requirement for comprehensive IT support to sustain the professional military education mission aligns directly with Magnolia's strongest past performance in training and education data systems, including a Marine Corps training-data contract.",
+        "claimIds": [
+          2
+        ]
+      },
+      {
+        "point": "The contracting office location in Quantico, VA is within Magnolia's declared places of performance (VA, REMOTE), supporting geographic eligibility.",
+        "claimIds": [
+          3
+        ]
+      }
+    ],
+    "risks": [
+      "Magnolia has only 11 staff and no facility clearance, which may limit ability to execute a $45M ceiling IDIQ or meet on-site requirements.",
+      "Past performance maximum is ~$1.5M (Marine Corps) and two civilian task orders under $800K, a significant gap to the IDIQ ceiling.",
+      "Rapid scaling and compliance with DoD IT support standards may require teaming or subcontracting."
+    ],
+    "nextSteps": [
+      "Identify teaming partners with facility clearance and larger DoD IT support capacity to strengthen proposal.",
+      "Clarify with the contracting office whether facility clearance is mandatory or if remote performance is acceptable for all task orders.",
+      "Develop past performance narratives emphasizing the Marine Corps training-data contract and analytics task orders as relevant to EDCOM's education mission.",
+      "Model staffing plans for potential task order sizes to demonstrate credible capacity."
+    ]
+  },
+  "approval": "pending",
+  "cost": {
+    "totalUsd": 0.00787826,
+    "byTier": {
+      "nano": {
+        "calls": 2,
+        "inputTokens": 1147,
+        "outputTokens": 1346,
+        "usd": 0.00039185999999999995
+      },
+      "super": {
+        "calls": 1,
+        "inputTokens": 3347,
+        "outputTokens": 1827,
+        "usd": 0.0026483999999999995
+      },
+      "ultra": {
+        "calls": 1,
+        "inputTokens": 674,
+        "outputTokens": 1388,
+        "usd": 0.004838
+      }
+    }
+  },
+  "calls": [
+    {
+      "tier": "nano",
+      "purpose": "classify requirement",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 257,
+      "outputTokens": 262,
+      "usd": 0.00007829999999999999,
+      "latencyMs": 1051
+    },
+    {
+      "tier": "super",
+      "purpose": "synthesize sourced claims",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "inputTokens": 3347,
+      "outputTokens": 1827,
+      "usd": 0.0026483999999999995,
+      "latencyMs": 8465
+    },
+    {
+      "tier": "nano",
+      "purpose": "relevance and support check",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 890,
+      "outputTokens": 1084,
+      "usd": 0.00031355999999999995,
+      "latencyMs": 5292
+    },
+    {
+      "tier": "ultra",
+      "purpose": "final bid/no-bid verdict",
+      "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "inputTokens": 674,
+      "outputTokens": 1388,
+      "usd": 0.004838,
+      "latencyMs": 4524
+    }
+  ],
+  "errors": [],
+  "history": {
+    "total": 23759,
+    "smallBizAwards": 1428,
+    "medianAmount": 237131226.07,
+    "topRecipients": [
+      {
+        "name": "LEIDOS, INC.",
+        "count": 15,
+        "amount": 4184107184.3400006
+      },
+      {
+        "name": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "count": 6,
+        "amount": 2242641487.3199997
+      },
+      {
+        "name": "RAYTHEON COMPANY",
+        "count": 3,
+        "amount": 1847934253.78
+      },
+      {
+        "name": "ACCENTURE FEDERAL SERVICES LLC",
+        "count": 2,
+        "amount": 1214627081.88
+      },
+      {
+        "name": "AMENTUM TECHNOLOGY, INC.",
+        "count": 1,
+        "amount": 979192262.73
+      }
+    ]
+  },
+  "classification": {
+    "summary": "The buyer seeks an IT support services IDIQ contract to support the USMC Education Command with a $45M ceiling, fully set aside for women-owned small businesses.",
+    "queries": [
+      "Marine Corps Education Command incumbent IT services contractor",
+      "USMC Education Command recent IT services awards",
+      "Women-owned small business set aside contracts DoD 2023"
+    ]
+  }
+}

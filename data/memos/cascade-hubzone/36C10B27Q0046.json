@@ -1,0 +1,342 @@
+{
+  "runId": "run-2026-10-17T00-57-26-699Z",
+  "createdAt": "2026-10-17T00:57:26.699Z",
+  "opportunity": {
+    "id": "36C10B27Q0046",
+    "title": "Survey-Based Research Platform and Platform Management Tool (RFI)",
+    "agency": "Department of Veterans Affairs",
+    "naics": "541519",
+    "setAside": "NONE",
+    "responseDeadline": "2026-10-20T14:00:00-04:00",
+    "placeOfPerformance": "UNSPECIFIED",
+    "noticeType": "Sources Sought / Request for Information",
+    "description": "The VA Acquisition Academy needs a Software as a Service survey-based research platform and platform management tool to securely collect responses to a competency survey it is piloting for acquisition human capital planning. Required: software subscriptions, maintenance and support. Period of performance is a 12-month base plus four 12-month options. Respondents provide a rough order of magnitude price against the salient characteristics by email by Oct 20, 2026.",
+    "sourceUrl": "https://sam.gov/workspace/contract/opp/a162ee63f6744f60b6bbfee3fbf76294/view",
+    "retrievedFrom": "SAM.gov public notice data, 2026-10-16"
+  },
+  "profile": {
+    "_note": "FICTIONAL SAMPLE COMPANY for scenario testing. Not a real firm. Past performance and staffing are invented; only the NAICS codes, set-aside definitions and every opportunity and award figure used against it are real public data.",
+    "id": "cascade-hubzone",
+    "name": "Cascade HUBZone Software Co. (sample)",
+    "hqState": "OR",
+    "size": "small",
+    "fictional": true,
+    "naics": [
+      "541519",
+      "541511"
+    ],
+    "certifications": [
+      "SBA",
+      "HUBZONE"
+    ],
+    "placesOfPerformance": [
+      "OR",
+      "WA",
+      "REMOTE"
+    ],
+    "pastPerformance": "HUBZone-certified in rural Oregon. One VA medical-center scheduling tool (about $400K), one county health records integration ($300K).",
+    "capacityNotes": "Nine staff, all in the HUBZone. No clearance. Small, focused on clinical scheduling software.",
+    "verification": [
+      "NAICS codes confirmed against USAspending reference (api.usaspending.gov/api/v2/references/naics) on 2026-10-16.",
+      "Set-asides follow SBA definitions: SBA = small business, 8A = 8(a) Business Development, HUBZONE, WOSB/EDWOSB, SDVOSB."
+    ]
+  },
+  "gate": {
+    "pass": true,
+    "checks": [
+      {
+        "rule": "deadline",
+        "pass": true,
+        "reason": "Responses due 2026-10-20T14:00:00-04:00; still open."
+      },
+      {
+        "rule": "set_aside",
+        "pass": true,
+        "reason": "Full and open competition; no set-aside required."
+      },
+      {
+        "rule": "naics",
+        "pass": true,
+        "reason": "NAICS 541519 is in the company's codes."
+      },
+      {
+        "rule": "place_of_performance",
+        "pass": true,
+        "reason": "Place of performance is not stated in the notice; verify before bidding."
+      }
+    ]
+  },
+  "stoppedAtGate": false,
+  "sources": [
+    {
+      "id": "A1",
+      "title": "USAspending award VA11817F1888: DELL FEDERAL SYSTEMS L.P, $1,730,532,627",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_VA11817F1888_3600_GS35F0884P_4730",
+      "snippet": "2017-03-31 | Department of Veterans Affairs / Department of Veterans Affairs | THE PURPOSE OF THIS ACQUISITION IS TO PROVIDE THE DEPARTMENT OF VETERANS AFFAIRS WITH AN ENTERPRISE AGREEMENT FOR BRAND NAME MICROSOFT SOFTWARE PRODUCTS AND SERVICES.  THIS ENTERPRISE AGREEMENT WILL PROVIDE 1) SUPPORT SERVICES 2) OPERATIONAL SUPPORT AND 3) ADDITIONAL LICENSES OF MICROSOFT PRODUCTS, CURRENT AND PLANNED, ",
+      "query": "usaspending"
+    },
+    {
+      "id": "A2",
+      "title": "USAspending award 36C10B23F0172: V3GATE, LLC, $576,889,049",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B23F0172_3600_NNG15SD27B_8000",
+      "snippet": "2023-06-24 | Department of Veterans Affairs / Department of Veterans Affairs | AWARD NASA SEWP FOR SALESFORCE",
+      "query": "usaspending"
+    },
+    {
+      "id": "A3",
+      "title": "USAspending award 36C10B22F0207: FOUR POINTS TECHNOLOGY, L.L.C., $521,824,443",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B22F0207_3600_NNG15SD22B_8000",
+      "snippet": "2022-08-02 | Department of Veterans Affairs / Department of Veterans Affairs | ENTERPRISE CLOUD CAPACITY - AMAZON WEB SERVICES",
+      "query": "usaspending"
+    },
+    {
+      "id": "A4",
+      "title": "USAspending award VA11818F2526: ALL POINTS LOGISTICS, LLC, $491,391,043",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_VA11818F2526_3600_NNG15SC25B_8000",
+      "snippet": "2017-10-01 | Department of Veterans Affairs / Department of Veterans Affairs | IGF::OT::IGF PURCHASE OF INTERSYSTEMS CACHE' AND HEALTHSHARE SOFTWARE IN SUPPORT OF VETERANS INFORMATION SYSTEM AND TECHNOLOGY ARCHITECTURE (VISTA) PLATFORM AS WELL AS VA'S ELECTRONIC HEALTH RECORD (EHR) DATABASE.",
+      "query": "usaspending"
+    },
+    {
+      "id": "A5",
+      "title": "USAspending award 36C10B23F0007: ALL POINTS LOGISTICS, LLC, $432,610,032",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B23F0007_3600_NNG15SC25B_8000",
+      "snippet": "2022-10-01 | Department of Veterans Affairs / Department of Veterans Affairs | INTERSYSTEMS SOFTWARE MAINTENAINCE",
+      "query": "usaspending"
+    },
+    {
+      "id": "S1",
+      "title": "Survey-Based Research Platform And Platform Management Tool | Other Computer Related Services",
+      "url": "https://discover.govdash.com/solicitations/01a13616-c2f1-7752-839e-e0c34383fcba--survey-based-research-platform-and-platform-management-tool",
+      "snippet": "The Department of Veterans Affairs (VA) Acquisition Academy (VAAA) is seeking information from potential sources regarding the provision of a Software as a Service (SaaS) survey-based research platform and platform management tool. This requirement is intended to support VAAA’s ongoing acquisition human capital planning efforts by enabling the secure and efficient collection of responses to a competency survey currently being piloted by the Academy. The scope of this procurement encompasses the ",
+      "query": "VA Acquisition Academy competency survey platform RFI"
+    },
+    {
+      "id": "S2",
+      "title": "Survey-Based Research Platform And Platform Management Tool",
+      "url": "https://www.highergov.com/contract-opportunity/survey-based-research-platform-and-platform-manag-36c10b27q0046-r-76294",
+      "snippet": "The Department of Veteran's Affairs (VA) Acquisition Academy (VAAA) has a requirement for a Software as a Service (SaaS) survey-based research platform and platform management tool to enable VAAA to easily and securely collect responses to a competency survey the Academy is piloting as part of acquisition human capital planning efforts. The required SaaS survey-based-research platform and platform management tool shall include software subscriptions, maintenance, and support. [...] Background  \n",
+      "query": "VA Acquisition Academy competency survey platform RFI"
+    },
+    {
+      "id": "S3",
+      "title": "Survey-Based Research Platform And... | Federal Contract",
+      "url": "https://govcontractfinder.com/contracts/survey-based-research-platform-and-platform-management-tool-36c10b27q0046",
+      "snippet": "The Department of Veterans Affairs (VA) Acquisition Academy (VAAA) has a requirement for a Software as a Service (SaaS) survey-based research platform and platform management tool to enable VAAA to easily and securely collect responses to a competency survey the Academy is piloting as part of acquisition human capital planning efforts. The required SaaS survey-based-research platform and platform management tool shall include software subscriptions, maintenance, and support. The Contractor [...]",
+      "query": "VA Acquisition Academy competency survey platform RFI"
+    },
+    {
+      "id": "S4",
+      "title": "Survey-Based Research Platform and Platform Management Tool | TechBids",
+      "url": "https://techbids.com/bids/329990",
+      "snippet": "The Department of Veterans Affairs Acquisition Academy seeks a SaaS survey-based research platform and platform management tool to securely collect responses to a competency survey supporting acquisition human capital planning. The solution must include software subscriptions, maintenance, and support.\n\nThis bid is 92% technology related\n\nA strong match for technology vendors\n\n### Why we classified this as tech",
+      "query": "VA Acquisition Academy competency survey platform RFI"
+    },
+    {
+      "id": "S6",
+      "title": "VA Acquisition Academy (VAAA) Federal Acquisition Certification â€“ Core-Plus Digital Services...",
+      "url": "https://www.highergov.com/contract-opportunity/u012-va-acquisition-academy-vaaa-federal-acquis-36c10x26q0208-p-4a6e6",
+      "snippet": "The contract will be performed over a specified period.  \n  \nPlace of Performance  \n Frederick, MD 21703  \n  \nBidder Requirements  \n Bidders must be authorized vendors identified by the Federal Acquisition Institute (FAI) for this specific training program.  \n  \nIncumbent Analysis (see Incumbents section for more detail) [...] The prior FAC-C-DS requirement under confirmed incumbent CivicActions (36C10X21D0005) valued at $1,413,390 (11/30/20–11/29/25) appears closely related to this VA Acquisiti",
+      "query": "VA Acquisition Academy incumbent survey tool contract"
+    },
+    {
+      "id": "S7",
+      "title": "Veterans affairs acquisition academy",
+      "url": "https://uploads-ssl.webflow.com/6803e1dcf2a870b1d246ec3a/685c88ff3f8b2646f92da4d7_sujarerukepijasatitaneles.pdf",
+      "snippet": "fieldThe Veterans Affairs Acquisition Academy offers the Veterans Affairs Department and other agencies a range of courses to help their employees gain knowledge and certification in various aspects of the acquisition field. Acquisition isn’t simply about awarding contracts, and the academy’s training reflects the breadth of acquisition skills and activities. [...] through the submenu options to access/activate the submenu links. The VA Acquisition Academy (VAAA) opened its doors in Fall 2008 in",
+      "query": "VA Acquisition Academy incumbent survey tool contract"
+    },
+    {
+      "id": "S8",
+      "title": "Home - Acquisition Academy",
+      "url": "https://department.va.gov/acquisition-academy",
+      "snippet": "The VA Acquisition Academy (VAAA) was created to address the growing acquisition workforce challenge facing the Department of Veterans Affairs and the Federal Government overall. With the downsizing from the last decade and the loss of institutional knowledge resulting from baby-boomer retirements, the acquisition workforce has been strained to keep pace with the increased amount of and complexities associated with outsourced work in support of the VA mission.\n\nLearn more about the Academy [...]",
+      "query": "VA Acquisition Academy incumbent survey tool contract"
+    },
+    {
+      "id": "S11",
+      "title": "Survey-Based Research Platform And Platform Management Tool · GovSprint",
+      "url": "https://govsprint.app/app/opportunity/a162ee63f6744f60b6bbfee3fbf76294",
+      "snippet": "The Department of Veteran’s Affairs (VA) Acquisition Academy (VAAA) has a requirement for a Software as a Service (SaaS) survey-based research platform and platform management tool to enable VAAA to easily and securely collect responses to a competency survey the Academy is piloting as part of acquisition human capital planning efforts. The required SaaS survey-based-research platform and platform management tool shall include software subscriptions, maintenance, and support. The Contractor [...",
+      "query": "recent VA SaaS survey research platform awards"
+    }
+  ],
+  "supportedClaims": [
+    {
+      "text": "The VA Acquisition Academy issued an RFI for a SaaS survey-based research platform and platform management tool.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://discover.govdash.com/solicitations/01a13616-c2f1-7752-839e-e0c34383fcba--survey-based-research-platform-and-platform-management-tool"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "The RFI requires the solution to include software subscriptions, maintenance, and support.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.highergov.com/contract-opportunity/survey-based-research-platform-and-platform-manag-36c10b27q0046-r-76294"
+      ],
+      "status": "supported"
+    }
+  ],
+  "droppedClaims": [
+    {
+      "text": "VA awarded Dell Federal Systems a $1,730,532,627 contract for Microsoft enterprise software under NAICS 541519.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_VA11817F1888_3600_GS35F0884P_4730"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (Unrelated past award)"
+    },
+    {
+      "text": "VA awarded V3Gate, LLC a $576,889,049 contract for NASA SEWP for Salesforce under NAICS 541519.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_36C10B23F0172_3600_NNG15SD27B_8000"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (Unrelated award)"
+    },
+    {
+      "text": "VA awarded Four Points Technology, L.L.C. a $521,824,443 contract for enterprise cloud capacity (Amazon Web Services) under NAICS 541519.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_36C10B22F0207_3600_NNG15SD22B_8000"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (Unrelated award)"
+    }
+  ],
+  "verdict": {
+    "decision": "CONDITIONAL",
+    "confidence": "medium",
+    "rationale": [
+      {
+        "point": "The RFI is for a SaaS survey-based research platform and platform management tool (Claim #1), which aligns with the company's software development capabilities but is outside its core clinical scheduling domain.",
+        "claimIds": [
+          1
+        ]
+      },
+      {
+        "point": "The RFI requires software subscriptions, maintenance, and support (Claim #2), which the company could potentially provide given its past performance in software delivery, though at a smaller scale ($400K VA scheduling tool).",
+        "claimIds": [
+          2
+        ]
+      }
+    ],
+    "risks": [
+      "Potential follow-on contract size (median top awards ~$99.5M) far exceeds company capacity (9 staff, $700K past performance).",
+      "No direct experience with survey-based research platforms; core expertise is clinical scheduling.",
+      "No security clearances; VA work may require them.",
+      "Set-aside is NONE, so HUBZone certification does not confer competitive advantage for this RFI."
+    ],
+    "nextSteps": [
+      "Evaluate teaming with a larger prime that has survey research platform experience.",
+      "Assess RFI response effort vs. strategic value for future VA opportunities.",
+      "Monitor for follow-on RFP with small-business set-aside where HUBZone status would be advantageous."
+    ]
+  },
+  "approval": "pending",
+  "cost": {
+    "totalUsd": 0.0082638,
+    "byTier": {
+      "nano": {
+        "calls": 2,
+        "inputTokens": 1185,
+        "outputTokens": 1360,
+        "usd": 0.0003975
+      },
+      "super": {
+        "calls": 1,
+        "inputTokens": 2688,
+        "outputTokens": 3061,
+        "usd": 0.0035613000000000003
+      },
+      "ultra": {
+        "calls": 1,
+        "inputTokens": 624,
+        "outputTokens": 1227,
+        "usd": 0.004305
+      }
+    }
+  },
+  "calls": [
+    {
+      "tier": "nano",
+      "purpose": "classify requirement",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 198,
+      "outputTokens": 276,
+      "usd": 0.00007811999999999999,
+      "latencyMs": 1288
+    },
+    {
+      "tier": "super",
+      "purpose": "synthesize sourced claims",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "inputTokens": 2688,
+      "outputTokens": 3061,
+      "usd": 0.0035613000000000003,
+      "latencyMs": 15421
+    },
+    {
+      "tier": "nano",
+      "purpose": "relevance and support check",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 987,
+      "outputTokens": 1084,
+      "usd": 0.00031938,
+      "latencyMs": 3724
+    },
+    {
+      "tier": "ultra",
+      "purpose": "final bid/no-bid verdict",
+      "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "inputTokens": 624,
+      "outputTokens": 1227,
+      "usd": 0.004305,
+      "latencyMs": 5002
+    }
+  ],
+  "errors": [],
+  "history": {
+    "total": 8383,
+    "smallBizAwards": 4051,
+    "medianAmount": 99544664.92,
+    "topRecipients": [
+      {
+        "name": "V3GATE, LLC",
+        "count": 9,
+        "amount": 1822985369.11
+      },
+      {
+        "name": "DELL FEDERAL SYSTEMS L.P",
+        "count": 1,
+        "amount": 1730532626.58
+      },
+      {
+        "name": "ALL POINTS LOGISTICS, LLC",
+        "count": 2,
+        "amount": 924001075
+      },
+      {
+        "name": "FOUR POINTS TECHNOLOGY, L.L.C.",
+        "count": 2,
+        "amount": 758490400.47
+      },
+      {
+        "name": "COLOSSAL CONTRACTING LLC",
+        "count": 2,
+        "amount": 524224367.96
+      }
+    ]
+  },
+  "classification": {
+    "summary": "The VA Acquisition Academy seeks a SaaS survey‑based research platform with management tools, subscriptions, maintenance, and support for a competency survey pilot, offering a 12‑month base period plus four optional 12‑month extensions.",
+    "queries": [
+      "VA Acquisition Academy competency survey platform RFI",
+      "VA Acquisition Academy incumbent survey tool contract",
+      "recent VA SaaS survey research platform awards"
+    ]
+  }
+}

@@ -1,0 +1,387 @@
+{
+  "runId": "run-2026-10-17T00-49-47-289Z",
+  "createdAt": "2026-10-17T00:49:47.290Z",
+  "opportunity": {
+    "id": "36C24227Q0060",
+    "title": "DA01--FY 27 NYH ISCV DATA RECOVERY SERVICES - 1 YEAR ONLY",
+    "agency": "Department of Veterans Affairs",
+    "subAgency": "Department of Veterans Affairs",
+    "naics": "541512",
+    "setAside": "NONE",
+    "responseDeadline": "2026-10-23T10:00:00-04:00",
+    "placeOfPerformance": "NY",
+    "noticeType": "Sources Sought",
+    "description": "Sources Sought for Philips ISCV Radiographic DICOM data recovery for the VA New York Harbor Healthcare System, Manhattan Campus. Two NetGear ReadyNAS 3220 systems failed with loss of both RAID6 volumes (24 SATA disks). Vendor must forensically image disks, restore DICOM studies from 2007 to 2020, deliver recovered data migratable into AGFA Radiology PACS, and securely destroy all VA data with a Certificate of Destruction. Respondents must confirm a Class-10 (ISO 4) clean room, SSAE 18 SOC 1 Type II, SOC 2 Type I and SOC 3 audit compliance, and IACRB Certified Data Recovery Professional credentials. FAR Part 12 commercial procurement, size standard $34 million, period of performance about Dec 1 2026 to Jan 31 2027. The notice states responses will be used to decide whether to set the procurement aside.",
+    "sourceUrl": "https://sam.gov/workspace/contract/opp/721c4aaa8ee34a9ba5f7a0ace045ce8c/view",
+    "retrievedFrom": "SAM.gov public notice page, 2026-10-16"
+  },
+  "profile": {
+    "_note": "FICTIONAL SAMPLE COMPANY for scenario testing. Not a real firm. Past performance and staffing are invented; only the NAICS codes, set-aside definitions and every opportunity and award figure used against it are real public data.",
+    "id": "atlas-federal",
+    "name": "Atlas Federal Systems Inc. (sample)",
+    "hqState": "VA",
+    "size": "large",
+    "fictional": true,
+    "naics": [
+      "541511",
+      "541512",
+      "541519",
+      "541330"
+    ],
+    "certifications": [],
+    "placesOfPerformance": [
+      "ANY"
+    ],
+    "pastPerformance": "Large business. Eleven DoD and civilian IT prime contracts between $5M and $60M, including a Defense Health Agency data program.",
+    "capacityNotes": "About 400 staff, 150 cleared. Facility clearance (Top Secret). FedRAMP Moderate. Not eligible for any set-aside.",
+    "verification": [
+      "NAICS codes confirmed against USAspending reference (api.usaspending.gov/api/v2/references/naics) on 2026-10-16.",
+      "Set-asides follow SBA definitions: SBA = small business, 8A = 8(a) Business Development, HUBZONE, WOSB/EDWOSB, SDVOSB."
+    ]
+  },
+  "gate": {
+    "pass": true,
+    "checks": [
+      {
+        "rule": "deadline",
+        "pass": true,
+        "reason": "Responses due 2026-10-23T10:00:00-04:00; still open."
+      },
+      {
+        "rule": "set_aside",
+        "pass": true,
+        "reason": "Full and open competition; no set-aside required."
+      },
+      {
+        "rule": "naics",
+        "pass": true,
+        "reason": "NAICS 541512 is in the company's codes."
+      },
+      {
+        "rule": "place_of_performance",
+        "pass": true,
+        "reason": "Place of performance NY is within the company's coverage."
+      }
+    ]
+  },
+  "stoppedAtGate": false,
+  "sources": [
+    {
+      "id": "A1",
+      "title": "USAspending award 36C10B22N0051EHRM: ORACLE HEALTH GOVERNMENT SERVICES, INC., $2,120,623,738",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B22N0051EHRM_3600_36C10B18D5000_3600",
+      "snippet": "2022-09-28 | Department of Veterans Affairs / Department of Veterans Affairs | EHRM WAVES K, L, M (VISN 23) AND N, O (VISN 15) DEPLOYMENTS",
+      "query": "usaspending"
+    },
+    {
+      "id": "A2",
+      "title": "USAspending award 36C10B18N0003: ORACLE HEALTH GOVERNMENT SERVICES, INC., $1,511,268,663",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B18N0003_3600_36C10B18D5000_3600",
+      "snippet": "2018-05-17 | Department of Veterans Affairs / Department of Veterans Affairs | IGF::OT::IGF TASK ORDER 36C10B18N0003 UNDER IDIQ CONTRACT 36C10B18D5000 FOR OPERATIONAL MANAGEMENT SERVICES, TO INCLUDE HOSTING, FOR THE EHRM APPLICATIONS, APPLICATION SERVICES, AND ALL SUPPORTING EHRM DATA.",
+      "query": "usaspending"
+    },
+    {
+      "id": "A3",
+      "title": "USAspending award 36C10B21N10070021: BOOZ ALLEN HAMILTON INC, $1,365,285,600",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B21N10070021_3600_VA11816D1007_3600",
+      "snippet": "2021-05-18 | Department of Veterans Affairs / Department of Veterans Affairs | TRANSFORMATION TWENTY-ONE TOTAL TECHNOLOGY NEXT GENERATION (T4NG) TASK ORDER - BENEFITS INTEGRATED DELIVERY",
+      "query": "usaspending"
+    },
+    {
+      "id": "A4",
+      "title": "USAspending award 36C10B21N10150056: BOOZ ALLEN HAMILTON INC, $1,139,008,033",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B21N10150056_3600_VA11816D1015_3600",
+      "snippet": "2021-01-07 | Department of Veterans Affairs / Department of Veterans Affairs | PRODUCT AND TECHNOLOGY ECOSYSTEM MANAGEMENT SERVICES (PTEMS)WHICH INCLUDES PRODUCT DELIVERY AND LIFECYCLE MANAGEMENT TO TRANSFORM VA BY TAPPING INTO EMERGING TECHNOLOGIES, CONNECTING DEVELOPERS WITH VA DATA, AND MAKING HUMAN CENTERED DESIGN (HCD).",
+      "query": "usaspending"
+    },
+    {
+      "id": "A5",
+      "title": "USAspending award 36C10B22N10070023: BOOZ ALLEN HAMILTON INC, $859,669,886",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B22N10070023_3600_VA11816D1007_3600",
+      "snippet": "2022-09-26 | Department of Veterans Affairs / Department of Veterans Affairs | NEW TO - EHRM PMO IO SUPPORT",
+      "query": "usaspending"
+    },
+    {
+      "id": "S1",
+      "title": "VA New York Harbor Healthcare System - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/VA_New_York_Harbor_Healthcare_System",
+      "snippet": "The VA New York Harbor Healthcare System is a set of hospitals run by the United States Department of Veterans Affairs in the New York City area. It comprises three medical centers, two community outpatient clinics, and three veterans centers. The system is a component of the much larger VA Health Care Network. [...] [edit]\n\nThe New York Harbor Healthcare System has five major locations across four of the five boroughs \"Borough (New York City)\") of New York: [...] | New York/New Jersey VA Health",
+      "query": "VA New York Harbor healthcare system procurement office"
+    },
+    {
+      "id": "S2",
+      "title": "VA NY Harbor Healthcare System (New York, NY) — Phone & Address",
+      "url": "https://warriorsfund.org/resource/va-ny-harbor-healthcare-system-2764",
+      "snippet": "Veterans Crisis Line: dial 988 then Press 1, or text 838255.\n\nCall 988, Press 1 Text 838255 Chat Now\n\nWounded Warriors logo \nDonate\n\nVA Hospital\n\n# VA NY Harbor Healthcare System\n\nDirectory listing in New York, NY.\n\n## Contact this provider\n\nConfirm current services, eligibility and availability before your visit.\n\nCall (212) 686-7500 Provider website\n\nListed address\n:   423 E 23rd St, New York, NY, 10010\n\nView route in Google Maps\n\nConfirm this listed address with the provider before traveling.",
+      "query": "VA New York Harbor healthcare system procurement office"
+    },
+    {
+      "id": "S3",
+      "title": "Contact Us | VA New York Harbor Health Care | Veterans Affairs",
+      "url": "https://www.va.gov/new-york-harbor-health-care/contact-us",
+      "snippet": "## Media and press\n\nThe Office of Public Affairs can assist local media with queries, interview requests, and expert information about the VA New York Harbor Healthcare System.\n\nPhone:\n\nAfter hours or on weekends, call the operator at 800-877-6976 and ask for the administrator on duty.\n\n### Submit a FOIA request [...] Find phone numbers for many of the administrative and program offices at VA New York Harbor health care.\n\n### Mailing address\n\nBrooklyn VA Medical Center  \n800 Poly Place  \nBrookly",
+      "query": "VA New York Harbor healthcare system procurement office"
+    },
+    {
+      "id": "S4",
+      "title": "VA New York Harbor Health Care | Veterans Affairs",
+      "url": "https://www.va.gov/new-york-harbor-health-care",
+      "snippet": "At VA New York Harbor Healthcare System, our health care teams are deeply experienced and guided by the needs of Veterans, their families, and caregivers. Find a health facility near you, and manage your health online. Sign up for community events and updates.\n\n## Locations\n\n### \n\n423 East 23rd Street  \nNew York, NY 10010-5011\n\nMain phone: ,\n\nVA health connect:\n\nMental health care:\n\nMargaret Cochran Corbin VA Campus, formerly Manhattan VA Medical Center\n\n### [...] ### \n\n800 Poly Place  \nBrooklyn",
+      "query": "VA New York Harbor healthcare system procurement office"
+    },
+    {
+      "id": "S5",
+      "title": "Siemens, Philips win VA CR contract | Diagnostic Imaging",
+      "url": "https://www.diagnosticimaging.com/view/siemens-philips-win-va-cr-contract",
+      "snippet": "Advertisement\n\nIn a move that brought two major multimodality vendors into collaboration, the Veterans Affairs Acquisition Center this month awarded Siemens Medical Systems and Philips Medical Systems North America a joint contract to provide computed radiography equipment and connectivity to seven VA hospitals. The $7 million contract is part of the Veterans Integrated Network System project, and includes six Southern California VA hospitals and one in Las Vegas. [...] Molecular Imaging|\n\nSNMMI",
+      "query": "Philips ISCV Radiographic DICOM data recovery contract VA"
+    },
+    {
+      "id": "S6",
+      "title": "Philips I-Vault PACS Storage System",
+      "url": "https://www.highergov.com/contract-opportunity/7b22-philips-i-vault-pacs-storage-system-36c25626q1055-p-d41b6",
+      "snippet": "The Philips I Vault PACS is the only VA approved and OEM validated storage architecture capable of receiving, storing, indexing, and delivering the proprietary DICOM echo datasets generated by Philips ISCV modalities without data loss, format conversion failures, or corruption of measurement and structured reporting elements. [...] proprietary DICOM echo datasets generated by Philips ISCV modalities without data loss, format conversion failures, or corruption of measurement and structured report",
+      "query": "Philips ISCV Radiographic DICOM data recovery contract VA"
+    },
+    {
+      "id": "S7",
+      "title": "Government contract vehicles - Philips",
+      "url": "https://www.usa.philips.com/healthcare/support/contract-vehicles",
+      "snippet": "Solicitation: 797FSS990025R10\n\n Award: Veteran’s Administration, National Acquisitions Center: 36F79720D0042\n Current Period of Performance End:  01/01/2030\n\n### Digital Imaging Network Picture and Communications System DINPACSIV [...] Select a contract below for details or email us to connect with a Philips representative:\n\nContracting:\n\nDr. Adrian G Scioli\n\nTracee Houston\n\nBusiness Development:\n\nDoD: Christopher Stice\n\nVA: Christina Nichols\n\nOGA : Heidi Bernardo\n\n### Joint Defense Logistics Ag",
+      "query": "Philips ISCV Radiographic DICOM data recovery contract VA"
+    },
+    {
+      "id": "S8",
+      "title": "Radiology image management PACS | Philips - Philips",
+      "url": "https://www.usa.philips.com/healthcare/product/HCNOCTN424PACS/diagnostic-workspace",
+      "snippet": "With the integrated Philips radiology image management PACS Diagnostic Workspace, radiologists can access needed tools, including reporting, advanced visualization analysis for patient images and Al-enabled\\ insights for healthcare organizations. Our radiology PACS/integrated PACS solution is designed intuitively to optimize care pathways from orchestration to diagnosis to collaboration, using both DICOM and non-DICOM data with powerful tooling for picture archiving and communication for [...] c",
+      "query": "Philips ISCV Radiographic DICOM data recovery contract VA"
+    },
+    {
+      "id": "S9",
+      "title": "VA announces 2024 Customer Experience Symposium Award recipients - VA News",
+      "url": "https://news.va.gov/135217/va-announces-2024-customer-experience-awards",
+      "snippet": "The Exceptional Experience awards span several categories, including Best Experience, Most Improved and Service Recovery. Visit CX Symposium 2024 Award Winnersfor the complete list of winners.\n\n## Veterans Health Administration [...] Philip Black, Dr. Earl R. Parson, Jennifer White, Todd Musial, Linda Kraber, Scott Ambs, Daniel Beaufort, Thomas Whitney and Natalie Fish, Veterans Service Center, Togus VA Regional Benefit Office, Augusta ME.\n Eric Crawford, Great Lakes National Cemetery, Holly, MI",
+      "query": "Recent VA data recovery services awards 2024"
+    },
+    {
+      "id": "S10",
+      "title": "Government Data Recovery | SalvageData Services",
+      "url": "https://www.salvagedata.com/partner/government-data-recovery",
+      "snippet": "## Rated best data recovery services\n\nSince 2003, SalvageData has provided data recovery solutions for over 100,000 businesses, government entities, and personal consumers, gaining us the title of Best Data Recovery Services from these media outlets and clients:\n\nForbes Advisor Best of 2024Chamber of Commerce99 FirmsUS Air ForceBedford VirginiaDepartment of the Air Force\n\n### \"A clear winner compared to other data recovery services.\"",
+      "query": "Recent VA data recovery services awards 2024"
+    },
+    {
+      "id": "S11",
+      "title": "The 40 Coolest Data Recovery/Observability/Resiliency Vendors: The 2024 Storage 100",
+      "url": "https://www.crn.com/news/storage/2024/the-40-coolest-data-recovery-observability-resiliency-vendors-the-2024-storage-100",
+      "snippet": "Anand Eswaran\n\nCEO\n\nVeeam is a leading provider of data protection and ransomware recovery technology for cloud, virtual, physical and SaaS environments, as well as for specific applications by Microsoft, Oracle, SAP HANA and PostgreSQL. The company early this year launched Veeam Data Cloud, an all-in-one storage, cloud backup and ransomware recovery offering for Microsoft Azure and Microsoft 365.\n\nVeritas\n\nGreg Hughes\n\nCEO [...] Daniel Watts\n\nCEO\n\nUS Signal provides a wide range of data center,",
+      "query": "Recent VA data recovery services awards 2024"
+    },
+    {
+      "id": "S12",
+      "title": "Best Data Recovery Companies 2024: Top $300 Services",
+      "url": "https://www.300dollardatarecovery.com/best-data-recovery-companies-2024",
+      "snippet": "The best data recovery services will have expertise in various data loss scenarios, including file recovery, partition recovery, hard drive, SSD, SD/MicroSD/CF, USB flash drive, and RAID data recovery. This means they are equipped to handle a wide range of data loss scenarios, making them a good choice for individuals and businesses with diverse data recovery needs.\n\nWe’ve recovered over 35,000 devices since 2007 using cutting-edge data recovery hardware and software tools. [...] Unlike large co",
+      "query": "Recent VA data recovery services awards 2024"
+    }
+  ],
+  "supportedClaims": [
+    {
+      "text": "The VA New York Harbor Healthcare System provides care through three medical centers and multiple clinics in New York City.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/VA_New_York_Harbor_Healthcare_System"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "Its main facility is located at 423 East 23rd Street, New York, NY 10010.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.va.gov/new-york-harbor-health-care"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "The VA requires certified, OEM‑validated storage architectures for DICOM data, as shown by the Philips I‑Vault PACS being VA approved.",
+      "kind": "risk",
+      "sourceUrls": [
+        "https://www.highergov.com/contract-opportunity/7b22-philips-i-vault-pacs-storage-system-36c25626q1055-p-d41b6"
+      ],
+      "status": "supported"
+    }
+  ],
+  "droppedClaims": [
+    {
+      "text": "Oracle Health Government Services has received two of the largest VA contracts ever, valued at $2.12 B and $1.51 B.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_36C10B22N0051EHRM_3600_36C10B18D5000_3600",
+        "https://www.usaspending.gov/award/CONT_AWD_36C10B18N0003_3600_36C10B18D5000_3600"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (Unrelated contract size information)"
+    },
+    {
+      "text": "Booz Allen Hamilton has been awarded multiple VA task orders exceeding $800 M, including $1.37 B, $1.14 B, and $860 M.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_36C10B21N10070021_3600_VA11816D1007_3600",
+        "https://www.usaspending.gov/award/CONT_AWD_36C10B21N10150056_3600_VA11816D1015_3600",
+        "https://www.usaspending.gov/award/CONT_AWD_36C10B22N10070023_3600_VA11816D1007_3600"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (Unrelated award details)"
+    },
+    {
+      "text": "The one‑year, clean‑room and certification‑intensive scope may limit the pool of eligible vendors and increase pricing pressure.",
+      "kind": "risk",
+      "sourceUrls": [
+        "https://www.usa.philips.com/healthcare/support/contract-vehicles"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: source does not support claim (Scope described but no mention of pool or pricing impact)"
+    }
+  ],
+  "verdict": {
+    "decision": "CONDITIONAL",
+    "confidence": "medium",
+    "rationale": [
+      {
+        "point": "Company is a large business with NAICS 541512 matching the opportunity, set-aside is NONE, and places of performance include ANY, so eligibility gate passes.",
+        "claimIds": []
+      },
+      {
+        "point": "Past performance includes a Defense Health Agency data program, indicating relevant health IT experience for a VA healthcare data recovery opportunity.",
+        "claimIds": []
+      },
+      {
+        "point": "The VA New York Harbor Healthcare System operates three medical centers and multiple clinics in NYC (claim #1) with main facility at 423 East 23rd Street (claim #2), confirming the performance location.",
+        "claimIds": [
+          1,
+          2
+        ]
+      },
+      {
+        "point": "VA requires certified, OEM‑validated storage architectures for DICOM data, exemplified by Philips I‑Vault PACS being VA approved (claim #3). This technical requirement may mandate specific certifications not confirmed in the company profile.",
+        "claimIds": [
+          3
+        ]
+      }
+    ],
+    "risks": [
+      "Company may lack the specific OEM‑validated storage architecture certification (e.g., Philips I‑Vault PACS) required for DICOM data recovery.",
+      "Median top award value ($349M) far exceeds the company's historical prime contract range ($5M–$60M), suggesting potential scale mismatch.",
+      "One‑year performance period may demand rapid mobilization of cleared staff and specialized infrastructure."
+    ],
+    "nextSteps": [
+      "Confirm whether Atlas Federal holds or can obtain the required OEM‑validated storage certification for DICOM/PACS systems.",
+      "Evaluate capacity to scale staffing and infrastructure to a potential contract value significantly above historical norms.",
+      "Request and review the full RFP to clarify technical specifications, evaluation criteria, and any mandatory certifications."
+    ]
+  },
+  "approval": "pending",
+  "cost": {
+    "totalUsd": 0.00981534,
+    "byTier": {
+      "nano": {
+        "calls": 2,
+        "inputTokens": 2010,
+        "outputTokens": 1956,
+        "usd": 0.0005900399999999999
+      },
+      "super": {
+        "calls": 1,
+        "inputTokens": 3486,
+        "outputTokens": 2495,
+        "usd": 0.0032913
+      },
+      "ultra": {
+        "calls": 1,
+        "inputTokens": 693,
+        "outputTokens": 1747,
+        "usd": 0.005934
+      }
+    }
+  },
+  "calls": [
+    {
+      "tier": "nano",
+      "purpose": "classify requirement",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 338,
+      "outputTokens": 284,
+      "usd": 0.00008844,
+      "latencyMs": 1104
+    },
+    {
+      "tier": "super",
+      "purpose": "synthesize sourced claims",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "inputTokens": 3486,
+      "outputTokens": 2495,
+      "usd": 0.0032913,
+      "latencyMs": 13206
+    },
+    {
+      "tier": "nano",
+      "purpose": "relevance and support check",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 1672,
+      "outputTokens": 1672,
+      "usd": 0.0005015999999999999,
+      "latencyMs": 5645
+    },
+    {
+      "tier": "ultra",
+      "purpose": "final bid/no-bid verdict",
+      "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "inputTokens": 693,
+      "outputTokens": 1747,
+      "usd": 0.005934,
+      "latencyMs": 4982
+    }
+  ],
+  "errors": [],
+  "history": {
+    "total": 1030,
+    "smallBizAwards": 312,
+    "medianAmount": 348959728.74,
+    "topRecipients": [
+      {
+        "name": "ORACLE HEALTH GOVERNMENT SERVICES, INC.",
+        "count": 15,
+        "amount": 7687070923.439998
+      },
+      {
+        "name": "BOOZ ALLEN HAMILTON INC",
+        "count": 9,
+        "amount": 6493384924.150002
+      },
+      {
+        "name": "ACCENTURE FEDERAL SERVICES LLC",
+        "count": 3,
+        "amount": 1218950540.74
+      },
+      {
+        "name": "CGI FEDERAL INC.",
+        "count": 1,
+        "amount": 783318157.08
+      },
+      {
+        "name": "GOVCIO, LLC",
+        "count": 3,
+        "amount": 764087928.03
+      }
+    ]
+  },
+  "classification": {
+    "summary": "The VA New York Harbor Healthcare System seeks a vendor to forensically image failed NetGear ReadyNAS systems, restore DICOM studies from 2007‑2020, migrate the recovered data into an AGFA Radiology PACS, and securely destroy the data with a Certificate of Destruction, while meeting strict clean‑room and certification requirements for a one‑year procurement.",
+    "queries": [
+      "VA New York Harbor healthcare system procurement office",
+      "Philips ISCV Radiographic DICOM data recovery contract VA",
+      "Recent VA data recovery services awards 2024"
+    ]
+  }
+}

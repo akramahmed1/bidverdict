@@ -1,0 +1,281 @@
+{
+  "runId": "run-2026-10-17T00-51-16-012Z",
+  "createdAt": "2026-10-17T00:51:16.012Z",
+  "opportunity": {
+    "id": "CORHQ-26-Q-0388",
+    "title": "IBM Mainframes and Maintenance for the FDIC",
+    "agency": "Federal Deposit Insurance Corporation",
+    "naics": "541519",
+    "setAside": "NONE",
+    "responseDeadline": "2026-10-22T12:00:00-04:00",
+    "placeOfPerformance": "VA",
+    "noticeType": "Solicitation",
+    "description": "The Federal Deposit Insurance Corporation requests quotes under RFQ CORHQ-26-Q-0388 for new IBM mainframes and maintenance. Offerors must complete the price schedule. Terms and conditions, EULA or MSAs must accompany the quote; FDIC prefers government-approved terms. Quotes need a letter of authorization from the manufacturer and, if applicable, a proposed GSA Schedule or NASA SEWP contract. Questions were due Oct 9, 2026; quotes are due Oct 22, 2026. IBM site numbers for FDIC are 5166681 (VASQ) and 4742836 (DFW/BDC).",
+    "sourceUrl": "https://sam.gov/workspace/contract/opp/33fa0bf4576b48459e681ada14dcc819/view",
+    "retrievedFrom": "SAM.gov public notice data, 2026-10-16"
+  },
+  "profile": {
+    "_note": "FICTIONAL SAMPLE COMPANY for scenario testing. Not a real firm. Past performance and staffing are invented; only the NAICS codes, set-aside definitions and every opportunity and award figure used against it are real public data.",
+    "id": "atlas-federal",
+    "name": "Atlas Federal Systems Inc. (sample)",
+    "hqState": "VA",
+    "size": "large",
+    "fictional": true,
+    "naics": [
+      "541511",
+      "541512",
+      "541519",
+      "541330"
+    ],
+    "certifications": [],
+    "placesOfPerformance": [
+      "ANY"
+    ],
+    "pastPerformance": "Large business. Eleven DoD and civilian IT prime contracts between $5M and $60M, including a Defense Health Agency data program.",
+    "capacityNotes": "About 400 staff, 150 cleared. Facility clearance (Top Secret). FedRAMP Moderate. Not eligible for any set-aside.",
+    "verification": [
+      "NAICS codes confirmed against USAspending reference (api.usaspending.gov/api/v2/references/naics) on 2026-10-16.",
+      "Set-asides follow SBA definitions: SBA = small business, 8A = 8(a) Business Development, HUBZONE, WOSB/EDWOSB, SDVOSB."
+    ]
+  },
+  "gate": {
+    "pass": true,
+    "checks": [
+      {
+        "rule": "deadline",
+        "pass": true,
+        "reason": "Responses due 2026-10-22T12:00:00-04:00; still open."
+      },
+      {
+        "rule": "set_aside",
+        "pass": true,
+        "reason": "Full and open competition; no set-aside required."
+      },
+      {
+        "rule": "naics",
+        "pass": true,
+        "reason": "NAICS 541519 is in the company's codes."
+      },
+      {
+        "rule": "place_of_performance",
+        "pass": true,
+        "reason": "Place of performance VA is within the company's coverage."
+      }
+    ]
+  },
+  "stoppedAtGate": false,
+  "sources": [
+    {
+      "id": "S1",
+      "title": "IBM Mainframes and Maintenance for the FDIC | Other Computer Related Services",
+      "url": "https://discover.govdash.com/solicitations/01a11285-d450-75ed-95cc-d6751010634e--ibm-mainframes-and-maintenance-for-the-fdic",
+      "snippet": "The Federal Deposit Insurance Corporation (FDIC) has issued a solicitation (RFQ CORHQ-26-Q-0388) seeking qualified vendors to provide new IBM mainframes and associated maintenance services. This procurement is intended to support the FDIC’s ongoing operational requirements at its Arlington, Virginia location, specifically for IBM site numbers VASQ (5166681) and DFW/BDC (4742836). The scope of this contract encompasses the acquisition of IBM mainframe hardware as well as comprehensive [...] this ",
+      "query": "FDIC IBM mainframe procurement RFQ CORHQ-26-Q-0388"
+    },
+    {
+      "id": "S2",
+      "title": "IBM Mainframes and Maintenance the FDIC",
+      "url": "https://www.highergov.com/contract-opportunity/ibm-mainframes-and-maintenance-for-the-fdic-corhq-26-q-0388-o-c5a09",
+      "snippet": "The Federal Deposit Insurance Corporation invites you to submit a quote for RFQ CORHQ-26-Q-0388 for New IBM Mainframes and maintenance. We request offerors to utilize the Price Schedule to fill in your pricing for all line items needed. Terms and Conditions, EULA, or MSAs must be sent with your quote to be incorporated in the subsequent contract award, the FDIC prefers Government approved terms. See section M of the RFQ for Evaluation Criteria. [...] On 10/6/26 Federal Deposit Insurance Corporat",
+      "query": "FDIC IBM mainframe procurement RFQ CORHQ-26-Q-0388"
+    },
+    {
+      "id": "S3",
+      "title": "IBM Mainframes and Maintenance for the FDIC | CapitolBids",
+      "url": "https://capitolbids.com/contracts/sam-f2e1d53695e041caa16ecf1df8bc5a09",
+      "snippet": "The Federal Deposit Insurance Corporation invites you to submit a quote for RFQ CORHQ-26-Q-0388 for New IBM Mainframes and maintenance. We request offerors to utilize the Price Schedule to fill in your pricing for all line items needed. Terms and Conditions, EULA, or MSAs must be sent with your quote to be incorporated in the subsequent contract award, the FDIC prefers Government approved terms. See section M of the RFQ for Evaluation Criteria. Each submission should have these components [...] ",
+      "query": "FDIC IBM mainframe procurement RFQ CORHQ-26-Q-0388"
+    },
+    {
+      "id": "S4",
+      "title": "IBM zOS MLC & ALC CORHQ-25-Q-0239",
+      "url": "https://www.highergov.com/contract-opportunity/ibm-zos-mlc-alc-corhq-25-q-0239-r-59174",
+      "snippet": "The Federal Deposit Insurance Corporation (FDIC) is conducting market research for a software maintenance and support for IBM Enterprise Software and Services Option (ESSO) Monthly Licensee Charge (MLC) and Assembly Language Coding (ALC) software for the FDIC mainframe operating system and related programs.\n\nGeneral Information:\n\nThe FDIC is not subject to the Federal Acquisition Regulation (FAR). Policy documents related to doing business with the FDIC can be found at \n\nProject Information: [..",
+      "query": "FDIC IBM mainframe procurement RFQ CORHQ-26-Q-0388"
+    },
+    {
+      "id": "S7",
+      "title": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/2f38bb2fa06b4372825c52beb14308c7/view",
+      "snippet": "Questions are due by12:00PM EST onOctober 9, 2026. All quotes are due by12:00PM EST on October 20, 2026.\n\nThe IBM site numbers associated with FDIC's requirementare below:\n\nVASQ is 5166681\n\nDFW/BDC is 4742836.\n\n## Contact Information\n\n  \n\n## Primary Point of Contact\n\n##### Ellisha Smith\n\nEmail\n\n###### ellismith@fdic.gov\n\nPhone Number\n\n###### 5712124449\n\n## Alternative Point of Contact\n\n##### (blank)\n\nEmail\n\n###### (blank)\n\nPhone Number\n\n###### (blank)\n\n## Contracting Office Address [...] ## Desc",
+      "query": "Incumbent IBM mainframe contractor for FDIC"
+    },
+    {
+      "id": "S8",
+      "title": "Modernizing mainframe resiliency for AI-ready scale",
+      "url": "https://www.ibm.com/case-studies/broadridge-financial-services",
+      "snippet": "Following this work, Broadridge continues to run between 10 and 12 trillion dollars in U.S. Treasury flows per day on a strengthened IBM Z core, delivering secure and always on operations at market scale. IBM Z reliability also supports about 1% of all U.S. mailers, underscoring proven throughput for regulated communications.\n\nThe environment extends IBM Z strengths in security, availability, and transaction integrity, and adds cyber resilience with IBM Z Cyber Vault for SLA based recovery.",
+      "query": "Incumbent IBM mainframe contractor for FDIC"
+    },
+    {
+      "id": "S7",
+      "title": "IBM Mainframes and Maintenance for the FDIC | app.rfpplanner.com",
+      "url": "https://app.rfpplanner.com/opportunity/139240-ibm-mainframes-and-maintenance-for-the-fdic",
+      "snippet": "AI Summary: The solicitation requests IBM mainframe and maintenance services for the FDIC in Arlington, Virginia. The contract is open to Small Business concerns (SBWC) without any set-aside or preference. Contractors must deliver services only to Arlington, VA, and are required to securely dispose of FDIC information as per the contract terms.\n\nSign up for free to view\n\n### Opportunity Details\n\nSolicitation Number: CORHQ-26-Q-0388\n\nDate Added: October 09, 2026\n\nDescription: [...] ###### N66001-",
+      "query": "Recent FDIC IBM mainframe contract awards"
+    }
+  ],
+  "supportedClaims": [
+    {
+      "text": "The FDIC solicitation CORHQ-26-Q-0388 seeks new IBM mainframes and maintenance services for its Arlington, Virginia location.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://discover.govdash.com/solicitations/01a11285-d450-75ed-95cc-d6751010634e--ibm-mainframes-and-maintenance-for-the-fdic"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "The solicitation is open to small business concerns without any set-aside preference.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://app.rfpplanner.com/opportunity/139240-ibm-mainframes-and-maintenance-for-the-fdic"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "The requirement specifies IBM site numbers VASQ (5166681) and DFW/BDC (4742836).",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://sam.gov/workspace/contract/opp/2f38bb2fa06b4372825c52beb14308c7/view"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "Questions are due by 12:00 PM EST on October 9, 2026, and quotes are due by 12:00 PM EST on October 20, 2026.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://sam.gov/workspace/contract/opp/2f38bb2fa06b4372825c52beb14308c7/view"
+      ],
+      "status": "supported"
+    }
+  ],
+  "droppedClaims": [
+    {
+      "text": "The solicitation is marked as having no set-aside.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.highergov.com/contract-opportunity/ibm-mainframes-and-maintenance-for-the-fdic-corhq-26-q-0388-o-c5a09"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: source does not support claim (Source does not mention set‑aside status)"
+    }
+  ],
+  "verdict": {
+    "decision": "CONDITIONAL",
+    "confidence": "medium",
+    "rationale": [
+      {
+        "point": "Atlas Federal Systems is a large business with NAICS 541519 matching the opportunity and a facility clearance (Top Secret) that supports work at the Arlington, VA location specified in the solicitation.",
+        "claimIds": [
+          1
+        ]
+      },
+      {
+        "point": "The solicitation is open to small business concerns without a set-aside preference, meaning large businesses like Atlas are eligible to compete (eligibility gate passed).",
+        "claimIds": [
+          2
+        ]
+      },
+      {
+        "point": "The requirement calls out specific IBM site numbers (VASQ and DFW/BDC); Atlas must demonstrate or acquire the ability to service those configurations.",
+        "claimIds": [
+          3
+        ]
+      },
+      {
+        "point": "The quote deadline is October 20, 2026, with questions due October 9, 2026, giving a tight but manageable window for proposal preparation.",
+        "claimIds": [
+          4
+        ]
+      }
+    ],
+    "risks": [
+      "No prior FDIC contract awards in NAICS 541519 in the last five years, indicating limited agency relationship or track record in this specific domain.",
+      "Atlas's past performance emphasizes DoD/civilian IT prime contracts and a Defense Health Agency data program, but does not explicitly cite IBM mainframe hardware procurement or maintenance experience.",
+      "As a large business, Atlas may face price or evaluation pressure from small business competitors in a procurement that explicitly notes openness to small business concerns."
+    ],
+    "nextSteps": [
+      "Verify internal IBM mainframe installation/maintenance capabilities or identify a qualified teaming partner (e.g., IBM authorized reseller/maintainer).",
+      "Submit any clarifying questions by the October 9, 2026 deadline to resolve site-specific requirements.",
+      "Prepare a quote addressing the two IBM site numbers (VASQ 5166681 and DFW/BDC 4742836) and leveraging Atlas's FedRAMP Moderate authorization and Top Secret facility clearance.",
+      "Conduct a bid/no-bid review after question responses are received and capability gaps are assessed."
+    ]
+  },
+  "approval": "pending",
+  "cost": {
+    "totalUsd": 0.00874022,
+    "byTier": {
+      "nano": {
+        "calls": 2,
+        "inputTokens": 1426,
+        "outputTokens": 1594,
+        "usd": 0.00046812
+      },
+      "super": {
+        "calls": 1,
+        "inputTokens": 1829,
+        "outputTokens": 2326,
+        "usd": 0.0026421
+      },
+      "ultra": {
+        "calls": 1,
+        "inputTokens": 713,
+        "outputTokens": 1639,
+        "usd": 0.00563
+      }
+    }
+  },
+  "calls": [
+    {
+      "tier": "nano",
+      "purpose": "classify requirement",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 257,
+      "outputTokens": 293,
+      "usd": 0.00008573999999999999,
+      "latencyMs": 1250
+    },
+    {
+      "tier": "super",
+      "purpose": "synthesize sourced claims",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "inputTokens": 1829,
+      "outputTokens": 2326,
+      "usd": 0.0026421,
+      "latencyMs": 10593
+    },
+    {
+      "tier": "nano",
+      "purpose": "relevance and support check",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 1169,
+      "outputTokens": 1301,
+      "usd": 0.00038238,
+      "latencyMs": 4809
+    },
+    {
+      "tier": "ultra",
+      "purpose": "final bid/no-bid verdict",
+      "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "inputTokens": 713,
+      "outputTokens": 1639,
+      "usd": 0.00563,
+      "latencyMs": 6899
+    }
+  ],
+  "errors": [],
+  "history": {
+    "total": 0,
+    "smallBizAwards": 0,
+    "medianAmount": null,
+    "topRecipients": []
+  },
+  "classification": {
+    "summary": "The FDIC seeks quotes for new IBM mainframes and associated maintenance services, including required authorizations and schedule proposals.",
+    "queries": [
+      "FDIC IBM mainframe procurement RFQ CORHQ-26-Q-0388",
+      "Incumbent IBM mainframe contractor for FDIC",
+      "Recent FDIC IBM mainframe contract awards"
+    ]
+  }
+}

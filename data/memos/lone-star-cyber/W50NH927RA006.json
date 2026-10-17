@@ -1,0 +1,366 @@
+{
+  "runId": "run-2026-10-17T01-00-39-475Z",
+  "createdAt": "2026-10-17T01:00:39.475Z",
+  "opportunity": {
+    "id": "W50NH927RA006",
+    "title": "Scalable GEOINT Architecture IT Contractor Manpower Equivalent (CME) Support",
+    "agency": "Department of Defense",
+    "naics": "541519",
+    "setAside": "NONE",
+    "responseDeadline": "2026-11-13T12:00:00-05:00",
+    "placeOfPerformance": "UNSPECIFIED",
+    "noticeType": "Solicitation",
+    "description": "Request for Proposal W50NH9-27-R-A006 for Scalable Geospatial Intelligence (GEOINT) Architecture IT Contractor Manpower Equivalent support for U.S. Army Intelligence and Security Command (INSCOM). Proposals due Nov 13, 2026 with a proposal validity of at least 240 days. Period of performance: one 30-day transition-in, a 12-month base, four 12-month options and one six-month option. Estimated award date Jan 11, 2027. Primarily time and materials, evaluated on a best value trade-off basis.",
+    "sourceUrl": "https://sam.gov/workspace/contract/opp/9062cba08c704f95ad579bb986068703/view",
+    "retrievedFrom": "SAM.gov public notice data, 2026-10-16",
+    "subAgency": "Department of the Army"
+  },
+  "profile": {
+    "_note": "FICTIONAL SAMPLE COMPANY for scenario testing. Not a real firm. Past performance and staffing are invented; only the NAICS codes, set-aside definitions and every opportunity and award figure used against it are real public data.",
+    "id": "lone-star-cyber",
+    "name": "Lone Star Cyber Group LLC (sample)",
+    "hqState": "TX",
+    "size": "small",
+    "fictional": true,
+    "naics": [
+      "541512",
+      "541519",
+      "541513"
+    ],
+    "certifications": [
+      "SBA",
+      "8A"
+    ],
+    "placesOfPerformance": [
+      "TX",
+      "OH",
+      "REMOTE"
+    ],
+    "pastPerformance": "Four years in the SBA 8(a) program. Two DoD sub-contracts for network monitoring (about $1.2M each) and one Air Force base-level help desk prime task order (about $900K).",
+    "capacityNotes": "Fourteen staff, eight with active Secret clearances. Facility clearance in progress, not yet granted. FedRAMP not started.",
+    "verification": [
+      "NAICS codes confirmed against USAspending reference (api.usaspending.gov/api/v2/references/naics) on 2026-10-16.",
+      "Set-asides follow SBA definitions: SBA = small business, 8A = 8(a) Business Development, HUBZONE, WOSB/EDWOSB, SDVOSB."
+    ]
+  },
+  "gate": {
+    "pass": true,
+    "checks": [
+      {
+        "rule": "deadline",
+        "pass": true,
+        "reason": "Responses due 2026-11-13T12:00:00-05:00; still open."
+      },
+      {
+        "rule": "set_aside",
+        "pass": true,
+        "reason": "Full and open competition; no set-aside required."
+      },
+      {
+        "rule": "naics",
+        "pass": true,
+        "reason": "NAICS 541519 is in the company's codes."
+      },
+      {
+        "rule": "place_of_performance",
+        "pass": true,
+        "reason": "Place of performance is not stated in the notice; verify before bidding."
+      }
+    ]
+  },
+  "stoppedAtGate": false,
+  "sources": [
+    {
+      "id": "A1",
+      "title": "USAspending award HC108421F0175: WORLD WIDE TECHNOLOGY LLC, $627,456,698",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_HC108421F0175_9700_NNG15SC55B_8000",
+      "snippet": "2021-06-29 | Department of Defense / Defense Information Systems Agency | EA BUNDLE",
+      "query": "usaspending"
+    },
+    {
+      "id": "A2",
+      "title": "USAspending award W911S011C0014: NORTHROP GRUMMAN TECHNICAL SERVICES, INC., $522,176,400",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_W911S011C0014_9700_-NONE-_-NONE-",
+      "snippet": "2011-08-03 | Department of Defense / Department of the Army | BATTLE COMMAND TRAINING PROGRAM SERVICES",
+      "query": "usaspending"
+    },
+    {
+      "id": "A3",
+      "title": "USAspending award W911S018C0004: SERCO INC, $512,784,249",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_W911S018C0004_9700_-NONE-_-NONE-",
+      "snippet": "2018-09-28 | Department of Defense / Department of the Army | MISSION COMMAND TRAINING PROGRAM (MCTP)",
+      "query": "usaspending"
+    },
+    {
+      "id": "A4",
+      "title": "USAspending award FA877122F0022: EMERGENT, LLC, $419,737,159",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_FA877122F0022_9700_NNG15SC33B_8000",
+      "snippet": "2022-02-25 | Department of Defense / Department of the Air Force | PROVIDES AN UNLIMITED LICENSE AGREEMENT FOR A CORE SET OF ORACLE TECHNOLOGY PRODUCTS, DATABASE PRODUCTS AND COMMERCIAL SOFTWARE MAINTENANCE SUPPORT",
+      "query": "usaspending"
+    },
+    {
+      "id": "A5",
+      "title": "USAspending award HC102819F0141: GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC., $372,673,130",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_HC102819F0141_9700_HC102819A0001_9700",
+      "snippet": "2019-01-24 | Department of Defense / Defense Information Systems Agency | ENTERPRISE TRANSPORT MANAGEMENT (ETM) - NEXT GENERATION - CORE SUPPORT",
+      "query": "usaspending"
+    },
+    {
+      "id": "S1",
+      "title": "EIS wins US Army INSCOM GEOINT contract - Intelligence Community News",
+      "url": "https://intelligencecommunitynews.com/eis-wins-us-army-inscom-geoint-contract",
+      "snippet": "Goda continued, “Our team will apply decades of experience providing IT enterprise services, biometric, and cyber solutions for the Department of Defense, the Department of Homeland Security, and other intelligence agencies. We are honored to be entrusted with enabling INSCOM to conduct Processing, Exploitation and Dissemination (PED) of classified GEOINT products in support of warfighters around the world.”\n\nSource: Cognosante [...] “We are delighted to support INSCOM as it continues to provide",
+      "query": "Department of Defense INSCOM GEOINT contract award history"
+    },
+    {
+      "id": "S2",
+      "title": "Foundation Sustainment Support, Software and Integration (FS3i)",
+      "url": "https://console.sweetspotgov.com/federal-contracts/3e847d2c-ca01-5dcc-b5ed-48e257c04502",
+      "snippet": "The National Geospatial-Intelligence Agency, within the Department of Defense, is seeking a single-award IDIQ contract for Foundation Sustainment Support, Software and Integration (FS3i) to sustain and integrate IT capabilities for its Foundation GEOINT mission. The work covers software development, integration, maintenance, operations support, COTS hardware and software procurement, and related common services across NGA mission areas. The requirement is centered in Saint Louis and operates [..",
+      "query": "Department of Defense INSCOM GEOINT contract award history"
+    },
+    {
+      "id": "S3",
+      "title": "R--U.S. Army Intelligence and Security Command Information Technology Helpdesk Service Support Requirement",
+      "url": "https://sam.gov/opp/7e98ea437183665b62d921892b53ed70/view",
+      "snippet": "and Hawaii), COR - Contracting Officer Representative, COTR - Contracting Officer's Technical Representative, COTS - Commercial-Off-the-Shelf, DA - Department of the Army, DD250 - Department of Defense Form 250 (Receiving Report), D254 - Department of Defense Contract Security Requirement List, DFARS - Defense Federal Acquisition Regulation Supplement, DOD - Department of Defense, DRU - Direct Reporting Unit, FAR - Federal Acquisition Regulation, GFE - Government Furnished Equipment, GOTS - [...",
+      "query": "Department of Defense INSCOM GEOINT contract award history"
+    },
+    {
+      "id": "S4",
+      "title": "NGA awards BAE Systems contract to maintain 'Map of the World' | FedScoop",
+      "url": "https://fedscoop.com/nga-map-of-the-world-bae-systems",
+      "snippet": "By   Lindsey Wilkinson\n6. ### Watchdog links HUD workforce cuts to delayed tech services\n\n   By   Matt Bracken\n7. ### GAO cyber chief eyes workforce investments as watchdog does more with less\n\n   By   Matt Bracken\n\nAdvertisement\n\n## More Scoops\n\n\n\n \n\n### Air Force positions autonomous drones, networked weapon systems as top priorities\n\nBy   Jon Harper\n\nDepartment of Defense, DOD, Pentagon  \n\n(DOD / Lisa Ferdinando)\n\n \n\n### Scale AI awarded $250M contract by Department of Defense [...] ### Defen",
+      "query": "Department of Defense INSCOM GEOINT contract award history"
+    },
+    {
+      "id": "S5",
+      "title": "W50NH9-27-R-A006 (formally W50NH9-26-R-A019) Scalable Geospatial Intelligence (GEOINT) Architecture...",
+      "url": "https://www.highergov.com/contract-opportunity/w50nh9-27-r-a006-formally-w50nh9-26-r-a019-scala-w50nh927ra006-o-68703",
+      "snippet": "### Contracts Similar to Solicitation W50NH927RA006\n\n## Potential Bidders and Partners\n\n### Awardees that have won contracts similar to Solicitation W50NH927RA006\n\n## Similar Active Opportunities\n\n### Open contract opportunities similar to Solicitation W50NH927RA006\n\n## Experts for W50NH9-27-R-A006 (formally W50NH9-26-R-A019) Scalable Geospatial Intelligence (GEOINT) Architecture Information Technology (IT) Contractor Manpower Equivalent (CME) Support (Scalable GEOINT) [...] # W50NH9-27-R-A006 (",
+      "query": "Current incumbent for W50NH9-27-R-A006 GEOINT support"
+    },
+    {
+      "id": "S6",
+      "title": "DoD Opportunities Update #62 - The Hatch Report",
+      "url": "https://thehatchreport.substack.com/p/dod-opportunities-update-62?r=1pitv0",
+      "snippet": "Most performance expected at Fort Gordon, Georgia, with additional support in Honolulu; Wiesbaden; Vicenza; Republic of Korea; San Antonio; and Colorado Springs.\n\n### Response Considerations\n\nFUNDING: Not specified.\n\nPOP: Anticipated 5 years.\n\nCONTRACT TYPE: Anticipated T&M.\n\nELIGIBILITY GATES: No set-aside; no other current eligibility gate stated in the presolicitation notice.\n\nIMPORTANT MILESTONES: RFP W50NH9-27-R-A006 expected 2–4 weeks after 09 Oct 2026. [...] Holistic IT / enterprise-archi",
+      "query": "Current incumbent for W50NH9-27-R-A006 GEOINT support"
+    },
+    {
+      "id": "S7",
+      "title": "Surveillance Request Workflow & Documentation… | CLEATUS",
+      "url": "https://www.cleat.ai/government/contracts/surveillance-request-workflow-and-documentation-system-development-cv43",
+      "snippet": "Other Scientific and Technical Consulting Services\n\nPOSTED\n\n3 months ago\n\nDEADLINE\n\nN/A\n\nView Details\n\nReady to Pursue This Opportunity?\n\n## Get AI-powered intelligence on this solicitation and the ones like it\n\nEvery page of the solicitation package shredded into a compliance breakdown\n\nAI-powered matching based on your capabilities and past performance\n\nCompetitor and incumbent history on the requirement\n\nAutomated alerts on amendments, Q&A deadlines, and award\n\nMiguel\n\nHillary [...] SSA Ofc O",
+      "query": "Current incumbent for W50NH9-27-R-A006 GEOINT support"
+    },
+    {
+      "id": "S8",
+      "title": "NATO Business Opportunity: Gamification… | CLEATUS",
+      "url": "https://www.cleat.ai/government/contracts/nato-business-opportunity-gamification-solutions-for-cyberspace-warfare-development-o6y0",
+      "snippet": "Computer Systems Design Services\n\nPOSTED\n\n17 days ago\n\nDEADLINE\n\nin 20 days\n\nView Details\n\nFind Active Opportunities Like This\n\n## Get AI-powered intelligence on the opportunities still open\n\nEvery page of the solicitation package shredded into a compliance breakdown\n\nAI-powered matching based on your capabilities and past performance\n\nCompetitor and incumbent history on the requirement\n\nAutomated alerts on amendments, Q&A deadlines, and award\n\nMiguel\n\nHillary\n\nKeith Deutsch\n\nChristine [...] SSA",
+      "query": "Current incumbent for W50NH9-27-R-A006 GEOINT support"
+    },
+    {
+      "id": "S10",
+      "title": "Time and Materials Contracts at the Defense Information ...",
+      "url": "https://media.defense.gov/1995/Dec/01/2001715043/-1/-1/1/96-032.pdf",
+      "snippet": "labor costs by $2.6 million just for the 51 orders had they made an attempt to award to the best value contractor. The lack of attempt to award to the best value contractor also occurred on a more current multiple award procurement for which the disparity of awards to cost ranking of the competition is even more pronounced. We believe that the delivery orders should have been competitively awarded. However, at a minimum, DISA should have used the best value contractor or documented the reasons [",
+      "query": "Recent DoD best‑value time‑and‑materials contracts similar to W50NH9-27-R-A006"
+    },
+    {
+      "id": "S11",
+      "title": "acquisition research program sponsored report series - DTIC",
+      "url": "https://apps.dtic.mil/sti/tr/pdf/AD1016675.pdf",
+      "snippet": "non-cost factors were more important than price” (National Defense Authorization Act, 2010). Accordingly, contracts awarded in 2009 valued at $25 million and up were reviewed concerning: (1) the frequency that the DOD utilized the best value tradeoff process by contract type, (2) DOD source selection strategy determinations and reasoning; and (3) challenges faced in the tradeoff process (GAO, 2010). The results of the review indicated that best value processes were used 95% of the time for [...]",
+      "query": "Recent DoD best‑value time‑and‑materials contracts similar to W50NH9-27-R-A006"
+    },
+    {
+      "id": "S12",
+      "title": "Part 16 - Types of Contracts",
+      "url": "https://www.acquisition.gov/far/part-16",
+      "snippet": "Image 333(1) The contract _must_ require the Government to order and the contractor to furnish at least a stated minimum quantity of _supplies_ or services. In addition, if ordered, the contractor _must_ furnish any additional quantities, not to exceed the stated maximum. The _contracting officer_ _should_ establish a reasonable maximum quantity based on _market research_, trends on recent contracts for similar _supplies_ or services, survey of potential users, or any other rational basis.",
+      "query": "Recent DoD best‑value time‑and‑materials contracts similar to W50NH9-27-R-A006"
+    }
+  ],
+  "supportedClaims": [
+    {
+      "text": "The solicitation is a Department of Defense opportunity (DoD Opportunities Update #62) for scalable GEOINT architecture IT contractor manpower equivalent support.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://thehatchreport.substack.com/p/dod-opportunities-update-62?r=1pitv0"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "The requirement anticipates a time‑and‑materials contract type.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://thehatchreport.substack.com/p/dod-opportunities-update-62?r=1pitv0"
+      ],
+      "status": "supported"
+    }
+  ],
+  "droppedClaims": [
+    {
+      "text": "Best value tradeoff processes are used in approximately 95% of DoD contracts valued at $25 million or more.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://apps.dtic.mil/sti/tr/pdf/AD1016675.pdf"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (general statistic, unrelated to this solicitation)"
+    },
+    {
+      "text": "A recent DoD award under NAICS 541519 provided $627,456,698 to WORLD WIDE TECHNOLOGY LLC.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_HC108421F0175_9700_NNG15SC55B_8000"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (unrelated award detail)"
+    },
+    {
+      "text": "Another NAICS 541519 award totaled $522,176,400 to NORTHROP GRUMMAN TECHNICAL SERVICES, INC.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_W911S011C0014_9700_-NONE-_-NONE-"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (unrelated award detail)"
+    }
+  ],
+  "verdict": {
+    "decision": "NO_BID",
+    "confidence": "medium",
+    "rationale": [
+      {
+        "point": "The opportunity is for scalable GEOINT architecture IT contractor manpower equivalent support (Claim #1), which likely requires specialized GEOINT expertise and significant scale beyond the company's past performance of network monitoring sub-contracts and a help desk prime task order.",
+        "claimIds": [
+          1
+        ]
+      },
+      {
+        "point": "The anticipated time-and-materials contract type (Claim #2) does not mitigate the size and complexity mismatch; the company's 14-person staff with only 8 Secret clearances and no facility clearance or FedRAMP readiness is insufficient for a scalable architecture effort.",
+        "claimIds": [
+          2
+        ]
+      }
+    ],
+    "risks": [
+      "Full and open competition (set-aside NONE) against large businesses with deep GEOINT experience",
+      "Median top award value of $152M indicates typical contract scale far exceeds company's largest prime ($900K)",
+      "No facility clearance or FedRAMP authorization limits ability to handle classified or high-value work",
+      "Past performance lacks GEOINT architecture or scalable manpower equivalent support relevance"
+    ],
+    "nextSteps": [
+      "Target small-business set-aside opportunities in NAICS 541519 matching network monitoring and help desk experience",
+      "Advance facility clearance and FedRAMP processes to expand eligibility",
+      "Consider teaming as a subcontractor on larger GEOINT efforts to build relevant past performance",
+      "Monitor DoD 8(a) sole-source or set-aside opportunities aligned with current capacity"
+    ]
+  },
+  "approval": "pending",
+  "cost": {
+    "totalUsd": 0.00805748,
+    "byTier": {
+      "nano": {
+        "calls": 2,
+        "inputTokens": 1283,
+        "outputTokens": 1615,
+        "usd": 0.00046458000000000003
+      },
+      "super": {
+        "calls": 1,
+        "inputTokens": 3209,
+        "outputTokens": 1958,
+        "usd": 0.0027249
+      },
+      "ultra": {
+        "calls": 1,
+        "inputTokens": 665,
+        "outputTokens": 1401,
+        "usd": 0.004868
+      }
+    }
+  },
+  "calls": [
+    {
+      "tier": "nano",
+      "purpose": "classify requirement",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 255,
+      "outputTokens": 171,
+      "usd": 0.00005634,
+      "latencyMs": 1218
+    },
+    {
+      "tier": "super",
+      "purpose": "synthesize sourced claims",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "inputTokens": 3209,
+      "outputTokens": 1958,
+      "usd": 0.0027249,
+      "latencyMs": 11267
+    },
+    {
+      "tier": "nano",
+      "purpose": "relevance and support check",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 1028,
+      "outputTokens": 1444,
+      "usd": 0.00040824000000000004,
+      "latencyMs": 5316
+    },
+    {
+      "tier": "ultra",
+      "purpose": "final bid/no-bid verdict",
+      "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "inputTokens": 665,
+      "outputTokens": 1401,
+      "usd": 0.004868,
+      "latencyMs": 4202
+    }
+  ],
+  "errors": [],
+  "history": {
+    "total": 56751,
+    "smallBizAwards": 16071,
+    "medianAmount": 151992005.49,
+    "topRecipients": [
+      {
+        "name": "WORLD WIDE TECHNOLOGY LLC",
+        "count": 2,
+        "amount": 820340031.1800001
+      },
+      {
+        "name": "IRON BOW TECHNOLOGIES, LLC",
+        "count": 3,
+        "amount": 810316536.2400001
+      },
+      {
+        "name": "DELL FEDERAL SYSTEMS L.P",
+        "count": 3,
+        "amount": 639645617.7
+      },
+      {
+        "name": "EMERGENT, LLC",
+        "count": 2,
+        "amount": 525839800.09000003
+      },
+      {
+        "name": "NORTHROP GRUMMAN TECHNICAL SERVICES, INC.",
+        "count": 1,
+        "amount": 522176399.72
+      }
+    ]
+  },
+  "classification": {
+    "summary": "The DoD seeks a scalable GEOINT architecture IT contractor to provide manpower equivalent support for INSCOM under a time‑and‑materials, best‑value contract.",
+    "queries": [
+      "Department of Defense INSCOM GEOINT contract award history",
+      "Current incumbent for W50NH9-27-R-A006 GEOINT support",
+      "Recent DoD best‑value time‑and‑materials contracts similar to W50NH9-27-R-A006"
+    ]
+  }
+}

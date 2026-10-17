@@ -1,0 +1,319 @@
+{
+  "runId": "run-2026-10-17T01-03-19-914Z",
+  "createdAt": "2026-10-17T01:03:19.914Z",
+  "opportunity": {
+    "id": "USCA27R0009",
+    "title": "Jury Management Solution (JMS) System (Presolicitation)",
+    "agency": "Administrative Office of the U.S. Courts",
+    "naics": "541511",
+    "setAside": "NONE",
+    "responseDeadline": "2026-10-30T00:00:00-04:00",
+    "placeOfPerformance": "DC",
+    "noticeType": "Presolicitation / Notice of Intent",
+    "description": "Pre-solicitation notice for a web-based Jury Management System for the Administrative Office of the U.S. Courts. The solicitation is unrestricted and not set aside for small business; the Judiciary is not subject to the FAR small business regulations. The AO plans a single-award IDIQ for a commercial off-the-shelf web-based jury management solution that supports selecting, managing and tracking jurors, performs financial and statistical calculations, and interfaces with the Judiciary's financial management system, Momentum. The draft solicitation USCA27R0009 gives requirements and evaluation criteria. The due time is listed as TBD.",
+    "sourceUrl": "https://sam.gov/workspace/contract/opp/6ba7c891fdc147868fc0fbca45bd54e7/view",
+    "retrievedFrom": "SAM.gov public notice data, 2026-10-16"
+  },
+  "profile": {
+    "_note": "FICTIONAL SAMPLE COMPANY for scenario testing. Not a real firm. Past performance and staffing are invented; only the NAICS codes, set-aside definitions and every opportunity and award figure used against it are real public data.",
+    "id": "magnolia-analytics",
+    "name": "Magnolia Women's Analytics LLC (sample)",
+    "hqState": "GA",
+    "size": "small",
+    "fictional": true,
+    "naics": [
+      "541512",
+      "541611",
+      "541511"
+    ],
+    "certifications": [
+      "SBA",
+      "WOSB",
+      "EDWOSB"
+    ],
+    "placesOfPerformance": [
+      "GA",
+      "VA",
+      "DC",
+      "REMOTE"
+    ],
+    "pastPerformance": "Women-owned, economically disadvantaged. One Marine Corps training-data contract (about $1.5M) and two civilian-agency analytics task orders under $800K.",
+    "capacityNotes": "Eleven staff. No facility clearance. Past performance is strongest in training and education data systems.",
+    "verification": [
+      "NAICS codes confirmed against USAspending reference (api.usaspending.gov/api/v2/references/naics) on 2026-10-16.",
+      "Set-asides follow SBA definitions: SBA = small business, 8A = 8(a) Business Development, HUBZONE, WOSB/EDWOSB, SDVOSB."
+    ]
+  },
+  "gate": {
+    "pass": true,
+    "checks": [
+      {
+        "rule": "deadline",
+        "pass": true,
+        "reason": "Responses due 2026-10-30T00:00:00-04:00; still open."
+      },
+      {
+        "rule": "set_aside",
+        "pass": true,
+        "reason": "Full and open competition; no set-aside required."
+      },
+      {
+        "rule": "naics",
+        "pass": true,
+        "reason": "NAICS 541511 is in the company's codes."
+      },
+      {
+        "rule": "place_of_performance",
+        "pass": true,
+        "reason": "Place of performance DC is within the company's coverage."
+      }
+    ]
+  },
+  "stoppedAtGate": false,
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Web-based Jury Management System (JMS)",
+      "url": "https://sam.gov/opp/e9171d94a1404915a7adc64dc24172fc/view",
+      "snippet": "## Description\n\nThe Administrative Office of the U.S. Courts (AO) is conducting market research in anticipation of a future solicitation for a modernized Jury Management System (JMS). The purpose of this Request for Information (RFI) is to obtain industry feedback, capability details, and technical insights that will assist the AO in refining its requirements, acquisition strategy, and Statement of Objectives (SOO) for the forthcoming procurement. [...] Through this RFI, the Judiciary seeks info",
+      "query": "Administrative Office of the U.S. Courts jury management system RFP"
+    },
+    {
+      "id": "S2",
+      "title": "JURY MANAGEMENT SOLUTION (JMS) SYSTEM | Custom Computer Programming Services",
+      "url": "https://discover.govdash.com/solicitations/01a1222f-d839-720e-b101-95746d1978e7--jury-management-solution-jms-system",
+      "snippet": "The Administrative Office of the U.S. Courts (AO), through its Procurement Management Division, has issued a presolicitation notice for a Jury Management Solution (JMS) System, also referred to as the Jury Management System (JMS). This procurement seeks to establish a single-award Indefinite Delivery, Indefinite Quantity (IDIQ) contract for a commercial-off-the-shelf (COTS), web-based solution designed to support the federal judiciary’s jury selection, management, and tracking processes. The [..",
+      "query": "Administrative Office of the U.S. Courts jury management system RFP"
+    },
+    {
+      "id": "S3",
+      "title": "Jury Management Solution (JMS) System",
+      "url": "https://www.highergov.com/contract-opportunity/jury-management-solution-jms-system-usca27r0009-p-d54e7",
+      "snippet": "6%\n\nVehicle Type\n\nIndefinite Delivery Contract\n\nOn 10/9/26 Administrative Office of the U.S. Courts issued Presolicitation USCA27R0009 for Jury Management Solution (JMS) System due 10/30/26. The opportunity was issued full & open with NAICS 541511 and PSC DA10.\n\n##### Primary Contact\n\nName\n\nAJ Lee   Profile\n\nEmail\n\naj\\_lee@ao.uscourts.gov\n\nPhone\n\nNone\n\n## Secondary Contact\n\nName\n\nVanessa Jackson   Profile\n\nEmail\n\nvanessa\\_jackson@ao.uscourts.gov\n\nPhone\n\nNone\n\n## Documents [...] The following is ",
+      "query": "Administrative Office of the U.S. Courts jury management system RFP"
+    },
+    {
+      "id": "S4",
+      "title": "rfp-alpine-032025-jury-management-system-and-services.pdf",
+      "url": "https://www.alpine.courts.ca.gov/system/files/general/rfp-alpine-032025-jury-management-system-and-services.pdf",
+      "snippet": "to be provided at a later time. One hour will be allotted per vendor. RFP Title: Jury Management System RFP Number: ALPINE-032025 3 Attachments Attachment 1 Administrative Rules Governing RFPs Attachment 2 Judicial Branch Entity Standard Terms and Conditions Attachment 3 Proposer’s Acceptance of Terms and Conditions Attachment 4 General Certifications Form Attachment 5 Small Business Declaration Attachment 6 Payee Data Record Form Attachment 7 Electronic Funds Transfer Authorization Form [...] P",
+      "query": "Administrative Office of the U.S. Courts jury management system RFP"
+    },
+    {
+      "id": "S5",
+      "title": "Cloud Transformation/Build Integration Partner",
+      "url": "https://console.sweetspotgov.com/federal-contracts/d5338d95-d4b6-5c9e-ad30-13648013d3a1",
+      "snippet": "The Administrative Office of the U.S. Courts (AO) is seeking a Cloud Transformation/Build Integration Partner to modernize its IT infrastructure and enhance its operational capabilities through cloud technologies. The AO aims to leverage a hybrid cloud approach to improve scalability, resilience, security, and efficiency in delivering justice, requiring professional and managed services across various areas, including cloud strategy advisory, application migration, and multi-cloud management. [.",
+      "query": "AO US Courts Momentum integration vendor solutions"
+    },
+    {
+      "id": "S6",
+      "title": "CGI Federal to Provide Financial Management Solutions & Services Under a 10-Year Contract with U.S. Courts | CGI.com",
+      "url": "https://www.cgi.com/en/cgi-federal-to-provide-financial-management-solution-to-u-s-courts",
+      "snippet": "processes powered by CGI’s Momentum® solution. An initial task order for operations and maintenance, service desk support, and training services has been issued for a 1-year base period and nine 1-year options. The total task order value if all options are exercised is $143.5M. [...] Specifically designed for government agencies, CGI’s Momentum® provides seamless transformational contracting and financial management capabilities with increased automation and data capabilities. Bringing over 100 ",
+      "query": "AO US Courts Momentum integration vendor solutions"
+    },
+    {
+      "id": "S7",
+      "title": "SAM.gov",
+      "url": "https://sam.gov/opp/339d01638edd4b5d9589f8225381cd7b/view",
+      "snippet": "Disclaimer and Information: This is NOT a solicitation. The Administrative Office of the U.S. Courts (further “AO” or “Government”) will not reimburse or compensate any vendor for responding to this Request for Information (RFI). Any information provided in a response to this RFI should be non-sensitive and non-proprietary information. The AO may share information submitted as part of a response to this RFI with other organizations within the Federal Judiciary (further “Federal Judiciary” or [..",
+      "query": "AO US Courts Momentum integration vendor solutions"
+    },
+    {
+      "id": "S8",
+      "title": "Administrative Office of the United States Courts - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Administrative_Office_of_the_United_States_Courts",
+      "snippet": "The Administrative Office of the United States Courts (AO or AOUSC for short) is the administrative \"Administration (government)\") agency of the United States federal court system, established in 1939. The AO is the central support entity for the federal judicial branch, and it provides the federal court with a wide range of legislative (legislative assistance), administrative, legal, financial, management, program (program evaluation), and information technology support services. [...] office f",
+      "query": "AO US Courts Momentum integration vendor solutions"
+    },
+    {
+      "id": "S9",
+      "title": "Justice Award | 15JA0523D00000149 | GRAND JURY COURT REPORTING SERVICES",
+      "url": "https://www.federalcompass.com/award-contract-detail/15JA0523D00000149",
+      "snippet": "Title: Justice Award | 15JA0523D00000149 | GRAND JURY COURT REPORTING SERVICES\n# 15JA0523D00000149 - GRAND JURY COURT REPORTING SERVICES. ##### Federal Contract Award Search » IDC Award. This IDC contract for *Legal services* was awarded in FY2023 on Aug 30, 2023 to TAGGART COURT REPORTING LLC by Office of the U.S. Attorney General. There have been $184k in obligations to date with a ceiling value of $562k, showing a 33% burn rate so far on the contract. The contract was competed under Women Own",
+      "query": "Recent federal court IDIQ awards for jury management systems"
+    },
+    {
+      "id": "S10",
+      "title": "Federal Circuit Resolves Court Split Over IDIQ Awardee Standing | Government Contracts Legal Forum",
+      "url": "https://www.governmentcontractslegalforum.com/2026/09/articles/government-contracts/federal-circuit-resolves-court-split-over-idiq-awardee-standing",
+      "snippet": "But a series of more recent court decisions have declined to follow National Air Cargo. In Aero Spray, Inc. v. United States, 156 Fed. Cl. 548 (2021) (as we discussed in more detail here), the court held that the “veritable tsunami of Federal Circuit decisions” all support the holding that an awardee is not an “interested party” to challenge awards of fellow IDIQ awardees, reasoning that a protester filing a post-award protest must establish a “substantial chance of award,” which is something [.",
+      "query": "Recent federal court IDIQ awards for jury management systems"
+    },
+    {
+      "id": "S11",
+      "title": "Federal Circuit Resolves Court Split Over IDIQ Awardee Standing - Government Contracts, Procurement & PPP - United States",
+      "url": "https://www.mondaq.com/unitedstates/government-contracts-procurement-ppp/1849604/federal-circuit-resolves-court-split-over-idiq-awardee-standing",
+      "snippet": "But a series of more recent court decisions have declined to follow National Air Cargo. In Aero Spray, Inc. v. United States, 156 Fed. Cl. 548 (2021) (as we discussed in more detail here), the court held that the “veritable tsunami of Federal Circuit decisions” all support the holding that an awardee is not an “interested party” to challenge awards of fellow IDIQ awardees, reasoning that a protester filing a post-award protest must establish a “substantial chance of award,” which is something [.",
+      "query": "Recent federal court IDIQ awards for jury management systems"
+    },
+    {
+      "id": "S12",
+      "title": "State Dept. Awards $190M Data & Systems Support IDIQ to Accenture Federal Services - govCDOiq.org",
+      "url": "https://govcdoiq.org/info-bytes/procurements/state-dept-awards-190m-data-systems-support-idiq-to-accenture-federal-services",
+      "snippet": "Title: State Dept. Awards $190M Data & Systems Support IDIQ to Accenture Federal Services - govCDOiq.org\n< Return to Info Bytes List. ### Info Byte Detail. # State Dept. Awards $190M Data & Systems Support IDIQ to Accenture Federal Services. Posted On: October 26th, 2023. The Department of State Office of the US Global AIDS Coordinator and Global Health Diplomacy (S/GAC) has awarded a 5-year, $190 million Data and Systems Support Services IDIQ contract to Accenture Federal Services (AFS). Under ",
+      "query": "Recent federal court IDIQ awards for jury management systems"
+    }
+  ],
+  "supportedClaims": [
+    {
+      "text": "The Administrative Office of the U.S. Courts is conducting market research via an RFI to inform a future Jury Management System solicitation.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://sam.gov/opp/e9171d94a1404915a7adc64dc24172fc/view"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "The RFI requests a commercial off‑the‑shelf, web‑based jury management system that will integrate with the Judiciary’s Momentum financial system.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://discover.govdash.com/solicitations/01a1222f-d839-720e-b101-95746d1978e7--jury-management-solution-jms-system"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "The vehicle type for the procurement is an Indefinite Delivery Contract.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.highergov.com/contract-opportunity/jury-management-solution-jms-system-usca27r0009-p-d54e7"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "The opportunity was posted on October 9, 2026, with a response deadline of October 30, 2026.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.highergov.com/contract-opportunity/jury-management-solution-jms-system-usca27r0009-p-d54e7"
+      ],
+      "status": "supported"
+    }
+  ],
+  "droppedClaims": [
+    {
+      "text": "The presolicitation notice describes a single‑award IDIQ contract for the Jury Management Solution, NAICS 541511, with no set‑aside.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.highergov.com/contract-opportunity/jury-management-solution-jms-system-usca27r0009-p-d54e7"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: source does not support claim (Source only notes IDV contract and NAICS, not single‑award or set‑aside.)"
+    }
+  ],
+  "verdict": {
+    "decision": "CONDITIONAL",
+    "confidence": "low",
+    "rationale": [
+      {
+        "point": "This is an RFI (market research), not a solicitation; responding positions the company for a future IDIQ competition but does not guarantee award.",
+        "claimIds": [
+          1,
+          3
+        ]
+      },
+      {
+        "point": "The requirement calls for a commercial off‑the‑shelf, web‑based jury management system that integrates with the Judiciary's Momentum financial system — a domain where the company has no demonstrated past performance.",
+        "claimIds": [
+          2
+        ]
+      },
+      {
+        "point": "The procurement has no small-business set-aside (full and open), and the agency has zero prior awards in this NAICS, meaning a new entrant would face experienced incumbents without set-aside protection.",
+        "claimIds": [
+          1,
+          3
+        ]
+      }
+    ],
+    "risks": [
+      "No relevant past performance in jury management, court systems, or Momentum integration",
+      "Full-and-open competition with no small-business preference",
+      "Eleven-person team may lack capacity for IDIQ-scale delivery",
+      "No facility clearance limits on-site options"
+    ],
+    "nextSteps": [
+      "Submit RFI response highlighting analytics and data-system capabilities to shape requirements",
+      "Request industry day or one-on-one to assess Momentum integration specifics",
+      "Evaluate teaming with a COTS jury-management vendor or a firm with AOUSC past performance",
+      "Reassess bid/no-bid when formal solicitation drops, using RFI intelligence"
+    ]
+  },
+  "approval": "pending",
+  "cost": {
+    "totalUsd": 0.007075919999999999,
+    "byTier": {
+      "nano": {
+        "calls": 2,
+        "inputTokens": 1444,
+        "outputTokens": 1992,
+        "usd": 0.00056472
+      },
+      "super": {
+        "calls": 1,
+        "inputTokens": 2805,
+        "outputTokens": 2173,
+        "usd": 0.0027971999999999997
+      },
+      "ultra": {
+        "calls": 1,
+        "inputTokens": 702,
+        "outputTokens": 1004,
+        "usd": 0.003714
+      }
+    }
+  },
+  "calls": [
+    {
+      "tier": "nano",
+      "purpose": "classify requirement",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 242,
+      "outputTokens": 247,
+      "usd": 0.00007379999999999999,
+      "latencyMs": 1761
+    },
+    {
+      "tier": "super",
+      "purpose": "synthesize sourced claims",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "inputTokens": 2805,
+      "outputTokens": 2173,
+      "usd": 0.0027971999999999997,
+      "latencyMs": 9233
+    },
+    {
+      "tier": "nano",
+      "purpose": "relevance and support check",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 1202,
+      "outputTokens": 1745,
+      "usd": 0.00049092,
+      "latencyMs": 8909
+    },
+    {
+      "tier": "ultra",
+      "purpose": "final bid/no-bid verdict",
+      "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "inputTokens": 702,
+      "outputTokens": 1004,
+      "usd": 0.003714,
+      "latencyMs": 4488
+    }
+  ],
+  "errors": [],
+  "history": {
+    "total": 0,
+    "smallBizAwards": 0,
+    "medianAmount": null,
+    "topRecipients": []
+  },
+  "classification": {
+    "summary": "The buyer needs a commercial off‑the‑shelf web‑based jury management system that selects, manages, tracks jurors, performs financial and statistical calculations, and integrates with the Judiciary’s Momentum financial system.",
+    "queries": [
+      "Administrative Office of the U.S. Courts jury management system RFP",
+      "AO US Courts Momentum integration vendor solutions",
+      "Recent federal court IDIQ awards for jury management systems"
+    ]
+  }
+}

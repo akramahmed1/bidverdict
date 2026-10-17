@@ -1,0 +1,366 @@
+{
+  "runId": "run-2026-10-17T01-00-08-336Z",
+  "createdAt": "2026-10-17T01:00:08.336Z",
+  "opportunity": {
+    "id": "HQDA-G-4_26_01",
+    "title": "Sizing Technology Pilot (Army Call for Solutions)",
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "naics": "541512",
+    "setAside": "NONE",
+    "responseDeadline": "2026-10-20T10:00:00-04:00",
+    "placeOfPerformance": "UNSPECIFIED",
+    "noticeType": "Solicitation (Call for Solutions under Army Open Solicitation W9128Z-25-S-A002)",
+    "description": "Army Contracting Command-Aberdeen Proving Ground, on behalf of HQDA G-4, seeks mature commercial technology that captures body and foot measurements by automated non-contact methods and translates them into recommended standard Army uniform and footwear sizes. Current manual tape measurement at accession points causes bottlenecks and high uniform and boot return rates and keeps no record of sizing changes over time. Evaluation phases and required attributes are in Attachment 1. Questions were due Oct 13 2026. No set-aside used.",
+    "sourceUrl": "https://sam.gov/workspace/contract/opp/b691c12b700848deb9876f9b1b5ad0cf/view",
+    "retrievedFrom": "SAM.gov public notice page, 2026-10-16"
+  },
+  "profile": {
+    "_note": "FICTIONAL SAMPLE COMPANY for scenario testing. Not a real firm. Past performance and staffing are invented; only the NAICS codes, set-aside definitions and every opportunity and award figure used against it are real public data.",
+    "id": "lone-star-cyber",
+    "name": "Lone Star Cyber Group LLC (sample)",
+    "hqState": "TX",
+    "size": "small",
+    "fictional": true,
+    "naics": [
+      "541512",
+      "541519",
+      "541513"
+    ],
+    "certifications": [
+      "SBA",
+      "8A"
+    ],
+    "placesOfPerformance": [
+      "TX",
+      "OH",
+      "REMOTE"
+    ],
+    "pastPerformance": "Four years in the SBA 8(a) program. Two DoD sub-contracts for network monitoring (about $1.2M each) and one Air Force base-level help desk prime task order (about $900K).",
+    "capacityNotes": "Fourteen staff, eight with active Secret clearances. Facility clearance in progress, not yet granted. FedRAMP not started.",
+    "verification": [
+      "NAICS codes confirmed against USAspending reference (api.usaspending.gov/api/v2/references/naics) on 2026-10-16.",
+      "Set-asides follow SBA definitions: SBA = small business, 8A = 8(a) Business Development, HUBZONE, WOSB/EDWOSB, SDVOSB."
+    ]
+  },
+  "gate": {
+    "pass": true,
+    "checks": [
+      {
+        "rule": "deadline",
+        "pass": true,
+        "reason": "Responses due 2026-10-20T10:00:00-04:00; still open."
+      },
+      {
+        "rule": "set_aside",
+        "pass": true,
+        "reason": "Full and open competition; no set-aside required."
+      },
+      {
+        "rule": "naics",
+        "pass": true,
+        "reason": "NAICS 541512 is in the company's codes."
+      },
+      {
+        "rule": "place_of_performance",
+        "pass": true,
+        "reason": "Place of performance is not stated in the notice; verify before bidding."
+      }
+    ]
+  },
+  "stoppedAtGate": false,
+  "sources": [
+    {
+      "id": "A1",
+      "title": "USAspending award N0002407C5431: RAYTHEON COMPANY, $1,076,035,500",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_N0002407C5431_9700_-NONE-_-NONE-",
+      "snippet": "2007-03-01 | Department of Defense / Defense Contract Management Agency | MK 41 S-BAND TACTICAL MISSILE",
+      "query": "usaspending"
+    },
+    {
+      "id": "A2",
+      "title": "USAspending award H9222217F0069: AMENTUM TECHNOLOGY, INC., $979,192,263",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_H9222217F0069_9700_GS00Q09BGD0059_4735",
+      "snippet": "2017-02-24 | Department of Defense / U.S. Special Operations Command | IGF::CT::IGF ENTERPRISE CORE SERVICES (ENDURING)",
+      "query": "usaspending"
+    },
+    {
+      "id": "A3",
+      "title": "USAspending award W52P1J20C0005: ACCENTURE FEDERAL SERVICES LLC, $896,468,884",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_W52P1J20C0005_9700_-NONE-_-NONE-",
+      "snippet": "2019-12-10 | Department of Defense / Department of the Army | AWARD FOR UNIFIED ENTERPRISE RESOURCE PLANNING CAPABILITY SUPPORT SERVICES",
+      "query": "usaspending"
+    },
+    {
+      "id": "A4",
+      "title": "USAspending award FA872619F0096: SCIENCE APPLICATIONS INTERNATIONAL CORPORATION, $684,030,647",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_FA872619F0096_9700_47QTCK18D0001_4732",
+      "snippet": "2019-09-10 | Department of Defense / Department of the Air Force | COMMON COMPUTING ENVIRONMENT (CCE) FOLLOW-ON",
+      "query": "usaspending"
+    },
+    {
+      "id": "A5",
+      "title": "USAspending award HT003823F0011: LEIDOS, INC., $572,997,098",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_HT003823F0011_9700_N0003915D0044_9700",
+      "snippet": "2023-08-03 | Department of Defense / Defense Health Agency | ENTERPRISE ACTIVITIES FOR MHS GENESIS-STAGE 9",
+      "query": "usaspending"
+    },
+    {
+      "id": "S1",
+      "title": "Sizing Technology Pilot | Computer Systems Design Services",
+      "url": "https://discover.govdash.com/solicitations/01a11157-bba4-7078-9d6e-742c8677ce44--sizing-technology-pilot",
+      "snippet": "pilot innovative, automated, and non-contact measurement solutions that can accurately capture both body and foot dimensions and translate these into recommended standard Army uniform and footwear sizes. Key requirements for proposed solutions include the use of automated, non-contact measurement methods, the ability to accurately capture both body and foot measurements, and the capability to recommend standard Army sizes based on the collected data. The Army is specifically interested in [...] ",
+      "query": "Army uniform sizing technology pilot requirements"
+    },
+    {
+      "id": "S2",
+      "title": "Sizing Technology Pilot | Bid due Oct 20, 2026 | BidRep",
+      "url": "https://getbidrep.com/contract/b691c12b700848deb9876f9b1b5ad0cf",
+      "snippet": "Sizing Technology Pilot This Call for Solutions (CFS) is issued under the Army Open Solicitation (AOS) W9128Z-25-S-A002. The Army Contracting Command-Aberdeen Proving Ground (ACC-APG) on behalf of the Headquarters Department of the Army (HQDA), G-4, is seeking innovative solutions capable of accurately capturing both body and foot measurements using automated, non-contact methods and translating those measurements into recommended standard Army uniform and footwear sizes. The Army faces a [...] ",
+      "query": "Army uniform sizing technology pilot requirements"
+    },
+    {
+      "id": "S3",
+      "title": "Sizing Technology Pilot | TechBids",
+      "url": "https://techbids.com/bids/321191",
+      "snippet": "The US Army is seeking mature commercial technology for a sizing pilot that uses automated, non-contact methods to capture body and foot measurements and recommend standard Army uniform and footwear sizes. The solution should support accurate sizing, addressing the Army’s need to improve outfitting efficiency and track changes in personnel sizing over time.\n\nThis bid is 82% technology related\n\nHighly relevant to the tech industry\n\n### Why we classified this as tech [...] The Army is seeking a pi",
+      "query": "Army uniform sizing technology pilot requirements"
+    },
+    {
+      "id": "S4",
+      "title": "BASIC FITTING GUIDE FOR ARMY SERVICE UNIFORMS ( ...",
+      "url": "https://resources.finalsite.net/images/v1659798628/myvolusiaschoolsorg/kcouqd5sx24ejc2r8xwu/untitled_8.pdf",
+      "snippet": "over 1/4 inch. (i) Button Alignment. The position of the buttons on the front of the coat may be adjusted no more than 1/4 inch to improve the front closure, as long as the row of buttons is straight from the top to bottom when buttoned, and the coat balance is maintained. b. Skirt. (1) Subgarments. Subgarments for the skirt try-on are a bra, panties, hosiery, the shirt and the oxford shoes. (2) Measurements. The waist, hip, and height measurements are required for selection of the proper size [",
+      "query": "Army uniform sizing technology pilot requirements"
+    },
+    {
+      "id": "S5",
+      "title": "Sizing Technology Pilot HQDA-G-4_26_01",
+      "url": "https://www.highergov.com/contract-opportunity/sizing-technology-pilot-hqda-g-4-26-01-o-ad0cf",
+      "snippet": "Period of Performance  \n The period of performance will be determined based on the awarded contracts following the pilot evaluations.  \n  \nPlace of Performance  \n UNITED STATES  \n  \nBidder Requirements [...] Sizing Technology Pilot\n\nThis Call for Solutions (CFS) is issued under the Army Open Solicitation (AOS) W9128Z-25-S-A002.\n\nThe Army Contracting Command-Aberdeen Proving Ground (ACC-APG) on behalf of the Headquarters Department of the Army (HQDA), G-4, is seeking innovative solutions capable ",
+      "query": "Recent Army footwear sizing automation contracts"
+    },
+    {
+      "id": "S7",
+      "title": "UK Supply of Combat Footwear Contract Notice | Joint Forces News",
+      "url": "https://www.joint-forces.com/footwear/71058-uk-supply-of-combat-footwear-contract-notice",
+      "snippet": "Skip to footer\n\nJoint Forces News\n\n) Delivery partner contracts (LCS (T)/0001 dated 16.4.2015) on behalf of the UK Ministry of Defence (the ‘Prime Contract’). Delivery of other parts of the LCS(T) contract are delivered by Leidos Europe Ltd (LEL) and other partners (together ‘Team Leidos’). This requirement is subject to the Public Procurement Regulations and respective advertising action. [...] By 2012 the best part of a decade of combat experience in Afghanistan and Iraq led to the British Arm",
+      "query": "Recent Army footwear sizing automation contracts"
+    },
+    {
+      "id": "S8",
+      "title": "SAM.gov",
+      "url": "https://sam.gov/workspace/contract/opp/949795a9bc7144db8da2bc4a9e1cde63/view",
+      "snippet": "## Description\n\n  \n\nSYNOPSIS: This Sources Sought Announcement is to assist the US Army DEVCOM Soldier Center to identify potential sources which will support the re-shoring of the domestic footwear industry, improve capabilities for the domestic military footwear industrial base, and ultimately provide the best performing footwear technology to the Warfighter. [...] Show Details) Jun 26, 2026 Following the implementation of revisions to the ISR eligibility logic within the Subcontracting Plan R",
+      "query": "Recent Army footwear sizing automation contracts"
+    },
+    {
+      "id": "S8",
+      "title": "How 3D Body Scanning Is Useful for Measurement Applications In the Medical Field [With Video] - GoMeasure3D",
+      "url": "https://gomeasure3d.com/article/how-3d-body-scanning-is-useful-for-measurement-applications-in-the-medical-field",
+      "snippet": "Because a 3D scanner is a non-contact measurement device, the practitioner doesn’t need to touch the subject when taking measurements. 3D scanning is less intrusive than traditional methods such as body fat calipers, tape measurements, etc. In special cases when contact with the patient’s body is not possible (i.e. burn victims, fragile injuries), medical practitioners can use non-contact 3D scanners to capture measurements of the face and body parts without any contact with the patient. This [.",
+      "query": "DoD non-contact body measurement solutions"
+    },
+    {
+      "id": "S9",
+      "title": "Body Scanning Solutions | Humanetics",
+      "url": "https://www.humaneticsgroup.com/products/body-scanning-solutions",
+      "snippet": "Humanetics ATD home\n\n## We make People Digital\n\n### Create your Digital Twin with 3D Body Scanning\n\n# Precision in 3D Body Scanning for Smarter Product Development\n\nAccurate body measurements are the foundation of great design, whether it’s for clothing, ergonomics, or medical applications. Our 3D body scanning technology, combined with Anthroscan software, provides a fast, precise, and non-contact way to capture human body dimensions, shapes, and postures. [...] ## Speak to an Expert\n\n##### Fil",
+      "query": "DoD non-contact body measurement solutions"
+    },
+    {
+      "id": "S10",
+      "title": "From Tailors to Tech: The Evolution of Measuring the Human Body",
+      "url": "https://3dmeasureup.ai/blog/from-tailors-to-tech-the-evolution-of-measuring-the-human-body",
+      "snippet": "Skip to content\n\n3D Measure Up Logo\n\n Solutions\n  + Virtual Try On\n  + Size Fit\n  + Body Metrics\n  + Capture\n Blogs\n Success Story\n Client Testimonials\n Contact Us\n\n Solutions\n  + Virtual Try On\n  + Size Fit\n  + Body Metrics\n  + Capture\n Blogs\n Success Story\n Client Testimonials\n Contact Us\n\n# From Tailors to Tech: The Evolution of Measuring the Human Body\n\nFrom Tailors to Tech The Evolution of Measuring the Human Body [...] In healthcare, precision is paramount. 3D Measure Up supports medical a",
+      "query": "DoD non-contact body measurement solutions"
+    },
+    {
+      "id": "S11",
+      "title": "VITRONIC Made-to-Measure Body Scan| VITRONIC",
+      "url": "https://www.vitronic.com/en-us/3d-bodyscan/body-scan-for-made-to-measure",
+      "snippet": "Contact us\n\n## For Taking Away and Passing On\n\nProduct StoryApplication Page 3D Body Scan for Made-to-Measure\n\nGröße\n:   0.64 MB\n\nTyp\n:   PDF\n\nDatei herunterladenDatei teilen\n\n## More solutions for your industry\n\n### Performance Diagnostics\n\nPrecise, reliable data to enhance athletic performance and sports medicine treatments.\n\nLearn more\n\n## Learn more\n\nCase Study\n\n### Advancing Performance\n\nCustom Compression Apparel Enabled by 3D Scanning Technology in Professional Sports\n\nLearn more [...] Ta",
+      "query": "DoD non-contact body measurement solutions"
+    }
+  ],
+  "supportedClaims": [
+    {
+      "text": "The Army seeks a mature commercial technology that automatically captures body and foot measurements without contact to recommend uniform and footwear sizes.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://discover.govdash.com/solicitations/01a11157-bba4-7078-9d6e-742c8677ce44--sizing-technology-pilot"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "This Call for Solutions is issued under the Army Open Solicitation W9128Z-25-S-A002 managed by ACC-APG on behalf of HQDA G-4.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://getbidrep.com/contract/b691c12b700848deb9876f9b1b5ad0cf"
+      ],
+      "status": "supported"
+    }
+  ],
+  "droppedClaims": [
+    {
+      "text": "Raytheon Company was awarded a $1,076,035,500 DoD contract for the MK 41 S-BAND Tactical Missile.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_N0002407C5431_9700_-NONE-_-NONE-"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (Unrelated contract)"
+    },
+    {
+      "text": "Accenture Federal Services LLC received an $896,468,884 DoD award for Unified Enterprise Resource Planning Capability Support Services.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_W52P1J20C0005_9700_-NONE-_-NONE-"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (Unrelated contract)"
+    },
+    {
+      "text": "Leidos, Inc. was awarded $572,997,098 by the Defense Health Agency for Enterprise Activities for MHS Genesis-Stage 9.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_HT003823F0011_9700_N0003915D0044_9700"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (Unrelated contract)"
+    }
+  ],
+  "verdict": {
+    "decision": "CONDITIONAL",
+    "confidence": "medium",
+    "rationale": [
+      {
+        "point": "The Army seeks a mature commercial technology for contactless body and foot measurement (claim #1), which is outside the company's demonstrated expertise in network monitoring and help desk services.",
+        "claimIds": [
+          1
+        ]
+      },
+      {
+        "point": "The Call for Solutions is issued under Army Open Solicitation W9128Z-25-S-A002 (claim #2), but the company has no known past performance with ACC-APG or HQDA G-4 and the set-aside is NONE, removing any 8(a) competitive advantage.",
+        "claimIds": [
+          2
+        ]
+      }
+    ],
+    "risks": [
+      "Significant technology gap: no existing product or relevant R&D for automated sizing capture.",
+      "Extremely short response window (due 2026-10-20) limits ability to form a credible team or proposal.",
+      "Full and open competition against likely larger, more experienced vendors in this niche.",
+      "Company's facility clearance not yet granted and FedRAMP not started may hinder compliance if a contract requires them."
+    ],
+    "nextSteps": [
+      "Immediately assess if any commercial-off-the-shelf sizing solution can be partnered with or resold under a teaming agreement.",
+      "Contact ACC-APG to clarify evaluation criteria and determine if a response without a mature prototype is viable.",
+      "Evaluate whether the 8(a) program can facilitate a mentor-protégé arrangement for this specific technology area.",
+      "Make a go/no-go decision by 2026-10-17 to allow minimal proposal preparation time."
+    ]
+  },
+  "approval": "pending",
+  "cost": {
+    "totalUsd": 0.0099837,
+    "byTier": {
+      "nano": {
+        "calls": 2,
+        "inputTokens": 1101,
+        "outputTokens": 1191,
+        "usd": 0.00035189999999999993
+      },
+      "super": {
+        "calls": 1,
+        "inputTokens": 3151,
+        "outputTokens": 1645,
+        "usd": 0.0024258
+      },
+      "ultra": {
+        "calls": 1,
+        "inputTokens": 675,
+        "outputTokens": 2177,
+        "usd": 0.007206
+      }
+    }
+  },
+  "calls": [
+    {
+      "tier": "nano",
+      "purpose": "classify requirement",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 212,
+      "outputTokens": 130,
+      "usd": 0.00004392,
+      "latencyMs": 841
+    },
+    {
+      "tier": "super",
+      "purpose": "synthesize sourced claims",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "inputTokens": 3151,
+      "outputTokens": 1645,
+      "usd": 0.0024258,
+      "latencyMs": 7492
+    },
+    {
+      "tier": "nano",
+      "purpose": "relevance and support check",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 889,
+      "outputTokens": 1061,
+      "usd": 0.00030797999999999996,
+      "latencyMs": 4344
+    },
+    {
+      "tier": "ultra",
+      "purpose": "final bid/no-bid verdict",
+      "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "inputTokens": 675,
+      "outputTokens": 2177,
+      "usd": 0.007206,
+      "latencyMs": 8742
+    }
+  ],
+  "errors": [],
+  "history": {
+    "total": 23759,
+    "smallBizAwards": 1428,
+    "medianAmount": 237131226.07,
+    "topRecipients": [
+      {
+        "name": "LEIDOS, INC.",
+        "count": 15,
+        "amount": 4184107184.3400006
+      },
+      {
+        "name": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "count": 6,
+        "amount": 2242641487.3199997
+      },
+      {
+        "name": "RAYTHEON COMPANY",
+        "count": 3,
+        "amount": 1847934253.78
+      },
+      {
+        "name": "ACCENTURE FEDERAL SERVICES LLC",
+        "count": 2,
+        "amount": 1214627081.88
+      },
+      {
+        "name": "AMENTUM TECHNOLOGY, INC.",
+        "count": 1,
+        "amount": 979192262.73
+      }
+    ]
+  },
+  "classification": {
+    "summary": "The Army needs a mature commercial technology that automatically captures body and foot measurements without contact to generate recommended uniform and footwear sizes, reducing bottlenecks and return rates.",
+    "queries": [
+      "Army uniform sizing technology pilot requirements",
+      "Recent Army footwear sizing automation contracts",
+      "DoD non-contact body measurement solutions"
+    ]
+  }
+}

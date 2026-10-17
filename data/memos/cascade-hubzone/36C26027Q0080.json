@@ -1,0 +1,377 @@
+{
+  "runId": "run-2026-10-17T00-57-58-052Z",
+  "createdAt": "2026-10-17T00:57:58.052Z",
+  "opportunity": {
+    "id": "36C26027Q0080",
+    "title": "Circle CVI software or equivalent for VA Portland Healthcare System",
+    "agency": "Department of Veterans Affairs",
+    "naics": "541519",
+    "setAside": "SBA",
+    "responseDeadline": "2026-11-03T13:00:00-07:00",
+    "placeOfPerformance": "OR",
+    "noticeType": "Combined Synopsis/Solicitation",
+    "description": "Combined synopsis/solicitation for commercial products and services under RFO 12.212(b)(1). Firm-fixed-price purchase order anticipated, set aside for small businesses (size standard 150 employees). The VA Portland Healthcare System seeks a base year plus two option years of Circle CVI or equivalent software and associated services. Service location: VA Portland Healthcare System, 3710 SW U.S. Veterans Hospital Road, Portland, OR. Base year 12/20/2026 to 12/19/2027, option years through 12/19/2029. Award based on the evaluation factors in Section E of the attached RFQ.",
+    "sourceUrl": "https://sam.gov/workspace/contract/opp/5b6aae4c101d46afa5df8b26f84130c4/view",
+    "retrievedFrom": "SAM.gov public notice data, 2026-10-16"
+  },
+  "profile": {
+    "_note": "FICTIONAL SAMPLE COMPANY for scenario testing. Not a real firm. Past performance and staffing are invented; only the NAICS codes, set-aside definitions and every opportunity and award figure used against it are real public data.",
+    "id": "cascade-hubzone",
+    "name": "Cascade HUBZone Software Co. (sample)",
+    "hqState": "OR",
+    "size": "small",
+    "fictional": true,
+    "naics": [
+      "541519",
+      "541511"
+    ],
+    "certifications": [
+      "SBA",
+      "HUBZONE"
+    ],
+    "placesOfPerformance": [
+      "OR",
+      "WA",
+      "REMOTE"
+    ],
+    "pastPerformance": "HUBZone-certified in rural Oregon. One VA medical-center scheduling tool (about $400K), one county health records integration ($300K).",
+    "capacityNotes": "Nine staff, all in the HUBZone. No clearance. Small, focused on clinical scheduling software.",
+    "verification": [
+      "NAICS codes confirmed against USAspending reference (api.usaspending.gov/api/v2/references/naics) on 2026-10-16.",
+      "Set-asides follow SBA definitions: SBA = small business, 8A = 8(a) Business Development, HUBZONE, WOSB/EDWOSB, SDVOSB."
+    ]
+  },
+  "gate": {
+    "pass": true,
+    "checks": [
+      {
+        "rule": "deadline",
+        "pass": true,
+        "reason": "Responses due 2026-11-03T13:00:00-07:00; still open."
+      },
+      {
+        "rule": "set_aside",
+        "pass": true,
+        "reason": "Set-aside SBA matches the company's certifications."
+      },
+      {
+        "rule": "naics",
+        "pass": true,
+        "reason": "NAICS 541519 is in the company's codes."
+      },
+      {
+        "rule": "place_of_performance",
+        "pass": true,
+        "reason": "Place of performance OR is within the company's coverage."
+      }
+    ]
+  },
+  "stoppedAtGate": false,
+  "sources": [
+    {
+      "id": "A1",
+      "title": "USAspending award VA11817F1888: DELL FEDERAL SYSTEMS L.P, $1,730,532,627",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_VA11817F1888_3600_GS35F0884P_4730",
+      "snippet": "2017-03-31 | Department of Veterans Affairs / Department of Veterans Affairs | THE PURPOSE OF THIS ACQUISITION IS TO PROVIDE THE DEPARTMENT OF VETERANS AFFAIRS WITH AN ENTERPRISE AGREEMENT FOR BRAND NAME MICROSOFT SOFTWARE PRODUCTS AND SERVICES.  THIS ENTERPRISE AGREEMENT WILL PROVIDE 1) SUPPORT SERVICES 2) OPERATIONAL SUPPORT AND 3) ADDITIONAL LICENSES OF MICROSOFT PRODUCTS, CURRENT AND PLANNED, ",
+      "query": "usaspending"
+    },
+    {
+      "id": "A2",
+      "title": "USAspending award 36C10B23F0172: V3GATE, LLC, $576,889,049",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B23F0172_3600_NNG15SD27B_8000",
+      "snippet": "2023-06-24 | Department of Veterans Affairs / Department of Veterans Affairs | AWARD NASA SEWP FOR SALESFORCE",
+      "query": "usaspending"
+    },
+    {
+      "id": "A3",
+      "title": "USAspending award 36C10B22F0207: FOUR POINTS TECHNOLOGY, L.L.C., $521,824,443",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B22F0207_3600_NNG15SD22B_8000",
+      "snippet": "2022-08-02 | Department of Veterans Affairs / Department of Veterans Affairs | ENTERPRISE CLOUD CAPACITY - AMAZON WEB SERVICES",
+      "query": "usaspending"
+    },
+    {
+      "id": "A4",
+      "title": "USAspending award VA11818F2526: ALL POINTS LOGISTICS, LLC, $491,391,043",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_VA11818F2526_3600_NNG15SC25B_8000",
+      "snippet": "2017-10-01 | Department of Veterans Affairs / Department of Veterans Affairs | IGF::OT::IGF PURCHASE OF INTERSYSTEMS CACHE' AND HEALTHSHARE SOFTWARE IN SUPPORT OF VETERANS INFORMATION SYSTEM AND TECHNOLOGY ARCHITECTURE (VISTA) PLATFORM AS WELL AS VA'S ELECTRONIC HEALTH RECORD (EHR) DATABASE.",
+      "query": "usaspending"
+    },
+    {
+      "id": "A5",
+      "title": "USAspending award 36C10B23F0007: ALL POINTS LOGISTICS, LLC, $432,610,032",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B23F0007_3600_NNG15SC25B_8000",
+      "snippet": "2022-10-01 | Department of Veterans Affairs / Department of Veterans Affairs | INTERSYSTEMS SOFTWARE MAINTENAINCE",
+      "query": "usaspending"
+    },
+    {
+      "id": "S1",
+      "title": "Contact Us | VA Portland Health Care | Veterans Affairs",
+      "url": "https://www.va.gov/portland-health-care/contact-us",
+      "snippet": "#### Media and other interview or government-related requests\n\nThe  Public and Congressional Affairs Office can assist local media with queries, general interview requests, and expert information about the Portland VA Health Care System. This office can also assist and coordinate with any federal, state and local government-related inquiries or requests for support.\n\nPhone:\n\n503-402-2975 (Portland)\n\n503-220-8262, ext. 35960 (Vancouver)\n\nEmail: VHAPOR-PublicAffairs@med.va.gov [...] Psychosocial R",
+      "query": "VA Portland Healthcare System procurement office contact"
+    },
+    {
+      "id": "S2",
+      "title": "Portland Veteran Affairs Medical System - Contacts/Resources - Official Website for Hood River County, OR",
+      "url": "https://www.hoodrivercounty.gov/index.asp?SEC=33528491-0F8B-419A-B44E-03835CBE3E57&DE=51A90C8E-584A-49D0-AA16-9E35F9DE794E",
+      "snippet": "| Purchased Care Authorization Unit; VA Choice and Non VA Care Assistance | Portland VA Medical Center | 360-759-1674 |\n| R |\n| Rehabilitation - Veterans Recovery House, a Residential Rehabilitation Treatment Program (RRTP) | Vancouver Division of VA Portland Health Care System at 1601 East Fourth Plain Blvd., Vancouver WA, 98661 | 503-220-8262 Ext. 33621 |\n| Rehabilitation and Long Term Care Division | various locations across Portland, Vancouver, and CBOCS | 503-220-8262 800-949-1004 | [...] |",
+      "query": "VA Portland Healthcare System procurement office contact"
+    },
+    {
+      "id": "S3",
+      "title": "VA Portland Health Care | Veterans Affairs",
+      "url": "https://www.va.gov/portland-health-care",
+      "snippet": "At VA Portland Health Care System, our health care teams are deeply experienced and guided by the needs of Veterans, their families, and caregivers. Find a health facility near you, and manage your health online. Sign up for community events and updates.\n\n## Locations\n\n### \n\n1601 East 4th Plain Boulevard  \nVancouver, WA 98661-3753\n\nMain phone: ,\n\nVA health connect:\n\nMental health care:\n\nVancouver VA Medical Center, formerly Portland VA Medical Center-Vancouver\n\n### [...] ### \n\n3710 Southwest US ",
+      "query": "VA Portland Healthcare System procurement office contact"
+    },
+    {
+      "id": "S4",
+      "title": "VA Portland Health Care System",
+      "url": "https://www.linkedin.com/company/va-portland-health-care-system",
+      "snippet": "## Leadership\n- Joseph Gallegos, Chief Financial Officer\n- David Hobin, Facility Chief Logistics Officer [...] # VA Portland Health Care System [...] Description: VA Portland Health Care System provides you with outstanding health care, trains America’s future health care providers, and conducts important medical research. VA Portland Health Care System serves more than 95,000 unique Veterans and 950,000 outpatient visits each year in Oregon and Southwest Washington.\nLinkedIn:  · 2,180 followers",
+      "query": "VA Portland Healthcare System procurement office contact"
+    },
+    {
+      "id": "S5",
+      "title": "7A20--Licensing and service for MRI and CT Circle CV142 postprocessing software in support of VA Portland Healthcare System, Portland OR",
+      "url": "https://sam.gov/opp/1d97feb76ce74435ab16a28fcbad2dea/view",
+      "snippet": "Equipment Support Specialist or designee in 1D106-100-p 6. Other Pertinent Information or Special Considerations. The contractor shall provide service engineers that have specialized experience with Circle CVI42 systems. The contractor s services engineers must be original equipment manufacturer (OEM) trained on the software, and have a valid training certificate that is kept up to date. The contractor s service engineer shall have fast access to troubleshooting and ability to elevate [...] of V",
+      "query": "Circle CVI incumbent contractor at VA Portland"
+    },
+    {
+      "id": "S6",
+      "title": "Cardiovascular Imaging Software | Circle CVI | Global",
+      "url": "https://www.circlecvi.com/about",
+      "snippet": "Kevin is a cardiologist with over 20 years of experience in cardiac imaging. He currently leads a busy cardiac imaging service in Bellingham, Washington and has played a key role in developing advanced cardiac imaging programs across multiple hospital systems and government healthcare institutions. Kevin also has 20 years of experience in the United States Air Force where he was Program Director for the largest joint Air Force/Army cardiovascular fellowship program in the Department of [...] Qia",
+      "query": "Circle CVI incumbent contractor at VA Portland"
+    },
+    {
+      "id": "S7",
+      "title": "Circle Cardiovascular Imaging Announces Strategic Growth Investment from Thoma Bravo | Thoma Bravo",
+      "url": "https://www.thomabravo.com/press-releases/circle-cardiovascular-imaging-announces-strategic-growth-investment-from-thoma-bravo",
+      "snippet": "Circle CVI is the leading provider of AI-based cardiac imaging and reporting solutions, including cardiac MRI (\"CMR\") and cardiac computerized tomography (\"CT\") imaging post-processing software. The company has developed a deep portfolio of specialized, accurate and intuitive solutions that enable physicians to deliver the highest quality care to their patients. Circle CVI's solutions are an integral part of precision medicine and are now used by thousands of clinical users, at both hospitals [.",
+      "query": "Circle CVI incumbent contractor at VA Portland"
+    },
+    {
+      "id": "S8",
+      "title": "VA Portland Outpatient Clinic | SmithGroup",
+      "url": "https://www.smithgroup.com/projects/veterans-affairs-portland-outpatient-clinic",
+      "snippet": "A two-story glass cube, adorned with graphics of service members, creates a bold entrance to the site. A landscaped plaza with a drop-off circle links the main entrance with an adjacent three-story parking garage. The parking garage is a departure from VA design standards but provides easier access into the medical center on such a linear site. The clinical spaces use the VA’s Patient Aligned Care Team (PACT) template for all outpatient services, including cardiology, radiology, mental health, [",
+      "query": "Circle CVI incumbent contractor at VA Portland"
+    },
+    {
+      "id": "S9",
+      "title": "VA Makes Awards Totaling up to $22.3 Billion to Make Information Technology Upgrades - VA News",
+      "url": "https://news.va.gov/press-room/va-makes-awards-totaling-up-to-22-3-billion-to-make-information-technology-upgrades",
+      "snippet": "The awards are part of VA’s Transformation Twenty-One Total Technology Next Generation acquisition program, also known as T4NG. Specifically, T4NG will deliver contractor-provided information technology service solutions, including technical support; program management; strategy planning; systems/software engineering; enterprise network engineering; cyber security; among other IT- and health-related IT requirements. The T4NG contract awards support the Department’s MyVA transformation effort, [.",
+      "query": "Recent VA Portland contract awards 2026-2029 software"
+    },
+    {
+      "id": "S10",
+      "title": "VA awards second option period to Oracle Health in support of Federal Electronic Health Record modernization contract - VA EHR Modernization",
+      "url": "https://digital.va.gov/ehr-modernization/news-releases/va-awards-second-option-period-to-oracle-health-in-support-of-federal-electronic-health-record-modernization-contract",
+      "snippet": "For more information about VA’s overall EHR modernization effort, visit .\n\nOriginally published by Office of Public and Intergovernmental Affairs\n\n### More Stories\n\n VA deploys electronic health record system to three hospitals in Indiana\n\n  News Releases\n\n  | August 24, 2026\n\n  ### VA deploys electronic health record system to three hospitals in Indiana [...] News Releases\n\n  | April 13, 2026\n\n  ### VA health record system back on track with Michigan deployments\n\n  WASHINGTON — The Department o",
+      "query": "Recent VA Portland contract awards 2026-2029 software"
+    },
+    {
+      "id": "S11",
+      "title": "VA National Acquisition Center Contract Catalog Search Tool",
+      "url": "https://www.vendorportal.ecms.va.gov/NAC",
+      "snippet": "Veterans Health Administration\n Veterans Benefits Administration\n National Cemetery Administration\n\nU.S. Department of Veterans Affairs | 810 Vermont Avenue, NW Washington DC 20420\n\nVersion: 26.3.0.0 | Reviewed/Updated Date: 05/07/2026 - 11:46 AM",
+      "query": "Recent VA Portland contract awards 2026-2029 software"
+    },
+    {
+      "id": "S12",
+      "title": "VA awards $686M cloud, digital transformation contract | FedScoop",
+      "url": "https://fedscoop.com/veterans-affairs-digital-transformation-b3-group",
+      "snippet": "Advertisement\n\nFedScoop [...] According to B3, the contract supports several high-profile programs and systems at VA, including the Caregiver Record Management Application (CARMA), VA Loan Electronic Reporting Interface (VALERI-R), White House VA Hotline, Status Query and Response Exchange System (SQUARES) for Homeless Veterans, and VA Integrated Enterprise Workflow Solution (VIEWS) Case and Correspondence.\n\nShare\n\n Facebook\n LinkedIn\n Twitter\n\nAdvertisement\n\nAdvertisement\n\n## More Like This [..",
+      "query": "Recent VA Portland contract awards 2026-2029 software"
+    }
+  ],
+  "supportedClaims": [
+    {
+      "text": "The VA Portland Healthcare System is seeking a firm-fixed-price contract for Circle CVI or equivalent software with associated services.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://sam.gov/opp/1d97feb76ce74435ab16a28fcbad2dea/view"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "Circle CVI provides AI-based cardiac imaging and reporting solutions, including cardiac MRI and CT post‑processing software.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.thomabravo.com/press-releases/circle-cardiovascular-imaging-announces-strategic-growth-investment-from-thoma-bravo"
+      ],
+      "status": "supported"
+    }
+  ],
+  "droppedClaims": [
+    {
+      "text": "Dell Federal Systems was awarded a $1,730,532,627 VA contract for an enterprise agreement for Microsoft software products and services.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_VA11817F1888_3600_GS35F0884P_4730"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (different contract)"
+    },
+    {
+      "text": "V3Gate, LLC received a $576,889,049 VA award for NASA SEWP for Salesforce.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_36C10B23F0172_3600_NNG15SD27B_8000"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (different contract)"
+    },
+    {
+      "text": "Four Points Technology, L.L.C. was awarded $521,824,443 by the VA for Amazon Web Services enterprise cloud capacity.",
+      "kind": "fact",
+      "sourceUrls": [
+        "https://www.usaspending.gov/award/CONT_AWD_36C10B22F0207_3600_NNG15SD22B_8000"
+      ],
+      "status": "dropped",
+      "reason": "relevance check: not relevant to this opportunity (different contract)"
+    }
+  ],
+  "verdict": {
+    "decision": "NO_BID",
+    "confidence": "medium",
+    "rationale": [
+      {
+        "point": "The opportunity requires AI-based cardiac imaging and reporting solutions (Claim #2), which is outside the company's demonstrated expertise in clinical scheduling and health records integration (company profile pastPerformance).",
+        "claimIds": [
+          2
+        ]
+      },
+      {
+        "point": "The firm-fixed-price contract (Claim #1) for specialized medical imaging software poses high technical and financial risk for a 9-person firm with no clearance and no relevant past performance (company profile capacityNotes, pastPerformance).",
+        "claimIds": [
+          1
+        ]
+      },
+      {
+        "point": "While the company meets eligibility (SBA set-aside, NAICS 541519, place of performance OR), the technical mismatch suggests low probability of competitive proposal.",
+        "claimIds": [
+          1,
+          2
+        ]
+      }
+    ],
+    "risks": [
+      "Significant technical capability gap in cardiac imaging AI software",
+      "Firm-fixed-price exposure with no relevant performance history",
+      "Lack of past performance in medical imaging or AI/ML domains",
+      "Potential need for teaming partners not currently identified"
+    ],
+    "nextSteps": [
+      "Assess availability of teaming partners with cardiac imaging expertise",
+      "Evaluate feasibility of acquiring or developing equivalent software within timeline",
+      "Focus business development on opportunities aligned with clinical scheduling and health records integration"
+    ]
+  },
+  "approval": "pending",
+  "cost": {
+    "totalUsd": 0.00748842,
+    "byTier": {
+      "nano": {
+        "calls": 2,
+        "inputTokens": 1285,
+        "outputTokens": 1683,
+        "usd": 0.00048101999999999997
+      },
+      "super": {
+        "calls": 1,
+        "inputTokens": 3384,
+        "outputTokens": 1758,
+        "usd": 0.0025974
+      },
+      "ultra": {
+        "calls": 1,
+        "inputTokens": 630,
+        "outputTokens": 1260,
+        "usd": 0.00441
+      }
+    }
+  },
+  "calls": [
+    {
+      "tier": "nano",
+      "purpose": "classify requirement",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 258,
+      "outputTokens": 509,
+      "usd": 0.00013764,
+      "latencyMs": 1769
+    },
+    {
+      "tier": "super",
+      "purpose": "synthesize sourced claims",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "inputTokens": 3384,
+      "outputTokens": 1758,
+      "usd": 0.0025974,
+      "latencyMs": 8079
+    },
+    {
+      "tier": "nano",
+      "purpose": "relevance and support check",
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "inputTokens": 1027,
+      "outputTokens": 1174,
+      "usd": 0.00034338,
+      "latencyMs": 3730
+    },
+    {
+      "tier": "ultra",
+      "purpose": "final bid/no-bid verdict",
+      "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "inputTokens": 630,
+      "outputTokens": 1260,
+      "usd": 0.00441,
+      "latencyMs": 4032
+    }
+  ],
+  "errors": [],
+  "history": {
+    "total": 8383,
+    "smallBizAwards": 4051,
+    "medianAmount": 99544664.92,
+    "topRecipients": [
+      {
+        "name": "V3GATE, LLC",
+        "count": 9,
+        "amount": 1822985369.11
+      },
+      {
+        "name": "DELL FEDERAL SYSTEMS L.P",
+        "count": 1,
+        "amount": 1730532626.58
+      },
+      {
+        "name": "ALL POINTS LOGISTICS, LLC",
+        "count": 2,
+        "amount": 924001075
+      },
+      {
+        "name": "FOUR POINTS TECHNOLOGY, L.L.C.",
+        "count": 2,
+        "amount": 758490400.47
+      },
+      {
+        "name": "COLOSSAL CONTRACTING LLC",
+        "count": 2,
+        "amount": 524224367.96
+      }
+    ]
+  },
+  "classification": {
+    "summary": "The VA Portland Healthcare System is seeking a firm‑fixed‑price contract for Circle CVI or an equivalent software solution with associated services, covering a base year from 12/20/2026 to 12/19/2027 and two option years through 12/19/2029, set aside for small businesses.",
+    "queries": [
+      "VA Portland Healthcare System procurement office contact",
+      "Circle CVI incumbent contractor at VA Portland",
+      "Recent VA Portland contract awards 2026-2029 software"
+    ]
+  }
+}
