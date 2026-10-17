@@ -2,7 +2,9 @@
 
 **Should a small federal contractor bid on this opportunity?** BidVerdict gives a sourced bid / no-bid memo in minutes. Rules are checked in code first, award history comes from government records, live research comes from Tavily, NVIDIA Nemotron on Nebius Token Factory writes the reasoning, and nothing is final until a human approves it. Every model call, cost and decision goes into a ledger you can replay.
 
-> Status: day 1 of the build (Oct 16, 2026) for the Nebius x NVIDIA Global AI Hackathon, Best Apps and Agents track. Sections below describe only what exists now. Unbuilt features are not claimed.
+> Built for the Nebius x NVIDIA Global AI Hackathon, Best Apps and Agents track. Sections below describe only what exists now. Unbuilt features are not claimed.
+
+**Measured so far (Oct 16, 2026):** the eligibility gate is correct on 17 of 17 deterministic test cases. On 7 real SAM.gov opportunities labeled blind by one human for a fictional demo company, the agent matched the label on 3 of 7; all 4 misses were more cautious than the human, none was a BID where the human said NO-BID. Tiny sample, one labeler, so treat it as anecdotal. Each memo costs about 1 cent. Runs are not fully deterministic: the same case can flip between CONDITIONAL and NO-BID, or abstain with INSUFFICIENT_EVIDENCE, between runs.
 
 ## What it does
 
@@ -11,8 +13,8 @@
 3. **Live research (Tavily).** The buyer and the requirement, with each result kept as a source.
 4. **Nemotron reasoning, by tier.** Nano classifies, Super synthesizes the evidence, Ultra writes only the final verdict.
 5. **Source validator (code).** Any claim that cites no source, or cites a URL that is not in this run's evidence, is dropped before a human sees it. The drop is logged.
-6. **Human approval.** Approve, reject or send back, logged. *(Oct 19)*
-7. **Ledger and replay.** Every call and decision, with tokens, cost and latency. Finished cases replay at $0. *(Oct 20)*
+6. **Human approval.** Approve, reject or send back, logged. 
+7. **Ledger and replay.** Every call and decision, with tokens, cost and latency. Finished cases replay at $0. 
 
 ## How NVIDIA Nemotron is used
 
@@ -44,7 +46,8 @@ Nebius Token Factory has no documented spending cap and charges the card automat
 ```bash
 npm install
 cp .env.example .env      # then add NEBIUS_API_KEY and TAVILY_API_KEY
-npm test                  # gate, validator and budget tests (no keys needed)
+npm test                  # gate, validator, budget and pipeline tests (no keys needed)
+npm run run -- <opportunity-id>   # run the full pipeline on one case (needs both keys)
 npm run history           # USAspending award history check (no keys needed)
 npm run models            # confirm the Nemotron model IDs your key can use
 npm run smoke             # one tiny live call per tier, logged (costs a fraction of a cent)
