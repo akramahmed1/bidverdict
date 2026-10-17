@@ -15,6 +15,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           <nav className="nav">
             <Link href="/" className="brand">BidVerdict</Link>
             <Link href="/">Opportunities</Link>
+            <Link href="/eval">Accuracy</Link>
             <Link href="/ledger">Ledger</Link>
             <a href="https://github.com/akramahmed1/bidverdict">Source</a>
           </nav>

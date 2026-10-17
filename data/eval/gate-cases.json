@@ -1,0 +1,596 @@
+{
+ "_note": "Gate eval. Expected results were written by the author from the stated rules (set-aside eligibility, NAICS match, place of performance, deadline), before looking at gate output. Score = cases where gate pass/fail and the exact set of failed rules both match.",
+ "cases": [
+  {
+   "name": "open deadline, no set-aside, matching NAICS and state",
+   "opportunity": {
+    "id": "x",
+    "title": "t",
+    "agency": "a",
+    "naics": "541512",
+    "setAside": "NONE",
+    "responseDeadline": "2026-12-01T12:00:00-06:00",
+    "placeOfPerformance": "IL",
+    "description": "d"
+   },
+   "profile": {
+    "id": "p",
+    "name": "Eval Co",
+    "naics": [
+     "541512",
+     "541511"
+    ],
+    "certifications": [
+     "SBA",
+     "WOSB"
+    ],
+    "placesOfPerformance": [
+     "IL",
+     "VA"
+    ],
+    "pastPerformance": "",
+    "capacityNotes": ""
+   },
+   "now": "2026-10-16T12:00:00Z",
+   "expectPass": true,
+   "expectFailedRules": []
+  },
+  {
+   "name": "deadline already passed",
+   "opportunity": {
+    "id": "x",
+    "title": "t",
+    "agency": "a",
+    "naics": "541512",
+    "setAside": "NONE",
+    "responseDeadline": "2026-10-01T12:00:00-05:00",
+    "placeOfPerformance": "IL",
+    "description": "d"
+   },
+   "profile": {
+    "id": "p",
+    "name": "Eval Co",
+    "naics": [
+     "541512",
+     "541511"
+    ],
+    "certifications": [
+     "SBA",
+     "WOSB"
+    ],
+    "placesOfPerformance": [
+     "IL",
+     "VA"
+    ],
+    "pastPerformance": "",
+    "capacityNotes": ""
+   },
+   "now": "2026-10-16T12:00:00Z",
+   "expectPass": false,
+   "expectFailedRules": [
+    "deadline"
+   ]
+  },
+  {
+   "name": "deadline is the exact current instant (not still open)",
+   "opportunity": {
+    "id": "x",
+    "title": "t",
+    "agency": "a",
+    "naics": "541512",
+    "setAside": "NONE",
+    "responseDeadline": "2026-10-16T12:00:00Z",
+    "placeOfPerformance": "IL",
+    "description": "d"
+   },
+   "profile": {
+    "id": "p",
+    "name": "Eval Co",
+    "naics": [
+     "541512",
+     "541511"
+    ],
+    "certifications": [
+     "SBA",
+     "WOSB"
+    ],
+    "placesOfPerformance": [
+     "IL",
+     "VA"
+    ],
+    "pastPerformance": "",
+    "capacityNotes": ""
+   },
+   "now": "2026-10-16T12:00:00Z",
+   "expectPass": false,
+   "expectFailedRules": [
+    "deadline"
+   ]
+  },
+  {
+   "name": "deadline missing timezone offset is refused",
+   "opportunity": {
+    "id": "x",
+    "title": "t",
+    "agency": "a",
+    "naics": "541512",
+    "setAside": "NONE",
+    "responseDeadline": "2026-12-01T12:00:00",
+    "placeOfPerformance": "IL",
+    "description": "d"
+   },
+   "profile": {
+    "id": "p",
+    "name": "Eval Co",
+    "naics": [
+     "541512",
+     "541511"
+    ],
+    "certifications": [
+     "SBA",
+     "WOSB"
+    ],
+    "placesOfPerformance": [
+     "IL",
+     "VA"
+    ],
+    "pastPerformance": "",
+    "capacityNotes": ""
+   },
+   "now": "2026-10-16T12:00:00Z",
+   "expectPass": false,
+   "expectFailedRules": [
+    "deadline"
+   ]
+  },
+  {
+   "name": "8(a) set-aside, company lacks 8(a)",
+   "opportunity": {
+    "id": "x",
+    "title": "t",
+    "agency": "a",
+    "naics": "541512",
+    "setAside": "8A",
+    "responseDeadline": "2026-12-01T12:00:00-06:00",
+    "placeOfPerformance": "IL",
+    "description": "d"
+   },
+   "profile": {
+    "id": "p",
+    "name": "Eval Co",
+    "naics": [
+     "541512",
+     "541511"
+    ],
+    "certifications": [
+     "SBA",
+     "WOSB"
+    ],
+    "placesOfPerformance": [
+     "IL",
+     "VA"
+    ],
+    "pastPerformance": "",
+    "capacityNotes": ""
+   },
+   "now": "2026-10-16T12:00:00Z",
+   "expectPass": false,
+   "expectFailedRules": [
+    "set_aside"
+   ]
+  },
+  {
+   "name": "WOSB set-aside, company holds WOSB",
+   "opportunity": {
+    "id": "x",
+    "title": "t",
+    "agency": "a",
+    "naics": "541512",
+    "setAside": "WOSB",
+    "responseDeadline": "2026-12-01T12:00:00-06:00",
+    "placeOfPerformance": "IL",
+    "description": "d"
+   },
+   "profile": {
+    "id": "p",
+    "name": "Eval Co",
+    "naics": [
+     "541512",
+     "541511"
+    ],
+    "certifications": [
+     "SBA",
+     "WOSB"
+    ],
+    "placesOfPerformance": [
+     "IL",
+     "VA"
+    ],
+    "pastPerformance": "",
+    "capacityNotes": ""
+   },
+   "now": "2026-10-16T12:00:00Z",
+   "expectPass": true,
+   "expectFailedRules": []
+  },
+  {
+   "name": "WOSB set-aside, company holds only EDWOSB-less SBA",
+   "opportunity": {
+    "id": "x",
+    "title": "t",
+    "agency": "a",
+    "naics": "541512",
+    "setAside": "WOSB",
+    "responseDeadline": "2026-12-01T12:00:00-06:00",
+    "placeOfPerformance": "IL",
+    "description": "d"
+   },
+   "profile": {
+    "id": "p",
+    "name": "Eval Co",
+    "naics": [
+     "541512",
+     "541511"
+    ],
+    "certifications": [
+     "SBA"
+    ],
+    "placesOfPerformance": [
+     "IL",
+     "VA"
+    ],
+    "pastPerformance": "",
+    "capacityNotes": ""
+   },
+   "now": "2026-10-16T12:00:00Z",
+   "expectPass": false,
+   "expectFailedRules": [
+    "set_aside"
+   ]
+  },
+  {
+   "name": "WOSB set-aside, company holds EDWOSB (qualifies)",
+   "opportunity": {
+    "id": "x",
+    "title": "t",
+    "agency": "a",
+    "naics": "541512",
+    "setAside": "WOSB",
+    "responseDeadline": "2026-12-01T12:00:00-06:00",
+    "placeOfPerformance": "IL",
+    "description": "d"
+   },
+   "profile": {
+    "id": "p",
+    "name": "Eval Co",
+    "naics": [
+     "541512",
+     "541511"
+    ],
+    "certifications": [
+     "EDWOSB"
+    ],
+    "placesOfPerformance": [
+     "IL",
+     "VA"
+    ],
+    "pastPerformance": "",
+    "capacityNotes": ""
+   },
+   "now": "2026-10-16T12:00:00Z",
+   "expectPass": true,
+   "expectFailedRules": []
+  },
+  {
+   "name": "EDWOSB set-aside, company holds only WOSB",
+   "opportunity": {
+    "id": "x",
+    "title": "t",
+    "agency": "a",
+    "naics": "541512",
+    "setAside": "EDWOSB",
+    "responseDeadline": "2026-12-01T12:00:00-06:00",
+    "placeOfPerformance": "IL",
+    "description": "d"
+   },
+   "profile": {
+    "id": "p",
+    "name": "Eval Co",
+    "naics": [
+     "541512",
+     "541511"
+    ],
+    "certifications": [
+     "WOSB"
+    ],
+    "placesOfPerformance": [
+     "IL",
+     "VA"
+    ],
+    "pastPerformance": "",
+    "capacityNotes": ""
+   },
+   "now": "2026-10-16T12:00:00Z",
+   "expectPass": false,
+   "expectFailedRules": [
+    "set_aside"
+   ]
+  },
+  {
+   "name": "SDVOSB set-aside, company has none",
+   "opportunity": {
+    "id": "x",
+    "title": "t",
+    "agency": "a",
+    "naics": "541512",
+    "setAside": "SDVOSB",
+    "responseDeadline": "2026-12-01T12:00:00-06:00",
+    "placeOfPerformance": "IL",
+    "description": "d"
+   },
+   "profile": {
+    "id": "p",
+    "name": "Eval Co",
+    "naics": [
+     "541512",
+     "541511"
+    ],
+    "certifications": [],
+    "placesOfPerformance": [
+     "IL",
+     "VA"
+    ],
+    "pastPerformance": "",
+    "capacityNotes": ""
+   },
+   "now": "2026-10-16T12:00:00Z",
+   "expectPass": false,
+   "expectFailedRules": [
+    "set_aside"
+   ]
+  },
+  {
+   "name": "NAICS not in company codes",
+   "opportunity": {
+    "id": "x",
+    "title": "t",
+    "agency": "a",
+    "naics": "238220",
+    "setAside": "NONE",
+    "responseDeadline": "2026-12-01T12:00:00-06:00",
+    "placeOfPerformance": "IL",
+    "description": "d"
+   },
+   "profile": {
+    "id": "p",
+    "name": "Eval Co",
+    "naics": [
+     "541512",
+     "541511"
+    ],
+    "certifications": [
+     "SBA",
+     "WOSB"
+    ],
+    "placesOfPerformance": [
+     "IL",
+     "VA"
+    ],
+    "pastPerformance": "",
+    "capacityNotes": ""
+   },
+   "now": "2026-10-16T12:00:00Z",
+   "expectPass": false,
+   "expectFailedRules": [
+    "naics"
+   ]
+  },
+  {
+   "name": "company with no NAICS codes registered",
+   "opportunity": {
+    "id": "x",
+    "title": "t",
+    "agency": "a",
+    "naics": "541512",
+    "setAside": "NONE",
+    "responseDeadline": "2026-12-01T12:00:00-06:00",
+    "placeOfPerformance": "IL",
+    "description": "d"
+   },
+   "profile": {
+    "id": "p",
+    "name": "Eval Co",
+    "naics": [],
+    "certifications": [
+     "SBA",
+     "WOSB"
+    ],
+    "placesOfPerformance": [
+     "IL",
+     "VA"
+    ],
+    "pastPerformance": "",
+    "capacityNotes": ""
+   },
+   "now": "2026-10-16T12:00:00Z",
+   "expectPass": false,
+   "expectFailedRules": [
+    "naics"
+   ]
+  },
+  {
+   "name": "place outside coverage",
+   "opportunity": {
+    "id": "x",
+    "title": "t",
+    "agency": "a",
+    "naics": "541512",
+    "setAside": "NONE",
+    "responseDeadline": "2026-12-01T12:00:00-06:00",
+    "placeOfPerformance": "TX",
+    "description": "d"
+   },
+   "profile": {
+    "id": "p",
+    "name": "Eval Co",
+    "naics": [
+     "541512",
+     "541511"
+    ],
+    "certifications": [
+     "SBA",
+     "WOSB"
+    ],
+    "placesOfPerformance": [
+     "IL",
+     "VA"
+    ],
+    "pastPerformance": "",
+    "capacityNotes": ""
+   },
+   "now": "2026-10-16T12:00:00Z",
+   "expectPass": false,
+   "expectFailedRules": [
+    "place_of_performance"
+   ]
+  },
+  {
+   "name": "remote work is always in coverage",
+   "opportunity": {
+    "id": "x",
+    "title": "t",
+    "agency": "a",
+    "naics": "541512",
+    "setAside": "NONE",
+    "responseDeadline": "2026-12-01T12:00:00-06:00",
+    "placeOfPerformance": "REMOTE",
+    "description": "d"
+   },
+   "profile": {
+    "id": "p",
+    "name": "Eval Co",
+    "naics": [
+     "541512",
+     "541511"
+    ],
+    "certifications": [
+     "SBA",
+     "WOSB"
+    ],
+    "placesOfPerformance": [
+     "IL"
+    ],
+    "pastPerformance": "",
+    "capacityNotes": ""
+   },
+   "now": "2026-10-16T12:00:00Z",
+   "expectPass": true,
+   "expectFailedRules": []
+  },
+  {
+   "name": "place not stated in notice passes with a verify note",
+   "opportunity": {
+    "id": "x",
+    "title": "t",
+    "agency": "a",
+    "naics": "541512",
+    "setAside": "NONE",
+    "responseDeadline": "2026-12-01T12:00:00-06:00",
+    "placeOfPerformance": "UNSPECIFIED",
+    "description": "d"
+   },
+   "profile": {
+    "id": "p",
+    "name": "Eval Co",
+    "naics": [
+     "541512",
+     "541511"
+    ],
+    "certifications": [
+     "SBA",
+     "WOSB"
+    ],
+    "placesOfPerformance": [
+     "IL",
+     "VA"
+    ],
+    "pastPerformance": "",
+    "capacityNotes": ""
+   },
+   "now": "2026-10-16T12:00:00Z",
+   "expectPass": true,
+   "expectFailedRules": []
+  },
+  {
+   "name": "company covers ANY state",
+   "opportunity": {
+    "id": "x",
+    "title": "t",
+    "agency": "a",
+    "naics": "541512",
+    "setAside": "NONE",
+    "responseDeadline": "2026-12-01T12:00:00-06:00",
+    "placeOfPerformance": "HI",
+    "description": "d"
+   },
+   "profile": {
+    "id": "p",
+    "name": "Eval Co",
+    "naics": [
+     "541512",
+     "541511"
+    ],
+    "certifications": [
+     "SBA",
+     "WOSB"
+    ],
+    "placesOfPerformance": [
+     "ANY"
+    ],
+    "pastPerformance": "",
+    "capacityNotes": ""
+   },
+   "now": "2026-10-16T12:00:00Z",
+   "expectPass": true,
+   "expectFailedRules": []
+  },
+  {
+   "name": "several failures are all reported",
+   "opportunity": {
+    "id": "x",
+    "title": "t",
+    "agency": "a",
+    "naics": "238220",
+    "setAside": "8A",
+    "responseDeadline": "2026-12-01T12:00:00-06:00",
+    "placeOfPerformance": "TX",
+    "description": "d"
+   },
+   "profile": {
+    "id": "p",
+    "name": "Eval Co",
+    "naics": [
+     "541512",
+     "541511"
+    ],
+    "certifications": [
+     "SBA",
+     "WOSB"
+    ],
+    "placesOfPerformance": [
+     "IL",
+     "VA"
+    ],
+    "pastPerformance": "",
+    "capacityNotes": ""
+   },
+   "now": "2026-10-16T12:00:00Z",
+   "expectPass": false,
+   "expectFailedRules": [
+    "set_aside",
+    "naics",
+    "place_of_performance"
+   ]
+  }
+ ]
+}

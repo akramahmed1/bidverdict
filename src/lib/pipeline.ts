@@ -191,7 +191,7 @@ export async function runPipeline(
       const items = supported.map((c, i) => ({
         n: i + 1,
         claim: c.text,
-        sourceText: c.sourceUrls.map((u) => byUrl.get(normalizeUrl(u))?.snippet ?? "").join(" | ").slice(0, 1200),
+        sourceText: c.sourceUrls.map((u) => { const src = byUrl.get(normalizeUrl(u)); return src ? `${src.title}. ${src.snippet}` : ""; }).join(" | ").slice(0, 1400),
       }));
       type Rel = { checks: { n: number; supported: "yes" | "partial" | "no"; relevant: "yes" | "no"; reason: string }[] };
       const relMessages: ChatMessage[] = [
