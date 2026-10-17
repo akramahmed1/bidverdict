@@ -38,7 +38,7 @@ p { margin: 0 0 12px; }
 .chip.plain { --b:var(--rule2); --c:var(--ink2); font-weight:500; }
 
 /* home */
-.split { display:grid; grid-template-columns: 300px 1fr; gap:48px; align-items:start; }
+.split { display:grid; grid-template-columns: minmax(220px,280px) minmax(0,1fr); gap:40px; align-items:start; }
 .rail { position:sticky; top:20px; }
 .rail h2 { font-size:15px; font-family:var(--sans); font-weight:600; margin:0 0 10px; color:var(--ink2); }
 .company { display:block; padding:10px 12px; margin:0 -12px; border-radius:8px; text-decoration:none; border-left:3px solid transparent; }
@@ -67,7 +67,7 @@ p { margin: 0 0 12px; }
 .case-head p { color:var(--ink2); font-size:15px; margin:10px 0 0; }
 .facts { display:flex; flex-wrap:wrap; gap:6px 22px; font-size:14px; color:var(--ink2); margin-top:12px; }
 .facts b { color:var(--ink); font-weight:600; }
-.case-grid { display:grid; grid-template-columns: minmax(0,1fr) 320px; gap:56px; margin-top:36px; align-items:start; }
+.case-grid { display:grid; grid-template-columns: minmax(0,1fr) minmax(240px,320px); gap:48px; margin-top:36px; align-items:start; }
 .verdict-block { padding:6px 0 26px; border-bottom:1px solid var(--rule); }
 .verdict-word { font-family:var(--serif); font-size:clamp(56px, 9vw, 96px); font-weight:600; line-height:.95; letter-spacing:-0.03em; color:var(--c); margin:0; }
 .verdict-sub { display:flex; align-items:center; gap:14px; margin-top:14px; font-size:15px; color:var(--ink2); }
@@ -117,8 +117,11 @@ textarea { width:100%; font:inherit; padding:10px; border-radius:8px; border:1px
 .legend { display:flex; gap:20px; flex-wrap:wrap; font-size:13px; color:var(--ink2); margin:18px 0; align-items:center; }
 .legend .cell { width:20px; height:20px; font-size:11px; display:inline-grid; vertical-align:middle; margin-right:6px; }
 
-@media (max-width: 880px) {
-  .split, .case-grid { grid-template-columns:1fr; gap:28px; } .rail { position:static; } .two { grid-template-columns:1fr; gap:20px; }
+@media (max-width: 760px) {
+  .split, .case-grid { grid-template-columns:1fr; gap:28px; } .rail { position:static; }
+  .companies { display:flex; gap:8px; overflow-x:auto; padding-bottom:10px; margin:0 -20px; padding-inline:20px; scroll-snap-type:x proximity; }
+  .companies .company { flex:0 0 220px; margin:0; border:1px solid var(--rule); scroll-snap-align:start; }
+  .profile-note { display:none; } .two { grid-template-columns:1fr; gap:20px; }
   .opp { grid-template-columns:1fr; } .opp .r { grid-row:auto; grid-column:1; flex-direction:row; align-items:center; }
   .mode { margin-left:0; }
 }

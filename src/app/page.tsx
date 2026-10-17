@@ -27,12 +27,14 @@ export default async function Home({ searchParams }: { searchParams: Promise<{ p
     <div className="split">
       <aside className="rail" aria-label="Choose a company">
         <h2>Evaluate as</h2>
+        <div className="companies">
         {profiles.map((p) => (
           <Link key={p.id} href={`/?profile=${p.id}`} className="company" aria-current={p.id === pid ? "true" : undefined}>
             <div className="nm">{p.profile.name.replace(" (sample)", "")}</div>
             <div className="meta">{p.profile.hqState} · {p.profile.size === "large" ? "Large business" : p.profile.certifications.filter((c) => c !== "SBA").map((c) => CERT_LABEL[c] ?? c).join(", ") || "Small business"}</div>
           </Link>
         ))}
+        </div>
         <dl className="profile-note">
           <dt>NAICS codes</dt><dd>{profile.naics.join(", ") || "None registered"}</dd>
           <dt>Set-asides</dt><dd>{profile.certifications.map((c) => CERT_LABEL[c] ?? c).join(", ") || "None"}</dd>
