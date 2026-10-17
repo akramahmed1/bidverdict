@@ -1,12 +1,19 @@
 {
-  "_note": "Real company, profile as supplied by the founder: no NAICS codes, certifications or past performance registered. The rules gate therefore blocks every opportunity, which is the correct result.",
+  "_note": "REAL company (the founder's), read from the founder's own SAM.gov entity record on 2026-10-16. The registration is a work-in-progress draft, not active: no CAGE code yet, no socio-economic certifications. Only NAICS codes, state and size are used here; no identifiers, banking or contact details are stored.",
   "id": "sq-trading",
   "name": "SQ Trading INC",
-  "naics": [],
-  "certifications": [],
-  "placesOfPerformance": [
-    "ANY"
+  "hqState": "IL",
+  "size": "small",
+  "naics": [
+    "493110", "238290", "238390", "238910", "311811", "311812", "311813",
+    "323111", "323113", "335210", "492110", "493190", "518210", "611420"
   ],
-  "pastPerformance": "None on record.",
-  "capacityNotes": "Based in Illinois; can work in Illinois or across the USA."
+  "certifications": [],
+  "placesOfPerformance": ["ANY"],
+  "pastPerformance": "None on record. Entity started April 2026; no federal awards.",
+  "capacityNotes": "Based in Illinois; can work in Illinois or across the USA. SAM registration still in draft (CAGE verification pending), so it cannot be awarded a contract today.",
+  "verification": [
+    "NAICS codes read from the founder's SAM.gov Assertions page (work-in-progress registration) on 2026-10-16.",
+    "No certifications, so every set-aside notice is blocked by the rules gate; only open (unrestricted) notices can pass."
+  ]
 }
