@@ -1,14 +1,13 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getOpportunity, loadMemo, loadProfile } from "@/lib/cases";
+import { getOpportunity, listProfiles, loadMemo, loadProfile } from "@/lib/cases";
 import { runGate } from "@/lib/gate";
 import { hasLiveKeys } from "@/lib/config";
 import { getHostedMode } from "@/lib/mode";
+import { CERT_LABEL, RULE_LABEL, VERDICT, shortDate, usd, type Decision } from "@/lib/ui";
 import { ApprovalPanel, RunButton } from "./RunPanel";
 
 export const dynamic = "force-dynamic";
-
-const usd = (n: number) => `$${n.toFixed(4)}`;
 
 export default async function CasePage({ params, searchParams }: { params: Promise<{ id: string }>; searchParams: Promise<{ profile?: string }> }) {
   const { id: rawId } = await params;
@@ -16,120 +15,148 @@ export default async function CasePage({ params, searchParams }: { params: Promi
   const id = decodeURIComponent(rawId);
   const opp = getOpportunity(id);
   if (!opp) notFound();
-  const pid = sp.profile === "sq-trading" ? "sq-trading" : "demo";
+  const pid = listProfiles().some((p) => p.id === sp.profile) ? (sp.profile as string) : "demo";
   const profile = loadProfile(pid);
-  const memo = pid === "demo" ? loadMemo(id) : null;
+  const memo = loadMemo(id, pid);
   const gate = memo ? memo.gate : runGate(opp, profile, new Date());
   const gateAsOf = memo ? memo.createdAt.slice(0, 10) : new Date().toISOString().slice(0, 10);
-  const canRun = !getHostedMode() && hasLiveKeys() && pid === "demo" && gate.pass;
-  const why = getHostedMode() ? "Live runs are off on the hosted demo; saved runs replay at $0." : !hasLiveKeys() ? "No API key on this machine." : pid !== "demo" ? "Live runs use the demo profile." : "Blocked by the rules gate.";
+  const canRun = !getHostedMode() && hasLiveKeys() && gate.pass;
+  const why = getHostedMode() ? "Live runs are off on the hosted demo. Saved runs replay at $0." : !hasLiveKeys() ? "No API key on this machine." : "Blocked by the rules.";
   const sourceByUrl = new Map((memo?.sources ?? []).map((s) => [s.url, s]));
+  const v = memo?.verdict;
+  const d = v?.decision as Decision | undefined;
+  const confN = v ? ({ low: 1, medium: 2, high: 3 } as const)[v.confidence] : 0;
 
   return (
     <>
-      <p className="small"><Link href={`/?profile=${pid}`}>← All opportunities</Link></p>
-      <h1>{opp.title}</h1>
-      <p className="mut small">
-        {opp.agency}{opp.subAgency && opp.subAgency !== opp.agency ? ` / ${opp.subAgency}` : ""} · NAICS {opp.naics} · set-aside {opp.setAside} · place {opp.placeOfPerformance} · due {opp.responseDeadline}
-        {opp.sourceUrl && <> · <a href={opp.sourceUrl}>SAM.gov notice</a></>}
-      </p>
-      <p className="small">Evaluating for <strong>{profile.name}</strong></p>
+      <p className="crumb"><Link href={`/?profile=${pid}`}>All opportunities for {profile.name.replace(" (sample)", "")}</Link></p>
 
-      <div className="card">
-        <h3>1. Eligibility gate (code, no model) <span className={`pill ${gate.pass ? "ok" : "bad"}`}>{gate.pass ? "PASS" : "BLOCKED"}</span></h3>
-        <p className="small mut" style={{ margin: "0 0 6px" }}>As of {gateAsOf}. A blocked opportunity stops here with $0 of model spend.</p>
-        <ul style={{ margin: 0, paddingLeft: 18 }}>
-          {gate.checks.map((c) => (
-            <li key={c.rule} className="small"><span className={`pill ${c.pass ? "ok" : "bad"}`}>{c.pass ? "ok" : "fail"}</span>{c.reason}</li>
-          ))}
-        </ul>
+      <div className="case-head">
+        <h1 style={{ maxWidth: "26ch" }}>{opp.title}</h1>
+        <div className="facts">
+          <span><b>{opp.subAgency ?? opp.agency}</b></span>
+          <span>NAICS <b>{opp.naics}</b></span>
+          <span>{CERT_LABEL[opp.setAside] ?? opp.setAside}</span>
+          <span>Place <b>{opp.placeOfPerformance}</b></span>
+          <span>Due <b>{shortDate(opp.responseDeadline)}</b></span>
+          {opp.sourceUrl && <a href={opp.sourceUrl}>Open the SAM.gov notice</a>}
+        </div>
       </div>
 
-      {!gate.pass && (
-        <div className="card"><strong>Stopped.</strong> No research and no model calls were made. $0.0000 spent.</div>
-      )}
+      <div className="case-grid">
+        <div>
+          {d && v ? (
+            <section className={`verdict-block ${VERDICT[d].cls}`}>
+              <p className="verdict-word">{VERDICT[d].label}</p>
+              <div className="verdict-sub">
+                <span className="conf" aria-hidden="true">{[1, 2, 3].map((n) => <i key={n} className={n <= confN ? "on" : ""} />)}</span>
+                <span>{v.confidence[0].toUpperCase() + v.confidence.slice(1)} confidence. {VERDICT[d].sentence}</span>
+              </div>
+              <ul className="rationale">
+                {v.rationale.map((r, i) => (
+                  <li key={i}>
+                    {r.point}
+                    {r.claimIds.length > 0 && <sup className="ref">{r.claimIds.map((n) => <a key={n} href={`#claim-${n}`} aria-label={`Evidence ${n}`}>[{n}]</a>)}</sup>}
+                  </li>
+                ))}
+              </ul>
+              <div className="two">
+                {v.risks.length > 0 && <div><h3>Risks</h3><ul>{v.risks.map((r, i) => <li key={i}>{r}</li>)}</ul></div>}
+                {v.nextSteps.length > 0 && <div><h3>Next steps</h3><ul>{v.nextSteps.map((r, i) => <li key={i}>{r}</li>)}</ul></div>}
+              </div>
+            </section>
+          ) : !gate.pass ? (
+            <section className="verdict-block v-none">
+              <p className="verdict-word">Blocked</p>
+              <p className="rationale" style={{ margin: "14px 0 0" }}>The rules stopped this before any research or model call. $0.0000 spent. The reasons are listed on the right.</p>
+            </section>
+          ) : (
+            <section className="verdict-block v-none">
+              <p className="verdict-word">Not run</p>
+              <p className="rationale" style={{ margin: "14px 0 18px" }}>This company is eligible, but there is no saved memo for this notice yet.</p>
+              <RunButton caseId={opp.id} profile={pid} enabled={canRun} why={why} />
+            </section>
+          )}
 
-      {gate.pass && !memo && (
-        <div className="card">
-          <p style={{ marginTop: 0 }}>No saved run for this opportunity yet.</p>
-          <RunButton caseId={opp.id} enabled={canRun} why={why} />
-        </div>
-      )}
+          {memo && !memo.verdict && memo.errors.length > 0 && <p className="empty">No verdict was produced. {memo.errors.join(" ")}</p>}
 
-      {memo && memo.history && (
-        <div className="card">
-          <h3>2. Award history (USAspending.gov)</h3>
-          <div className="small">
-            {memo.history.total.toLocaleString("en-US")} contract awards in the last 5 years for this agency and NAICS; {memo.history.smallBizAwards.toLocaleString("en-US")} carried a small-business set-aside.
-            Top recipients: {memo.history.topRecipients.map((r) => r.name).join("; ") || "n/a"}.
-          </div>
-        </div>
-      )}
-
-      {memo?.verdict && (
-        <>
-          <div className="card">
-            <h3>Verdict</h3>
-            <div className="verdict">
-              <span className={`pill ${memo.verdict.decision === "BID" ? "ok" : memo.verdict.decision === "NO_BID" ? "bad" : "warn"}`}>{memo.verdict.decision.replace("_", "-")}</span>
-              <span className="small mut"> {memo.verdict.confidence} confidence</span>
-            </div>
-            <h3 style={{ marginTop: 12 }}>Why</h3>
-            <ul style={{ margin: 0, paddingLeft: 18 }}>
-              {memo.verdict.rationale.map((r, i) => (
-                <li key={i}>{r.point} {r.claimIds.map((n) => <a key={n} href={`#claim-${n}`} className="small">[{n}]</a>)}</li>
-              ))}
-            </ul>
-            {memo.verdict.risks.length > 0 && (<><h3 style={{ marginTop: 12 }}>Risks</h3><ul style={{ margin: 0, paddingLeft: 18 }}>{memo.verdict.risks.map((r, i) => <li key={i}>{r}</li>)}</ul></>)}
-            {memo.verdict.nextSteps.length > 0 && (<><h3 style={{ marginTop: 12 }}>Next steps</h3><ul style={{ margin: 0, paddingLeft: 18 }}>{memo.verdict.nextSteps.map((r, i) => <li key={i}>{r}</li>)}</ul></>)}
-          </div>
-
-          <h2>Evidence: every claim and its source</h2>
-          {memo.supportedClaims.map((c, i) => (
-            <div key={i} id={`claim-${i + 1}`} className="card">
-              <div><span className="pill ok">verified #{i + 1}</span><span className="pill neutral">{c.kind}</span>{c.text}</div>
-              {c.sourceUrls.map((u) => (
-                <div key={u} className="small src">↳ <a href={u}>{sourceByUrl.get(u)?.title ?? u}</a></div>
-              ))}
-            </div>
-          ))}
-          {memo.droppedClaims.length > 0 && (
+          {memo && (memo.supportedClaims.length > 0 || memo.droppedClaims.length > 0) && (
             <>
-              <h2>Claims the system refused to show ({memo.droppedClaims.length})</h2>
-              {memo.droppedClaims.map((c, i) => (
-                <div key={i} className="card">
-                  <div><span className="pill bad">dropped</span>{c.text}</div>
-                  <div className="small mut">Why: {c.reason}</div>
+              <h2>Evidence</h2>
+              <p className="small mut" style={{ maxWidth: "62ch" }}>
+                {memo.supportedClaims.length} claims survived checking. Each cites a source found in this run, and a second pass confirmed the source supports it and applies to this notice.
+              </p>
+              {memo.supportedClaims.map((c, i) => (
+                <div key={i} id={`claim-${i + 1}`} className="claim">
+                  <span className="n">{i + 1}</span>
+                  <div>
+                    <p>{c.text}</p>
+                    {c.sourceUrls.map((u) => (
+                      <div key={u} className="src"><a href={u}>{sourceByUrl.get(u)?.title ?? u}</a></div>
+                    ))}
+                  </div>
                 </div>
               ))}
+              {memo.droppedClaims.length > 0 && (
+                <details>
+                  <summary>{memo.droppedClaims.length} claims the system refused to show</summary>
+                  <div className="stack" style={{ marginTop: 12 }}>
+                    {memo.droppedClaims.map((c, i) => (
+                      <div key={i}><p className="small" style={{ marginBottom: 2 }}>{c.text}</p><p className="tiny mut" style={{ margin: 0 }}>Dropped because: {c.reason}</p></div>
+                    ))}
+                  </div>
+                </details>
+              )}
             </>
           )}
-          <ApprovalPanel runId={memo.runId} />
-        </>
-      )}
 
-      {memo && !memo.verdict && memo.errors.length > 0 && (
-        <div className="card"><strong>No verdict produced.</strong> {memo.errors.join(" ")}</div>
-      )}
+          {memo?.verdict && <ApprovalPanel runId={memo.runId} />}
+          {memo && !memo.stoppedAtGate && canRun && <div style={{ marginTop: 24 }}><RunButton caseId={opp.id} profile={pid} enabled={canRun} why={why} /></div>}
+        </div>
 
-      {memo && !memo.stoppedAtGate && (
-        <>
-          <h2>Cost and calls</h2>
-          <div className="card scroll">
-            <table>
-              <thead><tr>{["Tier", "Step", "Tokens in/out", "Cost", "Latency"].map((h) => <th key={h}>{h}</th>)}</tr></thead>
-              <tbody>
-                {memo.calls.map((c, i) => (
-                  <tr key={i}><td>{c.tier}</td><td>{c.purpose}</td><td>{c.inputTokens}/{c.outputTokens}</td><td>{usd(c.usd)}</td><td>{c.latencyMs} ms</td></tr>
-                ))}
-                <tr><td colSpan={3}><strong>Total</strong></td><td><strong>{usd(memo.cost.totalUsd)}</strong></td><td /></tr>
-              </tbody>
-            </table>
-            <p className="small mut" style={{ marginBottom: 0 }}>Run {memo.runId}, {memo.createdAt.slice(0, 10)}. Models: NVIDIA Nemotron on Nebius Token Factory. Research: Tavily and USAspending.</p>
+        <aside aria-label="Checks and cost">
+          <div className="aside-block">
+            <h3>Rules check</h3>
+            {gate.checks.map((c) => (
+              <div key={c.rule} className="check">
+                <span className={`pip ${c.pass ? "ok" : "no"}`}>{RULE_LABEL[c.rule].letter}</span>
+                <span><b>{RULE_LABEL[c.rule].name}.</b> {c.reason}</span>
+              </div>
+            ))}
+            <p className="tiny mut" style={{ margin: 0 }}>Checked in code as of {gateAsOf}. No model is involved.</p>
           </div>
-          {canRun && <RunButton caseId={opp.id} enabled={canRun} why={why} />}
-        </>
-      )}
+
+          {memo?.history && (
+            <div className="aside-block">
+              <h3>Who wins this work</h3>
+              <div className="big">{memo.history.total.toLocaleString("en-US")}</div>
+              <span>contracts in 5 years, this agency and NAICS</span>
+              <div className="big" style={{ marginTop: 14 }}>{memo.history.smallBizAwards.toLocaleString("en-US")}</div>
+              <span>carried a small-business set-aside</span>
+              <p className="tiny mut" style={{ margin: "14px 0 0" }}>Top recipients: {memo.history.topRecipients.map((r) => r.name).slice(0, 3).join("; ") || "none listed"}. Source: USAspending.gov.</p>
+            </div>
+          )}
+
+          {memo && !memo.stoppedAtGate && (
+            <div className="aside-block">
+              <h3>Cost of this memo</h3>
+              <div className="big">{usd(memo.cost.totalUsd)}</div>
+              <span>{memo.calls.length} model calls on NVIDIA Nemotron via Nebius</span>
+              <details style={{ marginTop: 14 }}>
+                <summary>Call log</summary>
+                <table style={{ marginTop: 8 }}>
+                  <tbody>
+                    {memo.calls.map((c, i) => (
+                      <tr key={i}><td className="tiny">{c.tier}<br /><span className="mut">{c.purpose}</span></td><td className="tiny">{c.inputTokens}/{c.outputTokens}</td><td className="tiny">{usd(c.usd)}</td></tr>
+                    ))}
+                  </tbody>
+                </table>
+                <p className="tiny mut" style={{ margin: "8px 0 0" }}>Run {memo.runId}</p>
+              </details>
+            </div>
+          )}
+        </aside>
+      </div>
     </>
   );
 }

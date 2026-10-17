@@ -2,14 +2,14 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-export function RunButton({ caseId, enabled, why }: { caseId: string; enabled: boolean; why: string }) {
+export function RunButton({ caseId, profile, enabled, why }: { caseId: string; profile: string; enabled: boolean; why: string }) {
   const [busy, setBusy] = useState(false);
   const [err, setErr] = useState("");
   const router = useRouter();
   async function go() {
     setBusy(true);
     setErr("");
-    const r = await fetch("/api/run", { method: "POST", body: JSON.stringify({ caseId }) });
+    const r = await fetch("/api/run", { method: "POST", body: JSON.stringify({ caseId, profile }) });
     const j = await r.json().catch(() => ({}));
     setBusy(false);
     if (!r.ok) setErr(j.error ?? "Run failed");
@@ -17,9 +17,9 @@ export function RunButton({ caseId, enabled, why }: { caseId: string; enabled: b
   }
   return (
     <div>
-      <button className="primary" disabled={!enabled || busy} onClick={go}>{busy ? "Running live (about 30 seconds)..." : "Run live"}</button>
+      <button className="primary" disabled={!enabled || busy} onClick={go}>{busy ? "Running live, about 30 seconds" : "Run live"}</button>
       {!enabled && <span className="small mut" style={{ marginLeft: 10 }}>{why}</span>}
-      {err && <p className="small" style={{ color: "var(--bad)" }}>{err}</p>}
+      {err && <p className="small" style={{ color: "var(--ox)" }}>{err}</p>}
     </div>
   );
 }
@@ -34,7 +34,7 @@ export function ApprovalPanel({ runId }: { runId: string }) {
   }
   if (state)
     return (
-      <div className="card">
+      <div className="card" role="status">
         <strong>Decision recorded: {state.decision.replace("_", " ")}.</strong>{" "}
         <span className="small mut">{state.persisted ? "Saved to the ledger." : "Hosted demo: shown for this session only, not saved."}</span>
       </div>
