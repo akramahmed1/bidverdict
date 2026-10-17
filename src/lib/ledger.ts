@@ -34,6 +34,10 @@ export interface LedgerEntry {
 
 export const LEDGER_PATH = join(process.cwd(), "data", "ledger.jsonl");
 
+// When the disk is read-only (hosted), entries are kept in memory for this server process so the
+// per-run budget check still sees what a run has already spent. A hosted run is one invocation.
+const memoryEntries: LedgerEntry[] = [];
+
 export function appendLedger(e: Omit<LedgerEntry, "ts">, path = LEDGER_PATH): LedgerEntry {
   const entry: LedgerEntry = { ts: new Date().toISOString(), ...e };
   try {
@@ -41,17 +45,21 @@ export function appendLedger(e: Omit<LedgerEntry, "ts">, path = LEDGER_PATH): Le
     if (!existsSync(dir)) mkdirSync(dir, { recursive: true });
     appendFileSync(path, JSON.stringify(entry) + "\n", "utf8");
   } catch {
-    // Read-only filesystem (hosted serverless demo): the entry is not persisted.
+    // Read-only filesystem (hosted serverless demo): keep it in memory only.
+    memoryEntries.push(entry);
+    if (memoryEntries.length > 2000) memoryEntries.splice(0, memoryEntries.length - 2000);
   }
   return entry;
 }
 
 export function readLedger(path = LEDGER_PATH): LedgerEntry[] {
-  if (!existsSync(path)) return [];
-  return readFileSync(path, "utf8")
-    .split("\n")
-    .filter(Boolean)
-    .map((l) => JSON.parse(l) as LedgerEntry);
+  const onDisk = existsSync(path)
+    ? readFileSync(path, "utf8")
+        .split("\n")
+        .filter(Boolean)
+        .map((l) => JSON.parse(l) as LedgerEntry)
+    : [];
+  return memoryEntries.length ? [...onDisk, ...memoryEntries] : onDisk;
 }
 
 export function spentUsd(entries: LedgerEntry[], filter?: (e: LedgerEntry) => boolean): number {
