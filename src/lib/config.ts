@@ -58,7 +58,7 @@ export const CAPS = {
   perRunUsd: num("CAP_PER_RUN_USD", 0.05),
   dailyLiveUsd: num("CAP_DAILY_LIVE_USD", 2.0),
   globalUsd: num("CAP_GLOBAL_USD", 40.0), // below the $50 credit balance
-  maxLoops: num("MAX_LOOPS", 10),
+  maxLoops: num("MAX_LOOPS", 12),
 };
 
 export const isMockMode = () => env("BIDVERDICT_MOCK") === "1";

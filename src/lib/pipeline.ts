@@ -103,6 +103,7 @@ export async function runPipeline(
     let r = await model(tier, purpose, messages);
     let parsed = extractJson<T>(r.text);
     if (parsed) return parsed;
+    appendLedger({ runId, kind: "tool_call", detail: { tool: "json_parse_failed", tier, purpose, replyStart: r.text.slice(0, 300), replyEnd: r.text.slice(-200) } });
     r = await model(tier, `${purpose} (retry: reply was not valid JSON)`, [
       ...messages,
       { role: "user", content: "Your last reply was not valid JSON. Reply again with ONLY the JSON object, nothing else." },
@@ -192,19 +193,21 @@ export async function runPipeline(
         claim: c.text,
         sourceText: c.sourceUrls.map((u) => byUrl.get(normalizeUrl(u))?.snippet ?? "").join(" | ").slice(0, 1200),
       }));
-      const rel = await modelJson<{ checks: { n: number; supported: "yes" | "partial" | "no"; relevant: "yes" | "no"; reason: string }[] }>(
-        "nano",
-        "relevance and support check",
-        [
+      type Rel = { checks: { n: number; supported: "yes" | "partial" | "no"; relevant: "yes" | "no"; reason: string }[] };
+      const relMessages: ChatMessage[] = [
           { role: "system", content: "You audit claims. Judge only from the source text given. Reply with ONLY a JSON object." },
           {
             role: "user",
             content: `Opportunity: ${opp.title} (${opp.agency}, NAICS ${opp.naics}, place of performance ${opp.placeOfPerformance}). Requirement: ${memo.classification.summary}\n\nFor each item say whether the source text supports the claim (yes/partial/no) and whether the claim is relevant to a bid/no-bid decision on THIS opportunity (yes/no; a true fact about an unrelated place, program or time is "no").\n\n${JSON.stringify(items)}\n\nReturn JSON: {"checks":[{"n":1,"supported":"yes|partial|no","relevant":"yes|no","reason":"short"}]}`,
           },
-        ],
-      );
+      ];
+      let rel = await modelJson<Rel>("nano", "relevance and support check", relMessages);
       if (!rel?.checks) {
-        errors.push("Relevance check returned no usable result; claims kept but marked unchecked.");
+        // Escalate once to the Super tier rather than skipping the check.
+        rel = await modelJson<Rel>("super", "relevance and support check (escalated from nano)", relMessages);
+      }
+      if (!rel?.checks) {
+        throw new Error("Relevance check failed on both Nano and Super; refusing to show unchecked claims.");
       } else {
         const verdictByN = new Map(rel.checks.map((c) => [c.n, c]));
         kept = [];

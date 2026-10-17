@@ -32,7 +32,7 @@ About one cent per memo, plus one Tavily credit per search (3 per memo). Reconci
 | Per run | $0.05 | about 5x the measured memo; the worst-case pre-call check needs headroom for max_tokens |
 | Daily live (public demo) | $2.00 | about 200 live memos a day |
 | Global | $40.00 | below the $50 balance |
-| Max loops per run | 10 | a run uses 4 calls, up to 7 with retries |
+| Max loops per run | 12 | a run uses 4 calls; the worst case with every retry and escalation is 10 |
 
 ## Plan for the $50
 
