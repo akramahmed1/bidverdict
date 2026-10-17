@@ -53,7 +53,7 @@ export async function callTier(
       model: cfg.model,
       messages,
       max_tokens: cfg.maxTokens,
-      temperature: opts.temperature ?? 0.2,
+      temperature: opts.temperature ?? 0.1,
       ...(opts.json ? { response_format: { type: "json_object" } } : {}),
     }),
   });

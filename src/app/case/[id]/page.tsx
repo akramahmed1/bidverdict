@@ -5,7 +5,7 @@ import { runGate } from "@/lib/gate";
 import { hasLiveKeys } from "@/lib/config";
 import { getHostedMode } from "@/lib/mode";
 import { CERT_LABEL, RULE_LABEL, VERDICT, shortDate, usd, type Decision } from "@/lib/ui";
-import { ApprovalPanel, RunButton } from "./RunPanel";
+import { ApprovalPanel, PrintButton, RunButton } from "./RunPanel";
 
 export const dynamic = "force-dynamic";
 
@@ -110,7 +110,13 @@ export default async function CasePage({ params, searchParams }: { params: Promi
             </>
           )}
 
-          {memo?.verdict && <ApprovalPanel runId={memo.runId} />}
+          {memo && (
+            <div className="no-print" style={{ display: "flex", gap: 10, flexWrap: "wrap", marginTop: 28 }}>
+              <a className="btn" href={`/api/memo?id=${encodeURIComponent(opp.id)}&profile=${pid}`}>Download memo (.md)</a>
+              <PrintButton />
+            </div>
+          )}
+          {memo?.verdict && <div className="no-print"><ApprovalPanel runId={memo.runId} /></div>}
           {memo && !memo.stoppedAtGate && canRun && <div style={{ marginTop: 24 }}><RunButton caseId={opp.id} profile={pid} enabled={canRun} why={why} /></div>}
         </div>
 

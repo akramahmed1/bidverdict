@@ -39,7 +39,7 @@ export const TIERS: Record<Tier, TierConfig> = {
     job: "final bid / no-bid verdict reasoning only",
     priceInPerM: 1.0,
     priceOutPerM: 3.0,
-    maxTokens: 3000,
+    maxTokens: 5000,
   },
 };
 

@@ -2,24 +2,75 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
+const STEPS: { key: string; label: string }[] = [
+  { key: "gate", label: "Rules check" },
+  { key: "history", label: "Award history" },
+  { key: "classify", label: "Read the requirement" },
+  { key: "research", label: "Web research" },
+  { key: "claims", label: "Draft claims" },
+  { key: "validate", label: "Check every claim" },
+  { key: "verdict", label: "Final verdict" },
+];
+
 export function RunButton({ caseId, profile, enabled, why }: { caseId: string; profile: string; enabled: boolean; why: string }) {
   const [busy, setBusy] = useState(false);
   const [err, setErr] = useState("");
+  const [current, setCurrent] = useState<string>("");
+  const [note, setNote] = useState("");
   const router = useRouter();
+
   async function go() {
     setBusy(true);
     setErr("");
-    const r = await fetch("/api/run", { method: "POST", body: JSON.stringify({ caseId, profile }) });
-    const j = await r.json().catch(() => ({}));
-    setBusy(false);
-    if (!r.ok) setErr(j.error ?? "Run failed");
-    else router.refresh();
+    setCurrent("gate");
+    try {
+      const r = await fetch("/api/run", { method: "POST", body: JSON.stringify({ caseId, profile }) });
+      if (!r.ok || !r.body) {
+        const j = await r.json().catch(() => ({}));
+        throw new Error(j.error ?? "Run failed");
+      }
+      const reader = r.body.getReader();
+      const dec = new TextDecoder();
+      let buf = "";
+      let finished = false;
+      for (;;) {
+        const { value, done } = await reader.read();
+        if (done) break;
+        buf += dec.decode(value, { stream: true });
+        let nl: number;
+        while ((nl = buf.indexOf("\n")) >= 0) {
+          const line = buf.slice(0, nl).trim();
+          buf = buf.slice(nl + 1);
+          if (!line) continue;
+          const ev = JSON.parse(line);
+          if (ev.type === "step") { setCurrent(ev.step); setNote(ev.message); }
+          if (ev.type === "error") throw new Error(ev.message);
+          if (ev.type === "done") finished = true;
+        }
+      }
+      if (!finished) throw new Error("The run ended early. Try again.");
+      router.refresh();
+    } catch (e) {
+      setErr((e as Error).message);
+    } finally {
+      setBusy(false);
+    }
   }
+
+  const idx = STEPS.findIndex((s) => s.key === current);
   return (
     <div>
-      <button className="primary" disabled={!enabled || busy} onClick={go}>{busy ? "Running live, about 30 seconds" : "Run live"}</button>
+      <button className="primary" disabled={!enabled || busy} onClick={go}>{busy ? "Running live" : "Run live"}</button>
       {!enabled && <span className="small mut" style={{ marginLeft: 10 }}>{why}</span>}
-      {err && <p className="small" style={{ color: "var(--ox)" }}>{err}</p>}
+      {busy && (
+        <ol className="progress" aria-live="polite">
+          {STEPS.map((s, i) => (
+            <li key={s.key} className={i < idx ? "done" : i === idx ? "now" : ""}>{s.label}</li>
+          ))}
+        </ol>
+      )}
+      {busy && note && <p className="tiny mut" style={{ marginTop: 8 }}>{note}</p>}
+      {err && <p className="small" style={{ color: "var(--ox)" }} role="alert">{err}</p>}
     </div>
   );
 }
@@ -51,4 +102,8 @@ export function ApprovalPanel({ runId }: { runId: string }) {
       </div>
     </div>
   );
+}
+
+export function PrintButton() {
+  return <button onClick={() => window.print()}>Print or save as PDF</button>;
 }

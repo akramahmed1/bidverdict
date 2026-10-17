@@ -52,11 +52,15 @@ export interface Memo {
 
 const j = (o: unknown) => JSON.stringify(o);
 
+// Progress events for the live view. Purely informational; the pipeline never depends on them.
+export type Step = "gate" | "history" | "classify" | "research" | "claims" | "validate" | "verdict" | "done";
+
 export async function runPipeline(
   opp: Opportunity,
   profile: CompanyProfile,
   deps: Deps = liveDeps,
   runId = `run-${new Date().toISOString().replace(/[:.]/g, "-")}`,
+  onProgress: (step: Step, message: string) => void = () => {},
 ): Promise<Memo> {
   const now = deps.now ? deps.now() : new Date();
   const state = { runId, loops: 0 };
@@ -113,6 +117,7 @@ export async function runPipeline(
   };
 
   // 1. Gate (code)
+  onProgress("gate", "Checking deadline, set-aside, NAICS and place in code");
   memo.gate = runGate(opp, profile, now);
   appendLedger({ runId, kind: "gate", detail: { pass: memo.gate.pass, checks: memo.gate.checks } });
   if (!memo.gate.pass) {
@@ -123,6 +128,7 @@ export async function runPipeline(
 
   try {
     // 2. Award history
+    onProgress("history", "Pulling five years of award history from USAspending");
     let hist = await deps.history(runId, opp.agency, opp.naics, opp.subAgency ? { subtier: opp.subAgency } : undefined);
     if (opp.subAgency && hist.total === 0) {
       errors.push(`No USAspending awards for sub-tier "${opp.subAgency}"; fell back to agency-level history.`);
@@ -137,7 +143,9 @@ export async function runPipeline(
       query: "usaspending",
     }));
 
-    // 3. Nano: classify the requirement and propose research queries
+    // 3. Nano: classify
+    onProgress("classify", "Nemotron Nano is reading the requirement");
+    // (classify) the requirement and propose research queries
     const cls = await modelJson<{ summary: string; queries: string[] }>("nano", "classify requirement", [
       { role: "system", content: "You extract facts from federal contract opportunities. Reply with ONLY a JSON object." },
       {
@@ -149,6 +157,7 @@ export async function runPipeline(
     memo.classification = { summary: String(cls.summary ?? ""), queries: cls.queries.slice(0, 3).map(String) };
 
     // 4. Tavily research
+    onProgress("research", "Searching the web with Tavily");
     const tavily: Source[] = [];
     for (const q of memo.classification.queries) {
       try {
@@ -161,7 +170,9 @@ export async function runPipeline(
     memo.sources = [...awardSources, ...tavily];
     if (memo.sources.length === 0) throw new Error("No evidence found; refusing to produce a verdict without sources.");
 
-    // 5. Super: synthesize claims, each tied to evidence URLs
+    // 5. Super: synthesize
+    onProgress("claims", `Nemotron Super is drafting claims from ${memo.sources.length} sources`);
+    // (synthesize) claims, each tied to evidence URLs
     const evidenceText = memo.sources.map((s) => `[${s.id}] ${s.title}\nURL: ${s.url}\n${s.snippet}`).join("\n\n");
     const histText = `Award history (USAspending, last ${hist.years} yrs, ${opp.agency}, NAICS ${opp.naics}): ${hist.total} contract awards, ${hist.smallBizAwards} with a small-business set-aside; median of top awards $${hist.medianAmount ?? "n/a"}.`;
     const syn = await modelJson<{ claims: Claim[] }>("super", "synthesize sourced claims", [
@@ -179,6 +190,7 @@ export async function runPipeline(
     if (!claims.length) throw new Error("Super did not return usable claims.");
 
     // 6. Source validator (code)
+    onProgress("validate", "Dropping any claim whose source is missing, unsupported or off-topic");
     const evidenceUrls = memo.sources.map((s) => s.url);
     const { supported, dropped } = validateClaims(runId, claims, evidenceUrls);
     memo.droppedClaims = dropped;
@@ -235,7 +247,9 @@ export async function runPipeline(
       return finish();
     }
 
-    // 7. Ultra: final verdict from validated claims only
+    // 7. Ultra: final verdict
+    onProgress("verdict", `Nemotron Ultra is weighing ${kept.length} verified claims`);
+    // (verdict) from validated claims only
     const claimList = kept.map((c, i) => `#${i + 1} [${c.kind}] ${c.text}`).join("\n");
     const ver = await modelJson<{ decision: Verdict; confidence: "low" | "medium" | "high"; rationale: { point: string; claimIds: number[] }[]; risks: string[]; nextSteps: string[] }>(
       "ultra",
@@ -262,6 +276,7 @@ export async function runPipeline(
   }
 
   appendLedger({ runId, kind: "approval", detail: { status: "pending", verdict: memo.verdict?.decision ?? null, errors } });
+  onProgress("done", memo.verdict ? "Memo ready" : "Finished without a verdict");
   return finish();
 }
 

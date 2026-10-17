@@ -127,3 +127,16 @@ textarea { width:100%; font:inherit; padding:10px; border-radius:8px; border:1px
 }
 @media (prefers-reduced-motion: no-preference) { .verdict-word { animation: settle .5s ease-out both; } }
 @keyframes settle { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:none; } }
+
+.progress { list-style:none; margin:16px 0 0; padding:0; display:grid; gap:6px; max-width:320px; }
+.progress li { display:flex; align-items:center; gap:10px; font-size:14px; color:var(--ink2); }
+.progress li::before { content:""; width:14px; height:14px; border-radius:50%; border:2px solid var(--rule); flex:none; }
+.progress li.done { color:var(--ink); } .progress li.done::before { background:var(--pine); border-color:var(--pine); }
+.progress li.now { color:var(--ink); font-weight:600; } .progress li.now::before { border-color:var(--pine); border-top-color:transparent; animation:spin .9s linear infinite; }
+@keyframes spin { to { transform:rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .progress li.now::before { animation:none; border-top-color:var(--pine); } }
+@media print {
+  .top, .rail, .no-print, button, .crumb { display:none !important; }
+  body { background:#fff; color:#000; font-size:11pt; } .case-grid { grid-template-columns:1fr; gap:20px; }
+  .verdict-word { animation:none; } a { text-decoration:none; }
+}
